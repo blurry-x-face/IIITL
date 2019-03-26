@@ -1,0 +1,36 @@
+.course-table td {
+  text-align: center;
+  padding: 20px;
+}
+.course-table tr:nth-child(even) {
+  background-color: #dddddd69;
+}
+.course-global {
+    padding: 40px 0px;
+  font-family: "Playfair Display", serif;
+}
+.course-global table{
+    width: 80%;
+}
+.course-head{
+    font-size: 40px;
+    text-align: center;
+}
+.sem-table{
+    padding: 20px 0px;
+}
+.sem-head{
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(48, 48, 18);
+    padding-top: 30px;
+}
+.sem-head:hover{
+    background: rgb(245, 242, 242);
+}
+.course-sem{
+    padding: 0px 0px;
+}
+.hidden{
+    display: none;
+}

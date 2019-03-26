@@ -1,0 +1,26 @@
+.about-global {
+  background: whitesmoke;
+  padding-top: 60px;
+  background: url("https://www.iiita.ac.in/images/watermark.png");
+  background-size: cover;
+  color: #17290d;
+  font-size: 18px;
+  padding-bottom: 60px;
+  background-position: 0px -400px;
+}
+
+.about-head {
+  padding-bottom: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+
+.about-img {
+  /* padding: 0 60px; */
+  background: url("https://iiitl.ac.in/sites/default/files/inline-images/14086261_1088066651273545_1438875615398121346_o_0.jpg");
+  background-size: contain;
+  height: 45vmin;
+}

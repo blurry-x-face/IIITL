@@ -1,0 +1,60 @@
+.table-outer {
+  font-family: "Playfair Display", serif;
+  width: 100%;
+}
+.seat-main-table {
+  width: 100%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.table-outer tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.table-outer td {
+  padding: 0.4em;
+}
+.table-head {
+  font-size: 40px;
+  padding: 50px 0;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.table-below-head {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.cp-cut-select {
+  width: 100%;
+  font-size: 15px;
+  font-family: fontregular, sans-serif;
+  height: 50px;
+}
+select {
+  border-color: #f1f1f1;
+  border-top-color: #ddd;
+  border-left-color: #ddd;
+  background-color: #f9f9f9;
+  color: #515151;
+  font: 12px Tahoma;
+  padding: 8px;
+  margin-bottom: 7px;
+  background: #fff;
+}
+select:focus {
+  outline-color: transparent;
+}
+#cp-cut-go {
+  font-size: 14px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  background: #ecf0f1;
+  color: #333 !important;
+}
+.seat-hid-table-1{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}

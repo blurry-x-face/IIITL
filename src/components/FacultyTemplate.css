@@ -1,0 +1,146 @@
+.faculty-template-global {
+  font-family: "Playfair Display", serif;
+  background: whitesmoke;
+}
+.faculty-above-nav-inner {
+  padding: 30px;
+}
+.faculty-above-nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ededed60;
+}
+.faculty-above-nav-head-name {
+  color: #005699;
+  font-size: 2rem;
+}
+.faculty-above-nav-head-position {
+  color: #005699;
+  font-size: 1.5rem;
+}
+.faculty-above-nav-item {
+  /* color: #005699; */
+  font-size: 1.2rem;
+}
+
+.faculty-nav-inner {
+  overflow: hidden;
+  background-color: #005699;
+  display: flex;
+  justify-content: space-around;
+}
+
+.faculty-nav-inner a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.faculty-nav-item-dropdown {
+  overflow: hidden;
+}
+
+.faculty-nav-item-dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  display: flex;
+}
+
+.faculty-nav-inner a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #363636;
+}
+
+.faculty-drop-item {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.faculty-drop-item a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.faculty-drop-item a:hover {
+  background-color: #ddd;
+}
+
+.faculty-nav-item-dropdown:hover .faculty-drop-item {
+  display: block;
+}
+
+.faculty-interest {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropbtn:hover {
+  background: #363636;
+}
+.faculty-section-head {
+  font-size: 2rem;
+  color: #005699;
+}
+.faculty-section-head::after {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #008080;
+  content: "";
+  margin-top: 0.5vw;
+  margin-left: 10px;
+}
+.faculty-photo {
+  background: url("https://iiitl.ac.in/sites/default/files/inline-images/vks_0.png");
+  width: 30vw;
+  background-size: fill;
+  height: 13vw;
+  background-repeat: no-repeat;
+  margin-right: -80px;
+}
+.faculty-interest-list {
+  font-size: 18px;
+}
+.dropbtn .fa {
+  margin-top: 4px;
+  margin-left: 3px;
+}
+.faculty-award-head {
+  color: #005699;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 10px;
+}
+.faculty-award-detail {
+  color: black;
+  padding: 5px 10px;
+}
+.faculty-journals li {
+  padding: 10px;
+}
+.faculty-footer {
+  background: #01213a;
+  color: rgba(255, 255, 255, 0.884);
+  display: flex;
+  padding: 5px 20px;
+}
+.faculty-footer div {
+  padding: 10px;
+}

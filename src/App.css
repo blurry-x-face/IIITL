@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,5 +29,30 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+.home {
+  /* padding-top: 60px; */
+  background: whitesmoke;
+}
+body {
+  background: white;
+}
+.division-global {
+  display: flex;
+  /* grid-template-columns: 2fr 9fr; */
+  /* justify-content: space-between; */
+}
+@media only screen and (max-width: 777px) {
+  .side-card-outer {
+    display: none;
+  }
+  .course-global table {
+    font-size: 5px;
+    width: 100%;
+    font-weight: bolder;
+  }
+  .course-global {
+    width: 100%;
   }
 }

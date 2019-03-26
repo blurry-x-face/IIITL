@@ -1,0 +1,68 @@
+.dir-global {
+  font-family: "Playfair Display", serif;
+  padding-bottom: 40px;
+}
+.dir-head {
+  text-align: center;
+  font-size: 40px;
+}
+.dir-contents {
+  display: flex;
+  padding: 10px;
+  box-shadow: rgba(10, 10, 10, 0.26) 1px 2px 20px 1px;
+  flex-direction: column;
+}
+.dir-head-p::after {
+  display: block;
+  width: 25%;
+  height: 2px;
+  background-color: #008080;
+  content: "";
+  margin-top: 0.5vw;
+  margin-left: 37%;
+}
+.dir-img {
+  background: url("http://4.bp.blogspot.com/_HwKJTkM0t_k/S-Jdq9pswhI/AAAAAAAAACY/px-l31rMqsI/s1600/Dr.+Sherry.JPG");
+  background-size: cover;
+  width: 45vw;
+  height: 27vw;
+  background-repeat: no-repeat;
+}
+.dir-card {
+  /* box-shadow: rgba(10, 10, 10, 0.26) 0px 1px 7px 0px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 40px;
+}
+.dir-content-left {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.dir-content-right {
+  font-size: 20px;
+  padding: 20px;
+}
+#dir-padding {
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+@media only screen and (max-width: 1298px) {
+  #dir-padding {
+    padding-right: 8vw;
+    padding-left: 8vw;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  #dir-padding {
+    padding-right: 6vw;
+    padding-left: 6vw;
+  }
+}
+@media only screen and (max-width: 1162px) {
+  #dir-padding {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,45 @@
+.cord-content-outer {
+  display: flex;
+  flex-direction: column;
+}
+.cord-global {
+  font-family: "Playfair Display", serif;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  background: whitesmoke;
+}
+.cord-head-head {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+.cord-global p {
+  margin: 0;
+}
+
+.cord-head-content {
+  padding: 10px;
+}
+.cord-head {
+  /* padding: 10px; */
+}
+.cord-head-para {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+}
+.cord-content-outer {
+}
+.cord-content {
+  /* background: white; */
+  padding: 10px 0;
+}
+.cord-content p {
+  font-size: 18px;
+  padding: 10px;
+  background: white;
+  /* padding-left: 50%; */
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.staff-column {
+  padding: 40px;
+  display: flex;
+  flex: 25%;
+  max-width: 33.33%;
+}
+.staff-row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+.staff-card {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.staff-container {
+  padding: 0 16px;
+}
+.staff-container::after,
+.staff-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.staff-title {
+  color: grey;
+}
+.staff-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.staff-button:hover {
+  background-color: #555;
+}

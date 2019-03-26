@@ -3,8 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^1.1.2",
+    "rc-banner-anim": "^2.2.2",
+    "rc-queue-anim": "^1.6.12",
+    "rc-tween-one": "^2.3.4",
     "react": "^16.8.4",
+    "react-count": "^0.2.4",
     "react-dom": "^16.8.4",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {

@@ -1,0 +1,42 @@
+.senate-global table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-family: "Playfair Display", serif;
+  width: 100%;
+}
+.senate-table {
+  padding-top: 60px;
+  padding-bottom: 130px;
+  background: white;
+}
+.senate-global td,
+.senate-global th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.senate-global tr:nth-child(even) {
+  background-color: #dddddd69;
+}
+.sub-table {
+  display: grid;
+  grid-template-columns: 0.1fr 0.9fr;
+  padding: 10px;
+}
+.senate-head {
+  padding-bottom: 25px;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+.senate-global th,
+.senate-global td {
+  border: none;
+  border-bottom: 1px solid #dddddd;
+}
+.senate-global{
+    background: white;
+    /* padding-left: 100px; */
+}

@@ -1,0 +1,40 @@
+.reach-us-outer {
+  padding: 100px 0 50px 0;
+}
+.reach-us {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.iframe-map {
+  /* display: flex;    */
+  padding: 0 0 0 7vw;
+}
+iframe {
+  border: 0;
+  width: 95%;
+}
+.reach-us .connect-with-us {
+  font-size: 20px;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: center;
+}
+.reach-us .connect-head {
+  font-size: 30px;
+}
+.reach-us {
+  padding: 50px 0;
+}
+.reach-us-head {
+  font-size: 35px;
+  text-align: center;
+  color: #901525;
+}
+.reach-us {
+  box-shadow: -20px -17px 40px -14px rgba(0, 0, 0, 0.25);
+  width: 99%;
+  margin-left: 10px;
+}
+.reach-us .connect-inner {
+  /* box-shadow: -20px -17px 40px -14px rgba(0, 0, 0, 0.25); */
+}

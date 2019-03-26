@@ -1,0 +1,104 @@
+.news-global {
+  display: flex;
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 50px;
+}
+.news-section-head {
+  font-weight: normal;
+  font-size: 40px;
+}
+.blog {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.blog-image {
+  padding: 10px;
+  background: url("http://www.iitb.ac.in/sites/default/files/news/2019-03/DSC_6831A.jpg");
+  background-size: cover;
+  width: 70%;
+  height: 180px;
+}
+#img1 {
+  background: url("http://distance.nmims.edu/uploads/faculty/dr-arun-sherry.jpg");
+  background-size: cover;
+}
+#img2 {
+  background: url("https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/04/28/Pictures/_a2848958-4b0d-11e8-8699-4e17514b3033.jpg");
+  background-size: cover;
+}
+#img3 {
+  background: url("http://vikhepatil.org/wp-content/uploads/2015/08/expert.jpg");
+  background-size: cover;
+}
+.blog-post {
+  padding: 10px;
+}
+.blog-post-head {
+  color: #005699;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 25px;
+  /* width: 50%; */
+}
+.blog-post-p {
+  /* width: 70%; */
+}
+.c2 a {
+  color: #005699;
+  text-decoration: none;
+  font-size: 20px;
+}
+.news-head {
+  font-size: 40px;
+  padding: 10px;
+  padding-left: 0px;
+  padding-bottom: 25px;
+}
+.news-article {
+  padding: 10px;
+  padding-left: 0;
+}
+.payment-section p {
+  width: 70%;
+  color: #2c4152;
+}
+.payment-head {
+  font-weight: normal;
+  color: rgb(68, 68, 68);
+  /* border-left: solid 1px;
+  padding-left: 5px; */
+}
+.payment-button {
+  background: transparent;
+  border: solid 1px rgb(139, 152, 226);
+  color: white;
+  background: #005699;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.payment-button:hover {
+  color: black;
+  background: rgb(196, 194, 194);
+  cursor: pointer;
+}
+.payment-button:focus {
+  outline-color: transparent;
+}
+@media only screen and (max-width: 1260px) {
+  .news-global {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .blog {
+    width: 80%;
+    flex-direction: column;
+  }
+  
+}

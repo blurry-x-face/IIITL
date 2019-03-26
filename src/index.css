@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.padding-res {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.margin-res{
+  margin-right: 10%;
+}
+.width-res{
+  width: 100%;
+}
+@media only screen and (max-width: 1330px) {
+  .padding-res {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .padding-res {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .padding-res {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
