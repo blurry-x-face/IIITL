@@ -166,14 +166,14 @@ class Latest extends React.Component {
                 text ever since the 1500s
               </p>
             </div>
-            <div
+            {/* <div
                 onClick={() => this.change(1)}
                 className="latest-next"
                 href="#home"
                 style={{ cursor: "pointer" }}
               >
                 <i className="fas fa-angle-right" />
-              </div>
+              </div> */}
           </div>
         </div>
       </div>

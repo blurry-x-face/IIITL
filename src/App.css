@@ -48,7 +48,7 @@ body {
     display: none;
   }
   .course-global table {
-    font-size: 5px;
+    /* font-size: 5px; */
     width: 100%;
     font-weight: bolder;
   }

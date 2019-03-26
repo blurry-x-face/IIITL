@@ -51,7 +51,7 @@ class Carousel extends React.Component {
   }
 
   componentDidMount() {
-    // this.autoPlay();
+    this.autoPlay();
   }
   render() {
     return (
