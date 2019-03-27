@@ -7,58 +7,61 @@ class News extends React.Component {
       <div className="news-global">
         <div className="news-section">
           <h1 className="news-section-head">Latest from IIITL</h1>
-          <div className="blog">
-            <div className="blog-image" id="img1">
-              {/* <img
-                src="http://www.iitb.ac.in/sites/default/files/news/2019-03/DSC_6831A.jpg"
-                alt="blog"
-              /> */}
+          <div className="blogs">
+            <div className="blog">
+              <div className="center-res">
+                <div className="blog-image" id="img1" />
+              </div>
+              <div className="blog-post">
+                <h1 className="blog-post-head">
+                  IIIT Lucknow welcomes new Director Dr. Arun Mohan Sherry
+                </h1>
+                <p className="blog-post-p">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
             </div>
-            <div className="blog-post">
-              <h1 className="blog-post-head">
-                IIIT Lucknow welcomes new Director Dr. Arun Mohan Sherry
-              </h1>
-              <p className="blog-post-p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-          </div>
-          <div className="blog">
-            <div className="blog-image" id="img2">
-              {/* <img
-                src="http://www.iitb.ac.in/sites/default/files/news/2019-03/DSC_6831A.jpg"
-                alt="blog"
-              /> */}
-            </div>
-            <div className="blog-post">
-              <h1 className="blog-post-head">Pariksha Pe Charcha 2.0'</h1>
+            <div className="blog">
+              <div className="center-res">
+                {" "}
+                <div className="blog-image" id="img2" />
+              </div>
+              <div className="blog-post">
+                <h1 className="blog-post-head">Pariksha Pe Charcha 2.0'</h1>
 
-              <p className="blog-post-p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
+                <p className="blog-post-p">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="blog">
-            <div className="blog-image" id="img3">
-              {/* <img
-                src="http://www.iitb.ac.in/sites/default/files/news/2019-03/DSC_6831A.jpg"
-                alt="blog"
-              /> */}
-            </div>
-            <div className="blog-post">
-              <h1 className="blog-post-head">
-                Expert Guest Lectures and Research Interaction
-              </h1>
+            <div className="blog">
+              <div className="center-res">
+                <div className="blog-image" id="img3" />
+              </div>
+              <div className="blog-post">
+                <h1 className="blog-post-head">
+                  Expert Guest Lectures and Research Interaction
+                </h1>
 
-              <p className="blog-post-p">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
+                <p className="blog-post-p">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s
+                </p>
+              </div>
+            </div>
+            <div className="more">
+              <a
+                className="news-link news-hover"
+                href="google.com"
+                // style={{ color: "rgb(59, 59, 149)" }}
+              >
+                More <i className="fas fa-arrow-right" />
+              </a>
             </div>
           </div>
         </div>

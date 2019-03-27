@@ -24,6 +24,7 @@ footer {
 }
 .footer-column-b {
   border-right: dashed 0.5px rgba(255, 255, 255, 0.329);
+  margin-left: 10px;
 }
 .footer-inner {
   padding: 15px 10px 10px 10px;
@@ -61,8 +62,10 @@ footer {
 @media only screen and (max-width: 600px) {
   .footer-r1 {
     /* display: grid; */
-    grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1.2fr;
+    /* grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1.2fr; */
     background-color: rgba(0, 0, 0, 0.938);
+    display: flex;
+    justify-content: space-between;
   }
   .footer-r2 {
     /* border-top: dashed 0.5px rgba(255, 255, 255, 0.329); */

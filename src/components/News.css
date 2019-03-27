@@ -17,26 +17,38 @@
   margin-bottom: 40px;
 }
 .blog-image {
-  padding: 10px;
+  /* padding: 10px; */
   background: url("http://www.iitb.ac.in/sites/default/files/news/2019-03/DSC_6831A.jpg");
   background-size: cover;
-  width: 70%;
-  height: 180px;
+  width: 80%;
+  margin-left: 1%;
+  height: 10vw;
 }
 #img1 {
-  background: url("http://distance.nmims.edu/uploads/faculty/dr-arun-sherry.jpg");
-  background-size: cover;
+  background: url("../assets/dr-arun-sherry.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #img2 {
-  background: url("https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/04/28/Pictures/_a2848958-4b0d-11e8-8699-4e17514b3033.jpg");
-  background-size: cover;
+  background: url("../assets/bpost2.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #img3 {
-  background: url("http://vikhepatil.org/wp-content/uploads/2015/08/expert.jpg");
-  background-size: cover;
+  background: url("../assets/expert.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.center-res {
+  width: 80%;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .blog-post {
   padding: 10px;
+  padding-bottom: 0;
 }
 .blog-post-head {
   color: #005699;
@@ -90,15 +102,85 @@
 .payment-button:focus {
   outline-color: transparent;
 }
+.more a {
+  text-decoration: none;
+  color: #005699;
+  font-size: 20px;
+  text-align: right;
+}
+.more {
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 1652px) {
+  .blog-post-head {
+    font-size: 20px;
+  }
+  .blog-post-p {
+    width: 100%;
+    font-size: 12px;
+  }
+  .blog-image {
+    height: 8vw;
+  }
+}
+
 @media only screen and (max-width: 1260px) {
   .news-global {
     flex-direction: column;
   }
+  /* .blog-post-head {
+    font-size: 20px;
+  } */
+  /* .blog-post-p {
+    width: 100%;
+    font-size: 12px;
+  } */
+  .blog {
+    width: 60%;
+  }
+  .news-section-head {
+    text-align: center;
+  }
+  .blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .news-head {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 900px) {
   .blog {
-    width: 80%;
+    width: 90%;
     flex-direction: column;
   }
-  
+  .blog-post-head {
+    font-size: 25px;
+  }
+  .blog-post-p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .blog-image {
+    width: 30%;
+    height: 20vw;
+  }
+  .center-res {
+    /* margin-right: 10%; */
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 602px) {
+  .blog-image {
+    height: 20vw;
+    width: 30%;
+  }
+  .payment-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

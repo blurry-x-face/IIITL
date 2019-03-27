@@ -59,7 +59,11 @@ class Footer extends React.Component {
                 <i className="fas fa-envelope" /> contact@iiitl.ac.in
               </div>
               <div className="contact-content footer-inner-content">
-                <i className="fa fa-phone" aria-hidden="true" />
+                <i
+                  className="fa fa-phone"
+                  style={{ marginLeft: "-7px" }}
+                  aria-hidden="true"
+                />
                 +0532 292 2032
               </div>
             </div>

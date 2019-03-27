@@ -75,15 +75,30 @@
     width: 570px;
     height: 100px;
   }
+  .above-nav-container-g {
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+  .above-nav-container {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media only screen and (max-width: 500px) {
   .above-nav-left img {
     width: 400px;
   }
+  .above-nav-right-search {
+    display: none;
+  }
+  .c2 {
+    margin-left: 10px;
+  }
 }
 @media only screen and (max-width: 414px) {
   .above-nav-left img {
-    width: 120%;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 373px) {

@@ -24,6 +24,12 @@ class AltNav extends React.Component {
     }
     this.setState({ prevSelect: n });
   };
+  closeNav() {
+    document.getElementById("alt-nav-id").style.display = "none";
+    document.getElementById("btn-open").style.display = "inline";
+    document.getElementById("btn-close").style.display = "none";
+    // console.log("open!!");
+  }
   render() {
     return (
       <div className="alt-navbar" id="alt-nav-id" style={{ display: "none" }}>
@@ -40,31 +46,63 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Institute
               </div>
-              <Link to="/About" className="af-1">
+              <Link
+                to="/About"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 At a Glance
               </Link>
-              <Link to="/vision" className="af-1">
+              <Link
+                to="/vision"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Vision & Mission
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Background
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 IISERs Council
               </Link>
-              <Link to="/board-governors" className="af-1">
+              <Link
+                to="/board-governors"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Board of Governors
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Finance Committee
               </Link>
-              <Link to="/Senate" className="af-1">
+              <Link
+                to="/Senate"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Senate
               </Link>
               <Link to="/co-ordination-committee" className="af-1">
                 Co-ordination Committee
               </Link>
-              <Link to="/contactus" className="af-1">
+              <Link
+                to="/contactus"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Contact Us
               </Link>
             </div>
@@ -72,19 +110,39 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
                 Administration
               </div>
-              <Link to="/directorate" className="af-1">
+              <Link
+                to="/directorate"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Directorate
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Academic Affairs
               </Link>
-              <Link to="/faculty" className="af-1">
+              <Link
+                to="/faculty"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Faculty Affairs
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Student Affairs
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Registrar's Office
               </Link>
             </div>
@@ -92,10 +150,18 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
                 Other Units
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Finance & Accounts
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 RTI
               </Link>
             </div>
@@ -114,13 +180,25 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Engineering Sciences Stream
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Information Technology
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Computer Science
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Electronics & Communications Engineering
               </Link>
             </div>
@@ -128,10 +206,18 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
                 Humanities and Social Sciences Stream
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Economic Sciences
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Humanities and Social Sciences
               </Link>
             </div>
@@ -150,28 +236,56 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Student Counselling
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 About Counselling
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Common Concerns
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Services
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 FAQ
               </Link>
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Regulations
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Anti-Ragging Committee
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Anti-Sexual Harassment Policy
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Office Orders
               </Link>
             </div>
@@ -179,25 +293,49 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Hostel
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Student's Hostel
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Hostel Rules
               </Link>
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Mess
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Overview
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Mess Menu
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Mess Committee
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Mess Committee Duties
               </Link>
             </div>
@@ -205,19 +343,39 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 People
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Dean & Staff
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Wardens
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Counsellor
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Sports Staff
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Hostel Caretaker
               </Link>
             </div>
@@ -225,25 +383,49 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Office, Students' Affairs
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 People
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Notice Board
               </Link>
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Quick Links
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Student Portal Login
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 DOSA Office Website
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Students' Website
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Sports/Gymkhana
               </Link>
             </div>
@@ -262,16 +444,32 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Academic Programmes
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 B.Tech in IT
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 B.Tech in CS
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 B.Tech in ECE
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 PhD
               </Link>
             </div>
@@ -279,31 +477,67 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Useful Links
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Office, Academic Affairs
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Academic Schedule
               </Link>
-              <Link to="/faculty" className="af-1">
+              <Link
+                to="/faculty"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Faculty
               </Link>
-              <Link to="/seat-matrix" className="af-1">
+              <Link
+                to="/seat-matrix"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Seat Matrix
               </Link>
-              <Link to="/course-structure" className="af-1">
+              <Link
+                to="/course-structure"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Course Structure
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Smt. Gouri Mukherjee JAF/SAF
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Faculty Advisor - 2018
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 List of Students
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Convocation
               </Link>
             </div>
@@ -312,16 +546,28 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Regulations
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Important Resolutions
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Office Orders
               </Link>
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Facility
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Lecture Hall Complex
               </Link>
             </div>
@@ -340,19 +586,39 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Central Library
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 About
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 People
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 E-Resources
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Catalogue Search
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Institutional Digital Repository (IDR)
               </Link>
             </div>
@@ -360,28 +626,60 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Computer Centre
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 CC Home
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 People
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Services
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 HPC
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 CC Lab
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 FAQ
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Download
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Notice Board
               </Link>
             </div>
@@ -389,28 +687,56 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Other Facilities
               </div>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Visitors' Hostel
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Transportation
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Security
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Health Centre
               </Link>
               <Link to="placements.iiitl.ac.in" className="af-1">
                 Placement
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Department Research Facility
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Aadharshila-Crèche & Preschool
               </Link>
-              <Link to="google.com" className="af-1">
+              <Link
+                to="google.com"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
                 Lecture Hall Complex
               </Link>
             </div>
