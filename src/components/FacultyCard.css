@@ -75,14 +75,14 @@ body {
   display: inline-block;
 }
 .blog-card .details .author:before {
-  font-family: FontAwesome;
+  /* font-family: FontAwesome;
   margin-right: 10px;
-  content: "\f007";
+  content: "\f007"; */
 }
 .blog-card .details .date:before {
-  font-family: FontAwesome;
+  /* font-family: FontAwesome;
   margin-right: 10px;
-  content: "\f133";
+  content: "\f133"; */
 }
 .blog-card .details .tags ul:before {
   font-family: FontAwesome;
@@ -162,6 +162,38 @@ body {
 .blog-card:hover .details {
   left: 0%;
 }
+
+#ashutoshMishra {
+  background: url("https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#marySamuel {
+  background: url("../assets/mary-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#abhishekPandey {
+  background-size: cover;
+  background: url("https://iiitl.ac.in/sites/default/files/inline-images/pandey_0.jpg");
+  background-repeat: no-repeat;
+}
+#somendu {
+  background: url("https://iiitl.ac.in/sites/default/files/inline-images/soumendu_0.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#vks {
+  background: url("../assets/VKS\ Photograph.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 22vw; */
+}
+#shikhaGautam {
+  background: url("../assets/Shikha.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;
@@ -199,33 +231,8 @@ body {
     padding-left: 25px;
   }
 }
-
-#ashutoshMishra {
-  background: url("https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#marySamuel {
-  background-size: cover;
-  background: url("https://iiitl.ac.in/sites/default/files/inline-images/mary_0.jpg");
-  background-repeat: no-repeat;
-}
-#abhishekPandey {
-  background-size: cover;
-  background: url("https://iiitl.ac.in/sites/default/files/inline-images/pandey_0.jpg");
-  background-repeat: no-repeat;
-}
-#somendu {
-  background: url("https://iiitl.ac.in/sites/default/files/inline-images/soumendu_0.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-#vks {
-  background: url("https://iiitl.ac.in/sites/default/files/inline-images/vks_0.png");
-  background-repeat: no-repeat;
-}
-#shikhaGautam {
-  background: url("https://iiitl.ac.in/sites/default/files/inline-images/shikha_0.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+@media only screen and (max-width: 640px) {
+  .blog-card{
+    width: 80%;
+  }
 }

@@ -77,7 +77,7 @@ class Nav extends React.Component {
                     Background
                   </Link>
                   <Link to="google.com" className="af-1">
-                    IISERs Council
+                    IIIT Council
                   </Link>
                   <Link to="/board-governors" className="af-1">
                     Board of Governors

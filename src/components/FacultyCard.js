@@ -14,7 +14,7 @@ class FacultyCard extends React.Component {
               <a href="#s">{props.data.name}</a>
             </li>
             <li className="date">{props.data.position}</li>
-            <li className="tags">{props.data.qualification}</li>
+            {/* <li className="tags">{props.data.qualification}</li> */}
           </ul>
         </div>
         <div className="description">

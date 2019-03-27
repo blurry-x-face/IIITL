@@ -43,6 +43,7 @@
 .dir-content-right {
   font-size: 20px;
   padding: 20px;
+  line-height: 1.7;
 }
 #dir-padding {
   padding-right: 10vw;
@@ -64,5 +65,14 @@
   #dir-padding {
     padding-right: 0;
     padding-left: 0;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .dir-card {
+    width: 100%;
+  }
+  .dir-img {
+    width: 100%;
+    height: 59vw;
   }
 }

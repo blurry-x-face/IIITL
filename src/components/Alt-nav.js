@@ -72,7 +72,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                IISERs Council
+                IIIT Council
               </Link>
               <Link
                 to="/board-governors"

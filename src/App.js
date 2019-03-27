@@ -20,6 +20,7 @@ import Course from "./components/CourseStructure";
 import FacultyCard from "./components/FacultyCard";
 import FacultyTemplate from "./components/FacultyTemplate";
 import Staff from "./components/Staff";
+import CommingSoon from "./components/CommingSoon";
 
 function SideRendering(props) {
   return (
@@ -110,6 +111,8 @@ class App extends Component {
       <Fragment>
         {window.location.pathname === "/template" ? "" : <AboveNav />}
         {window.location.pathname === "/template" ? "" : <Nav />}
+
+        <Route path="/google.com" exact component={CommingSoon} />
         <SideRendering data={data.faculty.data} />
         <SideRendering data={data.cord.data} />
         <SideRendering data={data.about.data} />
