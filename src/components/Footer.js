@@ -41,7 +41,7 @@ class Footer extends React.Component {
         </div>
         <div className="footer-r2">
           <div className="footer-column footer-column-res " />
-          <div className="footer-column footer-column-b">
+          <div className="footer-column footer-column-b footer-column-b-res">
             <div className="contact contact-inner">
               <div className="contact-head footer-head">IIIT Lucknow</div>
               <div className="contact-content footer-inner-content contact-content-copy">
@@ -68,7 +68,7 @@ class Footer extends React.Component {
               </div>
             </div>
           </div>
-          <div className="footer-column footer-column-b">
+          <div className="footer-column footer-column-b footer-column-b-res">
             <div className="external-links external-links-inner footer-inner">
               <div className="external-links-head footer-head">
                 External Links
@@ -88,8 +88,8 @@ class Footer extends React.Component {
             </div>
           </div>
 
-          <div className="footer-column ">
-            <div className="portals footer-column-b portals-inner footer-inner">
+          <div className="footer-column footer-column-b footer-column-b-res ">
+            <div className="portals  portals-inner footer-inner">
               <div className="portals-head footer-head">Portals</div>
               <div className="portals-content footer-inner-content">
                 <i className="fas fa-link" />
@@ -109,7 +109,7 @@ class Footer extends React.Component {
               </div>
             </div>
           </div>
-          <div className="footer-column">
+          <div className="footer-column footer-downloads">
             <div className="portals portals-inner footer-inner">
               <div className="portals-head footer-head">Links</div>
               <div className="portals-content footer-inner-content">

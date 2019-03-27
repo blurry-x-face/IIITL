@@ -54,6 +54,8 @@ class News extends React.Component {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="more-blogs">
             <div className="more">
               <a
                 className="news-link news-hover"
@@ -63,55 +65,59 @@ class News extends React.Component {
                 More <i className="fas fa-arrow-right" />
               </a>
             </div>
-          </div>
+            </div>
         </div>
         <div className="events-section">
           {" "}
-          <div className="c2">
-            <div className="news-head">Events at IIITL</div>
-            <div className="news-article">
-              <a href="google.com" className="news-link fonts">
-                Yale President Peter Salovey’s statement on proposed Title IX
-                rule changes
-              </a>
-              <p className="date">January 29,2019</p>
-            </div>
-            <div className="news-article">
-              <a href="google.com" className="news-link fonts">
-                New Office of Undergraduate Financial Aid promotes clarity
-              </a>
-              <p className="date">January 30, 2019</p>
-            </div>
-            <div className="news-article hides">
-              <a href="google.com" className="news-link fonts">
-                Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
-                byline?
-              </a>
-              <p className="date">January 30, 2019</p>
-            </div>
-            <div className="news-article hides">
-              <a href="google.com" className="news-link fonts">
-                From Yale to data science: How one alum made the leap
-              </a>
-              <p className="date">January 30, 2019</p>
-            </div>
-            <div className="news-article">
-              <a
-                className="news-link news-hover"
-                href="google.com"
-                // style={{ color: "rgb(59, 59, 149)" }}
-              >
-                More <i className="fas fa-arrow-right" />
-              </a>
+          <div className="center">
+            <div className="c2">
+              <div className="news-head">Events at IIITL</div>
+              <div className="news-article">
+                <a href="google.com" className="news-link fonts">
+                  Yale President Peter Salovey’s statement on proposed Title IX
+                  rule changes
+                </a>
+                <p className="date">January 29,2019</p>
+              </div>
+              <div className="news-article">
+                <a href="google.com" className="news-link fonts">
+                  New Office of Undergraduate Financial Aid promotes clarity
+                </a>
+                <p className="date">January 30, 2019</p>
+              </div>
+              <div className="news-article hides">
+                <a href="google.com" className="news-link fonts">
+                  Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
+                  byline?
+                </a>
+                <p className="date">January 30, 2019</p>
+              </div>
+              <div className="news-article hides">
+                <a href="google.com" className="news-link fonts">
+                  From Yale to data science: How one alum made the leap
+                </a>
+                <p className="date">January 30, 2019</p>
+              </div>
+              <div className="news-article more-news">
+                <a
+                  className="news-link news-hover"
+                  href="google.com"
+                  // style={{ color: "rgb(59, 59, 149)" }}
+                >
+                  More <i className="fas fa-arrow-right" />
+                </a>
+              </div>
             </div>
           </div>
-          <div className="payment-section">
-            <h1 className="payment-head">Payment Gateway</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
-            </p>
-            <button className="payment-button">Pay Now</button>
+          <div className="center">
+            <div className="payment-section">
+              <h1 className="payment-head">Payment Gateway</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <button className="payment-button">Pay Now</button>
+            </div>
           </div>
         </div>
       </div>

@@ -72,7 +72,7 @@
 
 @media only screen and (max-width: 684px) {
   .above-nav-left img {
-    width: 570px;
+    width: 100%;
     height: 100px;
   }
   .above-nav-container-g {

@@ -132,13 +132,13 @@ nav {
   justify-content: flex-end;
 }
 .toggle-btn-line {
-  width: 35px;
-  height: 5px;
+  width: 27px;
+  height: 1px;
   background-color: white;
   margin: 6px 0;
 }
 .toggle-btn-line-2 {
-  width: 27px;
+  width: 18px;
   transform: rotate(-0deg);
 }
 .toggle-btn-line-2-close {
@@ -149,7 +149,7 @@ nav {
   /* transform: rotate(5deg); */
 }
 .toggle-btn-line-3 {
-  width: 37px;
+  width: 27px;
 }
 .toggle-btn {
   margin: 5px 0px;
