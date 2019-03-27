@@ -1,7 +1,10 @@
 .bog-global-container {
   background: white;
   padding-bottom: 80px;
-  margin-right: 20%;
+  /* margin-right: 20%; */
+}
+.bog-head-container {
+  text-align: center;
 }
 .bog-table-container {
   padding-top: 60px;
@@ -58,6 +61,13 @@
 }
 .bog-content p {
   margin: 30px 10px 10px 10px;
+}
+@media only screen and (max-width: 991px) {
+  .bog-content-outer {
+    /* background: rgba(243, 240, 240, 0.849); */
+    border-bottom: solid 1px rgba(0, 0, 0, 0.473);
+    width: 100%;
+  }
 }
 /* .bog-plus::before {
   position: absolute;
@@ -176,4 +186,9 @@
 .circle {
   bottom: 2px;
   margin-left: 10px;
+}
+@media only screen and (max-width: 777px) {
+  .bog-table-container {
+    margin-left: 11vw;
+  }
 }
