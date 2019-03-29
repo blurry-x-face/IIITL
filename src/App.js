@@ -21,6 +21,8 @@ import FacultyCard from "./components/FacultyCard";
 import FacultyTemplate from "./components/FacultyTemplate";
 import Staff from "./components/Staff";
 import CommingSoon from "./components/CommingSoon";
+import VKS from "./components/Faculty/VKS";
+import Shikha from "./components/Faculty/Shikha";
 
 function SideRendering(props) {
   return (
@@ -96,6 +98,14 @@ const data = {
       other: <Course />,
       head: academicLinks.head
     }
+  },
+  staff: {
+    data: {
+      path: "/staff",
+      Ins: InsAdmin,
+      other: <Staff />,
+      head: InsAdmin.head
+    }
   }
 };
 // const NoMatch = () => {
@@ -109,10 +119,23 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        {window.location.pathname === "/template" ? "" : <AboveNav />}
-        {window.location.pathname === "/template" ? "" : <Nav />}
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <AboveNav />
+        )}
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <Nav />
+        )}
 
+        <Route path="/faculty/vks" exact component={VKS} />
+        <Route path="/faculty/shikha" exact component={Shikha} />
         <Route path="/google.com" exact component={CommingSoon} />
+        <SideRendering data={data.staff.data} />
         <SideRendering data={data.faculty.data} />
         <SideRendering data={data.cord.data} />
         <SideRendering data={data.about.data} />
@@ -123,9 +146,13 @@ class App extends Component {
         <SideRendering data={data.courseStructure.data} />
         <Route path="/template" exact component={FacultyTemplate} />
         <Route path="/" exact component={Home} />
-        <Route path="/staff" exat={true} component={Staff} />
         {/* <Route component={NoMatch} /> */}
-        {window.location.pathname === "/template" ? "" : <Footer />}
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <Footer />
+        )}
       </Fragment>
     );
   }

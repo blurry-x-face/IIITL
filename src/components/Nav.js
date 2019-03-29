@@ -43,7 +43,7 @@ class Nav extends React.Component {
   };
   render() {
     return (
-      <nav>
+      <nav className="nav-global">
         <div className="nav-flex padding-res">
           <div className="navbar">
             {/* <Link
@@ -102,6 +102,9 @@ class Nav extends React.Component {
                   <Link to="/directorate" className="af-1">
                     Directorate
                   </Link>
+                  <Link to="/staff" className="af-1">
+                    Officer & Staff
+                  </Link>
                   <Link to="google.com" className="af-1">
                     Academic Affairs
                   </Link>
@@ -136,27 +139,18 @@ class Nav extends React.Component {
               <div className="dropdown-content">
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
-                    Engineering Sciences Stream
+                    Department of IT
                   </div>
                   <Link to="google.com" className="af-1">
                     Information Technology
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    Computer Science
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Electronics & Communications Engineering
-                  </Link>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
-                    Humanities and Social Sciences Stream
+                    Department of CSE
                   </div>
                   <Link to="google.com" className="af-1">
-                    Economic Sciences
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Humanities and Social Sciences
+                    Computer Science Engineering
                   </Link>
                 </div>
               </div>
@@ -258,12 +252,7 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     Student Portal Login
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    DOSA Office Website
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Students' Website
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     Sports/Gymkhana
                   </Link>
@@ -286,9 +275,7 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     B.Tech in CS
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    B.Tech in ECE
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     PhD
                   </Link>
@@ -297,9 +284,6 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Useful Links
                   </div>
-                  <Link to="google.com" className="af-1">
-                    Office, Academic Affairs
-                  </Link>
                   <Link to="google.com" className="af-1">
                     Academic Schedule
                   </Link>
@@ -312,12 +296,7 @@ class Nav extends React.Component {
                   <Link to="/course-structure" className="af-1">
                     Course Structure
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    Smt. Gouri Mukherjee JAF/SAF
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Faculty Advisor - 2018
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     List of Students
                   </Link>
@@ -364,29 +343,19 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     E-Resources
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    Catalogue Search
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Institutional Digital Repository (IDR)
-                  </Link>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Computer Centre
                   </div>
-                  <Link to="google.com" className="af-1">
-                    CC Home
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     People
                   </Link>
                   <Link to="google.com" className="af-1">
                     Services
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    HPC
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     CC Lab
                   </Link>
@@ -422,9 +391,7 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     Department Research Facility
                   </Link>
-                  <Link to="google.com" className="af-1">
-                    Aadharshila-Crèche & Preschool
-                  </Link>
+
                   <Link to="google.com" className="af-1">
                     Lecture Hall Complex
                   </Link>

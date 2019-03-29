@@ -1,16 +1,32 @@
+.staff-global {
+  font-family: "Playfair Display", serif;
+}
+.staff-global-head {
+  font-weight: normal;
+  margin-top: 80px;
+  text-decoration: underline;
+}
 .staff-column {
   padding: 40px;
-  display: flex;
+  /* display: flex;
   flex: 25%;
-  max-width: 33.33%;
+  max-width: 33.33%; */
 }
+
 .staff-row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  /* display: flex;
   flex-wrap: wrap;
+  justify-content: center; */
   padding: 0 4px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.staff-r {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.data1 {
 }
 .staff-card {
   width: 100%;
@@ -42,4 +58,14 @@
 
 .staff-button:hover {
   background-color: #555;
+}
+.staff-image {
+  height: 250px;
+  width: 300px;
+}
+@media only screen and (max-width: 410px) {
+  .staff-image {
+    height: 180px;
+    width: 220px;
+  }
 }

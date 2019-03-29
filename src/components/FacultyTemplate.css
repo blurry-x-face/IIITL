@@ -1,6 +1,34 @@
 .faculty-template-global {
   font-family: "Playfair Display", serif;
   background: whitesmoke;
+  line-height: 1.7;
+}
+.faculty-above-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0px !important;
+}
+.faculty-above-nav-inner img {
+  height: 12vw;
+}
+.faculty-body {
+  margin-top: 40px;
+}
+#faculty-body-education {
+  display: none;
+}
+#faculty-body-journals {
+  display: none;
+}
+#faculty-body-experience {
+  display: none;
+}
+#faculty-body-courses {
+  display: none;
+}
+.faculty-education-list li {
+  padding: 10px;
 }
 .faculty-above-nav-inner {
   padding: 30px;
@@ -22,7 +50,9 @@
   /* color: #005699; */
   font-size: 1.2rem;
 }
-
+.faculty-nav {
+  background-color: #005699;
+}
 .faculty-nav-inner {
   overflow: hidden;
   background-color: #005699;
@@ -109,11 +139,11 @@
 }
 .faculty-photo {
   background: url("https://iiitl.ac.in/sites/default/files/inline-images/vks_0.png");
-  width: 30vw;
-  background-size: fill;
-  height: 13vw;
-  background-repeat: no-repeat;
-  margin-right: -80px;
+  /* width: 30vw; */
+  /* background-size: fill; */
+  /* height: 13vw; */
+  /* background-repeat: no-repeat; */
+  /* margin-right: -80px; */
 }
 .faculty-interest-list {
   font-size: 18px;
@@ -135,6 +165,9 @@
 .faculty-journals li {
   padding: 10px;
 }
+.faculty-conference-list li {
+  padding: 10px;
+}
 .faculty-footer {
   background: #01213a;
   color: rgba(255, 255, 255, 0.884);
@@ -143,4 +176,60 @@
 }
 .faculty-footer div {
   padding: 10px;
+}
+.faculty-interest {
+  display: flex;
+  justify-content: space-between;
+}
+.faculty-interest-section-1 {
+  width: 70%;
+}
+.faculty-interest-section-2 {
+  width: 20%;
+}
+#shikha-photo {
+  background: url("../assets/Shikha.jpg");
+  margin: 0;
+  height: 15vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.faculty-hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 33px;
+  color: white;
+}
+.faculty-alt-nav-inner {
+  display: none;
+}
+@media only screen and (max-width: 867px) {
+  .faculty-nav-inner {
+    display: none;
+  }
+  .faculty-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .faculty-alt-nav-inner {
+    text-decoration: none;
+    background: rgb(5, 35, 41);
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .faculty-alt-nav-inner a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+  }
+  .faculty-alt-nav-inner a:hover {
+    background: rgba(0, 0, 0, 0.123);
+  }
+  .faculty-hamburger {
+    display: block;
+    align-self: flex-end;
+  }
+  .faculty-body {
+    padding: 0 20px;
+  }
 }

@@ -2,7 +2,6 @@ const academicLinks = {
   head: "Useful Links",
   anchor: {
     name: [
-      "Office, Academic Affairs",
       "Academic Schedule",
       "Faculty",
       "Seat Matrix",
@@ -13,7 +12,6 @@ const academicLinks = {
       "Convocation"
     ],
     links: [
-      "google.com",
       "google.com",
       "/faculty",
       "/seat-matrix",
@@ -57,12 +55,20 @@ const InsAdmin = {
   anchor: {
     name: [
       "Directorate",
+      "Office, Academic Affairs",
       "Academic Affairs",
       "Faculty",
       "Student",
       "Registrar's Office"
     ],
-    links: ["/directorate", "#google", "/faculty", "#google", "#google"]
+    links: [
+      "/directorate",
+      "/staff",
+      "#google",
+      "/faculty",
+      "#google",
+      "#google"
+    ]
   }
 };
 const seatData = {

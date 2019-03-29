@@ -486,7 +486,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                Office, Academic Affairs
+                Officer & Staff
               </Link>
               <Link
                 to="google.com"
@@ -515,20 +515,6 @@ class AltNav extends React.Component {
                 className="af-1"
               >
                 Course Structure
-              </Link>
-              <Link
-                to="google.com"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Smt. Gouri Mukherjee JAF/SAF
-              </Link>
-              <Link
-                to="google.com"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Faculty Advisor - 2018
               </Link>
               <Link
                 to="google.com"
@@ -651,13 +637,7 @@ class AltNav extends React.Component {
               >
                 Services
               </Link>
-              <Link
-                to="google.com"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                HPC
-              </Link>
+
               <Link
                 to="google.com"
                 onClick={() => this.closeNav()}
@@ -721,20 +701,6 @@ class AltNav extends React.Component {
               </Link>
               <Link to="placements.iiitl.ac.in" className="af-1">
                 Placement
-              </Link>
-              <Link
-                to="google.com"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Department Research Facility
-              </Link>
-              <Link
-                to="google.com"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Aadharshila-Crèche & Preschool
               </Link>
               <Link
                 to="google.com"
