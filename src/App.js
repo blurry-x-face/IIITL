@@ -26,6 +26,8 @@ import Shikha from "./components/Faculty/Shikha";
 import Downloads from "./components/Downloads";
 import ContactUs from "./components/ContacUs";
 import BTech from "./components/BTechIT";
+import BTechCS from "./components/BTechCS";
+import AcademicShedule from "./components/AcademicShedule";
 
 function SideRendering(props) {
   return (
@@ -117,6 +119,14 @@ const data = {
       other: <Downloads />,
       head: InsAdmin.head
     }
+  },
+  calender: {
+    data: {
+      path: "/calender",
+      Ins: academicLinks,
+      other: <AcademicShedule />,
+      head: academicLinks.head
+    }
   }
 };
 // const NoMatch = () => {
@@ -142,7 +152,6 @@ class App extends Component {
         ) : (
           <Nav />
         )}
-
         <Route path="/faculty/vks" exact component={VKS} />
         <Route path="/faculty/shikha" exact component={Shikha} />
         <Route path="/comming-soon" exact component={CommingSoon} />
@@ -155,11 +164,14 @@ class App extends Component {
         <SideRendering data={data.senate.data} />
         <SideRendering data={data.seatMatrix.data} />
         <SideRendering data={data.courseStructure.data} />
+        <SideRendering data={data.calender.data} />
         <SideRendering data={data.downloads.data} />
         <Route path="/template" exact component={FacultyTemplate} />
         <Route path="/contactus" exact component={ContactUs} />
         <Route path="/btech-it" exact component={BTech} />
+        <Route path="/btech-cs" exact component={BTechCS} />
         <Route path="/" exact component={Home} />
+        {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
         {window.location.pathname === "/faculty/vks" ||
         window.location.pathname === "/faculty/shikha" ? (

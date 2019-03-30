@@ -42,11 +42,11 @@ class FacultyCard extends React.Component {
       <div className="faculty-global padding-res    ">
         {/* <this.Card data={facultyCardData[0]} alt={false} /> */}
         <this.Card data={facultyCardData[4]} alt={true} />
-        <this.Card data={facultyCardData[1]} alt={false} />
-        <this.Card data={facultyCardData[2]} alt={true} />
-        <this.Card data={facultyCardData[3]} alt={false} />
+        <this.Card data={facultyCardData[2]} alt={false} />
         <this.Card data={facultyCardData[8]} alt={true} />
-        <this.Card data={facultyCardData[5]} alt={false} />
+        <this.Card data={facultyCardData[3]} alt={false} />
+        <this.Card data={facultyCardData[5]} alt={true} />
+        <this.Card data={facultyCardData[1]} alt={false} />
         <this.Card data={facultyCardData[6]} alt={true} />
         <this.Card data={facultyCardData[7]} alt={false} />
       </div>

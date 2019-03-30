@@ -216,4 +216,109 @@ const courseStructure = {
     pre: ["ITOC330C, IITG132C", "IITC132C", "IDBM432C", "-", "-", "-"]
   }
 };
-export { academicLinks, Ins, InsAdmin, seatData, courseStructure };
+
+const calender = [
+  ["Opening of the Elective Portal", "	26 December, 2019", "	Thursday"],
+  ["Closing of Elective Portal", "04 January, 2019	", "	Saturday"],
+  [
+    "Announcement of the alloted Electives to students & opening of portal for ADD/DROP of courses",
+    "05 January, 2019",
+    "	Monday"
+  ],
+  [
+    "Add/Drop of the Elective Courses closing Date",
+    "7 January, 2019",
+    "Tuesday"
+  ],
+  ["Announcement of Frozen Elective Courses", "08 January, 2019", "Wednesday"],
+  [
+    "	Online Registration and fee Payment duration",
+    "20 December, 2018 – 08 January, 2019",
+    "Thursday - Tuesday"
+  ],
+  ["Institute Opening Date", "	07 January, 2019", "	Monday"],
+  [
+    "Last Date of Academic Registration (all categories) with Late Fee",
+    "13 January, 2019",
+    "Sunday"
+  ],
+  ["Commencement of Classes", "08 January, 2019", "Tuesday"],
+  [
+    "Gymkhana Elections",
+    "02 February, 2019 & 03 February ,2019",
+    "Saturday - Sunday"
+  ],
+  [
+    "	# Inter IIIT's Sports Meet 2019 at IIITA",
+    "14 February, 2019 – 17 February, 2019",
+    "Thursday - Sunday"
+  ],
+  [
+    "# Mid Semester Project Evaluation",
+    "22 February, 2019 – 25 February, 2019",
+    "Friday - Monday"
+  ],
+  [
+    "# Mid Semester Theory Examinations",
+    "26 February, 2019 – 01 March, 2019",
+    "Tuesday - Friday"
+  ],
+  [
+    "Mid Semester Break duration",
+    "18 March, 2019 -24 March, 2019",
+    "Monday - Sunday"
+  ],
+  [
+    "# Tech Fest (Aparoksha) duration of IIITA",
+    "	29 March, 2019 – 31 March, 2019",
+    "Friday - Sunday"
+  ],
+  [
+    "End Semester Project Evaluation duration",
+    "02 & 03 May, 2019",
+    "Thursday - Friday"
+  ],
+  [
+    "End Semester Theory Examination duration",
+    "06 May, 2019 - 14 May, 2019",
+    "Monday - Tuesday"
+  ],
+  [
+    "Last date for Submission of End Semester Result & last date for students to see their answer scripts",
+    "16 May, 2019",
+    "Thursday"
+  ],
+  [
+    "Makeup Examinations duration(Conduction by respective Faculty)",
+    "20 May, 2019 - 26 May, 2019",
+    "Monday - Sunday"
+  ],
+  [
+    "Last date for Submission of Make Up Examination after showing answer scripts to respective students & signed hard copy to AAA Section",
+    "27th December, 2019",
+    "Monday"
+  ],
+  ["Declaration of Semester Result", "31 May, 2019", "Friday"],
+  [
+    "End Semester Break Duration",
+    "17 May, 2019 - 24 July, 2019",
+    "Friday - Sunday"
+  ],
+  [
+    "Summer Semester/Special Classes(if offered)",
+    "01 June, 2019 - 30 June, 2019",
+    "Saturday - Sunday"
+  ],
+  [
+    "Back Paper Examination",
+    "03 July, 2019 - 10 July, 2019",
+    "Wednesday - Wednesday"
+  ],
+  [
+    "Back Paper/Summer Semester Result Declaration",
+    "18 July, 2019",
+    "Thursday"
+  ],
+  ["Institute Re-opening Date", "24 July, 2019", "Wednesday"]
+];
+export { calender, academicLinks, Ins, InsAdmin, seatData, courseStructure };

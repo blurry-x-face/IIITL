@@ -268,15 +268,15 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Academic Programmes
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <Link to="/btech-it" className="af-1">
                     B.Tech in IT
                   </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  <Link to="/btech-cs" className="af-1">
                     B.Tech in CS
                   </Link>
 
                   <Link to="/comming-soon" className="af-1">
-                    PhD
+                    M.Tech in CS
                   </Link>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">

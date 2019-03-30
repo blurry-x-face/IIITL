@@ -1,6 +1,6 @@
 .staff-global {
   font-family: "Playfair Display", serif;
-  background: whitesmoke;
+  background: rgba(245, 245, 245, 0.644);
 }
 .staff-global-head {
   font-weight: normal;
@@ -33,9 +33,12 @@
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
+  border-radius: 10px;
 }
 .staff-container {
   padding: 0 16px;
+  background: white;
+  border-radius: 0px 10px 10px 0px;
 }
 .staff-container::after,
 .staff-row::after {
@@ -52,7 +55,7 @@
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #104463;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -62,8 +65,9 @@
   background-color: #555;
 }
 .staff-image {
+  border-radius: 10px 0px 0px 10px;
   height: 250px;
-  width: 300px;
+  width: 270px;
 }
 @media only screen and (max-width: 410px) {
   .staff-image {
