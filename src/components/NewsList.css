@@ -1,0 +1,68 @@
+.news-list-global {
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.news-list-head h1 {
+  font-weight: normal;
+}
+.list-blog {
+  box-shadow: 0 3px 7px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  display: flex;
+  width: 50%;
+}
+.list-blog a {
+  text-decoration: none;
+  color: black;
+}
+.list-blog-post-head {
+  font-weight: normal;
+}
+#img1 {
+  background: url("../assets/dr-arun-sherry.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.list-blog img {
+  height: 220px;
+  width: 250px;
+}
+.list-blog-post {
+  padding: 20px;
+}
+@media only screen and (max-width: 1755px) {
+  .list-blog {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1458px) {
+  .list-blog {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1253px) {
+  .list-blog {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1096px) {
+  .list-blog {
+    width: 100%;
+  }
+  .news-list-global {
+    margin: 40px 20px;
+  }
+}
+@media only screen and (max-width: 722px) {
+  .list-blog {
+    flex-direction: column;
+  }
+  .list-blog img {
+    height: 62vw;
+    width: 100%;
+  }
+}

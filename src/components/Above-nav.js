@@ -28,7 +28,7 @@ const AboveNav = () => {
                 </Link>
               </div>
               <div className="above-nav-right-icon-2 above-nav-right-icon">
-                <a href="mailto://contact@iiitl.ac.in">
+                <a href="mailto:contact@iiitl.ac.in">
                   <i className="fas fa-envelope" />
                   Webmail
                 </a>

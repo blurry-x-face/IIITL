@@ -108,13 +108,16 @@ class Nav extends React.Component {
                     Academic Affairs
                   </Link>
                   <Link to="/faculty" className="af-1">
-                    Faculty Affairs
+                    Faculty
                   </Link>
                   <Link to="/comming-soon" className="af-1">
                     Student Affairs
                   </Link>
                   <Link to="/comming-soon" className="af-1">
                     Registrar's Office
+                  </Link>
+                  <Link to="/downloads" className="af-1">
+                    Downloads
                   </Link>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
@@ -283,7 +286,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Useful Links
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <Link to="/calender" className="af-1">
                     Academic Schedule
                   </Link>
                   <Link to="/faculty" className="af-1">
@@ -298,9 +301,6 @@ class Nav extends React.Component {
 
                   <Link to="/comming-soon" className="af-1">
                     List of Students
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
-                    Convocation
                   </Link>
                 </div>
 
@@ -428,7 +428,7 @@ class Nav extends React.Component {
             <Link to="#home" className="nav-res">
               <i className="fab fa-linkedin" />
             </Link>
-            <a href="mailto:/contact@iiitl.ac.in" className="nav-res">
+            <a href="mailto:contact@iiitl.ac.in" className="nav-res">
               <i className="fas fa-envelope" />
             </a>
             <Link to="#home" className="nav-res">

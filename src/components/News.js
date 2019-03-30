@@ -1,5 +1,6 @@
 import React from "react";
 import "./News.css";
+import { Link } from "react-router-dom";
 
 class News extends React.Component {
   render() {
@@ -64,13 +65,13 @@ class News extends React.Component {
           </div>
           <div className="more-blogs">
             <div className="more">
-              <a
+              <Link
                 className="news-link news-hover"
-                href="/comming-soon"
+                to="/news"
                 // style={{ color: "rgb(59, 59, 149)" }}
               >
                 More <i className="fas fa-arrow-right" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

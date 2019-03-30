@@ -28,6 +28,7 @@ import ContactUs from "./components/ContacUs";
 import BTech from "./components/BTechIT";
 import BTechCS from "./components/BTechCS";
 import AcademicShedule from "./components/AcademicShedule";
+import NewsList from "./components/NewsList";
 
 function SideRendering(props) {
   return (
@@ -170,6 +171,7 @@ class App extends Component {
         <Route path="/contactus" exact component={ContactUs} />
         <Route path="/btech-it" exact component={BTech} />
         <Route path="/btech-cs" exact component={BTechCS} />
+        <Route path="/news" exact component={NewsList} />
         <Route path="/" exact component={Home} />
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}

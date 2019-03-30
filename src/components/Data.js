@@ -1,26 +1,17 @@
+import BlogImage1 from "../assets/dr-arun-sherry.jpg";
+import BlogImage2 from "../assets/bpost2.jpeg";
+import BlogImage3 from "../assets/expert.jpg";
+
 const academicLinks = {
   head: "Useful Links",
   anchor: {
     name: [
       "Academic Schedule",
-      "Faculty",
       "Seat Matrix",
       "Course Structure",
-      "Smt. Gouri Mukherjee JAF/SAF",
-      "Faculty Advisor - 2018",
-      "List of Students",
-      "Convocation"
+      "List of Students"
     ],
-    links: [
-      "/comming-soon",
-      "/faculty",
-      "/seat-matrix",
-      "/course-structure",
-      "/comming-soon",
-      "/comming-soon",
-      "/comming-soon",
-      "/comming-soon"
-    ]
+    links: ["/calender", "/seat-matrix", "/course-structure", "/comming-soon"]
   }
 };
 const Ins = {
@@ -40,8 +31,8 @@ const Ins = {
     links: [
       "/About",
       "/vision",
-      "google",
-      "google",
+      "/comming-soon",
+      "/comming-soon",
       "/board-governors",
       "/comming-soon",
       "/senate",
@@ -59,15 +50,17 @@ const InsAdmin = {
       "Academic Affairs",
       "Faculty",
       "Student",
-      "Registrar's Office"
+      "Registrar's Office",
+      "Downloads"
     ],
     links: [
       "/directorate",
       "/staff",
-      "#google",
+      "/comming-soon",
       "/faculty",
-      "#google",
-      "#google"
+      "/comming-soon",
+      "/comming-soon",
+      "/downloads"
     ]
   }
 };
@@ -321,4 +314,32 @@ const calender = [
   ],
   ["Institute Re-opening Date", "24 July, 2019", "Wednesday"]
 ];
-export { calender, academicLinks, Ins, InsAdmin, seatData, courseStructure };
+const blogs = [
+  {
+    head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    img: BlogImage1
+  },
+  {
+    head: "Pariksha Pe Charcha 2.0'",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    img: BlogImage2
+  },
+  {
+    head: "Expert Guest Lectures and Research Interaction",
+    para:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+    img: BlogImage3
+  }
+];
+export {
+  calender,
+  academicLinks,
+  Ins,
+  blogs,
+  InsAdmin,
+  seatData,
+  courseStructure
+};
