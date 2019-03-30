@@ -39,7 +39,7 @@ class Staff extends React.Component {
   };
   render() {
     return (
-      <div className="padding-res staff-global">
+      <div className="staff-global">
         <div className="admin-satff">
           <h1 style={{ textAlign: "center" }} className="staff-global-head">
             Administartive Staff

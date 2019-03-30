@@ -122,6 +122,13 @@ class AltNav extends React.Component {
                 Directorate
               </Link>
               <Link
+                to="/staff"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Officer & Staff
+              </Link>
+              <Link
                 to="google.com"
                 onClick={() => this.closeNav()}
                 className="af-1"
