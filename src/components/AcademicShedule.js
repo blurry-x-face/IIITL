@@ -4,7 +4,6 @@ import { calender } from "./Data";
 
 class Calender extends React.Component {
   TD = props => {
-    console.log(props.row);
     const list1 = props.row.map((value, index) => {
       return <td key={index}>{value}</td>;
     });
@@ -12,7 +11,7 @@ class Calender extends React.Component {
   };
   Tbody = props => {
     const list = props.value.map((value, index) => {
-      return <this.TD row={value} />;
+      return <this.TD key={index} row={value} />;
     });
     return <tbody>{list}</tbody>;
   };

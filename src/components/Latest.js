@@ -100,15 +100,99 @@ class Latest extends React.Component {
           <div className="blog-container-head curious-head">
             Announcements from IIITL
           </div>
-          <div className="blog-container-contents">
-            {/* <div
-              onClick={() => this.change(0)}
-              className="latest-prev"
-              style={{ cursor: "pointer" }}
-              href="#home"
+        </div>
+        <div class="latest-slider">
+          <div className="blog-container-contents latest-container">
+            <div
+              className="box-1 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
             >
-              <i className="fas fa-angle-left" />
-            </div> */}
+              {" "}
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">Logo Design Contest</p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div
+              className="box-2 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
+            >
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div
+              className="box-3 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
+            >
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">Updated Fee Structure</p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div
+              className="box-4 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
+            >
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">
+                Postponement of Selection Process
+              </p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div
+              className="box-5 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
+            >
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+            <div
+              className="box-6 hidden1 active1"
+              style={{ width: "400px", height: "350px" }}
+            >
+              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-head">Pareekhsha pe Charcha-6</p>{" "}
+              <p className="latest-blog-content">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Latest;
+/* 
+<div className="latest-global">
+        <div className="blog-container-global">
+          <div className="blog-container-head curious-head">
+            Announcements from IIITL
+          </div>
+          <div className="blog-container-contents">
             <div className="box-1 hidden1 active1">
               {" "}
               <p className="latest-blog-date">January 21, 2019</p>{" "}
@@ -166,19 +250,92 @@ class Latest extends React.Component {
                 text ever since the 1500s
               </p>
             </div>
-            {/* <div
-                onClick={() => this.change(1)}
-                className="latest-next"
-                href="#home"
-                style={{ cursor: "pointer" }}
-              >
-                <i className="fas fa-angle-right" />
-              </div> */}
           </div>
         </div>
       </div>
-    );
-  }
-}
-
-export default Latest;
+      <div>
+              <img
+                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="http://daynin.github.io/clojurescript-presentation/img/react-logo.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://github.com/d3/d3-logo/blob/master/d3.png?raw=true"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="http://daynin.github.io/clojurescript-presentation/img/react-logo.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"
+                alt="img"
+              />
+            </div>
+            <div>
+              <img
+                src="https://github.com/d3/d3-logo/blob/master/d3.png?raw=true"
+                alt="img"
+              />
+            </div>
+    
+*/

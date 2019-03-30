@@ -40,12 +40,13 @@
   background: whitesmoke;
 } */
 .active1 {
-  width: 22%;
+  /* width: 400px !important; */
   margin: 5px;
   /* opacity: 1; */
   display: block;
   overflow: hidden;
   /* height: 10%; */
+  margin-left: 30px;
 }
 .latest-buttons {
   display: flex;
@@ -73,4 +74,47 @@
   .active1 {
     font-size: 10px;
   }
+}
+/* New CSS */
+@keyframes slide {
+  from {
+    left: 0;
+  }
+  to {
+    left: -980px;
+  }
+}
+
+.latest-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.latest-container {
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* .latest-container div {
+  padding: 20px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+} */
+.latest-container .active1 {
+  /* width: 400px !important; */
+}
+
+.latest-global img {
+  height: auto;
+  width: 100%;
 }
