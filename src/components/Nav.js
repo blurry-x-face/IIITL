@@ -2,6 +2,7 @@ import React from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
 import AltNav from "./Alt-nav";
+import RTI from "../assets/downloads/RTI - PDF.pdf";
 
 // import Sidebar from "./Sidebar";
 class Nav extends React.Component {
@@ -76,9 +77,13 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     Background
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <a
+                    href="https://iiitcouncil.com/"
+                    target="blank"
+                    className="af-1"
+                  >
                     IIIT Council
-                  </Link>
+                  </a>
                   <Link to="/board-governors" className="af-1">
                     Board of Governors
                   </Link>
@@ -125,9 +130,9 @@ class Nav extends React.Component {
                   <Link to="google.com" className="af-1">
                     Finance & Accounts
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <a href={RTI} target="blank" className="af-1">
                     RTI
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

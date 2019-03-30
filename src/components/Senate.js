@@ -27,10 +27,7 @@ const Senate = () => {
               <td>2</td>
               <td> 18(1)(b)</td>
               <td>All Deans, ex-officio</td>
-              <td>
-                Interim Dean Academic – Prof. Anupam Interim Dean
-                Infrastructures & Student Affairs – Dr. Vijayshri Tewari
-              </td>
+              <td>Interim Dean Academic, Infrastructures & Student Affairs</td>
             </tr>
             <tr>
               <td>3</td>
@@ -41,7 +38,7 @@ const Senate = () => {
               </td>
               <td>
                 Interim Head & Coordinator for Admissions & Examinations – Dr.
-                Ashutosh Mishra
+                Brijesh Kumar Chaurasia
               </td>
             </tr>
             <tr>
@@ -81,7 +78,7 @@ const Senate = () => {
               <td>5</td>
               <td> 18(1)(g)</td>
               <td> Registrar of the Institute, ex-officio Secretary.</td>
-              <td>Interim Registrar, IIITL – Dr. Asheesh Kumaar</td>
+              <td>Interim Registrar, IIITL – Dr. Amit Kumar Singh</td>
             </tr>
           </tbody>
         </table>

@@ -23,6 +23,7 @@ import Staff from "./components/Staff";
 import CommingSoon from "./components/CommingSoon";
 import VKS from "./components/Faculty/VKS";
 import Shikha from "./components/Faculty/Shikha";
+import Downloads from "./components/Downloads";
 
 function SideRendering(props) {
   return (
@@ -106,6 +107,14 @@ const data = {
       other: <Staff />,
       head: InsAdmin.head
     }
+  },
+  downloads: {
+    data: {
+      path: "/downloads",
+      Ins: InsAdmin,
+      other: <Downloads />,
+      head: InsAdmin.head
+    }
   }
 };
 // const NoMatch = () => {
@@ -144,6 +153,7 @@ class App extends Component {
         <SideRendering data={data.senate.data} />
         <SideRendering data={data.seatMatrix.data} />
         <SideRendering data={data.courseStructure.data} />
+        <SideRendering data={data.downloads.data} />
         <Route path="/template" exact component={FacultyTemplate} />
         <Route path="/" exact component={Home} />
         {/* <Route component={NoMatch} /> */}

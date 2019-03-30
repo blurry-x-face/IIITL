@@ -1,7 +1,7 @@
 import React from "react";
 import "./FacultyCard.css";
 import facultyCardData from "./FacultyData";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 class FacultyCard extends React.Component {
   Card = props => {
@@ -29,7 +29,9 @@ class FacultyCard extends React.Component {
           </p>
           <p className="read-more">
             <p className="faulty-contact">{props.data.contact}</p>
-            <Link to='/template'>Read More</Link>
+            <Link target="blank" to={props.data.link}>
+              Read More
+            </Link>
           </p>
         </div>
       </div>
@@ -38,12 +40,15 @@ class FacultyCard extends React.Component {
   render() {
     return (
       <div className="faculty-global padding-res    ">
-        <this.Card data={facultyCardData[0]} alt={false} />
+        {/* <this.Card data={facultyCardData[0]} alt={false} /> */}
         <this.Card data={facultyCardData[4]} alt={true} />
         <this.Card data={facultyCardData[1]} alt={false} />
         <this.Card data={facultyCardData[2]} alt={true} />
         <this.Card data={facultyCardData[3]} alt={false} />
-        <this.Card data={facultyCardData[5]} alt={true} />
+        <this.Card data={facultyCardData[8]} alt={true} />
+        <this.Card data={facultyCardData[5]} alt={false} />
+        <this.Card data={facultyCardData[6]} alt={true} />
+        <this.Card data={facultyCardData[7]} alt={false} />
       </div>
     );
   }

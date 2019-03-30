@@ -1,7 +1,7 @@
 .about-global {
   background: whitesmoke;
   padding-top: 60px;
-  background: url("https://www.iiita.ac.in/images/watermark.png");
+  /* background: url("https://www.iiita.ac.in/images/watermark.png"); */
   background-size: cover;
   color: #17290d;
   font-size: 18px;

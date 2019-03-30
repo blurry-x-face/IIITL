@@ -1,0 +1,28 @@
+.downloads-global {
+  font-family: "Playfair Display", serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.downloads-global-head {
+  font-weight: normal;
+  font-size: 40px;
+  /* text-align: center; */
+}
+.downloads-global-sub-head {
+  font-weight: normal;
+}
+.downloads-list li {
+  padding: 5px;
+}
+.downloads-global a {
+  text-decoration: none;
+  color: rgb(0, 57, 83);
+}
+@media only screen and (max-width: 777px) {
+  .downloads-global {
+    padding: 0 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
