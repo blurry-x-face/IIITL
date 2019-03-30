@@ -13,7 +13,7 @@ class News extends React.Component {
               <div className="center-res">
                 <div className="blog-image" id="img1" />
               </div>
-              <a href="google.com">
+              <Link to="/comming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">
                     IIIT Lucknow welcomes Founding Director Dr. Arun Mohan
@@ -25,14 +25,14 @@ class News extends React.Component {
                     standard dummy text ever since the 1500s
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="blog">
               <div className="center-res">
                 {" "}
                 <div className="blog-image" id="img2" />
               </div>
-              <a href="google.com">
+              <Link to="/comming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">Pariksha Pe Charcha 2.0'</h1>
 
@@ -42,13 +42,13 @@ class News extends React.Component {
                     standard dummy text ever since the 1500s
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="blog">
               <div className="center-res">
                 <div className="blog-image" id="img3" />
               </div>
-              <a href="google.com">
+              <Link to="/comming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">
                     Expert Guest Lectures and Research Interaction
@@ -60,7 +60,7 @@ class News extends React.Component {
                     standard dummy text ever since the 1500s
                   </p>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="more-blogs">
@@ -81,29 +81,29 @@ class News extends React.Component {
             <div className="c2">
               <div className="news-head">Events</div>
               <div className="news-article">
-                <a href="/comming-soon" className="news-link fonts">
+                <Link to="/comming-soon" className="news-link fonts">
                   Yale President Peter Salovey’s statement on proposed Title IX
                   rule changes
-                </a>
+                </Link>
                 <p className="date">January 29,2019</p>
               </div>
               <div className="news-article">
-                <a href="/comming-soon" className="news-link fonts">
+                <Link to="/comming-soon" className="news-link fonts">
                   New Office of Undergraduate Financial Aid promotes clarity
-                </a>
+                </Link>
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article hides">
-                <a href="/comming-soon" className="news-link fonts">
+                <Link to="/comming-soon" className="news-link fonts">
                   Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
                   byline?
-                </a>
+                </Link>
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article hides">
-                <a href="/comming-soon" className="news-link fonts">
+                <Link to="/comming-soon" className="news-link fonts">
                   From Yale to data science: How one alum made the leap
-                </a>
+                </Link>
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article more-news">

@@ -1,14 +1,15 @@
 import React from "react";
 import "./EventList.css";
 import { article } from "./Data";
+import { Link } from "react-router-dom";
 
 class EventList extends React.Component {
   Article = props => {
     return (
       <div className="events-list-news-article">
-        <a href="/comming-soon" className="events-list-news-link fonts">
+        <Link to="/comming-soon" className="events-list-news-link fonts">
           {props.data.article}
-        </a>
+        </Link>
         <p className="events-list-date">{props.data.date}</p>
       </div>
     );
