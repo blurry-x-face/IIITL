@@ -107,13 +107,13 @@ class News extends React.Component {
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article more-news">
-                <a
+                <Link
                   className="news-link news-hover"
-                  href="/comming-soon"
+                  to="/events"
                   // style={{ color: "rgb(59, 59, 149)" }}
                 >
                   More <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

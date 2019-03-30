@@ -29,6 +29,57 @@ import BTech from "./components/BTechIT";
 import BTechCS from "./components/BTechCS";
 import AcademicShedule from "./components/AcademicShedule";
 import NewsList from "./components/NewsList";
+import EventList from "./components/EventsList";
+
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <AboveNav />
+        )}
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <Nav />
+        )}
+        <Route path="/faculty/vks" exact component={VKS} />
+        <Route path="/faculty/shikha" exact component={Shikha} />
+        <Route path="/comming-soon" exact component={CommingSoon} />
+        <SideRendering data={data.staff.data} />
+        <SideRendering data={data.faculty.data} />
+        <SideRendering data={data.cord.data} />
+        <SideRendering data={data.about.data} />
+        <SideRendering data={data.bog.data} />
+        <SideRendering data={data.dir.data} />
+        <SideRendering data={data.senate.data} />
+        <SideRendering data={data.seatMatrix.data} />
+        <SideRendering data={data.courseStructure.data} />
+        <SideRendering data={data.calender.data} />
+        <SideRendering data={data.downloads.data} />
+        <Route path="/template" exact component={FacultyTemplate} />
+        <Route path="/contactus" exact component={ContactUs} />
+        <Route path="/btech-it" exact component={BTech} />
+        <Route path="/btech-cs" exact component={BTechCS} />
+        <Route path="/news" exact component={NewsList} />
+        <Route path="/events" exact component={EventList} />
+        <Route path="/" exact component={Home} />
+        {/* <Route path="/calender" exact component={AcademicShedule} /> */}
+        {/* <Route component={NoMatch} /> */}
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ? (
+          ""
+        ) : (
+          <Footer />
+        )}
+      </Fragment>
+    );
+  }
+}
 
 function SideRendering(props) {
   return (
@@ -45,6 +96,7 @@ function SideRendering(props) {
     />
   );
 }
+
 const data = {
   faculty: {
     data: {
@@ -130,60 +182,5 @@ const data = {
     }
   }
 };
-// const NoMatch = () => {
-//   return (
-//     <h1 style={{ textAlign: "center", marginTop: "10%", paddingBottom: 300 }}>
-//       Page Under Construction
-//     </h1>
-//   );
-// };
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
-          ""
-        ) : (
-          <AboveNav />
-        )}
-        {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
-          ""
-        ) : (
-          <Nav />
-        )}
-        <Route path="/faculty/vks" exact component={VKS} />
-        <Route path="/faculty/shikha" exact component={Shikha} />
-        <Route path="/comming-soon" exact component={CommingSoon} />
-        <SideRendering data={data.staff.data} />
-        <SideRendering data={data.faculty.data} />
-        <SideRendering data={data.cord.data} />
-        <SideRendering data={data.about.data} />
-        <SideRendering data={data.bog.data} />
-        <SideRendering data={data.dir.data} />
-        <SideRendering data={data.senate.data} />
-        <SideRendering data={data.seatMatrix.data} />
-        <SideRendering data={data.courseStructure.data} />
-        <SideRendering data={data.calender.data} />
-        <SideRendering data={data.downloads.data} />
-        <Route path="/template" exact component={FacultyTemplate} />
-        <Route path="/contactus" exact component={ContactUs} />
-        <Route path="/btech-it" exact component={BTech} />
-        <Route path="/btech-cs" exact component={BTechCS} />
-        <Route path="/news" exact component={NewsList} />
-        <Route path="/" exact component={Home} />
-        {/* <Route path="/calender" exact component={AcademicShedule} /> */}
-        {/* <Route component={NoMatch} /> */}
-        {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
-          ""
-        ) : (
-          <Footer />
-        )}
-      </Fragment>
-    );
-  }
-}
 
 export default App;

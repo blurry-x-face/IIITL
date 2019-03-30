@@ -334,6 +334,38 @@ const blogs = [
     img: BlogImage3
   }
 ];
+const article = [
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  },
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  },
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  },
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  },
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  },
+  {
+    article:
+      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
+    date: "January 29,2019"
+  }
+];
 export {
   calender,
   academicLinks,
@@ -341,5 +373,6 @@ export {
   blogs,
   InsAdmin,
   seatData,
+  article,
   courseStructure
 };
