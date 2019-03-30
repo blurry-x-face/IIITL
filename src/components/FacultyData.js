@@ -6,7 +6,7 @@ const facultyCardData = [
     researchArea: "Bioelectrics, Biomechanics, Machine Learning",
     contact: "Email: am@iiitl.ac.in",
     id: "ashutoshMishra",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Abhishek Pandey",
@@ -16,7 +16,7 @@ const facultyCardData = [
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
     id: "abhishekPandey",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Mary Samuel",
@@ -26,7 +26,7 @@ const facultyCardData = [
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
     id: "marySamuel",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Soumendu Chakraborty",
@@ -36,7 +36,7 @@ const facultyCardData = [
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Vishal Krishna Singh",
@@ -57,7 +57,7 @@ const facultyCardData = [
       "Software Engineering, Software Quality, and Software Reliability/Usability",
     contact: "Email: shikhagautam@iiitl.ac.in",
     id: "shikhaGautam",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Niharika Anand",
@@ -67,7 +67,7 @@ const facultyCardData = [
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
     contact: "Email: niharika@iiitl.ac.in",
     id: "niharikaAnand",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Deepanjan Roy",
@@ -77,7 +77,7 @@ const facultyCardData = [
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
     contact: "Email: droy@iiitl.ac.in",
     id: "deepanjanRoy",
-    link: "/google.com"
+    link: "/comming-soon"
   },
   {
     name: "Dr. Brijesh Kumar Chaurasia",
@@ -87,7 +87,7 @@ const facultyCardData = [
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
     contact: "Email: droy@iiitl.ac.in",
     id: "brijeshChaurasia",
-    link: "/google.com"
+    link: "/comming-soon"
   }
 ];
 export default facultyCardData;

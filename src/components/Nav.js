@@ -71,12 +71,6 @@ class Nav extends React.Component {
                   <Link to="/About" className="af-1">
                     At a Glance
                   </Link>
-                  <Link to="/vision" className="af-1">
-                    Vision & Mission
-                  </Link>
-                  <Link to="google.com" className="af-1">
-                    Background
-                  </Link>
                   <a
                     href="https://iiitcouncil.com/"
                     target="blank"
@@ -87,7 +81,7 @@ class Nav extends React.Component {
                   <Link to="/board-governors" className="af-1">
                     Board of Governors
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Finance Committee
                   </Link>
                   <Link to="/Senate" className="af-1">
@@ -110,16 +104,16 @@ class Nav extends React.Component {
                   <Link to="/staff" className="af-1">
                     Officer & Staff
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Academic Affairs
                   </Link>
                   <Link to="/faculty" className="af-1">
                     Faculty Affairs
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Student Affairs
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Registrar's Office
                   </Link>
                 </div>
@@ -127,7 +121,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Other Units
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Finance & Accounts
                   </Link>
                   <a href={RTI} target="blank" className="af-1">
@@ -146,7 +140,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Department of IT
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Information Technology
                   </Link>
                 </div>
@@ -154,7 +148,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Department of CSE
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Computer Science Engineering
                   </Link>
                 </div>
@@ -170,28 +164,28 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Student Counselling
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     About Counselling
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Common Concerns
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Services
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     FAQ
                   </Link>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Anti-Ragging Committee
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Anti-Sexual Harassment Policy
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Office Orders
                   </Link>
                 </div>
@@ -199,25 +193,25 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Hostel
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Student's Hostel
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Hostel Rules
                   </Link>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Mess
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Overview
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Mess Menu
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Mess Committee
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Mess Committee Duties
                   </Link>
                 </div>
@@ -225,19 +219,19 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     People
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Dean & Staff
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Wardens
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Counsellor
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Sports Staff
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Hostel Caretaker
                   </Link>
                 </div>
@@ -245,20 +239,20 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Office, Students' Affairs
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     People
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Notice Board
                   </Link>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Quick Links
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Student Portal Login
                   </Link>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Sports/Gymkhana
                   </Link>
                 </div>
@@ -274,14 +268,14 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Academic Programmes
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     B.Tech in IT
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     B.Tech in CS
                   </Link>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     PhD
                   </Link>
                 </div>
@@ -289,7 +283,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Useful Links
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Academic Schedule
                   </Link>
                   <Link to="/faculty" className="af-1">
@@ -302,10 +296,10 @@ class Nav extends React.Component {
                     Course Structure
                   </Link>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     List of Students
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Convocation
                   </Link>
                 </div>
@@ -314,16 +308,16 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Important Resolutions
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Office Orders
                   </Link>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Facility
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Lecture Hall Complex
                   </Link>
                 </div>
@@ -339,13 +333,13 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Central Library
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     About
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     People
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     E-Resources
                   </Link>
                 </div>
@@ -354,23 +348,23 @@ class Nav extends React.Component {
                     Computer Centre
                   </div>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     People
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Services
                   </Link>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     CC Lab
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     FAQ
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Download
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Notice Board
                   </Link>
                 </div>
@@ -378,26 +372,26 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Other Facilities
                   </div>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Visitors' Hostel
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Transportation
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Security
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Health Centre
                   </Link>
                   <Link to="placements.iiitl.ac.in" className="af-1">
                     Placement
                   </Link>
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Department Research Facility
                   </Link>
 
-                  <Link to="google.com" className="af-1">
+                  <Link to="/comming-soon" className="af-1">
                     Lecture Hall Complex
                   </Link>
                 </div>

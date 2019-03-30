@@ -61,14 +61,14 @@ class AltNav extends React.Component {
                 Vision & Mission
               </Link>
               <Link
-                to="google.com"
+                to="comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Background
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -82,7 +82,7 @@ class AltNav extends React.Component {
                 Board of Governors
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -129,7 +129,7 @@ class AltNav extends React.Component {
                 Officer & Staff
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -143,14 +143,14 @@ class AltNav extends React.Component {
                 Faculty Affairs
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Student Affairs
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -162,14 +162,14 @@ class AltNav extends React.Component {
                 Other Units
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Finance & Accounts
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -192,21 +192,21 @@ class AltNav extends React.Component {
                 Engineering Sciences Stream
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Information Technology
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Computer Science
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -218,14 +218,14 @@ class AltNav extends React.Component {
                 Humanities and Social Sciences Stream
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Economic Sciences
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -248,28 +248,28 @@ class AltNav extends React.Component {
                 Student Counselling
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 About Counselling
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Common Concerns
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Services
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -279,21 +279,21 @@ class AltNav extends React.Component {
                 Regulations
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Anti-Ragging Committee
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Anti-Sexual Harassment Policy
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -305,14 +305,14 @@ class AltNav extends React.Component {
                 Hostel
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Student's Hostel
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -322,28 +322,28 @@ class AltNav extends React.Component {
                 Mess
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Overview
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Mess Menu
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Mess Committee
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -355,35 +355,35 @@ class AltNav extends React.Component {
                 People
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Dean & Staff
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Wardens
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Counsellor
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Sports Staff
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -395,14 +395,14 @@ class AltNav extends React.Component {
                 Office, Students' Affairs
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 People
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -412,28 +412,28 @@ class AltNav extends React.Component {
                 Quick Links
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Student Portal Login
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 DOSA Office Website
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Students' Website
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -456,28 +456,28 @@ class AltNav extends React.Component {
                 Academic Programmes
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 B.Tech in IT
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 B.Tech in CS
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 B.Tech in ECE
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -489,14 +489,14 @@ class AltNav extends React.Component {
                 Useful Links
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Officer & Staff
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -524,14 +524,14 @@ class AltNav extends React.Component {
                 Course Structure
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 List of Students
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -544,14 +544,14 @@ class AltNav extends React.Component {
                 Regulations
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Important Resolutions
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -561,7 +561,7 @@ class AltNav extends React.Component {
                 Facility
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -584,35 +584,35 @@ class AltNav extends React.Component {
                 Central Library
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 About
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 People
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 E-Resources
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Catalogue Search
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -624,21 +624,21 @@ class AltNav extends React.Component {
                 Computer Centre
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 CC Home
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 People
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -646,28 +646,28 @@ class AltNav extends React.Component {
               </Link>
 
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 CC Lab
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 FAQ
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Download
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -679,28 +679,28 @@ class AltNav extends React.Component {
                 Other Facilities
               </div>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Visitors' Hostel
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Transportation
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Security
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -710,7 +710,7 @@ class AltNav extends React.Component {
                 Placement
               </Link>
               <Link
-                to="google.com"
+                to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >

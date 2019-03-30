@@ -13,6 +13,7 @@ import Ordinance from "../assets/downloads/Ordinance.pdf";
 import form1 from "../assets/downloads/student_leave.pdf";
 import form2 from "../assets/downloads/Ident.pdf";
 import form3 from "../assets/downloads/INDENT_FORM.pdf";
+import Statues from "../assets/downloads/StatutesOfIIITLucknow.pdf";
 
 const BoGMeeting = [
   ["Minutes of First BOG Meeting", BOG1],
@@ -37,7 +38,7 @@ class Downloads extends React.Component {
     let li = props.data.map(item => {
       return (
         <li>
-          <a href="google.com">{item}</a>
+          <a href="/comming-soon">{item}</a>
         </li>
       );
     });
@@ -81,7 +82,9 @@ class Downloads extends React.Component {
             Statutes Of IIIT-Lucknow
           </h2>
           <p>
-            <a href="/google.com">Statutes of IIIT-L (22-10-2018)</a>
+            <a href={Statues} target="blank">
+              Statutes of IIIT-L (22-10-2018)
+            </a>
           </p>
           <h2 className="downloads-global-sub-head">Forms and Formats</h2>
           <this.Lists data={forms} />

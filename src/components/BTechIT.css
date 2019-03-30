@@ -1,0 +1,21 @@
+.btech-global-head {
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.btech-global-div {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+
+  /* padding: 20px 200px; */
+  margin-bottom: 200px;
+}
+.btech-p {
+}
+@media only screen and (max-width: 872px) {
+  .btech-global {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

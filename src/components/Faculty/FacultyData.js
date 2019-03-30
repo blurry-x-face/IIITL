@@ -55,6 +55,10 @@ const vks = {
     "Discreet Mathematics, B.Tech(IT) II Semester",
     "Design and Analysis of Algorithms, B.Tech(IT) IV Semester",
     "Data Mining and Warehousing, B.Tech(IT) VI Semester"
+  ],
+  contact: [
+    "(+91) 6394817065",
+    "vks@iiitl.ac.in , singhvishalkrishna@gmail.com"
   ]
 };
 

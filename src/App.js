@@ -24,6 +24,8 @@ import CommingSoon from "./components/CommingSoon";
 import VKS from "./components/Faculty/VKS";
 import Shikha from "./components/Faculty/Shikha";
 import Downloads from "./components/Downloads";
+import ContactUs from "./components/ContacUs";
+import BTech from "./components/BTechIT";
 
 function SideRendering(props) {
   return (
@@ -143,7 +145,7 @@ class App extends Component {
 
         <Route path="/faculty/vks" exact component={VKS} />
         <Route path="/faculty/shikha" exact component={Shikha} />
-        <Route path="/google.com" exact component={CommingSoon} />
+        <Route path="/comming-soon" exact component={CommingSoon} />
         <SideRendering data={data.staff.data} />
         <SideRendering data={data.faculty.data} />
         <SideRendering data={data.cord.data} />
@@ -155,6 +157,8 @@ class App extends Component {
         <SideRendering data={data.courseStructure.data} />
         <SideRendering data={data.downloads.data} />
         <Route path="/template" exact component={FacultyTemplate} />
+        <Route path="/contactus" exact component={ContactUs} />
+        <Route path="/btech-it" exact component={BTech} />
         <Route path="/" exact component={Home} />
         {/* <Route component={NoMatch} /> */}
         {window.location.pathname === "/faculty/vks" ||

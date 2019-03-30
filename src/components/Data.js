@@ -12,14 +12,14 @@ const academicLinks = {
       "Convocation"
     ],
     links: [
-      "google.com",
+      "/comming-soon",
       "/faculty",
       "/seat-matrix",
       "/course-structure",
-      "google.com",
-      "google.com",
-      "google.com",
-      "google.com"
+      "/comming-soon",
+      "/comming-soon",
+      "/comming-soon",
+      "/comming-soon"
     ]
   }
 };
@@ -43,7 +43,7 @@ const Ins = {
       "google",
       "google",
       "/board-governors",
-      "google.com",
+      "/comming-soon",
       "/senate",
       "/co-ordination-committee",
       "/contactus"
