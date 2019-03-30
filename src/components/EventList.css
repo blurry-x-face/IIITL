@@ -18,10 +18,14 @@
   color: rgba(0, 0, 0, 0.562);
   transition: all 0.3s;
 }
-.events-list-date:hover {
+.events-list-news-article:hover .events-list-date {
   color: black;
 }
-.events-list-news-article a {
+.events-list-news-link {
   text-decoration: none;
-  color: rgb(3, 99, 143);
+  color: #005f9e;
+  transition: all 0.3s;
+}
+.events-list-news-article:hover .events-list-news-link {
+  color: #002642;
 }
