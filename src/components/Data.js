@@ -19,24 +19,16 @@ const Ins = {
   anchor: {
     name: [
       "At a Glance",
-      "Vision & Mission",
-      "Background",
-      "IIITS Council",
       "Board of Governors",
       "Finance Committee",
       "Senate",
-      "Co-Ordination Committee",
       "Contact Us"
     ],
     links: [
       "/About",
-      "/vision",
-      "/comming-soon",
-      "/comming-soon",
       "/board-governors",
       "/comming-soon",
       "/senate",
-      "/co-ordination-committee",
       "/contactus"
     ]
   }

@@ -59,17 +59,22 @@ const vks = {
   contact: [
     "(+91) 6394817065",
     "vks@iiitl.ac.in , singhvishalkrishna@gmail.com"
+  ],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
   ]
 };
 
 const mary = {
   interests: ["Fractal Geometry"],
-  awards: {
-    award1: {
+  awards: [
+    {
       head:
         "Won award from Kottayam Municipal Council for scoring the highest mark among all B. Sc students from Kottayam Municipal Area, 1998."
     }
-  },
+  ],
   journalData: ["Iterated function systems in uniform spaces"]
 };
 
@@ -90,5 +95,188 @@ const shikha = {
   ],
   conference: []
 };
+const niharika = {
+  interests: [
+    "Wireless Sensor Networks",
+    "4G and 5G technologies",
+    "Internet of Things",
+    "Security in Wireless Sensor Networks",
+    "Distributed Networks"
+  ],
+  journalData: [
+    "“Enhanced Reliable Reactive Routing (ER3) Protocol for Multimedia Applications in 3D Wireless Sensor Networks”, Multimedia Tools and Applications (2017): 1-20. (SCI-E,JCR, Scopus, DBLP, ACM) (Impact Factor: 1.53)",
+    "“A 3-D Radio Irregularity Model (3DRIM) for Wireless Sensor Network”, Wireless Personal Communications, (2017), Volume 96, Number 3, page nos. 4725-4735. (SCI-E,JCR, Scopus, ACM) (Impact Factor: 1.0)",
+    "“A Novel Computational Geometry Based Node Deployment Scheme in 3-D Wireless Sensor Network,” International Journal of Sensor Network, Inderscience, Vol. 25, No.3,2017 (SCI-E, JCR, Scopus, DBLP, ACM) (Impact Factor: 0.635)",
+    "“MSVR Based Range-Free Localization Technique for 3-D Sensor Networks” Wireless Personal Communications: 1-18. (SCI-E, JCR, Scopus, ACM) (Impact Factor: 1.0)",
+    "“Energy Efficient Routing for Collision Avoidance in Wireless Sensor Networks: A Cross layer Approach” first revision done in IET Communications (SCI, Scopus, DBLP,ACM) (Impact Factor: 1.06)"
+  ],
+  conference: [
+    "“Radio Irregularity Model Based on Received Signal Strength for Three Dimensional Wireless Sensor Network” In Region 10 Conference (TENCON), 2016 IEEE, pp. 2008-2012. IEEE, 2016, Singapore",
+    "“Scrutinizing Localized Topology Control in WSN Using Rigid Graphs,&quot; Proc. of 9thINDIACom − 2015, IEEE Conference, 2015,2nd International Conference on Computing for Sustainable Global Development, 11− 13March − 2015, pp − 349 − 352.(Listed in IEEE Explore)."
+  ],
+  education: [
+    "Doctorate of Philosophy in Information Technology (Ph.D Thesis Title: Resource Constrained Model for 3-D Wireless Sensor Network : Deployment and Localization from Indian Institute of Technology Allahabad",
+    "Master of Technology in Electronics and Communication (M. Tech.) Thesis Title: DES based security using FPGA from Singhania University, Rajasthan",
+    "Bachelor of Technology in Information Technology (B. Tech.) from Moradabad Institute of Technology, Moradabad. Uttar Pradesh."
+  ],
+  courses: [
+    "Digital Electronics",
+    "Communication System",
+    "Wireless Communication",
+    "Data Communication",
+    "Data Communication"
+  ],
+  contact: [" (+91) 9410000068", "niharika@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ],
+  experience: [
+    {
+      head:
+        "Assistant Professor at Indian Institute of Information Technology, Lucknow.",
+      sub: "Duration: November 2018 – Contd"
+    },
+    {
+      head:
+        "Assistant Professor (Contractual) at Thapar Institute of Engineering Technology, Patiala",
+      sub: "Duration: July 2018–November 2018."
+    },
+    {
+      head:
+        "Assistant Professor at Meerut Institute of Engineering Technology, Meerut",
+      sub: "Duration : August 2017–June 2018."
+    },
+    {
+      head:
+        "Assistant Professor at Meerut Institute of Engineering Technology, Meerut",
+      sub: "Duration : August 2012–December 2013."
+    },
+    {
+      head:
+        "Sr. Lecturer at Meerut Institute of Engineering Technology, Meerut",
+      sub: "Duration : January 2010–July 2010."
+    },
+    {
+      head:
+        "Lecturer at College of Engineering Technology (Now IFTM University), Moradabad",
+      sub: "Duration: August 2006–Oct. 2009."
+    }
+  ]
+};
+const somendu = {
+  interests: [""],
+  awards: [
+    {
+      detail:
+        "Received Junior Research Fellowship (2014) and Senior Research Fellowship (2016) from MHRD, Government of INDIA",
+      head: ""
+    },
+    {
+      detail: "Qualified GATE in 2014",
+      head: ""
+    },
+    {
+      detail: "Received Mission 10 X Certification from WIPRO Technologies",
+      head: ""
+    },
+    {
+      detail: "IBM Certified Academic Associate",
+      head: ""
+    },
+    {
+      detail:
+        "Outstanding Contribution in Reviewing, Journal of Information Security and Applications",
+      head: ""
+    }
+  ],
+  journalData: [
+    'Soumendu Chakraborty, Satish Kumar Singh, and Pavan Chakraborty. "R-Theta Local Neighborhood Pattern for Unconstrained Facial Image Recognition and Retrieval."Multimedia Tools and Applications, DOI: 10.1007/s11042-018-6846-z, (2018). (Springer) (Impact Factor: 1.54) (RTLNP Code)',
+    'Soumendu Chakraborty, Satish Kumar Singh, and Pavan Chakraborty. "Local Gradient Hexa Pattern: A Descriptor for Face Recognition and Retrieval."IEEE Transactions on Circuits and Systems for Video Technology, vol-28, no-1, pp. 171-180,  (2018). (Impact Factor: 3.59) ',
+    'Soumendu Chakraborty, Satish Kumar Singh, and Pavan Chakraborty. "Centre symmetric quadruple pattern: A novel descriptor for facial image recognition and retrieval."Pattern Recognition Letters,  vol-115, pp.50-58, DOI: 10.1016/j.patrec.2017.10.015, (2018). (Elsevier) (Impact Factor: 1.95) (CSQP Code)',
+    'Soumendu Chakraborty, Satish Kumar Singh, and Pavan Chakraborty. "Local quadruple pattern: A novel descriptor for facial image recognition and retrieval."Computers & Electrical Engineering, vol-62, pp. 92-104, (2017). (Elsevier) (Impact Factor: 1.74)',
+    'Soumendu Chakraborty, Satish Kumar Singh, and Pavan Chakraborty. "Local directional gradient pattern: a local descriptor for face recognition."Multimedia Tools and Applications, vol-76, no-1, pp. 1201-1216, (2017). (Springer) (Impact Factor: 1.54) (LDGP Code)',
+    'Soumendu Chakraborty, Anand Singh Jalal, and Charul Bhatnagar. "LSB based non blind predictive edge adaptive image steganography."Multimedia Tools and Applications,  vol-76, no-6, pp. 7973–7987,  (2017).(Springer) (Impact Factor: 1.54)',
+    'Soumendu Chakraborty, Anand Singh Jalal, and Charul Bhatnagar. "Secret image sharing using grayscale payload decomposition and irreversible image steganography." Journal of Information Security and Applications, vol-18, no-4, pp. 180-192, (2013). (Elsevier) (CiteScore: 2.27)',
+    'Soumendu Chakraborty and Anand Singh Jalal. "High capacity secret image sharing using multilayer image steganography with primary cover predictive error."International Journal of Information and Communication Technology, vol-9, no-3, pp. 337-355. (Inderscience)',
+    'Soumendu Chakraborty, Anand Singh Jalal, and Charul Bhatnagar. "An efficient bit plane X-OR algorithm for irreversible image steganography."International Journal of Trust Management in Computing and Communications, vol-1, no-2, pp. 140-155, (2013). (Inderscience)'
+  ],
+  conference: [
+    'Soumendu Chakraborty, Satish Kumar Singh, Pavan Chkraborty, "Performance Enhancement of Local Vector Pattern with Generalized Distance Local Binary Pattern for Face Recognition." In Proc. of the IEEE UP Section Conference on Electrical, Computer and Electronics (UPCON), December 2015.',
+    'Sandeep Rathor, SP Tripathi, Soumendu Chakraborty, Anand Singh Jalal, "A payload distribution method for high capacity image steganography." Computer and Communication Technology (ICCCT), 2013 4th International Conference on. IEEE, 2013.'
+  ],
+  education: [
+    "Ph.D. (Information Technology) From Indian Institute of Information Technology, Allahabad, in 2018 with 9.50 CPI",
+    "M.Tech. (CSE) with Honors from Institute of Engineering and Technology, GLA University, Mathura, in 2013 with 8.64 CPI",
+    "B.E. (Information Technology) from University Institute of Technology, The University of Burdwan, Burdwan in 2005 with 72.6 TCPA"
+  ],
+  member: ["Member IEEE "],
+  reviewer: [
+    "IEEE Transactions on Circuits & Systems for Video Technology",
+    "IEEE Transactions on Information Forensics and Security",
+    "IEEE Transactions on Intelligent Transportation Systems",
+    "IEEE Signal Processing Letters",
+    "IEEE Access",
+    "International Journal for Light and Electron Optics",
+    "Journal of Ambient Intelligence & Humanized Computing",
+    "Journal of Systems and Software",
+    "Computing and Visualization in Science",
+    "Journal of Information Security and Applications"
+  ],
+  courses: [
+    "Compiler Design",
+    "Theory of Computation",
+    "Computer Organization",
+    "Data Structure",
+    "Image Processing"
+  ],
+  contact: ["(+91) 08005035200", "soumendu@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ]
+};
 
-export { vks, mary, shikha };
+const sushilTiwari = {
+  interests: [
+    "Wireless Indoor Localization",
+    "Machine Learning",
+    "Ad-hoc Network"
+  ],
+  education: [
+    "B.E. (Computer Science & Engineering) from Technocrats Institute of Technology, Bhopal",
+    "M.E. (Software System) from Birla Institute of Technology, Pilani",
+    "PhD (Computer Science & Engineering) from IIITDM, Jabalpur"
+  ],
+  conference: [
+    "S. Tiwari, V. K. Jain, &quot;Hiron-Bilateration based location Estimation Technique for Indoor WLAN,&quot; Proc. of IEEE 31 Int. Conf. on Information Networking, Danang, Vietnam pp.13-17, 2017. (Published)",
+    "S. Tiwari, V. K. Jain, &quot;Optimum Grid Size Estimation using Fuzzy-AHP for Radio Fingerprinting based Indoor Localization&quot;. Proc. of IEEE 41th International Conference on Telecommunications and Signal Processing. Athens, Greece (Published)",
+    "S. Tiwari, V. K. Jain, &quot;Smartphone based Floor Determination for Multi-storey Building.“Proc. of 26 International Conferences of Wireless Networks (ICWN-2018). London, UK.(Published)."
+  ],
+  journalData: [
+    "S. Tiwari, V. K. Jain, Smart-phone based Improved Multi-Floor Indoor Localization System, Lecture notes in Transactions on Engineering Technologies, Springer (Accepted)",
+    "S. Tiwari, V. K. Jain, HILS: Hybrid Indoor Localization using Wi-Fi RSS and Inertial Sensor’s Measurements of Smart-phone (Accepted)"
+  ],
+  awards: [
+    {
+      head: "",
+      detail:
+        "Best paper award in “26 International Conferences of Wireless Networks (ICWN-2018)”, London, UK"
+    }
+  ],
+  experience: [
+    "18 June 2010 to 16 Jan 2012 worked as assistant professor at Technocrats Institute of Technology, Bhopal (MP), 462021",
+    "20 Jan 2012 to 30 June 2013 worked as Contract Faculty at Maulana Azad National Institute of Technology, Bhopal (MP) 462003"
+  ],
+  contact: ["(+91) 9369678827", "stiwari@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ],
+  courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"]
+};
+
+export { somendu, vks, mary, shikha, niharika, sushilTiwari };

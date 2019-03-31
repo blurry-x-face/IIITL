@@ -1,6 +1,7 @@
 import React from "react";
 import "./Above-nav.css";
 import { Link } from "react-router-dom";
+import Logo from "../assets/Page-002.png";
 
 const AboveNav = () => {
   return (
@@ -12,10 +13,7 @@ const AboveNav = () => {
           <div className="above-nav-head-desc">
             Indian Institute of Information Technology, Lucknow
           </div> */}
-            <img
-              src="https://iiitl.ac.in/themes/custom/zircon/logo.svg"
-              alt="logo"
-            />
+            <img src={Logo} alt="logo" />
           </Link>
         </div>
         <div className="above-nav-right">

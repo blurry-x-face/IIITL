@@ -100,83 +100,57 @@ class Latest extends React.Component {
           <div className="blog-container-head curious-head">
             Announcements from IIITL
           </div>
-        </div>
-        <div class="latest-slider">
-          <div className="blog-container-contents latest-container">
-            <div
-              className="box-1 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
+          <div className="blog-container-contents">
+            {/* <div
+              onClick={() => this.change(0)}
+              className="latest-prev"
+              style={{ cursor: "pointer" }}
+              href="#home"
             >
+              <i className="fas fa-angle-left" />
+            </div> */}
+            <div className="box-1 hidden1 active1">
               {" "}
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+              <p className="latest-blog-date">March 2, 2019</p>{" "}
               <p className="latest-blog-head">Logo Design Contest</p>{" "}
               <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                The Contest is open to all IIITL Students, Employees and all
+                stake holders of IIITL.
               </p>
             </div>
-            <div
-              className="box-2 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
-            >
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+            <div className="box-2 hidden1 active1">
+              <p className="latest-blog-date">January, 2019</p>{" "}
               <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
+              <p className="latest-blog-content" />
             </div>
-            <div
-              className="box-3 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
-            >
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+            <div className="box-3 hidden1 active1">
+              <p className="latest-blog-date">July, 2019</p>{" "}
               <p className="latest-blog-head">Updated Fee Structure</p>{" "}
               <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Fee Structure for IIIT Lucknow has been updated.
               </p>
             </div>
-            <div
-              className="box-4 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
-            >
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+            <div className="box-4 hidden1 active1">
+              <p className="latest-blog-date">October 14, 2018</p>{" "}
               <p className="latest-blog-head">
                 Postponement of Selection Process
               </p>{" "}
               <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                Postponement of proposed Selection Process on 14th October 2018
+                for the post of Junior Superintendent and Junior Engineer for
+                IIIT Lucknow till further order. Will be intimated next date
+                when it is finalized.
               </p>
             </div>
-            <div
-              className="box-5 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
-            >
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+            <div className="box-5 hidden1">
+              <p className="latest-blog-date">Jan, 2018</p>{" "}
               <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
+              <p className="latest-blog-content" />
             </div>
-            <div
-              className="box-6 hidden1 active1"
-              style={{ width: "400px", height: "350px" }}
-            >
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
+            <div className="box-6 hidden1">
+              <p className="latest-blog-date">Feb, 2019</p>{" "}
               <p className="latest-blog-head">Pareekhsha pe Charcha-6</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
+              <p className="latest-blog-content" />
             </div>
           </div>
         </div>
@@ -186,156 +160,3 @@ class Latest extends React.Component {
 }
 
 export default Latest;
-/* 
-<div className="latest-global">
-        <div className="blog-container-global">
-          <div className="blog-container-head curious-head">
-            Announcements from IIITL
-          </div>
-          <div className="blog-container-contents">
-            <div className="box-1 hidden1 active1">
-              {" "}
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">Logo Design Contest</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-            <div className="box-2 hidden1 active1">
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-            <div className="box-3 hidden1 active1">
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">Updated Fee Structure</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-            <div className="box-4 hidden1 active1">
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">
-                Postponement of Selection Process
-              </p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-            <div className="box-5 hidden1">
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-            <div className="box-6 hidden1">
-              <p className="latest-blog-date">January 21, 2019</p>{" "}
-              <p className="latest-blog-head">Pareekhsha pe Charcha-6</p>{" "}
-              <p className="latest-blog-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-              <img
-                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="http://daynin.github.io/clojurescript-presentation/img/react-logo.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://github.com/d3/d3-logo/blob/master/d3.png?raw=true"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="http://daynin.github.io/clojurescript-presentation/img/react-logo.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1000px-Postgresql_elephant.svg.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"
-                alt="img"
-              />
-            </div>
-            <div>
-              <img
-                src="https://github.com/d3/d3-logo/blob/master/d3.png?raw=true"
-                alt="img"
-              />
-            </div>
-    
-*/

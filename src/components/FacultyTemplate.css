@@ -11,6 +11,7 @@
 }
 .faculty-above-nav-inner img {
   height: 12vw;
+  width: 13vw;
 }
 .faculty-body {
   margin-top: 40px;
@@ -25,6 +26,9 @@
   display: none;
 }
 #faculty-body-courses {
+  display: none;
+}
+#faculty-body-contact {
   display: none;
 }
 .faculty-education-list li {
@@ -156,7 +160,7 @@
   color: #005699;
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 10px;
+  padding: 7px;
 }
 .faculty-award-detail {
   color: black;
@@ -202,6 +206,12 @@
 }
 .faculty-alt-nav-inner {
   display: none;
+}
+.faculty-experience-head {
+  font-weight: normal;
+}
+.faculty-experience li {
+  padding: 10px;
 }
 @media only screen and (max-width: 867px) {
   .faculty-nav-inner {

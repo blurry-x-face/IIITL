@@ -1,0 +1,18 @@
+.new-blog-inner {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  padding: 20px;
+}
+.new-blog-post-head {
+  font-weight: normal;
+  color: #005699;
+}
+.new-blog-inner img {
+  border: solid black 1px;
+  height: 200px;
+  margin: 20px;
+}
+.new-blog-post-p {
+  font-size: 20px;
+}

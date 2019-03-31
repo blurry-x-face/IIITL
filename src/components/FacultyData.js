@@ -36,7 +36,7 @@ const facultyCardData = [
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
-    link: "/comming-soon"
+    link: "/faculty/somendu"
   },
   {
     name: "Dr. Vishal Krishna Singh",
@@ -67,7 +67,7 @@ const facultyCardData = [
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
     contact: "Email: niharika@iiitl.ac.in",
     id: "niharikaAnand",
-    link: "/comming-soon"
+    link: "/faculty/niharika"
   },
   {
     name: "Dr. Deepanjan Roy",
@@ -77,7 +77,7 @@ const facultyCardData = [
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
     contact: "Email: droy@iiitl.ac.in",
     id: "deepanjanRoy",
-    link: "/comming-soon"
+    link: "https://roydipanjan.wordpress.com/about/"
   },
   {
     name: "Dr. Brijesh Kumar Chaurasia",

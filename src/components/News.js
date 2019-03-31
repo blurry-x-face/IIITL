@@ -20,9 +20,9 @@ class News extends React.Component {
                     Sherry
                   </h1>
                   <p className="blog-post-p">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s
+                    Prof. Arun Mohan Sherry, an alumnus of IIT-Kharagpur has
+                    been appointed the founding director of the Indian Institute
+                    of Information Technology (IIIT), Lucknow.
                   </p>
                 </div>
               </Link>
@@ -37,9 +37,10 @@ class News extends React.Component {
                   <h1 className="blog-post-head">Pariksha Pe Charcha 2.0'</h1>
 
                   <p className="blog-post-p">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s
+                    As part of the second edition of ''Pariksha Pe Charcha 2.0''
+                    Prime Minister Narendra Modi interacts with a total of 2000
+                    students, parents and teachers in the national capital
+                    today.
                   </p>
                 </div>
               </Link>
@@ -55,9 +56,10 @@ class News extends React.Component {
                   </h1>
 
                   <p className="blog-post-p">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s
+                    Three eminent academicians, Prof. B. B. Chaudhuri, ISI
+                    Kolkata, Prof. S. Sadagopan, IIIT Bangalore and Prof. B.
+                    Chanda, ISI Kolkata visited the IIIT Allahabad campus
+                    between 20th and 23rd March 2018.
                   </p>
                 </div>
               </Link>
@@ -82,12 +84,11 @@ class News extends React.Component {
               <div className="news-head">Events</div>
               <div className="news-article">
                 <Link to="/comming-soon" className="news-link fonts">
-                  Yale President Peter Salovey’s statement on proposed Title IX
-                  rule changes
+                  Coding Competition for first years to be held on 4 april 2019.
                 </Link>
-                <p className="date">January 29,2019</p>
+                <p className="date">March 28, 2019</p>
               </div>
-              <div className="news-article">
+              {/* <div className="news-article">
                 <Link to="/comming-soon" className="news-link fonts">
                   New Office of Undergraduate Financial Aid promotes clarity
                 </Link>
@@ -105,7 +106,7 @@ class News extends React.Component {
                   From Yale to data science: How one alum made the leap
                 </Link>
                 <p className="date">January 30, 2019</p>
-              </div>
+              </div> */}
               <div className="news-article more-news">
                 <Link
                   className="news-link news-hover"
@@ -120,11 +121,10 @@ class News extends React.Component {
           <div className="center">
             <div className="payment-section">
               <h1 className="payment-head">Payment Gateway</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-              <button className="payment-button">Pay Now</button>
+              <p>Payment Gateway for various IIIT Lucknow</p>
+              <button className="payment-button" disabled>
+                Pay Now
+              </button>
             </div>
           </div>
         </div>

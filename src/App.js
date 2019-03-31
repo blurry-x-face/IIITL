@@ -4,6 +4,8 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import { Ins, academicLinks, InsAdmin } from "./components/Data";
 
+import blogImage1 from "./assets/dr-arun-sherry.jpg";
+
 import AboveNav from "./components/Above-nav";
 import "./components/Nav";
 import Nav from "./components/Nav";
@@ -30,26 +32,41 @@ import BTechCS from "./components/BTechCS";
 import AcademicShedule from "./components/AcademicShedule";
 import NewsList from "./components/NewsList";
 import EventList from "./components/EventsList";
+import Niharika from "./components/Faculty/Niharika";
+import Somendu from "./components/Faculty/Somendu";
+import ST from "./components/Faculty/ST";
+import Blog from "./components/Blogs/Blog1";
+import PictureGallery from "./components/PictureGallery";
 
 class App extends Component {
   render() {
     return (
       <Fragment>
         {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ? (
           ""
         ) : (
           <AboveNav />
         )}
         {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ? (
           ""
         ) : (
           <Nav />
         )}
         <Route path="/faculty/vks" exact component={VKS} />
+        <Route path="/faculty/ST" exact component={ST} />
+        <Route path="/faculty/niharika" exact component={Niharika} />
+        <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
         <Route path="/comming-soon" exact component={CommingSoon} />
+        <Route path="/blog1" exact component={Blog} />
         <SideRendering data={data.staff.data} />
         <SideRendering data={data.faculty.data} />
         <SideRendering data={data.cord.data} />
@@ -67,11 +84,15 @@ class App extends Component {
         <Route path="/btech-cs" exact component={BTechCS} />
         <Route path="/news" exact component={NewsList} />
         <Route path="/events" exact component={EventList} />
+        <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
         {window.location.pathname === "/faculty/vks" ||
-        window.location.pathname === "/faculty/shikha" ? (
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ? (
           ""
         ) : (
           <Footer />
@@ -183,4 +204,14 @@ const data = {
   }
 };
 
+const blogs = [
+  {
+    head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
+    para: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
+    img: { blogImage1 }
+  }
+];
+const BlogsG = props => {
+  return;
+};
 export default App;

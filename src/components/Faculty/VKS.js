@@ -64,6 +64,12 @@ class Template extends React.Component {
     });
     return <ol>{li} </ol>;
   };
+  Contact = props => {
+    let li = props.conferences.map(journal => {
+      return <p className="faculty-contact-p">{journal}</p>;
+    });
+    return <div>{li} </div>;
+  };
   render() {
     return (
       <div className="faculty-template-global padding-res">
@@ -73,7 +79,9 @@ class Template extends React.Component {
               <div className="faculty-above-nav-head-name">
                 Dr. Vishal Krishna Singh
               </div>
-              <div className="faculty-above-nav-head-position">Professor</div>
+              <div className="faculty-above-nav-head-position">
+                ASSISTANT PROFESSOR
+              </div>
               <div className="faculty-above-nav-head-dept faculty-above-nav-item">
                 Department of Information Technology
               </div>
@@ -90,13 +98,13 @@ class Template extends React.Component {
           </div>
         </div>
         <div className="faculty-nav">
-          <div class="faculty-nav-inner">
+          <div className="faculty-nav-inner">
             <Link
               onClick={() => {
                 this.open("faculty-body-home", "#home");
               }}
               to="#home"
-              class="faculty-nav-item"
+              className="faculty-nav-item"
             >
               Home
             </Link>
@@ -105,31 +113,21 @@ class Template extends React.Component {
               onClick={() => {
                 this.open("faculty-body-education", "#education");
               }}
-              class="faculty-nav-item"
+              className="faculty-nav-item"
             >
               Education
             </Link>
-            {/* <Link to="#home" class="faculty-nav-item">
-              Awards
-            </Link> */}
-            <div class="faculty-nav-item faculty-nav-item-dropdown">
-              <button class="dropbtn">
-                Publications
-                <i class="fa fa-caret-down" />
-              </button>
-              <div class="faculty-drop-item">
-                <Link
-                  to="#journals"
-                  onClick={() => {
-                    this.open("faculty-body-journals", "#journals");
-                  }}
-                >
-                  Journals
-                </Link>
-              </div>
-            </div>
             <Link
-              class="faculty-nav-item"
+              className="faculty-nav-item"
+              onClick={() => {
+                this.open("faculty-body-journals", "#journals");
+              }}
+              to="#journals"
+            >
+              Publications
+            </Link>
+            <Link
+              className="faculty-nav-item"
               onClick={() => {
                 this.open("faculty-body-experience", "#experience");
               }}
@@ -137,55 +135,86 @@ class Template extends React.Component {
             >
               Experience
             </Link>
-
-            {/* <div class="faculty-nav-item faculty-nav-item-dropdown">
-              <button class="dropbtn">
-                Experience
-                <i class="fa fa-caret-down" />
-              </button>
-              <div class="faculty-drop-item">
-                <Link to="#">Work Experience</Link>
-                <Link to="#">Proffessional Experience</Link>
-              </div>
-            </div> */}
             <Link
               to="#courses"
               onClick={() => {
                 this.open("faculty-body-courses", "#courses");
               }}
-              class="faculty-nav-item"
+              className="faculty-nav-item"
             >
               Course
             </Link>
 
-            <Link to="#home" class="faculty-nav-item">
+            <Link
+              onClick={() => {
+                this.open("faculty-body-contact", "#contact");
+              }}
+              to="#contact"
+              className="faculty-nav-item"
+            >
               Contact
             </Link>
           </div>
           <div className="faculty-hamburger">
-            <i class="fas fa-bars" onClick={() => this.openNav()} />
+            <i className="fas fa-bars" onClick={() => this.openNav()} />
           </div>
-          <div class="faculty-alt-nav-inner" id="faculty-alt-nav">
-            <Link to="#home" class="faculty-alt-nav-item">
+          <div className="faculty-alt-nav-inner" id="faculty-alt-nav">
+            <Link
+              to="#home"
+              onClick={() => {
+                this.open("faculty-body-home", "#home");
+              }}
+              className="faculty-alt-nav-item"
+            >
               Home
             </Link>
-            <Link to="#home" class="faculty-alt-nav-item">
+            <Link
+              onClick={() => {
+                this.open("faculty-body-education", "#education");
+              }}
+              to="#education"
+              className="faculty-alt-nav-item"
+            >
               Education
             </Link>
-            {/* <Link to="#home" class="faculty-nav-item">
+            {/* <Link to="#home" className="faculty-nav-item">
               Awards
             </Link> */}
-            <Link to="#" class="faculty-alt-nav-item">
-              Journals
+            <Link
+              onClick={() => {
+                this.open("faculty-body-journals", "#journals");
+              }}
+              to="#journals"
+              className="faculty-alt-nav-item"
+            >
+              Publications
             </Link>
-            <Link to="#" class="faculty-alt-nav-item">
-              Work Experience
+            <Link
+              onClick={() => {
+                this.open("faculty-body-experience", "#experience");
+              }}
+              to="#Experience"
+              className="faculty-alt-nav-item"
+            >
+              Experience
             </Link>
-            <Link to="#home" class="faculty-alt-nav-item">
+            <Link
+              onClick={() => {
+                this.open("faculty-body-courses", "#courses");
+              }}
+              to="#courses"
+              className="faculty-alt-nav-item"
+            >
               Course
             </Link>
 
-            <Link to="#home" class="faculty-alt-nav-item">
+            <Link
+              onClick={() => {
+                this.open("faculty-body-contact", "#contact");
+              }}
+              to="#contact"
+              className="faculty-alt-nav-item"
+            >
               Contact
             </Link>
           </div>
@@ -266,6 +295,17 @@ class Template extends React.Component {
             </div>
           </div>
         </div>
+        <div className="faculty-body" id="faculty-body-contact">
+          <div className="faculty-courses">
+            <div className="faculty-courses-head faculty-section-head">
+              Contact
+            </div>
+            <div className="faculty-education-list faculty-courses-list">
+              <this.Contact conferences={vks.address} />
+              <this.Contact conferences={vks.contact} />
+            </div>
+          </div>
+        </div>
         <div className="faculty-body" id="faculty-body-experience">
           <div className="faculty-experience">
             <div className="faculty-experience-head faculty-section-head">
@@ -293,7 +333,7 @@ class Template extends React.Component {
         </div>
         <div className="faculty-footer">
           <div className="faculty-footer-copy">
-            <i class="far fa-copyright" />
+            <i className="far fa-copyright" />
             2019 IIIT Lucknow|
           </div>
           <div className="faculty-footer-department">Department of IT|</div>
