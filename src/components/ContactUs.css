@@ -5,13 +5,11 @@
 .contact-us {
   font-family: "Playfair Display", serif;
   line-height: 1.7;
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   flex-direction: row;
-  /* padding: 80px 0 0 0; */
   margin-bottom: 70px;
-  flex-flow: wrap-reverse;
+  flex-flow: wrap;
 }
 .contact-us-global-head {
   font-weight: normal;
@@ -33,12 +31,10 @@
   content: "";
   margin-top: 0.5vw;
   margin-left: 47vw;
-  /* margin-left: 47.5%; */
 }
 .map-iframe {
   width: 60%;
   height: 100%;
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.788); */
 }
 .contact-us-address {
   padding: 40px;
@@ -59,28 +55,38 @@
   display: flex;
   justify-content: center;
 }
-@media only screen and (max-width: 1006px) {
+@media only screen and (max-width: 1109px) {
   .contact-us-img img {
     width: 100%;
   }
   .map-iframe {
     width: 600px;
-    height: 400px;
+    /* height: 400px; */
     margin: 40px 0;
   }
   .contact-us {
     align-items: center;
     flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .contact-us-para {
+    padding: 0 10px;
+    margin-left: 0px;
+  }
+  .google-map {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
   }
 }
 
 @media only screen and (max-width: 647px) {
   .contact-us-para {
+    width: 86vw;
     padding: 0 10px;
   }
   .map-iframe {
     width: 75vw;
-    height: 400px;
-    margin: 40px 0;
   }
 }

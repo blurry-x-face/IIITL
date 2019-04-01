@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import AltNav from "./Alt-nav";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
 
@@ -47,7 +47,7 @@ class Nav extends React.Component {
       <nav className="nav-global">
         <div className="nav-flex padding-res">
           <div className="navbar">
-            {/* <Link
+            {/* <NavLink
             to="#home"
             style={{
               margin: "0 0 0 2.5vw",
@@ -56,7 +56,7 @@ class Nav extends React.Component {
             id="nav-head"
           >
             IIIT LUCKNOW
-          </Link> */}
+          </NavLink> */}
             <div className="flex-grows" />
             <div className="dropdown nav-res">
               <button className="dropbtn">
@@ -68,9 +68,9 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Institute
                   </div>
-                  <Link to="/About" className="af-1">
+                  <NavLink to="/About" className="af-1">
                     At a Glance
-                  </Link>
+                  </NavLink>
                   <a
                     href="https://iiitcouncil.com/"
                     target="blank"
@@ -78,55 +78,55 @@ class Nav extends React.Component {
                   >
                     IIIT Council
                   </a>
-                  <Link to="/board-governors" className="af-1">
+                  <NavLink to="/board-governors" className="af-1">
                     Board of Governors
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Finance Committee
-                  </Link>
-                  <Link to="/Senate" className="af-1">
+                  </NavLink>
+                  <NavLink to="/Senate" className="af-1">
                     Senate
-                  </Link>
-                  <Link to="/co-ordination-committee" className="af-1">
+                  </NavLink>
+                  <NavLink to="/co-ordination-committee" className="af-1">
                     Co-ordination Committee
-                  </Link>
-                  <Link to="/contactus" className="af-1">
+                  </NavLink>
+                  <NavLink to="/contactus" className="af-1">
                     Reach Us
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Administration
                   </div>
-                  <Link to="/directorate" className="af-1">
+                  <NavLink to="/directorate" className="af-1">
                     Directorate
-                  </Link>
-                  <Link to="/staff" className="af-1">
+                  </NavLink>
+                  <NavLink to="/staff" className="af-1">
                     Officer & Staff
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Academic Affairs
-                  </Link>
-                  <Link to="/faculty" className="af-1">
+                  </NavLink>
+                  <NavLink to="/faculty" className="af-1">
                     Faculty
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Student Affairs
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Registrar's Office
-                  </Link>
-                  <Link to="/downloads" className="af-1">
+                  </NavLink>
+                  <NavLink to="/downloads" className="af-1">
                     Downloads
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Other Units
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Finance & Accounts
-                  </Link>
+                  </NavLink>
                   <a href={RTI} target="blank" className="af-1">
                     RTI
                   </a>
@@ -143,17 +143,17 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Department of IT
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Information Technology
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Department of CSE
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Computer Science Engineering
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -167,97 +167,97 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Student Counselling
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     About Counselling
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Common Concerns
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Services
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     FAQ
-                  </Link>
+                  </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Anti-Ragging Committee
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Anti-Sexual Harassment Policy
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Office Orders
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Hostel
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Student's Hostel
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Hostel Rules
-                  </Link>
+                  </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Mess
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Overview
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Mess Menu
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Mess Committee
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Mess Committee Duties
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     People
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Dean & Staff
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Wardens
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Counsellor
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Sports Staff
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Hostel Caretaker
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Office, Students' Affairs
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     People
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Notice Board
-                  </Link>
+                  </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Quick Links
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Student Portal Login
-                  </Link>
+                  </NavLink>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Sports/Gymkhana
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -271,52 +271,52 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Academic Programmes
                   </div>
-                  <Link to="/btech-it" className="af-1">
+                  <NavLink to="/btech-it" className="af-1">
                     B.Tech in IT
-                  </Link>
-                  <Link to="/btech-cs" className="af-1">
+                  </NavLink>
+                  <NavLink to="/btech-cs" className="af-1">
                     B.Tech in CS
-                  </Link>
+                  </NavLink>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     M.Tech in CS
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Useful Links
                   </div>
-                  <Link to="/calender" className="af-1">
+                  <NavLink to="/calender" className="af-1">
                     Academic Schedule
-                  </Link>
-                  <Link to="/seat-matrix" className="af-1">
+                  </NavLink>
+                  <NavLink to="/seat-matrix" className="af-1">
                     Seat Matrix
-                  </Link>
-                  <Link to="/course-structure" className="af-1">
+                  </NavLink>
+                  <NavLink to="/course-structure" className="af-1">
                     Course Structure
-                  </Link>
+                  </NavLink>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     List of Students
-                  </Link>
+                  </NavLink>
                 </div>
 
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Important Resolutions
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Office Orders
-                  </Link>
+                  </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Facility
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Lecture Hall Complex
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -330,71 +330,71 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Central Library
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     About
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     People
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     E-Resources
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Computer Centre
                   </div>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     People
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Services
-                  </Link>
+                  </NavLink>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     CC Lab
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     FAQ
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Download
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Notice Board
-                  </Link>
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Other Facilities
                   </div>
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Visitors' Hostel
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Transportation
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Security
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Health Centre
-                  </Link>
-                  <Link to="/comming-soon" className="af-1">
+                  </NavLink>
+                  <NavLink to="/comming-soon" className="af-1">
                     Department Research Facility
-                  </Link>
+                  </NavLink>
 
-                  <Link to="/comming-soon" className="af-1">
+                  <NavLink to="/comming-soon" className="af-1">
                     Lecture Hall Complex
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
             <a
               href="https://placements.iiitl.ac.in/"
               target="blank"
-              className="nav-link nav-res"
+              className="nav-NavLink nav-res"
             >
               Placements
             </a>
@@ -419,15 +419,15 @@ class Nav extends React.Component {
             </div>
           </div>
           <div className="nav-icons">
-            <Link to="#home" className="nav-res">
+            <NavLink to="#home" className="nav-res">
               <i className="fab fa-linkedin" />
-            </Link>
+            </NavLink>
             <a href="mailto:contact@iiitl.ac.in" className="nav-res">
               <i className="fas fa-envelope" />
             </a>
-            <Link to="#home" className="nav-res">
+            <NavLink to="#home" className="nav-res">
               <i className="fab fa-facebook" />
-            </Link>
+            </NavLink>
           </div>
         </div>
         {/* <div className="alt-nav">
