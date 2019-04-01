@@ -54,7 +54,13 @@ select:focus {
   background: #ecf0f1;
   color: #333 !important;
 }
-.seat-hid-table-1{
-    padding-bottom: 100px;
-    padding-top: 50px;
+.seat-hid-table-1 {
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.table-hid {
+  display: none;
+}
+.table-show {
+  display: block;
 }

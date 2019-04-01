@@ -3,12 +3,20 @@ import "./SeatMatrix.css";
 import { seatData } from "./Data";
 
 class SeatMatrix extends React.Component {
+  Show = () => {
+    let element = document.getElementById("seat-pool-category");
+    var x = `table-${element.value}`;
+    let toShow = document.getElementById(x);
+    toShow.className = "table-show";
+  };
+  componentDidMount() {
+    // this.Show();
+  }
   Row = props => {
-    let row = [];
-    for (var i = 0; i < 2; i++) {
-      row.push(<td key={i}>{props.data[i]}</td>);
-    }
-    return <tr className="hidden">{row}</tr>;
+    let x = props.data.map((value, index) => {
+      return <td>{value[index]}</td>;
+    });
+    return <tr className="table-hid">{x}</tr>;
   };
 
   render() {
@@ -32,6 +40,7 @@ class SeatMatrix extends React.Component {
                 </strong>
               </td>
             </tr>
+
             <tr>
               <td>Information Technology - Gender Nuetral</td>
               <td>64</td>
@@ -41,11 +50,35 @@ class SeatMatrix extends React.Component {
               <td>11</td>
             </tr>
             <tr>
+              <td>Computer Science & Engineering - Gender Nuetral</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Computer Science & Engineering - Female Only</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td colSpan="2">
+                <strong className="center ">
+                  <em>2-Year M.E./M.Tech. Course</em>
+                </strong>
+              </td>
+            </tr>
+            <tr>
+              <td>Computer Science (XS) - Gender Nuetral</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>Computer Science (XS) - Female Only</td>
+              <td>4</td>
+            </tr>
+            <tr />
+            <tr>
               <td>
                 <strong>Total</strong>
               </td>
               <td>
-                <strong>75</strong>
+                <strong>180</strong>
               </td>
             </tr>
           </tbody>
@@ -59,33 +92,28 @@ class SeatMatrix extends React.Component {
           </div>
           <form id="cp-couses-form">
             <p>
-              <select id="cat" className="cp-cut-select">
-                <option value="0" defaultValue="" disabled="">
-                  Category
-                </option>
-                <option value="gn">General</option>
-                <option value="bc">OBC (Non-Creamy Layer)</option>
-                <option value="sc">SC</option>
-                <option value="st">ST</option>
-                <option value="gnpd">General-PwD</option>
-                <option value="bcpd">OBC (Non-Creamy Layer)-PwD</option>
-                <option value="scpd">SC-PwD</option>
-                <option value="stpd">ST-PwD</option>
+              <select id="seat-pool-category" className="cp-cut-select">
+                <option value="0">General</option>
+                <option value="1">OBC (Non-Creamy Layer)</option>
+                <option value="2">SC</option>
+                <option value="3">ST</option>
+                <option value="4">General-PwD</option>
+                <option value="5">OBC (Non-Creamy Layer)-PwD</option>
+                <option value="6">SC-PwD</option>
+                <option value="7">ST-PwD</option>
               </select>
             </p>
+            <p />
             <p>
-              <select id="seat-pool" className="cp-cut-select">
-                <option value="0" defaultValue="" disabled="">
-                  Seat Pool
-                </option>
-                <option value="fo">Female Only</option>
-                <option value="gn">Gender Nuetral</option>{" "}
-              </select>
-            </p>
-            <p>
-              <a className="center" href="#g" id="cp-cut-go">
+              <p
+                className="center"
+                onClick={() => this.Show}
+                style={{ cursor: "pointer" }}
+                href="#g"
+                id="cp-cut-go"
+              >
                 Go
-              </a>
+              </p>
             </p>
           </form>
           <table className="seat-main-table seat-hid-table-1">
@@ -105,18 +133,14 @@ class SeatMatrix extends React.Component {
                   </strong>
                 </td>
               </tr>
-              <this.Row data={seatData.generalNeutral} id="table0" />
-              <this.Row data={seatData.generalNeutral} id="table1" />
-              <this.Row data={seatData.generalNeutral} id="table2" />
-              <this.Row data={seatData.generalNeutral} id="table3" />
-              <this.Row data={seatData.generalNeutral} id="table4" />
-              <this.Row data={seatData.generalNeutral} id="table5" />
-              <this.Row data={seatData.generalNeutral} id="table6" />
-              <this.Row data={seatData.generalNeutral} id="table7" />
-              <this.Row data={seatData.generalNeutral} id="table8" />
-              <this.Row data={seatData.generalNeutral} id="table9" />
-              <this.Row data={seatData.generalNeutral} id="table10" />
-              <this.Row data={seatData.generalNeutral} id="table11" />
+              <this.Row data={seatData.general} id="table-0" />
+              <this.Row data={seatData.OBCNC} id="table-1" />
+              <this.Row data={seatData.SC} id="table-2" />
+              <this.Row data={seatData.ST} id="table-3" />
+              <this.Row data={seatData.GeneralPWD} id="table-4" />
+              <this.Row data={seatData.OBCNCPWD} id="table-5" />
+              <this.Row data={seatData.NULL} id="table-6" />
+              <this.Row data={seatData.NULL} id="table-7" />
               {/* <tr>
                 <td>
                   <strong>Total</strong>

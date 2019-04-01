@@ -57,17 +57,41 @@ const InsAdmin = {
   }
 };
 const seatData = {
-  generalNeutral: ["Information Technology", 31],
-  generalFemale: ["Information Technology	", 5],
-  OBCNCNeutral: ["Information Technology", 16],
-  OBCNCFemale: ["Information Technology", 3],
-  SCNeutral: ["Information Technology", 9],
-  SCFemale: ["Information Technology", 1],
-  STNeutral: ["Information Technology", 5],
-  STFemale: ["Information Technology", 1],
-  GeneralPWDNeutral: ["Information Technology", 2],
-  NULL: ["Information Technology", 0],
-  OBCNCPWDNeutral: ["Information Technology", 1]
+  general: [
+    ["Information Technology", 31],
+    ["Computer Science & Engineering", 31],
+    ["Computer Science (XS)", 11]
+  ],
+  OBCNC: [
+    ["Information Technology", 16],
+    ["Computer Science & Engineering", 16],
+    ["Computer Science (XS)", 8]
+  ],
+  SC: [
+    ["Information Technology", 9],
+    ["Computer Science & Engineering", 9],
+    ["Computer Science (XS)", 5]
+  ],
+  ST: [
+    ["Information Technology", 5],
+    ["Computer Science & Engineering", 5],
+    ["Computer Science (XS)", 2]
+  ],
+  GeneralPWD: [
+    ["Information Technology", 2],
+    ["Computer Science & Engineering", 2],
+    ["Computer Science (XS)", 1]
+  ],
+  OBCNCPWD: [
+    ["Information Technology", 1],
+    ["Computer Science & Engineering", 1],
+    ["Computer Science (XS)", 0]
+  ],
+  NULL: [
+    ["Information Technology", 0],
+    ["Computer Science & Engineering", 0],
+    ["Computer Science (XS)", 0]
+  ]
 };
 const courseStructure = {
   tableHead: [
