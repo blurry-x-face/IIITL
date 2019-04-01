@@ -9,6 +9,76 @@
   font-weight: normal;
   font-size: 40px;
 }
+/* New Section start */
+.list-blog-post-new h1 {
+  font-weight: normal;
+  color: #005699;
+}
+
+.list-blog-new {
+  box-shadow: 0 3px 7px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  display: flex;
+  width: 90%;
+}
+.list-blog-new a {
+  text-decoration: none;
+  color: black;
+}
+.list-blog-post-head {
+  font-weight: normal;
+}
+/* #img1 {
+  background: url("../assets/dr-arun-sherry.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+.list-center-res-new {
+  display: flex;
+  align-items: center;
+}
+.list-blog-new img {
+  height: 220px;
+  width: 250px;
+}
+.list-blog-post-new {
+  padding: 0px 20px;
+}
+@media only screen and (max-width: 1676px) {
+  .list-blog-post-new h1 {
+    font-weight: normal;
+    color: #005699;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .list-blog-new {
+    box-shadow: 0 3px 7px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .list-blog-new {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .list-blog-new {
+    flex-direction: column;
+  }
+  .list-blog-new img {
+    height: 52vw;
+    width: 100%;
+  }
+}
+
+/* New section end */
 .blog {
   padding: 10px;
   display: flex;
@@ -31,7 +101,7 @@
 }
 #img1 {
   background: url("../assets/dr-arun-sherry.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 #img2 {
@@ -138,7 +208,7 @@
     height: 8vw;
   }
   .events-section {
-    padding-top: 20px;
+    /* padding-top: 20px; */
   }
 }
 

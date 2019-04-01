@@ -10,8 +10,10 @@ const Home = () => {
   return (
     <div className="home padding-res">
       {/* eslint-disable-next-line jsx-a11y/no-distracting-elements */}
-      {/* <marquee
-        scrollAmount="15"
+      <marquee
+        scrollAmount="10"
+        behaviour="alternate"
+        onMouseOver="this.stop();"
         style={{
           width: "100%",
           height: 20,
@@ -42,7 +44,7 @@ const Home = () => {
           Postponement of Selection Process on 14th October 2018 for IIIT
           Lucknow
         </span>
-      </marquee> */}
+      </marquee>
       <Carousel />
       {/* <Card /> */}
       <Latest />

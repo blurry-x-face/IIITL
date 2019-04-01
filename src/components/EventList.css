@@ -26,6 +26,6 @@
   color: #005f9e;
   transition: all 0.3s;
 }
-.events-list-news-article:hover .events-list-news-link {
+.events-list-news-article:hover .events-list-news-link:hover {
   color: #002642;
 }

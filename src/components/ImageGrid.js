@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const ImageGrid = () => {
   return (
     <div className="img-grid-global">
-      <div className="img-grid-head">Closer look for the curious</div>
+      <div className="img-grid-head">State of the Art</div>
       <Link to="/gallery">
         <div className="img-grid-row">
           <div className="img-grid-column">

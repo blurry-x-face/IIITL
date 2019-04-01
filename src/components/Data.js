@@ -310,52 +310,26 @@ const blogs = [
   {
     head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
     para:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Prof. Arun Mohan Sherry, an alumnus of IIT-Kharagpur has been appointed the founding director of the Indian Institute of Information Technology (IIIT), Lucknow.",
     img: BlogImage1
   },
   {
     head: "Pariksha Pe Charcha 2.0'",
     para:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "As part of the second edition of ''Pariksha Pe Charcha 2.0'' Prime Minister Narendra Modi interacts with a total of 2000 students, parents and teachers in the national capital today.",
     img: BlogImage2
   },
   {
     head: "Expert Guest Lectures and Research Interaction",
     para:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "Three eminent academicians, Prof. B. B. Chaudhuri, ISI Kolkata, Prof. S. Sadagopan, IIIT Bangalore and Prof. B. Chanda, ISI Kolkata visited the IIIT Allahabad campus between 20th and 23rd March 2018.",
     img: BlogImage3
   }
 ];
 const article = [
   {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
-  },
-  {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
-  },
-  {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
-  },
-  {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
-  },
-  {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
-  },
-  {
-    article:
-      "Yale President Peter Salovey’s statement on proposed Title IX rule changes",
-    date: "January 29,2019"
+    article: "Coding Competition for first years to be held on 4 april 2019.",
+    date: "March 28, 2019"
   }
 ];
 export {

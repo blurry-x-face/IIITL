@@ -1,11 +1,19 @@
 import React from "react";
 import "./SideCard.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Side = props => {
   const lol = props.Ins.anchor.name.map((name, index) => {
     return (
       <div className="side-card-sub-head" key={index}>
-        <Link to={props.Ins.anchor.links[index]}>{name}</Link>
+        <NavLink
+          activeStyle={{
+            fontWeight: "bold",
+            color: "#005699"
+          }}
+          to={props.Ins.anchor.links[index]}
+        >
+          {name}
+        </NavLink>
       </div>
     );
   });

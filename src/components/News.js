@@ -1,14 +1,106 @@
 import React from "react";
 import "./News.css";
 import { Link } from "react-router-dom";
+import { blogs } from "./Data";
 
 class News extends React.Component {
+  Item = props => {
+    return (
+      <div className="list-blog-new">
+        <div className="list-center-res-new">
+          <img src={props.data.img} alt="img" />
+        </div>
+        <Link to="/comming-soon">
+          <div className="list-blog-post-new">
+            <h1 className="list-blog-post-head-new">{props.data.head}</h1>
+
+            <p className="list-blog-post-p-new">{props.data.para}</p>
+          </div>
+        </Link>
+      </div>
+    );
+  };
   render() {
     return (
       <div className="news-global">
         <div className="news-section">
-          <h1 className="news-section-head">Latest News</h1>
-          <div className="blogs">
+          <h1 className="news-section-head">Closer look for the curious</h1>
+          <div className="blogs-new">
+            <this.Item data={blogs[0]} />
+            <this.Item data={blogs[1]} />
+            <this.Item data={blogs[2]} />
+          </div>
+          <div className="more-blogs">
+            <div className="more">
+              <Link
+                className="news-link news-hover"
+                to="/news"
+                // style={{ color: "rgb(59, 59, 149)" }}
+              >
+                More <i className="fas fa-arrow-right" />
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="events-section">
+          {" "}
+          <div className="center">
+            <div className="c2">
+              <h1 className="news-section-head">Events</h1>
+              <div className="news-article">
+                <Link to="/comming-soon" className="news-link fonts">
+                  Coding Competition for first years to be held on 4 april 2019.
+                </Link>
+                <p className="date">March 28, 2019</p>
+              </div>
+              {/* <div className="news-article">
+                <Link to="/comming-soon" className="news-link fonts">
+                  New Office of Undergraduate Financial Aid promotes clarity
+                </Link>
+                <p className="date">January 30, 2019</p>
+              </div>
+              <div className="news-article hides">
+                <Link to="/comming-soon" className="news-link fonts">
+                  Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
+                  byline?
+                </Link>
+                <p className="date">January 30, 2019</p>
+              </div>
+              <div className="news-article hides">
+                <Link to="/comming-soon" className="news-link fonts">
+                  From Yale to data science: How one alum made the leap
+                </Link>
+                <p className="date">January 30, 2019</p>
+              </div> */}
+              <div className="news-article more-news">
+                <Link
+                  className="news-link news-hover"
+                  to="/events"
+                  // style={{ color: "rgb(59, 59, 149)" }}
+                >
+                  More <i className="fas fa-arrow-right" />
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="center">
+            <div className="payment-section">
+              <h1 className="payment-head">Payment Gateway</h1>
+              <p>Payment Gateway for various payment methods.</p>
+              <button className="payment-button" disabled>
+                Pay Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default News;
+/* 
+<div className="blogs">
             <div className="blog">
               <div className="center-res">
                 <div className="blog-image" id="img1" />
@@ -65,72 +157,4 @@ class News extends React.Component {
               </Link>
             </div>
           </div>
-          <div className="more-blogs">
-            <div className="more">
-              <Link
-                className="news-link news-hover"
-                to="/news"
-                // style={{ color: "rgb(59, 59, 149)" }}
-              >
-                More <i className="fas fa-arrow-right" />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="events-section">
-          {" "}
-          <div className="center">
-            <div className="c2">
-              <div className="news-head">Events</div>
-              <div className="news-article">
-                <Link to="/comming-soon" className="news-link fonts">
-                  Coding Competition for first years to be held on 4 april 2019.
-                </Link>
-                <p className="date">March 28, 2019</p>
-              </div>
-              {/* <div className="news-article">
-                <Link to="/comming-soon" className="news-link fonts">
-                  New Office of Undergraduate Financial Aid promotes clarity
-                </Link>
-                <p className="date">January 30, 2019</p>
-              </div>
-              <div className="news-article hides">
-                <Link to="/comming-soon" className="news-link fonts">
-                  Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
-                  byline?
-                </Link>
-                <p className="date">January 30, 2019</p>
-              </div>
-              <div className="news-article hides">
-                <Link to="/comming-soon" className="news-link fonts">
-                  From Yale to data science: How one alum made the leap
-                </Link>
-                <p className="date">January 30, 2019</p>
-              </div> */}
-              <div className="news-article more-news">
-                <Link
-                  className="news-link news-hover"
-                  to="/events"
-                  // style={{ color: "rgb(59, 59, 149)" }}
-                >
-                  More <i className="fas fa-arrow-right" />
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="center">
-            <div className="payment-section">
-              <h1 className="payment-head">Payment Gateway</h1>
-              <p>Payment Gateway for various IIIT Lucknow</p>
-              <button className="payment-button" disabled>
-                Pay Now
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default News;
+*/
