@@ -107,7 +107,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                Contact Us
+                Reach Us
               </Link>
             </div>
             <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
@@ -140,7 +140,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                Faculty Affairs
+                Faculty
               </Link>
               <Link
                 to="/comming-soon"
@@ -189,7 +189,7 @@ class AltNav extends React.Component {
           <div className="alt-dropdown-content" id="alt-dropdown-content-2">
             <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
-                Engineering Sciences Stream
+                Department of IT
               </div>
               <Link
                 to="/comming-soon"
@@ -198,38 +198,17 @@ class AltNav extends React.Component {
               >
                 Information Technology
               </Link>
-              <Link
-                to="/comming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Computer Science
-              </Link>
-              <Link
-                to="/comming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Electronics & Communications Engineering
-              </Link>
             </div>
             <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
-                Humanities and Social Sciences Stream
+                Department of CSE
               </div>
               <Link
                 to="/comming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                Economic Sciences
-              </Link>
-              <Link
-                to="/comming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Humanities and Social Sciences
+                Computer Science and Engineering
               </Link>
             </div>
           </div>
@@ -474,7 +453,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                B.Tech in ECE
+                M.Tech in CSE
               </Link>
               <Link
                 to="/comming-soon"
@@ -503,13 +482,6 @@ class AltNav extends React.Component {
                 Academic Schedule
               </Link>
               <Link
-                to="/faculty"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Faculty
-              </Link>
-              <Link
                 to="/seat-matrix"
                 onClick={() => this.closeNav()}
                 className="af-1"
@@ -522,20 +494,6 @@ class AltNav extends React.Component {
                 className="af-1"
               >
                 Course Structure
-              </Link>
-              <Link
-                to="/comming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                List of Students
-              </Link>
-              <Link
-                to="/comming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Convocation
               </Link>
             </div>
 
@@ -705,9 +663,6 @@ class AltNav extends React.Component {
                 className="af-1"
               >
                 Health Centre
-              </Link>
-              <Link to="placements.iiitl.ac.in" className="af-1">
-                Placement
               </Link>
               <Link
                 to="/comming-soon"

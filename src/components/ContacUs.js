@@ -1,46 +1,49 @@
 import React, { Component } from "react";
+import image from "../assets/ReachUs.png";
 import "./ContactUs.css";
+import ScrolltoTop from "./ScrollToTop";
 
 class ContactUs extends Component {
   render() {
     return (
       <div className="contact-us-global">
-        <h1 className="contact-us-global-head">Contact Us</h1>
-        <div class="map">
-          <div id="map">
-            <iframe
-              className="map-iframe"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35126.04598897896!2d81.0151556732693!3d26.785889849743928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34d9dd79cdeac7d8!2sIIIT+LUCKNOW!5e0!3m2!1sen!2sin!4v1553935523313!5m2!1sen!2sin"
-              style={{
-                width: "100%",
-                height: "100%",
-                frameborder: "0",
-                border: 0
-              }}
-              allowfullscreen
-              title="map"
-            />
+        <ScrolltoTop />
+        <h1 className="contact-us-global-head">Reach us</h1>
+        <div className="contact-us">
+          <div className="contact-us-img">
+            <img src={image} alt="img" />
           </div>
-          <div class="map-c">
-            <h1>ABC Stores</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium id cumque est dolores voluptatibus.
+          <div className="contact-us-para-global">
+            <p className="contact-us-para">
+              The permanent campus of IIIT, Lucknow is coming up in 50 acres of
+              land at Chak Ganjaria Region, Lucknow. The Institute is being set
+              up with the financial contributions of MHRD, Govt. of India, Govt.
+              of Uttar Pradesh, and U. P. Electronics Corporation Ltd. as
+              industry partner.It is a couple of kilometers away from the
+              International cricket stadium (along with many other sports
+              facilities ) which is being set up in Gomti Nagar extension.
+              <br />
+              <br />
+              The institute is surrounded by a 100 Acre IT City SEZ Lucknow
+              project which is being developed by HCL Group selected through a
+              competitive bidding process envisages initial investment of
+              approx. Rs 1500 crores.The IT city will provide direct employment
+              to 25,000 with indirect employment to approx. 50,000 people.
             </p>
-            <div class="det">
-              <i class="fa fa-map-marker" /> 102 New Road, New City
-            </div>
-            <div class="det">
-              <i class="fa fa-phone" /> 001 2045 509
-            </div>
-            <div class="det">
-              <i class="fa fa-globe" /> www.abcstores.com
-            </div>
-            <center>
-              <button class="fa fa-car" />
-              <button class="fa fa-envelope" />
-            </center>
           </div>
+        </div>
+
+        <div className="google-map">
+          <iframe
+            className="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35126.04598897896!2d81.0151556732693!3d26.785889849743928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34d9dd79cdeac7d8!2sIIIT+LUCKNOW!5e0!3m2!1sen!2sin!4v1553935523313!5m2!1sen!2sin"
+            style={{
+              frameborder: "0",
+              border: 0
+            }}
+            allowfullscreen
+            title="map"
+          />
         </div>
       </div>
     );

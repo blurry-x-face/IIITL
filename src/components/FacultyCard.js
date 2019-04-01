@@ -13,6 +13,8 @@ class FacultyCard extends React.Component {
             <li className="author">
               <a href="#s">{props.data.name}</a>
             </li>
+            <li className="date">{props.data.post}</li>
+            <li className="date">{props.data.post2}</li>
             <li className="date">{props.data.position}</li>
             {/* <li className="tags">{props.data.qualification}</li> */}
           </ul>
@@ -20,7 +22,9 @@ class FacultyCard extends React.Component {
         <div className="description">
           <h1>{props.data.name}</h1>
           <h2>
+            <div>{props.data.post}</div>
             {props.data.position}
+
             <div>{props.data.qualification}</div>
           </h2>
           <p className="faculty-pseudo">
@@ -55,6 +59,7 @@ class FacultyCard extends React.Component {
           <h2>
             {props.data.position}
             <div>{props.data.qualification}</div>
+            <div>{props.data.post}</div>
           </h2>
           <p className="faculty-pseudo">
             <h2 style={{ color: "black" }}>Research Areas:</h2>
@@ -73,15 +78,15 @@ class FacultyCard extends React.Component {
   render() {
     return (
       <div className="faculty-global padding-res    ">
-        {/* <this.Card data={facultyCardData[0]} alt={false} /> */}
-        <this.Card data={facultyCardData[4]} alt={true} />
-        <this.Card data={facultyCardData[2]} alt={false} />
-        <this.Card data={facultyCardData[8]} alt={true} />
-        <this.Card data={facultyCardData[3]} alt={false} />
-        <this.Card data={facultyCardData[5]} alt={true} />
         <this.Card data={facultyCardData[1]} alt={false} />
-        <this.Card data={facultyCardData[6]} alt={true} />
+        <this.Card data={facultyCardData[8]} alt={true} />
         <this.CustomLinkCard data={facultyCardData[7]} alt={false} />
+        <this.Card data={facultyCardData[2]} alt={true} />
+        <this.Card data={facultyCardData[6]} alt={false} />
+        <this.Card data={facultyCardData[5]} alt={true} />
+        <this.Card data={facultyCardData[3]} alt={false} />
+        <this.Card data={facultyCardData[9]} alt={true} />
+        <this.Card data={facultyCardData[4]} alt={false} />
       </div>
     );
   }

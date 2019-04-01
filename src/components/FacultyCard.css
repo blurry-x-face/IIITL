@@ -1,13 +1,6 @@
-/*PEN STYLES*/
-/* * {
-  box-sizing: border-box;
+.faculty-global {
+  margin-bottom: 80px;
 }
-
-body {
-  background: #f1f1f1;
-  margin: 2rem;
-} */
-
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -127,6 +120,9 @@ body {
   display: inline-block;
   position: relative;
 }
+.description div {
+  padding: 1px 0px;
+}
 /* .blog-card .description .read-more a:after {
   content: "\f061";
   font-family: FontAwesome;
@@ -212,6 +208,12 @@ body {
 }
 #brijeshChaurasia {
   background: url("../assets/facultyData/Brijesh_Chaurasia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#sushilTiwari {
+  background: url("../assets/facultyData/Sushil.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

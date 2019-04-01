@@ -33,7 +33,9 @@ class BoG extends React.Component {
     if (this.state.isOpen) {
       this.setState({ isOpen: false });
       prevDisp.style.display = "none";
-      this.state.btnNo[this.state.prevBtn] = !this.state.btnNo[this.state.prevBtn];
+      this.state.btnNo[this.state.prevBtn] = !this.state.btnNo[
+        this.state.prevBtn
+      ];
       //   this.setState({ toggle: !this.state.toggle });
       if (n !== this.state.prevSelect) {
         this.setState({ isOpen: true });
@@ -88,7 +90,7 @@ class BoG extends React.Component {
                     Delhi
                   </div>
                   <div className="bog-des">
-                    Chairman{" "}
+                    Chairman
                     <div
                       id="bog-btn-1"
                       className={
@@ -105,7 +107,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-1">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">Dr Arun Mohan Sherry</div>
                   </div>
@@ -118,7 +120,7 @@ class BoG extends React.Component {
                       <br /> div: +0532 2922032 <br />
                       E: contact@iiitl.ac.in
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -127,8 +129,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Chief Secretary Govt. of Uttar Pradesh, Lucknow
                   </div>
                   <div className="bog-des">
                     Member
@@ -147,7 +148,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-2">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -156,7 +157,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -165,8 +166,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Addl. Secretary Technical Education, MHRD, New Delhi
                   </div>
                   <div className="bog-des">
                     Member
@@ -185,7 +185,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-3">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -194,7 +194,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -203,8 +203,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Financial Advisor MHRD, New Delhi
                   </div>
                   <div className="bog-des">
                     Member
@@ -223,7 +222,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-4">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -232,7 +231,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -241,8 +240,8 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Principal Secretary Technical Education Deptt. Govt. of
+                    Uttar Pradesh, Lucknow
                   </div>
                   <div className="bog-des">
                     Member
@@ -261,7 +260,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-5">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -270,7 +269,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -279,8 +278,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Director Technical Education, MHRD, New Delhi
                   </div>
                   <div className="bog-des">
                     Member
@@ -299,7 +297,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-6">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -308,7 +306,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -317,8 +315,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Director Moti Lal Nehru Institute of Technology, Allahabad
                   </div>
                   <div className="bog-des">
                     Member
@@ -337,7 +334,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-7">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -346,7 +343,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -355,8 +352,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Vice Chancellor Uttar Pradesh Technical University, Lucknow
                   </div>
                   <div className="bog-des">
                     Member
@@ -375,7 +371,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-8">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -384,7 +380,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -393,8 +389,8 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Principal Secretary IT and Electronics Deptt. Govt. of Uttar
+                    Pradesh, Lucknow
                   </div>
                   <div className="bog-des">
                     Member
@@ -413,7 +409,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-9">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -422,7 +418,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -431,8 +427,7 @@ class BoG extends React.Component {
               >
                 <div className="bog-content inner">
                   <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
+                    Managing Director U.P. Electronics Corporation Ltd., Lucknow
                   </div>
                   <div className="bog-des">
                     Member
@@ -451,7 +446,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-10">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -460,7 +455,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div
@@ -468,12 +463,9 @@ class BoG extends React.Component {
                 onClick={() => this.bogDrop("bog-11", 10)}
               >
                 <div className="bog-content inner">
-                  <div className="bog-post">
-                    Education Secretary Deptt. of Higher Education MHRD, New
-                    Delhi
-                  </div>
+                  <div className="bog-post">Director,IIIT Lucknow</div>
                   <div className="bog-des">
-                    Member
+                    Secretary
                     <div
                       className={
                         this.state.btnNo[10] === false
@@ -489,7 +481,7 @@ class BoG extends React.Component {
                   </div>
                 </div>
                 <div className="bog-content-hidden inner" id="bog-11">
-                  <div className="bog-name">
+                  {/* <div className="bog-name">
                     <div className="bog-name-head bog-hidden-head">Name</div>
                     <div className="bog-name-content">BoG Name</div>
                   </div>
@@ -498,7 +490,7 @@ class BoG extends React.Component {
                       Address
                     </div>
                     <div className="bog-address-content">BoG Address</div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

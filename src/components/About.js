@@ -1,9 +1,11 @@
 import React from "react";
 import "./About.css";
+import ScrollToTopOnMount from "./ScrollToTop";
 const About = () => {
   return (
     <div className="about-global padding-res">
       <div className="about-head">Welcome to IIIT Lucknow</div>
+      <ScrollToTopOnMount></ScrollToTopOnMount>
       {/* <div className="about-img" /> */}
       <div className="about-content">
         Indian Institute of Information Technology, Lucknow (IIIT Lucknow) is

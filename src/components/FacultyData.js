@@ -6,27 +6,32 @@ const facultyCardData = [
     researchArea: "Bioelectrics, Biomechanics, Machine Learning",
     contact: "Email: am@iiitl.ac.in",
     id: "ashutoshMishra",
-    link: "/comming-soon"
+    link: "/comming-soon",
+    post: "",
+    post2: ""
   },
   {
     name: "Dr. Abhishek Pandey",
-    position: "Assistant Professor",
+    position: "Guest Faculty",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
     id: "abhishekPandey",
-    link: "/comming-soon"
+    link: "/comming-soon",
+    post: "",
+    post2: ""
   },
   {
     name: "Dr. Mary Samuel",
     position: "Assistant Professor",
-    qualification:
-      "Ph.D (2014-2017) from Mahatma Gandhi University, Kottayam, Kerala",
+    qualification: "Ph.D from Mahatma Gandhi University, Kerala",
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
     id: "marySamuel",
-    link: "/comming-soon"
+    link: "/comming-soon",
+    post: "Faculty In-charge Student Activities",
+    post2: ""
   },
   {
     name: "Dr. Soumendu Chakraborty",
@@ -36,7 +41,9 @@ const facultyCardData = [
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
-    link: "/faculty/somendu"
+    link: "/faculty/somendu",
+    post: "Faculty In-charge Technical Committee",
+    post2: ""
   },
   {
     name: "Dr. Vishal Krishna Singh",
@@ -46,13 +53,14 @@ const facultyCardData = [
       "Wireless Sensor Networks, In-network Inference, Data Mining Database Management, Data Analytics, Internet of Things",
     contact: "Email: vks@iiitl.ac.in",
     id: "vks",
-    link: "/faculty/vks"
+    link: "/faculty/vks",
+    post: "Faculty In-charge Training and Placements",
+    post2: "Faculty In-charge Reasearch and Development"
   },
   {
     name: "Dr. Shikha Gautam",
-    position: "Assistant Professor",
-    qualification:
-      "Ph.D. (CS) from Department of Computer Science, University of Lucknow, Lucknow",
+    position: "Guest Faculty",
+    qualification: "Ph.D. (CS), University of Lucknow, Lucknow",
     researchArea:
       "Software Engineering, Software Quality, and Software Reliability/Usability",
     contact: "Email: shikhagautam@iiitl.ac.in",
@@ -67,11 +75,12 @@ const facultyCardData = [
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
     contact: "Email: niharika@iiitl.ac.in",
     id: "niharikaAnand",
-    link: "/faculty/niharika"
+    link: "/faculty/niharika",
+    post: "Faculty Incharge Library"
   },
   {
     name: "Dr. Deepanjan Roy",
-    position: "Assistant Professor",
+    position: "Guest Faculty",
     qualification: "Ph. D. from IIT Indore",
     researchArea:
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
@@ -85,9 +94,21 @@ const facultyCardData = [
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
-    contact: "Email: droy@iiitl.ac.in",
+    contact: "Email: n/a@iiitl.ac.in",
     id: "brijeshChaurasia",
-    link: "/comming-soon"
+    link: "/comming-soon",
+    post: "Interim Head"
+  },
+  {
+    name: "Mr. Sushil Tiwari",
+    position: "Guest Faculty",
+    qualification: "PH. D. from IIITDM, Jabalpur",
+    researchArea:
+      "Wireless Indoor Localization, Machine Learning, Ad-hoc Network",
+    contact: "stiwari@iiitl.ac.in",
+    id: "sushilTiwari",
+    link: "/comming-soon",
+    post: ""
   }
 ];
 export default facultyCardData;

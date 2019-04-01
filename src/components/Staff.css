@@ -57,7 +57,7 @@
   color: white;
   background-color: #104463;
   text-align: center;
-  cursor: pointer;
+  cursor: not-allowed;
   width: 100%;
 }
 

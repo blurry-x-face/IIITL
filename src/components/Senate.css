@@ -1,3 +1,9 @@
+.senate-global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 .senate-global table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -36,7 +42,7 @@
   border: none;
   border-bottom: 1px solid #dddddd;
 }
-.senate-global{
-    background: white;
-    /* padding-left: 100px; */
+.senate-global {
+  background: white;
+  /* padding-left: 100px; */
 }

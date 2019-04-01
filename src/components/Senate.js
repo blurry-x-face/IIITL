@@ -36,10 +36,7 @@ const Senate = () => {
                 Heads of all departments, faculties or schools, ex-officio as
                 the case may be, of the Institute
               </td>
-              <td>
-                Interim Head & Coordinator for Admissions & Examinations – Dr.
-                Brijesh Kumar Chaurasia
-              </td>
+              <td>Head &amp; Coordinator for Admissions &amp; Examinations</td>
             </tr>
             <tr>
               <td>4</td>
@@ -78,7 +75,7 @@ const Senate = () => {
               <td>5</td>
               <td> 18(1)(g)</td>
               <td> Registrar of the Institute, ex-officio Secretary.</td>
-              <td>Interim Registrar, IIITL – Dr. Amit Kumar Singh</td>
+              <td>Interim Registrar, IIITL</td>
             </tr>
           </tbody>
         </table>

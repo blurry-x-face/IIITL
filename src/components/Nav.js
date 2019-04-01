@@ -91,7 +91,7 @@ class Nav extends React.Component {
                     Co-ordination Committee
                   </Link>
                   <Link to="/contactus" className="af-1">
-                    Contact Us
+                    Reach Us
                   </Link>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
@@ -289,9 +289,6 @@ class Nav extends React.Component {
                   <Link to="/calender" className="af-1">
                     Academic Schedule
                   </Link>
-                  <Link to="/faculty" className="af-1">
-                    Faculty
-                  </Link>
                   <Link to="/seat-matrix" className="af-1">
                     Seat Matrix
                   </Link>
@@ -383,9 +380,6 @@ class Nav extends React.Component {
                   </Link>
                   <Link to="/comming-soon" className="af-1">
                     Health Centre
-                  </Link>
-                  <Link to="placements.iiitl.ac.in" className="af-1">
-                    Placement
                   </Link>
                   <Link to="/comming-soon" className="af-1">
                     Department Research Facility

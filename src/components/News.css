@@ -168,11 +168,12 @@
   padding: 10px;
   font-size: 18px;
   border-radius: 5px;
+  cursor: not-allowed;
 }
 .payment-button:hover {
   color: black;
   background: rgb(196, 194, 194);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .payment-button:focus {
   outline-color: transparent;

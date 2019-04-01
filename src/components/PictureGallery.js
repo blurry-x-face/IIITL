@@ -1,5 +1,7 @@
 import React from "react";
 import "./PictureGallery.css";
+import ScrollToTopOnMount from "./ScrollToTop";
+
 import image1 from "../assets/gallery/img1.jpg";
 import image2 from "../assets/gallery/img2.jpg";
 import image3 from "../assets/gallery/img3.jpg";
@@ -23,6 +25,7 @@ class Gallery extends React.Component {
   render() {
     return (
       <div className="gallery-global">
+        <ScrollToTopOnMount />
         <div className="gallery-global-head">
           <h1>Image Gallery for IIIT Lucknow</h1>
         </div>

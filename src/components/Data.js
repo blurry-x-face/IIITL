@@ -22,7 +22,7 @@ const Ins = {
       "Board of Governors",
       "Finance Committee",
       "Senate",
-      "Contact Us"
+      "Reach Us"
     ],
     links: [
       "/About",
