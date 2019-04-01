@@ -1,6 +1,7 @@
 import React from "react";
 import "./NewsList.css";
 import { blogs } from "./Data";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class NewsList extends React.Component {
   Item = props => {
@@ -22,6 +23,7 @@ class NewsList extends React.Component {
   render() {
     return (
       <div className="news-list-global">
+        <ScrollToTopOnMount />
         <div className="news-list-head">
           <h1>News from IIIT Lucknow</h1>
         </div>

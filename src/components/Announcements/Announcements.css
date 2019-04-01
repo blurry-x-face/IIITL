@@ -1,0 +1,28 @@
+.announcements-global {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 10px;
+  margin-bottom: 120px;
+}
+.announcements-inner {
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.announcements-inner h1 {
+  font-weight: normal;
+  font-size: 40px;
+  color: #005699;
+}
+.announcements-inner a {
+  text-decoration: none;
+  color: rgb(1, 68, 46);
+  align-self: flex-end;
+  font-size: 20px;
+}
+.announcements-inner p {
+  font-size: 18px;
+}

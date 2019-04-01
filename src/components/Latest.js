@@ -1,5 +1,7 @@
 import React from "react";
 import "./Latest.css";
+import { Link } from "react-router-dom";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class Latest extends React.Component {
   state = {
@@ -109,49 +111,54 @@ class Latest extends React.Component {
             >
               <i className="fas fa-angle-left" />
             </div> */}
-            <div className="box-1 hidden1 active1">
-              {" "}
-              <p className="latest-blog-date">March 2, 2019</p>{" "}
-              <p className="latest-blog-head">Logo Design Contest</p>{" "}
-              <p className="latest-blog-content">
-                The Contest is open to all IIITL Students, Employees and all
-                stake holders of IIITL.
-              </p>
-            </div>
-            <div className="box-2 hidden1 active1">
-              <p className="latest-blog-date">January, 2019</p>{" "}
-              <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
-              <p className="latest-blog-content" />
-            </div>
-            <div className="box-3 hidden1 active1">
-              <p className="latest-blog-date">July, 2019</p>{" "}
-              <p className="latest-blog-head">Updated Fee Structure</p>{" "}
-              <p className="latest-blog-content">
-                Fee Structure for IIIT Lucknow has been updated.
-              </p>
-            </div>
-            <div className="box-4 hidden1 active1">
-              <p className="latest-blog-date">October 14, 2018</p>{" "}
-              <p className="latest-blog-head">
-                Postponement of Selection Process
-              </p>{" "}
-              <p className="latest-blog-content">
-                Postponement of proposed Selection Process on 14th October 2018
-                for the post of Junior Superintendent and Junior Engineer for
-                IIIT Lucknow till further order. Will be intimated next date
-                when it is finalized.
-              </p>
-            </div>
-            <div className="box-5 hidden1">
-              <p className="latest-blog-date">Jan, 2018</p>{" "}
-              <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
-              <p className="latest-blog-content" />
-            </div>
-            <div className="box-6 hidden1">
-              <p className="latest-blog-date">Feb, 2019</p>{" "}
-              <p className="latest-blog-head">Pareekhsha pe Charcha-6</p>{" "}
-              <p className="latest-blog-content" />
-            </div>
+            <Link to="/announcements/1">
+              <div className="box-1 hidden1 active1">
+                {" "}
+                <p className="latest-blog-date">March 2, 2019</p>{" "}
+                <p className="latest-blog-head">Logo Design Contest</p>{" "}
+                <p className="latest-blog-content">
+                  The Contest is open to all IIITL Students, Employees and all
+                  stake holders of IIITL.
+                </p>
+              </div>
+            </Link>
+            <Link to="/announcements/2">
+              <div className="box-2 hidden1 active1">
+                <p className="latest-blog-date">January, 2019</p>{" "}
+                <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
+                <p className="latest-blog-content" />
+              </div>
+            </Link>
+            <Link to="/announcements/3">
+              <div className="box-3 hidden1 active1">
+                <p className="latest-blog-date">July, 2019</p>{" "}
+                <p className="latest-blog-head">Updated Fee Structure</p>{" "}
+                <p className="latest-blog-content">
+                  Fee Structure for IIIT Lucknow has been updated.
+                </p>
+              </div>
+            </Link>
+            <Link to="/announcements/4">
+              <div className="box-4 hidden1 active1">
+                <p className="latest-blog-date">October 14, 2018</p>{" "}
+                <p className="latest-blog-head">
+                  Postponement of Selection Process
+                </p>{" "}
+                <p className="latest-blog-content">
+                  Postponement of proposed Selection Process on 14th October
+                  2018 for the post of Junior Superintendent and Junior Engineer
+                  for IIIT Lucknow till further order. Will be intimated next
+                  date when it is finalized.
+                </p>
+              </div>
+            </Link>
+            <Link to="/announcements/5">
+              <div className="box-5 hidden1">
+                <p className="latest-blog-date">Jan, 2018</p>{" "}
+                <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
+                <p className="latest-blog-content" />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

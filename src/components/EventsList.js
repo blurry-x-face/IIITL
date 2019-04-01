@@ -2,6 +2,7 @@ import React from "react";
 import "./EventList.css";
 import { article } from "./Data";
 import { Link } from "react-router-dom";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class EventList extends React.Component {
   Article = props => {
@@ -23,6 +24,7 @@ class EventList extends React.Component {
   render() {
     return (
       <div className="event-list-global padding-res">
+        <ScrollToTopOnMount />
         <div className="event-list-head">
           <h1>Events at IIIT Lucknow</h1>
         </div>

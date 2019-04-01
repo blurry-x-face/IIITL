@@ -1,6 +1,6 @@
 import React from "react";
 import "./SideCard.css";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Side = props => {
   const lol = props.Ins.anchor.name.map((name, index) => {
     return (

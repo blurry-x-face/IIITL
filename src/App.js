@@ -37,6 +37,11 @@ import Somendu from "./components/Faculty/Somendu";
 import ST from "./components/Faculty/ST";
 import Blog from "./components/Blogs/Blog1";
 import PictureGallery from "./components/PictureGallery";
+import Announcements1 from "./components/Announcements/Announcements1";
+import Announcements2 from "./components/Announcements/Announcement2";
+import Announcements3 from "./components/Announcements/Announcement3";
+import Announcements4 from "./components/Announcements/Announcements4";
+import Announcements5 from "./components/Announcements/Announcements5";
 
 class App extends Component {
   render() {
@@ -86,6 +91,11 @@ class App extends Component {
         <Route path="/events" exact component={EventList} />
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
+        <Route path="/announcements/1" exact component={Announcements1} />
+        <Route path="/announcements/2" exact component={Announcements2} />
+        <Route path="/announcements/3" exact component={Announcements3} />
+        <Route path="/announcements/4" exact component={Announcements4} />
+        <Route path="/announcements/5" exact component={Announcements5} />
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
         {window.location.pathname === "/faculty/vks" ||

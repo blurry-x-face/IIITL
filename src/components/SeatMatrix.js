@@ -3,20 +3,58 @@ import "./SeatMatrix.css";
 import { seatData } from "./Data";
 
 class SeatMatrix extends React.Component {
+  state = { isShowing: false, prev: "", isFirst: true };
   Show = () => {
+    debugger;
     let element = document.getElementById("seat-pool-category");
     var x = `table-${element.value}`;
+    if (this.state.prev === x) {
+      return;
+    }
     let toShow = document.getElementById(x);
-    toShow.className = "table-show";
+    toShow.style.display = "table";
+    if (!this.state.isFirst) {
+      let prevEle = document.getElementById(this.state.prev);
+      prevEle.style.display = "none";
+    }
+    this.setState({ isFirst: false });
+    this.setState({ prev: x });
   };
   componentDidMount() {
-    // this.Show();
+    this.Show();
   }
   Row = props => {
     let x = props.data.map((value, index) => {
-      return <td>{value[index]}</td>;
+      return (
+        <tr>
+          {" "}
+          <td>{value[0]}</td>
+          <td>{value[1]}</td>
+        </tr>
+      );
     });
-    return <tr className="table-hid">{x}</tr>;
+    return (
+      <table className="seat-main-table seat-hid-table-1" id={props.id}>
+        <tbody>
+          <tr>
+            <td>
+              <strong>Branch</strong>
+            </td>
+            <td>
+              <strong>Seats</strong>
+            </td>
+          </tr>
+          {/* <tr>
+            <td colSpan="2">
+              <strong className="center ">
+                <em>4-Year B.E./B.Tech. Course</em>
+              </strong>
+            </td>
+          </tr> */}
+          {x}
+        </tbody>
+      </table>
+    );
   };
 
   render() {
@@ -107,7 +145,7 @@ class SeatMatrix extends React.Component {
             <p>
               <p
                 className="center"
-                onClick={() => this.Show}
+                onClick={() => this.Show()}
                 style={{ cursor: "pointer" }}
                 href="#g"
                 id="cp-cut-go"
@@ -116,41 +154,14 @@ class SeatMatrix extends React.Component {
               </p>
             </p>
           </form>
-          <table className="seat-main-table seat-hid-table-1">
-            <tbody>
-              <tr>
-                <td>
-                  <strong>Branch</strong>
-                </td>
-                <td>
-                  <strong>Seats</strong>
-                </td>
-              </tr>
-              <tr>
-                <td colSpan="2">
-                  <strong className="center ">
-                    <em>4-Year B.E./B.Tech. Course</em>
-                  </strong>
-                </td>
-              </tr>
-              <this.Row data={seatData.general} id="table-0" />
-              <this.Row data={seatData.OBCNC} id="table-1" />
-              <this.Row data={seatData.SC} id="table-2" />
-              <this.Row data={seatData.ST} id="table-3" />
-              <this.Row data={seatData.GeneralPWD} id="table-4" />
-              <this.Row data={seatData.OBCNCPWD} id="table-5" />
-              <this.Row data={seatData.NULL} id="table-6" />
-              <this.Row data={seatData.NULL} id="table-7" />
-              {/* <tr>
-                <td>
-                  <strong>Total</strong>
-                </td>
-                <td>
-                  <strong>{document.getElementById('lol')}</strong>
-                </td>
-              </tr> */}
-            </tbody>
-          </table>
+          <this.Row data={seatData.general} id="table-0" />
+          <this.Row data={seatData.OBCNC} id="table-1" />
+          <this.Row data={seatData.SC} id="table-2" />
+          <this.Row data={seatData.ST} id="table-3" />
+          <this.Row data={seatData.GeneralPWD} id="table-4" />
+          <this.Row data={seatData.OBCNCPWD} id="table-5" />
+          <this.Row data={seatData.NULL} id="table-6" />
+          <this.Row data={seatData.NULL} id="table-7" />
         </div>
       </div>
     );

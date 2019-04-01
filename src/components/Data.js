@@ -60,37 +60,37 @@ const seatData = {
   general: [
     ["Information Technology", 31],
     ["Computer Science & Engineering", 31],
-    ["Computer Science (XS)", 11]
+    ["Computer Science (M.Tech.)", 11]
   ],
   OBCNC: [
     ["Information Technology", 16],
     ["Computer Science & Engineering", 16],
-    ["Computer Science (XS)", 8]
+    ["Computer Science (M.Tech.)", 8]
   ],
   SC: [
     ["Information Technology", 9],
     ["Computer Science & Engineering", 9],
-    ["Computer Science (XS)", 5]
+    ["Computer Science (M.Tech.)", 5]
   ],
   ST: [
     ["Information Technology", 5],
     ["Computer Science & Engineering", 5],
-    ["Computer Science (XS)", 2]
+    ["Computer Science (M.Tech.)", 2]
   ],
   GeneralPWD: [
     ["Information Technology", 2],
     ["Computer Science & Engineering", 2],
-    ["Computer Science (XS)", 1]
+    ["Computer Science (M.Tech.)", 1]
   ],
   OBCNCPWD: [
     ["Information Technology", 1],
     ["Computer Science & Engineering", 1],
-    ["Computer Science (XS)", 0]
+    ["Computer Science (M.Tech.)", 0]
   ],
   NULL: [
     ["Information Technology", 0],
     ["Computer Science & Engineering", 0],
-    ["Computer Science (XS)", 0]
+    ["Computer Science (M.Tech.)", 0]
   ]
 };
 const courseStructure = {
