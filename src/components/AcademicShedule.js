@@ -15,6 +15,10 @@ class Calender extends React.Component {
     });
     return <tbody>{list}</tbody>;
   };
+  componentDidMount() {
+    document.title =
+      "Calender  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="calender-global">

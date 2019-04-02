@@ -12,7 +12,7 @@ class Course extends React.Component {
     if (!this.state.isFirst) {
       let prevElement = document.getElementById(this.state.prevID);
       prevElement.style.display = "none";
-      debugger
+      debugger;
       console.log(this.state.prevID);
     }
     if (!this.state.isOpen) {
@@ -76,6 +76,10 @@ class Course extends React.Component {
       </div>
     );
   };
+  componentDidMount() {
+    document.title =
+      "Course Structure  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="course-global width-res">

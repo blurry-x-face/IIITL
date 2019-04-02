@@ -75,6 +75,10 @@ class FacultyCard extends React.Component {
       </div>
     );
   };
+  componentDidMount() {
+    document.title =
+      "Faculty  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-global padding-res    ">

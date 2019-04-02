@@ -21,6 +21,10 @@ class EventList extends React.Component {
     });
     return <div className="event-list">{list}</div>;
   };
+  componentDidMount() {
+    document.title =
+      "Events  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="event-list-global padding-res">

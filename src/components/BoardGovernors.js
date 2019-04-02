@@ -63,6 +63,10 @@ class BoG extends React.Component {
     this.setState({ prevBtn: b });
     this.setState({ prevSelect: n });
   };
+  componentDidMount() {
+    document.title =
+      "BoG  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="bog-global-container padding-res margin-res">

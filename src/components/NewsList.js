@@ -20,6 +20,10 @@ class NewsList extends React.Component {
       </div>
     );
   };
+  componentDidMount() {
+    document.title =
+      "News  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="news-list-global">

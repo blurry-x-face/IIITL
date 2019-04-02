@@ -22,6 +22,10 @@ import image17 from "../assets/gallery/img17.jpg";
 import image18 from "../assets/gallery/img18.jpg";
 
 class Gallery extends React.Component {
+  componentDidMount() {
+    document.title =
+      "Gallery  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="gallery-global">

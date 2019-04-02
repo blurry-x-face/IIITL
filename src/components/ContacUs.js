@@ -4,6 +4,10 @@ import "./ContactUs.css";
 import ScrolltoTop from "./ScrollToTop";
 
 class ContactUs extends Component {
+  componentDidMount() {
+    document.title =
+      "Contact Us  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="contact-us-global">
