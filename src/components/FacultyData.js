@@ -92,7 +92,7 @@ const facultyCardData = [
     position: "Assistant Professor",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
-      "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
+      "Network Security, Vehicular Ad hoc Networks, Sensor Ad hoc Networks, Trust Management in Wireless Ad-hoc Networks, Internet of  Vehicles, Cloud Computing etc.",
     contact: "Email: brijesh@iiitl.ac.in",
     id: "brijeshChaurasia",
     link: "/comming-soon",

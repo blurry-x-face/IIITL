@@ -1,7 +1,7 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import { vks, shikha } from "./FacultyData";
+import { shikha } from "./FacultyData";
 import profile from "../../assets/Shikha.jpg";
 
 class SG extends React.Component {

@@ -38,7 +38,7 @@ const InsAdmin = {
   anchor: {
     name: [
       "Directorate",
-      "Office, Academic Affairs",
+      "Office & Staff",
       "Academic Affairs",
       "Faculty",
       "Student",

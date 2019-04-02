@@ -31,13 +31,13 @@ class Template extends React.Component {
     let li = props.journals.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Confrence = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   render() {
     return (
