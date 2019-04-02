@@ -98,10 +98,10 @@ class Latest extends React.Component {
   render() {
     return (
       <div className="latest-global">
+        <div className="blog-container-head curious-head">
+          Announcements from IIITL
+        </div>
         <div className="blog-container-global">
-          <div className="blog-container-head curious-head">
-            Announcements from IIITL
-          </div>
           <div className="blog-container-contents">
             {/* <div
               onClick={() => this.change(0)}
@@ -153,13 +153,18 @@ class Latest extends React.Component {
               </div>
             </Link>
             <Link to="/announcements/5">
-              <div className="box-5 hidden1">
+              <div className="box-5 hid-res hidden1 active1">
                 <p className="latest-blog-date">Jan, 2018</p>{" "}
                 <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
                 <p className="latest-blog-content" />
               </div>
             </Link>
           </div>
+        </div>
+        <div className="latest-more">
+          <h3>
+            <Link to="/announcements"> Read More-></Link>
+          </h3>
         </div>
       </div>
     );

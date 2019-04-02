@@ -24,6 +24,7 @@
 .list-blog-new a {
   text-decoration: none;
   color: black;
+  cursor: default;
 }
 .list-blog-post-head {
   font-weight: normal;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Announcements.css";
 import Announcements from "./Announcements";
-import AnnouncementsData from "./AnnouncemetsData";
+import {AnnouncementsData} from "./AnnouncemetsData";
 
 const Announcements2 = () => {
   return (

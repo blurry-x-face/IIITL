@@ -57,6 +57,10 @@ body {
   padding-left: 10%;
   animation: marquee 15s linear infinite;
 }
+marquee a {
+  text-decoration: none;
+  color: black;
+}
 @keyframes marquee {
   0% {
     transform: translate(0, 0);

@@ -3,6 +3,7 @@ import Carousel from "./Carousel";
 // import Card from "./Card";
 import Sudhar from "./ImageGrid";
 // import Sudhar from "./Sudhar";
+import { Link } from "react-router-dom";
 import Latest from "./Latest";
 import News from "./News";
 
@@ -11,7 +12,7 @@ const Home = () => {
     <div className="home padding-res">
       {/* eslint-disable-next-line jsx-a11y/no-distracting-elements */}
       <marquee
-        scrollAmount="10"
+        scrollAmount="8"
         behaviour="alternate"
         onMouseOver="this.stop();"
         style={{
@@ -27,21 +28,25 @@ const Home = () => {
             class="fas fa-circle"
             style={{ fontSize: "0.7em", marginBottom: 3, color: "black" }}
           />
-          Logo Design Contest for IIIT-Lucknow
+          <Link to="/announcements/1">
+            Logo Design Contest for IIIT-Lucknow
+          </Link>
         </span>
         <span style={{ marginLeft: "200px", cursor: "pointer" }}>
           <i
             class="fas fa-circle"
             style={{ fontSize: "0.7em", color: "black" }}
           />
-          Updated Fee Structure, 2019
+          <Link to="/announcements/2">Updated Fee Structure, 2019</Link>
         </span>
         <span style={{ marginLeft: "200px", cursor: "pointer" }}>
           <i
             class="fas fa-circle"
             style={{ fontSize: "0.7em", color: "black" }}
           />
-          Postponement of Selection Process on 14th October 2018 for IIIT
+          <Link to="/announcements/3">
+            Postponement of Selection Process on 14th October 2018 for IIIT
+          </Link>
           Lucknow
         </span>
       </marquee>

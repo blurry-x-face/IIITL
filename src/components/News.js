@@ -48,10 +48,10 @@ class News extends React.Component {
             <div className="c2">
               <h1 className="news-section-head">Events</h1>
               <div className="news-article">
-                <Link to="/comming-soon" className="news-link fonts">
-                  Coding Competition for first years to be held on 4 april 2019.
+                <Link to="#" className="news-link fonts">
+                  Coding Competition for first years was held on 1 april 2019.
                 </Link>
-                <p className="date">March 28, 2019</p>
+                <p className="date">April 1, 2019</p>
               </div>
               {/* <div className="news-article">
                 <Link to="/comming-soon" className="news-link fonts">

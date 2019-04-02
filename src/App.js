@@ -42,6 +42,7 @@ import Announcements2 from "./components/Announcements/Announcement2";
 import Announcements3 from "./components/Announcements/Announcement3";
 import Announcements4 from "./components/Announcements/Announcements4";
 import Announcements5 from "./components/Announcements/Announcements5";
+import AnnouncementsList from "./components/Announcements/MoreAnnouncements";
 
 class App extends Component {
   render() {
@@ -91,6 +92,7 @@ class App extends Component {
         <Route path="/events" exact component={EventList} />
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
+        <Route path="/announcements" exact component={AnnouncementsList} />
         <Route path="/announcements/1" exact component={Announcements1} />
         <Route path="/announcements/2" exact component={Announcements2} />
         <Route path="/announcements/3" exact component={Announcements3} />

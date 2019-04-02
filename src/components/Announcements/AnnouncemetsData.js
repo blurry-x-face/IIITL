@@ -37,5 +37,41 @@ const AnnouncementsData = {
     link: ApplicationForm
   }
 };
+const AnnouncementsListData = [
+  {
+    head: "Logo Design Contest for IIIT-Lucknow",
+    para:
+      "Logo Design Contest for IIIT-Lucknow The Contest is open to all IIITL Students, Employees and all stake holders of IIITL",
+    linkPara: "PDF->",
+    link: '/announcements/1'
+  },
+  {
+    head: "Updated Academic Calendar",
+    para: "Academic Calender for new Semester has been Updated",
+    linkPara: "New Calender->",
+    link: '/announcements/2'
+  },
+  {
+    head: "Updated Fee Structure",
+    para: "Fee Structure for new Semester has been Updated",
+    linkPara: "New Fee Structure->",
+    link: '/announcements/3'
+  },
+  {
+    head:
+      "Postponement of Selection Process on 14th October 2018 for IIIT Lucknow",
+    para:
+      "Postponement of proposed Selection Process on 14th October 2018 for the post of Junior Superintendent and Junior Engineer for IIIT Lucknow till further order. Will be intimated next date when it is finalized.",
+    linkPara: "",
+    link: '/announcements/4'
+  },
+  {
+    head: "Recruitment of Faculty in IIIT-Lucknow",
+    para:
+      "IIIT Lucknow is Recruiting Faculty, you can find Advertisement and Application form below",
+    linkPara: "Application Form->",
+    link: '/announcements/5'
+  }
+];
 
-export default AnnouncementsData;
+export { AnnouncementsData, AnnouncementsListData };

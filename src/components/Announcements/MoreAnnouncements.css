@@ -1,0 +1,16 @@
+.announcements-list-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 40px 0px 150px 0px;
+}
+.announcements-list-global li {
+  padding: 10px;
+}
+.announcements-list-global a {
+  text-decoration: none;
+  color: #005f9e;
+  font-size: 20px;
+}
