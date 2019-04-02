@@ -16,8 +16,8 @@ import image11 from "../assets/gallery/img11.jpg";
 import image12 from "../assets/gallery/img12.jpg";
 import image13 from "../assets/gallery/img13.jpg";
 import image14 from "../assets/gallery/img14.jpg";
-import image15 from "../assets/gallery/img15.jpg";
-import image16 from "../assets/gallery/img16.jpg";
+// import image15 from "../assets/gallery/img15.jpg";
+// import image16 from "../assets/gallery/img16.jpg";
 import image17 from "../assets/gallery/img17.jpg";
 import image18 from "../assets/gallery/img18.jpg";
 

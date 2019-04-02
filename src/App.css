@@ -37,6 +37,7 @@
 }
 body {
   background: white;
+  transition: all 0.3s;
 }
 .division-global {
   display: flex;

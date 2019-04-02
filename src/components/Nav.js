@@ -87,9 +87,6 @@ class Nav extends React.Component {
                   <NavLink to="/Senate" className="af-1">
                     Senate
                   </NavLink>
-                  <NavLink to="/co-ordination-committee" className="af-1">
-                    Co-ordination Committee
-                  </NavLink>
                   <NavLink to="/contactus" className="af-1">
                     Reach Us
                   </NavLink>

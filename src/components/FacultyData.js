@@ -14,11 +14,10 @@ const facultyCardData = [
     name: "Dr. Abhishek Pandey",
     position: "Guest Faculty",
     qualification: "Ph. D. from IIIT Allahabad",
-    researchArea:
-      "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
+    researchArea: "Computer Networks, Wireless N/W  and Sensor Networks",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
     id: "abhishekPandey",
-    link: "/comming-soon",
+    link: "/faculty/AP",
     post: "",
     post2: ""
   },
@@ -65,7 +64,7 @@ const facultyCardData = [
       "Software Engineering, Software Quality, and Software Reliability/Usability",
     contact: "Email: shikhagautam@iiitl.ac.in",
     id: "shikhaGautam",
-    link: "/comming-soon"
+    link: "/faculty/SG"
   },
   {
     name: "Dr. Niharika Anand",
@@ -94,7 +93,7 @@ const facultyCardData = [
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
-    contact: "Email: n/a@iiitl.ac.in",
+    contact: "Email: brijesh@iiitl.ac.in",
     id: "brijeshChaurasia",
     link: "/comming-soon",
     post: "Interim Head"
@@ -107,7 +106,7 @@ const facultyCardData = [
       "Wireless Indoor Localization, Machine Learning, Ad-hoc Network",
     contact: "stiwari@iiitl.ac.in",
     id: "sushilTiwari",
-    link: "/comming-soon",
+    link: "/faculty/ST",
     post: ""
   }
 ];

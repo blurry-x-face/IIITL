@@ -1,4 +1,5 @@
 import pdfLogo from "../../assets/blogs/Letter_circulation_18022019.pdf";
+import pdfFee from "../../assets/blogs/fee-structure.pdf";
 import ApplicationForm from "../../assets/blogs/Format_Application_IIITL.docx";
 
 const AnnouncementsData = {
@@ -19,7 +20,7 @@ const AnnouncementsData = {
     head: "Updated Fee Structure",
     para: "Fee Structure for new Semester has been Updated",
     linkPara: "New Fee Structure->",
-    link: "/comming-soon"
+    link: pdfFee
   },
   announcement4: {
     head:
@@ -43,19 +44,19 @@ const AnnouncementsListData = [
     para:
       "Logo Design Contest for IIIT-Lucknow The Contest is open to all IIITL Students, Employees and all stake holders of IIITL",
     linkPara: "PDF->",
-    link: '/announcements/1'
+    link: "/announcements/1"
   },
   {
     head: "Updated Academic Calendar",
     para: "Academic Calender for new Semester has been Updated",
     linkPara: "New Calender->",
-    link: '/announcements/2'
+    link: "/announcements/2"
   },
   {
     head: "Updated Fee Structure",
     para: "Fee Structure for new Semester has been Updated",
     linkPara: "New Fee Structure->",
-    link: '/announcements/3'
+    link: "/announcements/3"
   },
   {
     head:
@@ -63,14 +64,14 @@ const AnnouncementsListData = [
     para:
       "Postponement of proposed Selection Process on 14th October 2018 for the post of Junior Superintendent and Junior Engineer for IIIT Lucknow till further order. Will be intimated next date when it is finalized.",
     linkPara: "",
-    link: '/announcements/4'
+    link: "/announcements/4"
   },
   {
     head: "Recruitment of Faculty in IIIT-Lucknow",
     para:
       "IIIT Lucknow is Recruiting Faculty, you can find Advertisement and Application form below",
     linkPara: "Application Form->",
-    link: '/announcements/5'
+    link: "/announcements/5"
   }
 ];
 

@@ -95,13 +95,7 @@ class AltNav extends React.Component {
               >
                 Senate
               </Link>
-              <Link
-                to="/co-ordination-committee"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Co-ordination Committee
-              </Link>
+              
               <Link
                 to="/contactus"
                 onClick={() => this.closeNav()}

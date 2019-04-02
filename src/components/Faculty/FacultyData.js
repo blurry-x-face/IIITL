@@ -80,7 +80,9 @@ const mary = {
 
 const shikha = {
   interests: [
-    "My main research interests are in the areas of Software Engineering, Software Quality, and Software Reliability/Usability. At present I am working for various possible extensions of software development."
+    "Software Engineering",
+    "Software Quality",
+    "Software Reliability/Usability"
   ],
   journalData: [
     "Shikha Gautam and Brijendra Singh, “Assessing the Theoretical Impact of Design Patterns on Software Quality,” Software Quality Professional, American Society for Quality, Vol. 21, Issue 1, pp. 37-47, Dec 2018.",
@@ -93,7 +95,36 @@ const shikha = {
     "Shikha Gautam and Anand Prakash Dube, “Analysis of a Dynamic Load Balancing Model in Grid Environment,” Computing Trendz, Vol. III, No. 2, pp. 76-85, July2013.",
     "Shikha Gautam, Rekha Singh, and S. B. Singh Yadav, “Coupling and Cohesion,” Int.J. Computer Technology & Applications, Vol. 4, No. 1, pp. 155-161, Jan-Feb 2013."
   ],
-  conference: []
+  courses: [
+    "Digital Electronics, B.Tech. (IT) II Semester",
+    "Data Base Management System, B.Tech. (IT) IV Semester",
+    "Architecture of Software Systems, B.Tech. (IT) VI Semester",
+    "Architecture of Software Systems, B.Tech. (IT) VI Semester",
+    "Microprocessors, B.Tech. (IT) III Semester",
+    "Cryptography &amp; Information Security, B.Tech. (IT) VII Semester",
+    "Modelling, Design and Analysis of Embedded Systems, B.Tech. (IT) VII Semester",
+    "Computer Organization and Architecture, B.Tech. (IT) II Semester"
+  ],
+  conference: [],
+  education: [
+    "Ph.D. Degree at Department of Computer Science, University of Lucknow",
+    "M.Tech. degree from Dr. A.P.J. Abdul Kalam Technical University",
+    "B.Tech. degree from Institute of Engineering and Technology (IET Lucknow)"
+  ],
+  contact: ["9198354341", "shikhagautam@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ],
+  review: [
+    "Brijendra Singh and Shikha Gautam, “Integrating Usability through Software Process” in Sadhana Academy Proceedings in Engineering Sciences, Springer India.",
+    "Shikha Gautam and Brijendra Singh, “Impact of Software Coding on Software Quality” in International Journal of Software Engineering, Technology and Applications, Inderscience."
+  ],
+  books: [
+    "“Systems and Software Process,” Brijendra Singh and Shikha Gautam, under publication in Narosa Publication (May Published in April-June 2019).",
+    "“Java Testing Tools and Advance Concepts,” Shikha Gautam, in Scholars’ Press, ISBN: 978-620-2-31587-6, Aug 2018."
+  ]
 };
 const niharika = {
   interests: [
@@ -239,6 +270,26 @@ const somendu = {
   ]
 };
 
+const aP = {
+  interests: ["Computer Networks", " Wireless N/W", "Sensor Networks"],
+  education: [
+    "Ph. D. from Indian Institute of Information Technology Allahabad",
+    "M. Tech from Indian Institute of Information Technology Allahabad"
+  ],
+  conference: [""],
+  contact: ["05322922450", "abhishek.pandey@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ],
+  courses: [
+    "Data Structures, B.Tech(IT) II Semester",
+    "Principles of Programming Languages , B.Tech(IT) IV Semester",
+    "Wireless Sensor Networks , B.Tech(IT) VI Semester"
+  ]
+};
+
 const sushilTiwari = {
   interests: [
     "Wireless Indoor Localization",
@@ -279,4 +330,4 @@ const sushilTiwari = {
   courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"]
 };
 
-export { somendu, vks, mary, shikha, niharika, sushilTiwari };
+export { aP, somendu, vks, mary, shikha, niharika, sushilTiwari };

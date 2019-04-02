@@ -1,7 +1,7 @@
 import React from "react";
 import "./Latest.css";
 import { Link } from "react-router-dom";
-import ScrollToTopOnMount from "./ScrollToTop";
+// import ScrollToTopOnMount from "./ScrollToTop";
 
 class Latest extends React.Component {
   state = {
@@ -138,7 +138,7 @@ class Latest extends React.Component {
                 </p>
               </div>
             </Link>
-            <Link to="/announcements/4">
+            {/* <Link to="/announcements/4">
               <div className="box-4 hidden1 active1">
                 <p className="latest-blog-date">October 14, 2018</p>{" "}
                 <p className="latest-blog-head">
@@ -151,7 +151,7 @@ class Latest extends React.Component {
                   date when it is finalized.
                 </p>
               </div>
-            </Link>
+            </Link> */}
             <Link to="/announcements/5">
               <div className="box-5 hid-res hidden1 active1">
                 <p className="latest-blog-date">Jan, 2018</p>{" "}

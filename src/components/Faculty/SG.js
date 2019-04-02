@@ -1,10 +1,10 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import { vks } from "./FacultyData";
-import profile from "../../assets/VKS Photograph.jpg";
+import { vks, shikha } from "./FacultyData";
+import profile from "../../assets/Shikha.jpg";
 
-class Template extends React.Component {
+class SG extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
     if (!this.state.isOpen) {
@@ -51,19 +51,19 @@ class Template extends React.Component {
     let li = props.journals.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Confrence = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Education = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Contact = props => {
     let li = props.conferences.map(journal => {
@@ -78,7 +78,7 @@ class Template extends React.Component {
           <div className="faculty-above-nav-inner">
             <div className="above-nav-section-1">
               <div className="faculty-above-nav-head-name">
-                Dr. Vishal Krishna Singh
+                Dr. Shikha Gautam
               </div>
               <div className="faculty-above-nav-head-position">
                 ASSISTANT PROFESSOR
@@ -124,7 +124,7 @@ class Template extends React.Component {
             >
               Publications
             </Link>
-            <Link
+            {/* <Link
               className="faculty-nav-item"
               onClick={() => {
                 this.open("faculty-body-experience", "#experience");
@@ -132,7 +132,7 @@ class Template extends React.Component {
               to="#experience"
             >
               Experience
-            </Link>
+            </Link> */}
             <Link
               to="#courses"
               onClick={() => {
@@ -187,7 +187,7 @@ class Template extends React.Component {
             >
               Publications
             </Link>
-            <Link
+            {/* <Link
               onClick={() => {
                 this.open("faculty-body-experience", "#experience");
               }}
@@ -195,7 +195,7 @@ class Template extends React.Component {
               className="faculty-alt-nav-item"
             >
               Experience
-            </Link>
+            </Link> */}
             <Link
               onClick={() => {
                 this.open("faculty-body-courses", "#courses");
@@ -224,52 +224,44 @@ class Template extends React.Component {
                 Research Interests:
               </div>
               <div className="faculty-interest-list">
-                <this.Interests interests={vks.interests} />
+                <this.Interests interests={shikha.interests} />
               </div>
             </div>
             <div className="faculty-interest-section-2">
               <div className="faculty-photo" />
             </div>
           </div>
-          <div className="faculty-awards-global">
-            <div className="faculty-awards-head faculty-section-head">
-              Latest Achievements
-            </div>
-            <this.Awards award={vks.awards.award1} />
-            <this.Awards award={vks.awards.award2} />
-          </div>
           <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
               Publications
             </div>
             <div className="faculty-journal-list">
-              <this.Journals journals={vks.journalData} />
-            </div>
-          </div>
-          <div className="faculty-conferences">
-            <div className="faculty-conference-head faculty-section-head">
-              Conference
-            </div>
-            <div className="faculty-conference-list">
-              <this.Confrence conferences={vks.conference} />
+              <this.Journals journals={shikha.journalData} />
             </div>
           </div>
         </div>
         <div className="faculty-body" id="faculty-body-journals">
           <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Research Publications
+              Publications
             </div>
             <div className="faculty-journal-list">
-              <this.Journals journals={vks.research} />
+              <this.Journals journals={shikha.journalData} />
             </div>
-          </div>
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Journals
+            <p className="faculty-journals-head faculty-section-head faculty-journals-head">
+              Two research papers are under review in international journal:
+            </p>
+            <div className="faculty-journal-list">
+              <this.Journals journals={shikha.review} />
+            </div>
+            <div
+              className="faculty-experience-head faculty-section-head"
+              //   style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
+            >
+              Books:
             </div>
             <div className="faculty-journal-list">
-              <this.Journals journals={vks.journalData} />
+              <this.Journals journals={shikha.books} />
             </div>
           </div>
         </div>
@@ -279,7 +271,7 @@ class Template extends React.Component {
               Education
             </div>
             <div className="faculty-education-list">
-              <this.Education conferences={vks.education} />
+              <this.Education conferences={shikha.education} />
             </div>
           </div>
         </div>
@@ -289,7 +281,7 @@ class Template extends React.Component {
               Teaching:
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Education conferences={vks.courses} />
+              <this.Education conferences={shikha.courses} />
             </div>
           </div>
         </div>
@@ -299,36 +291,12 @@ class Template extends React.Component {
               Contact
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Contact conferences={vks.address} />
-              <this.Contact conferences={vks.contact} />
+              <this.Contact conferences={shikha.address} />
+              <this.Contact conferences={shikha.contact} />
             </div>
           </div>
         </div>
-        <div className="faculty-body" id="faculty-body-experience">
-          <div className="faculty-experience">
-            <div className="faculty-experience-head faculty-section-head">
-              Proffessional Activities:
-            </div>
-            <div
-              className="faculty-experience-head faculty-section-head"
-              style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
-            >
-              Technical Committee Member:
-            </div>
-            <div className="faculty-education-list faculty-experience-list">
-              <this.Education conferences={vks.member} />
-            </div>
-            <div
-              className="faculty-experience-head faculty-section-head"
-              style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
-            >
-              Reviewer for:
-            </div>
-            <div className="faculty-education-list faculty-experience-list">
-              <this.Education conferences={vks.reviewer} />
-            </div>
-          </div>
-        </div>
+        <div className="faculty-body" id="faculty-body-experience" />
         <div className="faculty-footer">
           <div className="faculty-footer-copy">
             <i className="far fa-copyright" />
@@ -338,16 +306,10 @@ class Template extends React.Component {
           <div className="faculty-footer-department">
             Last Updated: March 2019
           </div>
-          {/* <Count
-              isViewCounter={true}
-              counterText="views"
-              firebaseHost="https://counter-button.firebaseio.com/"
-              firebaseResourceId="views-counter"
-            /> */}
         </div>
       </div>
     );
   }
 }
 
-export default Template;
+export default SG;

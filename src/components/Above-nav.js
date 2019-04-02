@@ -37,7 +37,7 @@ const AboveNav = () => {
               </div>
             </div>
             <div className="above-nav-right-search">
-              <input type="text" name="Search" placeholder="Search" />
+              <input type="text" name="Search" disabled placeholder="Search" />
             </div>
           </div>
         </div>

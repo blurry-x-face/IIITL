@@ -7,6 +7,7 @@ import image from "../../assets/facultyData/niharikha.JPG";
 class Niharika extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
+    debugger;
     if (!this.state.isOpen) {
       document.getElementById("faculty-alt-nav").style.display = "flex";
     } else {
@@ -16,7 +17,7 @@ class Niharika extends React.Component {
   };
 
   open = (id, hash) => {
-    this.openNav();
+    // this.openNav();
     if (window.location.hash === hash) {
       return;
     }
@@ -52,19 +53,19 @@ class Niharika extends React.Component {
     let li = props.journals.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Confrence = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Education = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Contact = props => {
     let li = props.conferences.map(journal => {
@@ -81,7 +82,7 @@ class Niharika extends React.Component {
         </li>
       );
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   render() {
     return (

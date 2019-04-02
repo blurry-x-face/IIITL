@@ -4,7 +4,7 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import { Ins, academicLinks, InsAdmin } from "./components/Data";
 
-import blogImage1 from "./assets/dr-arun-sherry.jpg";
+// import blogImage1 from "./assets/dr-arun-sherry.jpg";
 
 import AboveNav from "./components/Above-nav";
 import "./components/Nav";
@@ -43,6 +43,8 @@ import Announcements3 from "./components/Announcements/Announcement3";
 import Announcements4 from "./components/Announcements/Announcements4";
 import Announcements5 from "./components/Announcements/Announcements5";
 import AnnouncementsList from "./components/Announcements/MoreAnnouncements";
+import AP from "./components/Faculty/AP";
+import SG from "./components/Faculty/SG";
 
 class App extends Component {
   render() {
@@ -52,7 +54,9 @@ class App extends Component {
         window.location.pathname === "/faculty/shikha" ||
         window.location.pathname === "/faculty/niharika" ||
         window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ? (
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ? (
           ""
         ) : (
           <AboveNav />
@@ -61,13 +65,17 @@ class App extends Component {
         window.location.pathname === "/faculty/shikha" ||
         window.location.pathname === "/faculty/niharika" ||
         window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ? (
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ? (
           ""
         ) : (
           <Nav />
         )}
         <Route path="/faculty/vks" exact component={VKS} />
         <Route path="/faculty/ST" exact component={ST} />
+        <Route path="/faculty/AP" exact component={AP} />
+        <Route path="/faculty/SG" exact component={SG} />
         <Route path="/faculty/niharika" exact component={Niharika} />
         <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
@@ -104,7 +112,9 @@ class App extends Component {
         window.location.pathname === "/faculty/shikha" ||
         window.location.pathname === "/faculty/niharika" ||
         window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ? (
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ? (
           ""
         ) : (
           <Footer />
@@ -216,14 +226,15 @@ const data = {
   }
 };
 
-const blogs = [
-  {
-    head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
-    para: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
-    img: { blogImage1 }
-  }
-];
-const BlogsG = props => {
-  return;
-};
+// const blogs = [
+//   {
+//     head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
+//     para: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
+//     img: { blogImage1 }
+//   }
+// ];
+// const BlogsG = props => {
+//   return;
+// };
+
 export default App;

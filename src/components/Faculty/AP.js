@@ -1,10 +1,10 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import { vks } from "./FacultyData";
-import profile from "../../assets/VKS Photograph.jpg";
+import { aP } from "./FacultyData";
+import profile from "../../assets/facultyData/AP.jpg";
 
-class Template extends React.Component {
+class AP extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
     if (!this.state.isOpen) {
@@ -51,19 +51,19 @@ class Template extends React.Component {
     let li = props.journals.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Confrence = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Education = props => {
     let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
-    return <ol>{li} </ol>;
+    return <ul>{li} </ul>;
   };
   Contact = props => {
     let li = props.conferences.map(journal => {
@@ -78,10 +78,10 @@ class Template extends React.Component {
           <div className="faculty-above-nav-inner">
             <div className="above-nav-section-1">
               <div className="faculty-above-nav-head-name">
-                Dr. Vishal Krishna Singh
+                Dr. Abhishek Pandey
               </div>
               <div className="faculty-above-nav-head-position">
-                ASSISTANT PROFESSOR
+                Guest Faculty
               </div>
               <div className="faculty-above-nav-head-dept faculty-above-nav-item">
                 Department of Information Technology
@@ -224,39 +224,39 @@ class Template extends React.Component {
                 Research Interests:
               </div>
               <div className="faculty-interest-list">
-                <this.Interests interests={vks.interests} />
+                <this.Interests interests={aP.interests} />
               </div>
             </div>
             <div className="faculty-interest-section-2">
               <div className="faculty-photo" />
             </div>
           </div>
-          <div className="faculty-awards-global">
+          {/* <div className="faculty-awards-global">
             <div className="faculty-awards-head faculty-section-head">
               Latest Achievements
             </div>
             <this.Awards award={vks.awards.award1} />
             <this.Awards award={vks.awards.award2} />
-          </div>
-          <div className="faculty-journals">
+          </div> */}
+          {/* <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
               Publications
             </div>
             <div className="faculty-journal-list">
               <this.Journals journals={vks.journalData} />
             </div>
-          </div>
-          <div className="faculty-conferences">
+          </div> */}
+          {/* <div className="faculty-conferences">
             <div className="faculty-conference-head faculty-section-head">
               Conference
             </div>
             <div className="faculty-conference-list">
               <this.Confrence conferences={vks.conference} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="faculty-body" id="faculty-body-journals">
-          <div className="faculty-journals">
+          {/* <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
               Research Publications
             </div>
@@ -271,7 +271,7 @@ class Template extends React.Component {
             <div className="faculty-journal-list">
               <this.Journals journals={vks.journalData} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="faculty-body" id="faculty-body-education">
           <div className="faculty-education">
@@ -279,7 +279,7 @@ class Template extends React.Component {
               Education
             </div>
             <div className="faculty-education-list">
-              <this.Education conferences={vks.education} />
+              <this.Education conferences={aP.education} />
             </div>
           </div>
         </div>
@@ -289,7 +289,7 @@ class Template extends React.Component {
               Teaching:
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Education conferences={vks.courses} />
+              <this.Education conferences={aP.courses} />
             </div>
           </div>
         </div>
@@ -299,13 +299,13 @@ class Template extends React.Component {
               Contact
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Contact conferences={vks.address} />
-              <this.Contact conferences={vks.contact} />
+              <this.Contact conferences={aP.address} />
+              <this.Contact conferences={aP.contact} />
             </div>
           </div>
         </div>
         <div className="faculty-body" id="faculty-body-experience">
-          <div className="faculty-experience">
+          {/* <div className="faculty-experience">
             <div className="faculty-experience-head faculty-section-head">
               Proffessional Activities:
             </div>
@@ -327,7 +327,7 @@ class Template extends React.Component {
             <div className="faculty-education-list faculty-experience-list">
               <this.Education conferences={vks.reviewer} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="faculty-footer">
           <div className="faculty-footer-copy">
@@ -338,16 +338,10 @@ class Template extends React.Component {
           <div className="faculty-footer-department">
             Last Updated: March 2019
           </div>
-          {/* <Count
-              isViewCounter={true}
-              counterText="views"
-              firebaseHost="https://counter-button.firebaseio.com/"
-              firebaseResourceId="views-counter"
-            /> */}
         </div>
       </div>
     );
   }
 }
 
-export default Template;
+export default AP;
