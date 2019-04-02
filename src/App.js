@@ -46,6 +46,7 @@ import AnnouncementsList from "./components/Announcements/MoreAnnouncements";
 import AP from "./components/Faculty/AP";
 import SG from "./components/Faculty/SG";
 import MS from "./components/Faculty/Mary";
+import BKC from "./components/Faculty/BKC";
 
 class App extends Component {
   render() {
@@ -58,7 +59,8 @@ class App extends Component {
         window.location.pathname === "/faculty/ST" ||
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
-        window.location.pathname === "/faculty/MS" ? (
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ? (
           ""
         ) : (
           <AboveNav />
@@ -70,7 +72,8 @@ class App extends Component {
         window.location.pathname === "/faculty/ST" ||
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
-        window.location.pathname === "/faculty/MS" ? (
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ? (
           ""
         ) : (
           <Nav />
@@ -83,6 +86,7 @@ class App extends Component {
         <Route path="/faculty/niharika" exact component={Niharika} />
         <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
+        <Route path="/faculty/BKC" exact component={BKC} />
         <Route path="/comming-soon" exact component={CommingSoon} />
         <Route path="/blog1" exact component={Blog} />
         <SideRendering data={data.staff.data} />
@@ -119,7 +123,8 @@ class App extends Component {
         window.location.pathname === "/faculty/ST" ||
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
-        window.location.pathname === "/faculty/MS" ? (
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ? (
           ""
         ) : (
           <Footer />

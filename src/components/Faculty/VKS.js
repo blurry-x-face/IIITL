@@ -19,7 +19,7 @@ class Template extends React.Component {
     if (window.location.hash === hash) {
       return;
     }
-    debugger;
+     
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }
@@ -218,6 +218,9 @@ class Template extends React.Component {
           </div>
         </div>
         <div className="faculty-body" id="faculty-body-home">
+          <div className="faculty-image-hid">
+            <img src={profile} alt="VKS" />
+          </div>
           <div className="faculty-interest">
             <div className="faculty-interest-section-1">
               <div className="faculty-interest-head faculty-section-head">

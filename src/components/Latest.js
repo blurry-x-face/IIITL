@@ -11,7 +11,7 @@ class Latest extends React.Component {
 
   change(c) {
     // console.log(this.state);
-    // debugger;
+    //  
     if (c) {
       if (this.state.first + 3 < 5) {
         this.setState(

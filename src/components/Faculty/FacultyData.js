@@ -370,7 +370,7 @@ const sushilTiwari = {
   courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"]
 };
 
-const BKC = {
+const bKC = {
   interests: [
     "Network Security",
     "Vehicular Ad hoc Networks",
@@ -519,6 +519,12 @@ const BKC = {
         "Member IE (M-152775-9)",
         "Fellow, CSI (F8000812)"
       ]
+    },
+    {
+      head: "Reviewer in International Journals and International Conferences:",
+      list: [
+        "Elsevier, IEEE ITS Transaction, IEEE Sensor journal, SCN, Wiely, Inderscience, TCS Springer Journal, and international / national conferences etc."
+      ]
     }
   ],
   contact: ["+91‐8770180714", "brijesh@iiitl.ac.in"],
@@ -527,7 +533,25 @@ const BKC = {
     "Indian Institute of Information Technology,",
     "Lucknow, India."
   ],
-  courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"]
+  courses: [
+    "Network Security",
+    "Vehicular Ad hoc Networks",
+    "Sensor Ad hoc Networks",
+    "Trust Management in Wireless Ad-hoc Networks",
+    "Internet of  Vehicles",
+    "Cloud Computing"
+  ],
+  awards: [
+    {
+      head: "Awards & Achievements:",
+      list: [
+        "Best Paper Award for “Pseudonym Based Mechanism for Sustaining Privacy in VANETs,” In the First IEEE International conference on Computational Intelligence, Communication Systems and Networks (CICSYN-2009), Indore, India, pp. 420 – 425, 2009",
+        "Best research publication award by ITM University Gwalior, 2013.",
+        "Best department award by ITM University Gwalior, 2013.",
+        "Best department award by ITM University Gwalior, 2014."
+      ]
+    }
+  ]
 };
 
-export { BKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };
+export { bKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };

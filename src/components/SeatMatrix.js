@@ -5,7 +5,7 @@ import { seatData } from "./Data";
 class SeatMatrix extends React.Component {
   state = { isShowing: false, prev: "", isFirst: true };
   Show = () => {
-    debugger;
+     
     let element = document.getElementById("seat-pool-category");
     var x = `table-${element.value}`;
     if (this.state.prev === x) {

@@ -1,10 +1,10 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import { sushilTiwari } from "./FacultyData";
-import image from "../../assets/facultyData/Sushil.jpg";
+import { bKC } from "./FacultyData";
+import profile from "../../assets/facultyData/BKC.jpg";
 
-class ST extends React.Component {
+class BKC extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
     if (!this.state.isOpen) {
@@ -32,31 +32,34 @@ class ST extends React.Component {
     this.setState({ prev: id });
   };
 
+  IndividualPublicationsList = props => {
+    return (
+      <div className="faculty-journals">
+        <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+          {props.data.head}
+        </div>
+        <div className="faculty-journal-list">
+          <this.Journals journals={props.data.list} />
+        </div>
+      </div>
+    );
+  };
+  Publications = props => {
+    let list = props.data.map((value, index) => {
+      return <this.IndividualPublicationsList data={value} key={index} />;
+    });
+    return (
+      <div className="faculty-body" id={props.eleId}>
+        {list}
+      </div>
+    );
+  };
+
   Awards = props => {
     return (
       <div className="faculty-award-inner">
         <div className="faculty-award-head">{props.award.head}</div>
         <div className="faculty-award-detail">{props.award.detail}</div>
-      </div>
-    );
-  };
-  Awards1 = props => {
-    const list = props.data.map((value, index) => {
-      return (
-        <li>
-          <div key={index} className="faculty-award-inner">
-            <div className="faculty-award-head">{value.head}</div>
-            <div className="faculty-award-detail">{value.detail}</div>
-          </div>
-        </li>
-      );
-    });
-    return (
-      <div className="faculty-awards-global">
-        <div className="faculty-awards-head faculty-section-head">
-          Latest Achievements
-        </div>
-        <ul>{list}</ul>
       </div>
     );
   };
@@ -91,6 +94,19 @@ class ST extends React.Component {
     });
     return <div>{li} </div>;
   };
+  Awards1 = props => {
+     
+    return (
+      <div className="faculty-journals">
+        <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+          {props.data.head}
+        </div>
+        <div className="faculty-journal-list">
+          <this.Journals journals={props.data.list} />
+        </div>
+      </div>
+    );
+  };
   render() {
     return (
       <div className="faculty-template-global padding-res">
@@ -98,7 +114,7 @@ class ST extends React.Component {
           <div className="faculty-above-nav-inner">
             <div className="above-nav-section-1">
               <div className="faculty-above-nav-head-name">
-                Sushil Kumar Tiwari
+                Dr. Brijesh Kumar Chaurasia
               </div>
               <div className="faculty-above-nav-head-position">
                 ASSISTANT PROFESSOR
@@ -111,7 +127,7 @@ class ST extends React.Component {
               </div>
             </div>
             <div className="above-nav-section-2">
-              <img src={image} alt="somendu" />
+              <img src={profile} alt="VKS" />
             </div>
           </div>
         </div>
@@ -239,56 +255,38 @@ class ST extends React.Component {
         </div>
         <div className="faculty-body" id="faculty-body-home">
           <div className="faculty-image-hid">
-            <img src={image} alt="VKS" />
+            <img src={profile} alt="VKS" />
           </div>
           <div className="faculty-interest">
+            <div className="faculty-interest-section-1">
+              <div className="faculty-interest-head faculty-section-head">
+                Research Interests:
+              </div>
+              <div className="faculty-interest-list">
+                <this.Interests interests={bKC.interests} />
+              </div>
+            </div>
             <div className="faculty-interest-section-2">
               <div className="faculty-photo" />
             </div>
           </div>
-          <div className="faculty-interest-section-1">
-            <div className="faculty-interest-head faculty-section-head">
-              Research Interests:
-            </div>
-            <div className="faculty-interest-list">
-              <this.Interests interests={sushilTiwari.interests} />
-            </div>
-          </div>
-          <this.Awards1 data={sushilTiwari.awards} />
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Publications
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={sushilTiwari.journalData} />
-            </div>
-          </div>
-          <div className="faculty-conferences">
-            <div className="faculty-conference-head faculty-section-head">
-              Conference
-            </div>
-            <div className="faculty-conference-list">
-              <this.Confrence conferences={sushilTiwari.conference} />
-            </div>
-          </div>
+          <this.Awards1 data={bKC.awards[0]} />
         </div>
-        <div className="faculty-body" id="faculty-body-journals">
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Research Publications
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={sushilTiwari.journalData} />
-            </div>
-          </div>
-        </div>
+        <this.Publications
+          data={bKC.publications}
+          eleId={"faculty-body-journals"}
+        />
+        <this.Publications
+          data={bKC.experience}
+          eleId="faculty-body-experience"
+        />
         <div className="faculty-body" id="faculty-body-education">
           <div className="faculty-education">
             <div className="faculty-education-head faculty-section-head">
               Education
             </div>
             <div className="faculty-education-list">
-              <this.Education conferences={sushilTiwari.education} />
+              <this.Education conferences={bKC.education} />
             </div>
           </div>
         </div>
@@ -298,7 +296,7 @@ class ST extends React.Component {
               Teaching:
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Education conferences={sushilTiwari.courses} />
+              <this.Education conferences={bKC.courses} />
             </div>
           </div>
         </div>
@@ -308,17 +306,9 @@ class ST extends React.Component {
               Contact
             </div>
             <div className="faculty-education-list faculty-courses-list">
-              <this.Contact conferences={sushilTiwari.address} />
-              <this.Contact conferences={sushilTiwari.contact} />
+              <this.Contact conferences={bKC.address} />
+              <this.Contact conferences={bKC.contact} />
             </div>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-experience">
-          <div className="faculty-experience">
-            <div className="faculty-experience-head faculty-section-head">
-              Proffessional Experience
-            </div>
-            <this.Interests interests={sushilTiwari.experience} />
           </div>
         </div>
         <div className="faculty-footer">
@@ -330,10 +320,16 @@ class ST extends React.Component {
           <div className="faculty-footer-department">
             Last Updated: March 2019
           </div>
+          {/* <Count
+              isViewCounter={true}
+              counterText="views"
+              firebaseHost="https://counter-button.firebaseio.com/"
+              firebaseResourceId="views-counter"
+            /> */}
         </div>
       </div>
     );
   }
 }
 
-export default ST;
+export default BKC;

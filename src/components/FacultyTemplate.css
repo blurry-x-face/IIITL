@@ -10,8 +10,8 @@
   padding-right: 0px !important;
 }
 .faculty-above-nav-inner img {
-  height: 12vw;
-  width: 13vw;
+  height: 250px;
+  width: 250px;
 }
 .faculty-body {
   margin-top: 40px;
@@ -212,6 +212,22 @@
 }
 .faculty-experience li {
   padding: 10px;
+}
+.faculty-image-hid {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .faculty-image-hid {
+    display: flex;
+    justify-content: center;
+  }
+  .above-nav-section-2 {
+    display: none;
+  }
+  .faculty-image-hid img {
+    width: 52vw;
+    height: 52vw;
+  }
 }
 @media only screen and (max-width: 867px) {
   .faculty-nav-inner {

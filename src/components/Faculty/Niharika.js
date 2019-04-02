@@ -2,12 +2,12 @@ import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { niharika } from "./FacultyData";
-import image from "../../assets/facultyData/niharikha.JPG";
+import profile from "../../assets/facultyData/niharikha.JPG";
 
 class Niharika extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
-    debugger;
+     
     if (!this.state.isOpen) {
       document.getElementById("faculty-alt-nav").style.display = "flex";
     } else {
@@ -21,7 +21,7 @@ class Niharika extends React.Component {
     if (window.location.hash === hash) {
       return;
     }
-    // debugger;
+    //  
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }
@@ -104,7 +104,7 @@ class Niharika extends React.Component {
               </div>
             </div>
             <div className="above-nav-section-2">
-              <img src={image} alt="niharika" id="niharika-img" />
+              <img src={profile} alt="niharika" id="niharika-img" />
             </div>
           </div>
         </div>
@@ -231,6 +231,9 @@ class Niharika extends React.Component {
           </div>
         </div>
         <div className="faculty-body" id="faculty-body-home">
+          <div className="faculty-image-hid">
+            <img src={profile} alt="VKS" />
+          </div>
           <div className="faculty-interest">
             <div className="faculty-interest-section-1">
               <div className="faculty-interest-head faculty-section-head">

@@ -28,7 +28,7 @@ const facultyCardData = [
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
     id: "marySamuel",
-    link: "/comming-soon",
+    link: "/faculty/MS",
     post: "Faculty In-charge Student Activities",
     post2: ""
   },
@@ -95,7 +95,7 @@ const facultyCardData = [
       "Network Security, Vehicular Ad hoc Networks, Sensor Ad hoc Networks, Trust Management in Wireless Ad-hoc Networks, Internet of  Vehicles, Cloud Computing etc.",
     contact: "Email: brijesh@iiitl.ac.in",
     id: "brijeshChaurasia",
-    link: "/comming-soon",
+    link: "/faculty/BKC",
     post: "Interim Head"
   },
   {
