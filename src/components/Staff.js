@@ -42,7 +42,7 @@ class Staff extends React.Component {
       <div className="staff-global">
         <div className="admin-satff">
           <h1 style={{ textAlign: "center" }} className="staff-global-head">
-            Administartive Staff
+            Administrative Staff
           </h1>
 
           <div class=" staff-row ">

@@ -7,7 +7,6 @@ import profile from "../../assets/facultyData/niharikha.JPG";
 class Niharika extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
   openNav = () => {
-     
     if (!this.state.isOpen) {
       document.getElementById("faculty-alt-nav").style.display = "flex";
     } else {
@@ -18,10 +17,13 @@ class Niharika extends React.Component {
 
   open = (id, hash) => {
     // this.openNav();
+    if (window.innerWidth < 867) {
+      this.openNav();
+    }
     if (window.location.hash === hash) {
       return;
     }
-    //  
+    //
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }

@@ -13,7 +13,7 @@ class Calender extends React.Component {
     const list = props.value.map((value, index) => {
       return <this.TD key={index} row={value} />;
     });
-    return <tbody>{list}</tbody>;
+    return <tbody style={{ textAlign: "left" }}>{list}</tbody>;
   };
   componentDidMount() {
     document.title =

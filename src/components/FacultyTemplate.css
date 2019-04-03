@@ -216,6 +216,11 @@
 .faculty-image-hid {
   display: none;
 }
+@media only screen and (max-width: 1920px) {
+  .faculty-alt-nav-inner {
+    display: none;
+  }
+}
 @media only screen and (max-width: 600px) {
   .faculty-image-hid {
     display: flex;
@@ -257,5 +262,8 @@
   }
   .faculty-body {
     padding: 0 20px;
+  }
+  .faculty-alt-nav-inner {
+    /* display: block; */
   }
 }

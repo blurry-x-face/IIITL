@@ -48,9 +48,9 @@ class News extends React.Component {
             <div className="c2">
               <h1 className="news-section-head">Events</h1>
               <div className="news-article">
-                <Link to="#" className="news-link fonts">
+                <p className="news-link-non fonts">
                   Coding Competition for first years was held on 1 april 2019.
-                </Link>
+                </p>
                 <p className="date">April 1, 2019</p>
               </div>
               {/* <div className="news-article">
@@ -83,7 +83,7 @@ class News extends React.Component {
               </div>
             </div>
           </div>
-          <div className="center">
+          {/* <div className="center">
             <div className="payment-section">
               <h1 className="payment-head">Payment Gateway</h1>
               <p>Payment Gateway for various payment methods.</p>
@@ -91,7 +91,7 @@ class News extends React.Component {
                 Pay Now
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

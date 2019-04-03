@@ -16,10 +16,13 @@ class MS extends React.Component {
   };
 
   open = (id, hash) => {
+    if (window.innerWidth < 867) {
+      this.openNav();
+    }
     if (window.location.hash === hash) {
       return;
     }
-     
+
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }

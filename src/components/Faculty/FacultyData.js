@@ -19,24 +19,26 @@ const vks = {
     }
   },
   journalData: [
-    "Vishal Krishna Singh, Manish Kumar and Shekhar Verma,  & Accurate Detection of Important Events in WSNs, &  in IEEE Systems Journal (Impact Factor- 3.854), vol. PP, no. 99, pp. 1-10. doi: 10.1109/JSYST.2017.2783353.",
-    "Vishal Krishna Singh, Gajendra Sharma, and Manish Kumar.  & Compressed Sensing Based Acoustic Eevent Detection in Protected Area Networks with Wireless Multimedia Sensors. &  Multimedia Tools and Applications (Impact Factor- 1.530) 76, no. 18 (2017):18531-18555.",
-    "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI: https://doi.org/10.1007/s11277-017-5047- 9. Wireless Personal Communications, (Impact Factor- 0.951), Springer Publications.",
-    "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http:0.909), Taylor and Francis Publications.",
-    "Vishal Krishna Singh, Vivek Kumar Singh and Manish Kumar. ‘In-Network Data Processing Based on Compressed Sensing in WSN: A Survey’ (2017).  Wireless Personal Communications 96, no. 2 (2017): 2087-2124. (Impact Factor- 0.951), Springer Publications.",
-    "Vishal Krishna Singh, Rahul Verma, and Manish Kumar. ‘Voronoi Neighbour Based Energy Efficient Event Detection in Wireless Sensor Networks.’ AEU-International Journal of Electronics and Communications 82 (2017): 358-367. (Impact Factor- 1.147), Elsevier Publications.",
-    "Vishal Krishna Singh, Manish Kumar, 2016. Hierarchical Compressed Sensing for Cluster Based Wireless Sensor Networks. International Journal of Advanced Computer Science Applications, 1(7), pp.58-67."
+    'Vishal Krishna Singh, Manish Kumar, and Shekhar Verma. "Node Scheduling and Compressed Sampling for Event Reporting in WSNs." In IEEE Transactions on Network Science and Engineering (2018), Doi: 10.1109/TNSE.2018.2799845.',
+    "Vishal Krishna Singh, Manish Kumar, 2016. Hierarchical Compressed Sensing for Cluster Based Wireless Sensor Networks. International Journal of Advanced Computer Science Applications, 1(7), pp.58-67.",
+    'Vishal Krishna Singh, Manish Kumar and Shekhar Verma, "Accurate Detection of Important Events in WSNs," (2018) in IEEE Systems Journal (SCI) (Impact Factor-3.854), vol. PP, no. 99, pp. 1-10. Doi: 10.1109/JSYST.2017.2783353.',
+    "Vishal Krishna Singh and Manish Kumar ‘In-network data processing in wireless sensor networks using compressed sensing’, Int. J. Sensor Networks (2018), Vol. 26, No. 3,pp.174–189. (SCI) (Impact Factor- 0.454), Inder Science Publishers.",
+    'Vishal Krishna Singh, Gajendra Sharma, and Manish Kumar. "Compressed Sensing Based Acoustic Event Detection in Protected Area Networks with Wireless Multimedia Sensors." Multimedia Tools and Applications (SCI) (Impact Factor- 1.530) 76, no. 18 (2017): 18531-18555.',
+    "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI:https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
+    "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http://dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications.",
+    "Vishal Krishna Singh, Vivek Kumar Singh and Manish Kumar. ‘In-Network Data Processing Based on Compressed Sensing in WSN: A Survey’ (2017). Wireless Personal Communications 96, no. 2 (2017): 2087-2124. (SCI) (Impact Factor- 0.951), Springer Publications.",
+    "Vishal Krishna Singh, Rahul Verma, and Manish Kumar. ‘Voronoi Neighbour Based Energy Efficient Event Detection in Wireless Sensor Networks.’ AEU-International Journal of Electronics and Communications 82 (2017): 358-367. (SCI) (Impact Factor- 1.147), Elsevier Publications."
   ],
   conference: [
-    "Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar.  & Sparse data recovery using optimized orthogonal matching pursuit for WSNs. &  Procedia Computer Science 109 (2017):210-216. 8th International Conference on Ambient Systems, Networks and Technologies,ANT-2017.",
-    "Vishal Krishna Singh, Saurabh Verma, Manish Kumar.  & Privacy Preserving In-network Aggregation in Wireless Sensor Networks. &  Procedia Computer Science 94 (2016):216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada",
-    "Vishal Krishna Singh, Ajit Singh, Manish Kumar.  & Data aggregation based link loss inference in wireless sensor networks. &  In Electrical Computer and Electronics(UPCON), 2015 IEEE UP Section Conference on, pp. 1-5. IEEE, 2015.",
-    "Vishal Krishna Singh, K. James Mathai, Shailendra Singh,  & Fingerprint Segmentation: Optimization of a Filtering Technique with Gabor Filter. In Communication Systems and Network Technologies (CSNT), 2014 Fourth International Conference on (pp.823-827). IEEE."
+    'Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar. "Sparse data recovery using optimized orthogonal matching pursuit for WSNs." Procedia Computer Science 109 (2017):210-216. 8th International Conference on Ambient Systems, Networks and Technologies,ANT-2017.',
+    'Vishal Krishna Singh, Saurabh Verma, Manish Kumar. "Privacy Preserving In-network Aggregation in Wireless Sensor Networks." Procedia Computer Science 94 (2016): 216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada',
+    'Vishal Krishna Singh, Ajit Singh, Manish Kumar. "Data Aggregation Based Link Loss Inference in Wireless Sensor Networks." In Electrical Computer and Electronics (UPCON), 2015 IEEE UP Section Conference on, pp. 1-5. IEEE, 2015.',
+    'Vishal Krishna Singh, K. James Mathai, Shailendra Singh, "Fingerprint Segmentation:Optimization of a Filtering Technique with Gabor Filter. In Communication Systems and Network Technologies (CSNT), 2014 Fourth International Conference on (pp.823-827). IEEE.'
   ],
   education: [
-    "Doctorate of Philosophy in Information Technology (Ph.D.) Thesis Title: In-network Inference in Wireless Sensor Networks.Institute: Indian Institute of Information Technology, Jhalwa, Allahabad.Duration: January 2014 – February 2018.",
-    "Master of Technology in Computer Technology and Applications (M. Tech.)Thesis Title: Segmentation of Low Quality Fingerprint Images by Optimizing a Filtering Technique.Institute: National Institute of Technical Teachers Training and Research, Bhopal, Madhya Pradesh.Duration: 2011 – 2013",
-    "Bachelor of Technology in Information Technology (B. Tech.)Institute: Hindustan Institute of Technology, (UPTU), Gr. Noida. Uttar Pradesh.Duration: 2006 – 2010"
+    "Doctorate of Philosophy in Information Technology (Ph.D) Thesis Title: In-network Inference in Wireless Sensor Networks. Institute: Indian Institute of Information Technology, Jhalwa, Allahabad.",
+    "Master of Technology in Computer Technology and Applications (M. Tech.) Thesis Title: Segmentation of Low Quality Fingerprint Images by Optimizing a Filtering Technique Institute: National Institute of Technical Teachers Training and Research, Bhopal, Madhya Pradesh.",
+    "Bachelor of Technology in Information Technology (B. Tech.) Institute: Hindustan Institute of Technology, Gr. Noida. Uttar Pradesh."
   ],
   research: [
     "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
@@ -52,14 +54,14 @@ const vks = {
     "IEEE Systems Journal"
   ],
   courses: [
-    "Discreet Mathematics, B.Tech(IT) II Semester",
-    "Design and Analysis of Algorithms, B.Tech(IT) IV Semester",
-    "Data Mining and Warehousing, B.Tech(IT) VI Semester"
+    "Discreet Mathematics",
+    "Design and Analysis of Algorithms",
+    "Data Mining and Warehousing",
+    "Operating Systems",
+    "System Modelling and Simulations",
+    "Information Retrieval Systems"
   ],
-  contact: [
-    "(+91) 6394817065",
-    "vks@iiitl.ac.in , singhvishalkrishna@gmail.com"
-  ],
+  contact: ["(+91) 6394817065", "vks@iiitl.ac.in"],
   address: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",

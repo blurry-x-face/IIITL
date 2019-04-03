@@ -136,6 +136,11 @@
 .blog-post-p {
   /* width: 70%; */
 }
+.news-link-non {
+  color: #005699;
+  text-decoration: none;
+  font-size: 20px;
+}
 .c2 a {
   color: #005699;
   text-decoration: none;

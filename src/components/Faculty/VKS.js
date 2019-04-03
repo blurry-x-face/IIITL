@@ -16,10 +16,13 @@ class Template extends React.Component {
   };
 
   open = (id, hash) => {
+    if (window.innerWidth < 867) {
+      this.openNav();
+    }
     if (window.location.hash === hash) {
       return;
     }
-     
+
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }
@@ -241,7 +244,7 @@ class Template extends React.Component {
             <this.Awards award={vks.awards.award1} />
             <this.Awards award={vks.awards.award2} />
           </div>
-          <div className="faculty-journals">
+          {/* <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
               Publications
             </div>
@@ -256,7 +259,7 @@ class Template extends React.Component {
             <div className="faculty-conference-list">
               <this.Confrence conferences={vks.conference} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="faculty-body" id="faculty-body-journals">
           <div className="faculty-journals">

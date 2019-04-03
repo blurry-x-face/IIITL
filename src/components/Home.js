@@ -17,7 +17,7 @@ class Home extends React.Component {
       <div className="home padding-res">
         {/* eslint-disable-next-line jsx-a11y/no-distracting-elements */}
         <marquee
-          scrollAmount="8"
+          scrollAmount="6"
           behaviour="alternate"
           onMouseOver="this.stop();"
           style={{
