@@ -10,7 +10,7 @@ class News extends React.Component {
         <div className="list-center-res-new">
           <img src={props.data.img} alt="img" />
         </div>
-        <Link to="/comming-soon">
+        <Link to={props.data.link}>
           <div className="list-blog-post-new">
             <h1 className="list-blog-post-head-new">{props.data.head}</h1>
 

@@ -335,19 +335,22 @@ const blogs = [
     head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
     para:
       "Prof. Arun Mohan Sherry, an alumnus of IIT-Kharagpur has been appointed the founding director of the Indian Institute of Information Technology (IIIT), Lucknow.",
-    img: BlogImage1
+    img: BlogImage1,
+    link: "/blogs/1"
   },
   {
     head: "Pariksha Pe Charcha 2.0'",
     para:
       "As part of the second edition of ''Pariksha Pe Charcha 2.0'' Prime Minister Narendra Modi interacts with a total of 2000 students, parents and teachers in the national capital today.",
-    img: BlogImage2
+    img: BlogImage2,
+    link: "/blogs/2"
   },
   {
     head: "Expert Guest Lectures and Research Interaction",
     para:
       "Three eminent academicians, Prof. B. B. Chaudhuri, ISI Kolkata, Prof. S. Sadagopan, IIIT Bangalore and Prof. B. Chanda, ISI Kolkata visited the IIIT Allahabad campus between 20th and 23rd March 2018.",
-    img: BlogImage3
+    img: BlogImage3,
+    link: "/blogs/3"
   }
 ];
 const article = [

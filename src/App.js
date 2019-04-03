@@ -35,7 +35,6 @@ import EventList from "./components/EventsList";
 import Niharika from "./components/Faculty/Niharika";
 import Somendu from "./components/Faculty/Somendu";
 import ST from "./components/Faculty/ST";
-import Blog from "./components/Blogs/Blog1";
 import PictureGallery from "./components/PictureGallery";
 import Announcements1 from "./components/Announcements/Announcements1";
 import Announcements2 from "./components/Announcements/Announcement2";
@@ -47,6 +46,9 @@ import AP from "./components/Faculty/AP";
 import SG from "./components/Faculty/SG";
 import MS from "./components/Faculty/Mary";
 import BKC from "./components/Faculty/BKC";
+import Blog1 from "./components/Blogs/Blog1";
+import Blog2 from "./components/Blogs/Blog2";
+import Blog3 from "./components/Blogs/Blog3";
 
 class App extends Component {
   render() {
@@ -88,7 +90,9 @@ class App extends Component {
         <Route path="/faculty/shikha" exact component={Shikha} />
         <Route path="/faculty/BKC" exact component={BKC} />
         <Route path="/comming-soon" exact component={CommingSoon} />
-        <Route path="/blog1" exact component={Blog} />
+        <Route path="/blogs/1" exact component={Blog1} />
+        <Route path="/blogs/2" exact component={Blog2} />
+        <Route path="/blogs/3" exact component={Blog3} />
         <SideRendering data={data.staff.data} />
         <SideRendering data={data.faculty.data} />
         <SideRendering data={data.cord.data} />

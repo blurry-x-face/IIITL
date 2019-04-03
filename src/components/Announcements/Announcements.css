@@ -20,8 +20,9 @@
 .announcements-inner a {
   text-decoration: none;
   color: rgb(1, 68, 46);
-  align-self: flex-end;
+  align-self: flex-start;
   font-size: 20px;
+  margin-left: 10%;
 }
 .announcements-inner p {
   font-size: 18px;

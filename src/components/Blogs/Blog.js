@@ -3,7 +3,7 @@ import "./Blog.css";
 
 const Blog = props => {
   return (
-    <div className="new-blog-global">
+    <div className="new-blog-global padding-res">
       <div className="new-blog-inner">
         <img src={props.data.img} alt="img" />
         <div className="new-blog-post">
