@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
@@ -12,29 +13,47 @@ class Footer extends React.Component {
           <div className="connect-with-us footer-column footer-column-b">
             <div className="connect-inner footer-inner">
               <div className="footer-head connect-head">Connect with us</div>
-              <div className="connect-content footer-inner-content">
+              <a
+                target="blank"
+                href="https://www.facebook.com/iiitlucknow/"
+                className="connect-content footer-inner-content"
+              >
                 <i className="fab fa-facebook" />
                 Facebook
-              </div>
-              <div className="connect-content footer-inner-content">
+              </a>
+              <a
+                target="blank"
+                href="https://www.linkedin.com/school/iiitl/"
+                className="connect-content footer-inner-content"
+              >
                 <i className="fab fa-linkedin" />
                 Linkedin
-              </div>
-              <div className="connect-content footer-inner-content">
+              </a>
+              <a
+                href="mailto:contact@iiitl.ac.in"
+                className="connect-content footer-inner-content"
+              >
                 <i className="fas fa-envelope" />
                 Mail
-              </div>
+              </a>
             </div>
           </div>
           <div className="footer-column about-site">
             <div className="about-site-inner footer-inner">
               <div className="footer-head about-site-head">About this site</div>
-              <div className="about-site-content footer-inner-content">
+              <Link
+                to="/comming-soon"
+                className="about-site-content footer-inner-content"
+              >
                 Team
-              </div>
-              <div className="about-site-content footer-inner-content">
+              </Link>
+              <a
+                href="https://reactjs.org/"
+                target="blank"
+                className="about-site-content footer-inner-content"
+              >
                 Tech Used
-              </div>
+              </a>
             </div>
           </div>
           <div className="footer-column" />
@@ -73,18 +92,30 @@ class Footer extends React.Component {
               <div className="external-links-head footer-head">
                 External Links
               </div>
-              <div className="external-links-content footer-inner-content">
+              <a
+                href="http://iiita.ac.in"
+                target="blank"
+                className="external-links-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 IIIT Allahabad
-              </div>
-              <div className="external-links-content footer-inner-content">
+              </a>
+              <a
+                href="https://iiitcouncil.com"
+                target="blank"
+                className="external-links-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 IIIT Council
-              </div>
-              <div className="external-links-content footer-inner-content">
+              </a>
+              <a
+                target="blank"
+                href="http://www.uplc.in/"
+                className="external-links-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 UPLC | Industry Partner
-              </div>
+              </a>
             </div>
           </div>
 
@@ -95,39 +126,64 @@ class Footer extends React.Component {
                 <i className="fas fa-link" />
                 Portals
               </div>
-              <div className="portals-content footer-inner-content">
+              <a
+                href="https://helpdesk.iiita.ac.in/"
+                target="blank"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 Help Desk
-              </div>
-              <div className="portals-content footer-inner-content">
+              </a>
+              <a
+                href="http://pldap.iiita.ac.in/"
+                target="blank"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 INDEM
-              </div>
-              <div className="portals-content footer-inner-content">
+              </a>
+              <a
+                href="http://library.iiita.ac.in/"
+                target="blank"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 Library
-              </div>
+              </a>
             </div>
           </div>
           <div className="footer-column footer-downloads">
             <div className="portals portals-inner footer-inner">
               <div className="portals-head footer-head">Links</div>
-              <div className="portals-content footer-inner-content">
+              <Link
+                to="/downloads"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 Downloads
-              </div>
-              <div className="portals-content footer-inner-content">
+              </Link>
+              <Link
+                to="/calender"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 Academic Calender
-              </div>
-              <div className="portals-content footer-inner-content">
+              </Link>
+              <Link
+                to="/course-structure"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
                 Course Structure
-              </div>
-              <div className="portals-content footer-inner-content">
+              </Link>
+              <a
+                href="https://rtionline.gov.in/"
+                target="blank"
+                className="portals-content footer-inner-content"
+              >
                 <i className="fas fa-link" />
-                Library
-              </div>
+                RTI
+              </a>
             </div>
           </div>
           <div className="footer-column footer-column-res" />

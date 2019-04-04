@@ -16,4 +16,3 @@ const Blog = props => {
 };
 
 export default Blog;
-// IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry

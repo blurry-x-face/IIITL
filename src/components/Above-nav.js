@@ -1,7 +1,7 @@
 import React from "react";
 import "./Above-nav.css";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Page-002.png";
+import Logo from "../assets/Student certificate (3).png";
 
 const AboveNav = () => {
   return (

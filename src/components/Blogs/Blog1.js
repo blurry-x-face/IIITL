@@ -1,6 +1,5 @@
 import React from "react";
 import "./Blog.css";
-import image from "../../assets/dr-arun-sherry.jpg";
 import Blog from "./Blog";
 import {blogs} from "../Data";
 

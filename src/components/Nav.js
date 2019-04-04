@@ -416,15 +416,23 @@ class Nav extends React.Component {
             </div>
           </div>
           <div className="nav-icons">
-            <NavLink to="#home" className="nav-res">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/school/iiitl/"
+              className="nav-res"
+            >
               <i className="fab fa-linkedin" />
-            </NavLink>
+            </a>
             <a href="mailto:contact@iiitl.ac.in" className="nav-res">
               <i className="fas fa-envelope" />
             </a>
-            <NavLink to="#home" className="nav-res">
+            <a
+              target="blank"
+              href="https://www.facebook.com/iiitlucknow/"
+              className="nav-res"
+            >
               <i className="fab fa-facebook" />
-            </NavLink>
+            </a>
           </div>
         </div>
         {/* <div className="alt-nav">
