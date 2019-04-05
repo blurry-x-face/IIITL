@@ -35,6 +35,7 @@ nav {
   font-size: 14px;
   white-space: nowrap;
   padding-top: 17px;
+  border-left: solid 1px rgba(255, 255, 255, 0.3);
 }
 
 .dropdown {
@@ -182,8 +183,14 @@ nav {
     margin-top: 10px;
   }
 }
+.contact-content {
+  padding-left: 0px !important;
+}
 
-@media only screen and (max-width: 777px) {
+@media only screen and (max-width: 1065px) {
+  .above-nav-right-icon-3 {
+    display: none;
+  }
   .navbar {
     width: 100%;
     display: grid;

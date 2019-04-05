@@ -382,12 +382,24 @@ class Nav extends React.Component {
                     Department Research Facility
                   </NavLink>
 
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink
+                    // style={{ borderLeft: "solid 1px" }}
+                    to="/comming-soon"
+                    className="af-1"
+                  >
                     Lecture Hall Complex
                   </NavLink>
                 </div>
               </div>
             </div>
+            <NavLink
+              to="/comming-soon"
+              // target="blank"
+              style={{ border: "none" }}
+              className="nav-NavLink nav-res"
+            >
+              Recruitment
+            </NavLink>
             <a
               href="https://placements.iiitl.ac.in/"
               target="blank"
@@ -395,6 +407,7 @@ class Nav extends React.Component {
             >
               Placements
             </a>
+
             <div className="toggle-btn">
               <button
                 className="toggle-btn"
@@ -435,18 +448,6 @@ class Nav extends React.Component {
             </a>
           </div>
         </div>
-        {/* <div className="alt-nav">
-          <div className="alt-nav-drop-head">
-            <div className="alt-nav-drop-subhead">
-              <div className="alt-nav-drop-subhead-head">Institute</div>
-              <div className="alt-nav-drop-item">
-              <div className='alt-nav-sub-drop'>
-                Institute
-              </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <AltNav />
       </nav>
     );

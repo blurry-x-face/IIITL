@@ -95,7 +95,7 @@ class AltNav extends React.Component {
               >
                 Senate
               </Link>
-              
+
               <Link
                 to="/contactus"
                 onClick={() => this.closeNav()}
@@ -668,6 +668,16 @@ class AltNav extends React.Component {
             </div>
           </div>
         </div>
+        <button className="alt-dropbtn">
+          <Link
+            to="/comming-soon"
+            target="blank"
+            className="alt-nav-link"
+            style={{ color: "black" }}
+          >
+            Recruitment
+          </Link>
+        </button>
         <button className="alt-dropbtn">
           <a
             href="https://placements.iiitl.ac.in/"
