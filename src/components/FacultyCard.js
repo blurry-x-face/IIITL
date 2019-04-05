@@ -98,3 +98,4 @@ class FacultyCard extends React.Component {
   }
 }
 export default FacultyCard;
+//this is not a neccesarru chage this change may not affect rest of the pages and it  
