@@ -178,6 +178,8 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     FAQ
                   </NavLink>
+                </div>
+                <div className="dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
@@ -201,6 +203,8 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     Hostel Rules
                   </NavLink>
+                </div>
+                <div className="dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Mess
                   </div>
@@ -247,7 +251,7 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     Notice Board
                   </NavLink>
-                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                  {/* <div className="dropdown-content-c-1-head dropdown-content-head">
                     Quick Links
                   </div>
                   <NavLink to="/coming-soon" className="af-1">
@@ -256,7 +260,7 @@ class Nav extends React.Component {
 
                   <NavLink to="/coming-soon" className="af-1">
                     Sports/Gymkhana
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </div>
             </div>
