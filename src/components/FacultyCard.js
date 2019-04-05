@@ -2,6 +2,7 @@ import React from "react";
 import "./FacultyCard.css";
 import facultyCardData from "./FacultyData";
 import { Link } from "react-router-dom";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class FacultyCard extends React.Component {
   Card = props => {
@@ -81,7 +82,8 @@ class FacultyCard extends React.Component {
   }
   render() {
     return (
-      <div className="faculty-global padding-res    ">
+      <div className="faculty-global padding-res">
+        <ScrollToTopOnMount />
         <this.Card data={facultyCardData[1]} alt={false} />
         <this.Card data={facultyCardData[8]} alt={true} />
         <this.CustomLinkCard data={facultyCardData[7]} alt={false} />

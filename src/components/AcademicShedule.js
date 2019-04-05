@@ -1,6 +1,7 @@
 import React from "react";
 import "./AcademicShedule.css";
 import { calender } from "./Data";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class Calender extends React.Component {
   TD = props => {
@@ -22,6 +23,7 @@ class Calender extends React.Component {
   render() {
     return (
       <div className="calender-global">
+        <ScrollToTopOnMount />
         <div className="calender-global-head">
           <h1>Academic Calender</h1>
         </div>

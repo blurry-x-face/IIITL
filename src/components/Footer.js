@@ -49,7 +49,7 @@ class Footer extends React.Component {
             <div className="about-site-inner footer-inner">
               <div className="footer-head about-site-head">About this site</div>
               <Link
-                to="/comming-soon"
+                to="/coming-soon"
                 className="about-site-content footer-inner-content"
               >
                 Team

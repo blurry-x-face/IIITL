@@ -6,6 +6,7 @@ import Sudhar from "./ImageGrid";
 import { Link } from "react-router-dom";
 import Latest from "./Latest";
 import News from "./News";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -15,6 +16,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home padding-res">
+        <ScrollToTopOnMount />
         {/* eslint-disable-next-line jsx-a11y/no-distracting-elements */}
         <marquee
           scrollAmount="6"

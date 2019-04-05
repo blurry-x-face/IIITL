@@ -8,7 +8,7 @@ class EventList extends React.Component {
   Article = props => {
     return (
       <div className="events-list-news-article">
-        <Link to="/comming-soon" className="events-list-news-link fonts">
+        <Link to="/coming-soon" className="events-list-news-link fonts">
           {props.data.article}
         </Link>
         <p className="events-list-date">{props.data.date}</p>

@@ -94,6 +94,10 @@ class ST extends React.Component {
     });
     return <div>{li} </div>;
   };
+  componentDidMount() {
+    document.title =
+      "Sushil Kumar Tiwari  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

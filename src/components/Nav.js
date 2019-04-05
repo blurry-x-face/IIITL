@@ -3,6 +3,8 @@ import "./Nav.css";
 import { NavLink } from "react-router-dom";
 import AltNav from "./Alt-nav";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
+import timeTable from "../assets/downloads/Time_Table.pdf";
+import pdfFee from "../assets/blogs/fee-structure.pdf";
 
 // import Sidebar from "./Sidebar";
 class Nav extends React.Component {
@@ -81,7 +83,7 @@ class Nav extends React.Component {
                   <NavLink to="/board-governors" className="af-1">
                     Board of Governors
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Finance Committee
                   </NavLink>
                   <NavLink to="/Senate" className="af-1">
@@ -101,16 +103,16 @@ class Nav extends React.Component {
                   <NavLink to="/staff" className="af-1">
                     Officer & Staff
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Academic Affairs
                   </NavLink>
                   <NavLink to="/faculty" className="af-1">
                     Faculty
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Student Affairs
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Registrar's Office
                   </NavLink>
                   <NavLink to="/downloads" className="af-1">
@@ -121,7 +123,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Other Units
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Finance & Accounts
                   </NavLink>
                   <a href={RTI} target="blank" className="af-1">
@@ -140,7 +142,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Department of IT
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Information Technology
                   </NavLink>
                 </div>
@@ -148,7 +150,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-2-head dropdown-content-head">
                     Department of CSE
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Computer Science Engineering
                   </NavLink>
                 </div>
@@ -164,28 +166,28 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Student Counselling
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     About Counselling
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Common Concerns
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Services
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     FAQ
                   </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Anti-Ragging Committee
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Anti-Sexual Harassment Policy
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Office Orders
                   </NavLink>
                 </div>
@@ -193,25 +195,25 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Hostel
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Student's Hostel
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Hostel Rules
                   </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Mess
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Overview
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Mess Menu
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Mess Committee
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Mess Committee Duties
                   </NavLink>
                 </div>
@@ -219,19 +221,19 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     People
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Dean & Staff
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Wardens
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Counsellor
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Sports Staff
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Hostel Caretaker
                   </NavLink>
                 </div>
@@ -239,20 +241,20 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Office, Students' Affairs
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     People
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Notice Board
                   </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Quick Links
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Student Portal Login
                   </NavLink>
 
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Sports/Gymkhana
                   </NavLink>
                 </div>
@@ -272,11 +274,14 @@ class Nav extends React.Component {
                     B.Tech in IT
                   </NavLink>
                   <NavLink to="/btech-cs" className="af-1">
-                    B.Tech in CS
+                    B.Tech in CSE
                   </NavLink>
 
-                  <NavLink to="/comming-soon" className="af-1">
-                    M.Tech in CS
+                  <NavLink to="/coming-soon" className="af-1">
+                    M.Tech in CSE
+                  </NavLink>
+                  <NavLink to="/coming-soon" className="af-1">
+                    PhD
                   </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
@@ -292,8 +297,14 @@ class Nav extends React.Component {
                   <NavLink to="/course-structure" className="af-1">
                     Course Structure
                   </NavLink>
+                  <a href={timeTable} target="blank" className="af-1">
+                    Time Table
+                  </a>
+                  <a href={pdfFee} target="blank" className="af-1">
+                    Fee Structure
+                  </a>
 
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     List of Students
                   </NavLink>
                 </div>
@@ -302,16 +313,16 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Important Resolutions
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Office Orders
                   </NavLink>
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Facility
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Lecture Hall Complex
                   </NavLink>
                 </div>
@@ -327,13 +338,13 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Central Library
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     About
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     People
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     E-Resources
                   </NavLink>
                 </div>
@@ -342,23 +353,23 @@ class Nav extends React.Component {
                     Computer Centre
                   </div>
 
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     People
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Services
                   </NavLink>
 
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     CC Lab
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     FAQ
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Download
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Notice Board
                   </NavLink>
                 </div>
@@ -366,25 +377,25 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Other Facilities
                   </div>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Visitors' Hostel
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Transportation
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Security
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Health Centre
                   </NavLink>
-                  <NavLink to="/comming-soon" className="af-1">
+                  <NavLink to="/coming-soon" className="af-1">
                     Department Research Facility
                   </NavLink>
 
                   <NavLink
                     // style={{ borderLeft: "solid 1px" }}
-                    to="/comming-soon"
+                    to="/coming-soon"
                     className="af-1"
                   >
                     Lecture Hall Complex
@@ -393,7 +404,7 @@ class Nav extends React.Component {
               </div>
             </div>
             <NavLink
-              to="/comming-soon"
+              to="/coming-soon"
               // target="blank"
               style={{ border: "none" }}
               className="nav-NavLink nav-res"

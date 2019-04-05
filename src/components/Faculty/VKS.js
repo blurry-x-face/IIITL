@@ -74,6 +74,10 @@ class Template extends React.Component {
     });
     return <div>{li} </div>;
   };
+  componentDidMount() {
+    document.title =
+      "Vishal Krishna Singh  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

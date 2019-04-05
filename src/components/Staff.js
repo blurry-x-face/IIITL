@@ -37,6 +37,10 @@ class Staff extends React.Component {
       </div>
     );
   };
+  componentDidMount() {
+    document.title =
+      "Office & Staff  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="staff-global">

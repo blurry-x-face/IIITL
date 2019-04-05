@@ -1,13 +1,19 @@
 import React from "react";
 import "./Announcements.css";
 import Announcements from "./Announcements";
-import {AnnouncementsData} from "./AnnouncemetsData";
+import { AnnouncementsData } from "./AnnouncemetsData";
 
-const Announcements5 = () => {
-  return (
-    <div>
-      <Announcements data={AnnouncementsData.announcement5} />
-    </div>
-  );
-};
+class Announcements5 extends React.Component {
+  componentDidMount() {
+    document.title =
+      "Announcements  | Indian Institute of Information Technology, Lucknow";
+  }
+  render() {
+    return (
+      <div>
+        <Announcements data={AnnouncementsData.announcement5} />
+      </div>
+    );
+  }
+}
 export default Announcements5;

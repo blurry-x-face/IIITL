@@ -94,6 +94,10 @@ class Somendu extends React.Component {
     });
     return <div>{li} </div>;
   };
+  componentDidMount() {
+    document.title =
+      "Somendu Chakraborty  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

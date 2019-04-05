@@ -74,6 +74,10 @@ class AP extends React.Component {
     });
     return <div>{li} </div>;
   };
+  componentDidMount() {
+    document.title =
+      "Abhishek Pandey  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

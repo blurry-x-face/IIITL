@@ -11,7 +11,7 @@ const academicLinks = {
       "Course Structure",
       "List of Students"
     ],
-    links: ["/calender", "/seat-matrix", "/course-structure", "/comming-soon"]
+    links: ["/calender", "/seat-matrix", "/course-structure", "/coming-soon"]
   }
 };
 const Ins = {
@@ -27,7 +27,7 @@ const Ins = {
     links: [
       "/About",
       "/board-governors",
-      "/comming-soon",
+      "/coming-soon",
       "/senate",
       "/contactus"
     ]
@@ -48,10 +48,10 @@ const InsAdmin = {
     links: [
       "/directorate",
       "/staff",
-      "/comming-soon",
+      "/coming-soon",
       "/faculty",
-      "/comming-soon",
-      "/comming-soon",
+      "/coming-soon",
+      "/coming-soon",
       "/downloads"
     ]
   }

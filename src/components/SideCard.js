@@ -1,6 +1,7 @@
 import React from "react";
 import "./SideCard.css";
 import { NavLink } from "react-router-dom";
+import ScrollToTopOnMount from "./ScrollToTop";
 const Side = props => {
   const lol = props.Ins.anchor.name.map((name, index) => {
     return (
@@ -22,6 +23,7 @@ const Side = props => {
 const Card = props => {
   return (
     <div className="side-card-outer">
+      <ScrollToTopOnMount />
       <div className="side-card-inner">
         <div className="side-card-head">
           <p>{props.head}</p>

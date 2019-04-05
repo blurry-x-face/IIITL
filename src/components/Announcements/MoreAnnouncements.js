@@ -5,6 +5,10 @@ import { AnnouncementsListData } from "./AnnouncemetsData";
 import ScrollToTopOnMount from "../ScrollToTop";
 
 class AnnouncementsList extends React.Component {
+  componentDidMount() {
+    document.title =
+      "Announcements  | Indian Institute of Information Technology, Lucknow";
+  }
   Article = props => {
     return (
       <li className="announcements-list">

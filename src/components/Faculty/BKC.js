@@ -17,8 +17,8 @@ class BKC extends React.Component {
 
   open = (id, hash) => {
     if (window.innerWidth < 867) {
-        this.openNav();
-      }
+      this.openNav();
+    }
     if (window.location.hash === hash) {
       return;
     }
@@ -109,6 +109,10 @@ class BKC extends React.Component {
       </div>
     );
   };
+  componentDidMount() {
+    document.title =
+      "Brijesh Kumar Chaurasia  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

@@ -14,6 +14,7 @@ import form1 from "../assets/downloads/student_leave.pdf";
 import form2 from "../assets/downloads/Ident.pdf";
 import form3 from "../assets/downloads/INDENT_FORM.pdf";
 import Statues from "../assets/downloads/StatutesOfIIITLucknow.pdf";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 const BoGMeeting = [
   ["Minutes of First BOG Meeting", BOG1],
@@ -38,7 +39,7 @@ class Downloads extends React.Component {
     let li = props.data.map(item => {
       return (
         <li>
-          <a href="/comming-soon">{item}</a>
+          <a href="/coming-soon">{item}</a>
         </li>
       );
     });
@@ -56,9 +57,14 @@ class Downloads extends React.Component {
     });
     return <ul className="downloads-list">{li}</ul>;
   };
+  componentDidMount() {
+    document.title =
+      "Downloads  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="downloads-global padding-res">
+        <ScrollToTopOnMount />
         <div className="downloads-head">
           <h1 className="downloads-global-head">Downloads</h1>
           <h2 className="downloads-global-sub-head">Minutes of BOG Meetings</h2>

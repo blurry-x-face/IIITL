@@ -54,20 +54,20 @@ class News extends React.Component {
                 <p className="date">April 1, 2019</p>
               </div>
               {/* <div className="news-article">
-                <Link to="/comming-soon" className="news-link fonts">
+                <Link to="/coming-soon" className="news-link fonts">
                   New Office of Undergraduate Financial Aid promotes clarity
                 </Link>
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article hides">
-                <Link to="/comming-soon" className="news-link fonts">
+                <Link to="/coming-soon" className="news-link fonts">
                   Christopher L. Miller’s ‘Impostors’ asks readers: What’s in a
                   byline?
                 </Link>
                 <p className="date">January 30, 2019</p>
               </div>
               <div className="news-article hides">
-                <Link to="/comming-soon" className="news-link fonts">
+                <Link to="/coming-soon" className="news-link fonts">
                   From Yale to data science: How one alum made the leap
                 </Link>
                 <p className="date">January 30, 2019</p>
@@ -105,7 +105,7 @@ export default News;
               <div className="center-res">
                 <div className="blog-image" id="img1" />
               </div>
-              <Link to="/comming-soon">
+              <Link to="/coming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">
                     IIIT Lucknow welcomes Founding Director Dr. Arun Mohan
@@ -124,7 +124,7 @@ export default News;
                 {" "}
                 <div className="blog-image" id="img2" />
               </div>
-              <Link to="/comming-soon">
+              <Link to="/coming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">Pariksha Pe Charcha 2.0'</h1>
 
@@ -141,7 +141,7 @@ export default News;
               <div className="center-res">
                 <div className="blog-image" id="img3" />
               </div>
-              <Link to="/comming-soon">
+              <Link to="/coming-soon">
                 <div className="blog-post">
                   <h1 className="blog-post-head">
                     Expert Guest Lectures and Research Interaction

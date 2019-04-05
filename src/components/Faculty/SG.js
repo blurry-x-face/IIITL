@@ -17,12 +17,12 @@ class SG extends React.Component {
 
   open = (id, hash) => {
     if (window.innerWidth < 867) {
-        this.openNav();
-      }
+      this.openNav();
+    }
     if (window.location.hash === hash) {
       return;
     }
-     
+
     if (this.state.isFirst) {
       document.getElementById("faculty-body-home").style.display = "none";
     }
@@ -74,6 +74,10 @@ class SG extends React.Component {
     });
     return <div>{li} </div>;
   };
+  componentDidMount() {
+    document.title =
+      "Shikha Gautam  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">

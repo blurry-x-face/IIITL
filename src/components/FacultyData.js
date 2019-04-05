@@ -6,7 +6,7 @@ const facultyCardData = [
     researchArea: "Bioelectrics, Biomechanics, Machine Learning",
     contact: "Email: am@iiitl.ac.in",
     id: "ashutoshMishra",
-    link: "/comming-soon",
+    link: "/coming-soon",
     post: "",
     post2: ""
   },

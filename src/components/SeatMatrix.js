@@ -1,11 +1,11 @@
 import React from "react";
 import "./SeatMatrix.css";
 import { seatData } from "./Data";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class SeatMatrix extends React.Component {
   state = { isShowing: false, prev: "", isFirst: true };
   Show = () => {
-     
     let element = document.getElementById("seat-pool-category");
     var x = `table-${element.value}`;
     if (this.state.prev === x) {
@@ -22,6 +22,8 @@ class SeatMatrix extends React.Component {
   };
   componentDidMount() {
     this.Show();
+    document.title =
+      "BTech In CSE  | Indian Institute of Information Technology, Lucknow";
   }
   Row = props => {
     let x = props.data.map((value, index) => {
@@ -60,6 +62,7 @@ class SeatMatrix extends React.Component {
   render() {
     return (
       <div className="table-outer padding-res">
+        <ScrollToTopOnMount />
         <div className="table-head">IIIT LUCKNOW SEAT MATRIX</div>
         <table className="seat-main-table">
           <tbody>

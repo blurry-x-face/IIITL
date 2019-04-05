@@ -1,6 +1,7 @@
 import React from "react";
 import "./CourseStructure.css";
 import { courseStructure } from "./Data";
+import ScrollToTopOnMount from "./ScrollToTop";
 
 class Course extends React.Component {
   state = { isOpen: false, prevID: "", isFirst: true };
@@ -83,6 +84,7 @@ class Course extends React.Component {
   render() {
     return (
       <div className="course-global width-res">
+        <ScrollToTopOnMount />
         <div className="course-head">Course Structure</div>
         <this.Sem j={7} sem={courseStructure.sem1} head={"Semester-1"} />
         <this.Sem j={6} sem={courseStructure.sem2} head={"Semester-2"} />

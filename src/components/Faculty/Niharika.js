@@ -86,6 +86,10 @@ class Niharika extends React.Component {
     });
     return <ul>{li} </ul>;
   };
+  componentDidMount() {
+    document.title =
+      "Niharika Anand  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="faculty-template-global padding-res">
