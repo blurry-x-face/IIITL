@@ -156,7 +156,7 @@ class Nav extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="dropdown nav-res">
+            <div id="dropdown-student" className="dropdown nav-res">
               <button className="dropbtn">
                 Students
                 <i className="fa fa-caret-down" />
