@@ -12,9 +12,9 @@ class BTechCS extends React.Component {
       <div className="btech-global padding-res">
         <ScrollToTopOnMount />
         <div className="btech-global-div">
-          <h1 className="btech-global-head"> B.Tech. in CS</h1>
+          <h1 className="btech-global-head"> B.Tech. in CSE</h1>
           <p className="btech-p">
-            Admissions to the four year B.Tech. Program in CS branch of the
+            Admissions to the four year B.Tech. Program in CSE branch of the
             Institute is made through the examination conducted by CBSE under
             the name and style of JEE (Main). Based upon the merit in the
             written examination, Central Counseling Board of JEE (Main) invites

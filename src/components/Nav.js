@@ -142,9 +142,13 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Department of IT
                   </div>
-                  <NavLink to="/coming-soon" className="af-1">
+                  <a
+                    href="https://it-iiitl.netlify.com/"
+                    target="blank"
+                    className="af-1"
+                  >
                     Information Technology
-                  </NavLink>
+                  </a>
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
@@ -317,9 +321,9 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Regulations
                   </div>
-                  <NavLink to="/coming-soon" className="af-1">
+                  {/* <NavLink to="/coming-soon" className="af-1">
                     Important Resolutions
-                  </NavLink>
+                  </NavLink> */}
                   <NavLink to="/coming-soon" className="af-1">
                     Office Orders
                   </NavLink>
