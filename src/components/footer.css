@@ -44,7 +44,7 @@ footer {
   padding: 0 10px 0 0;
 }
 .footer-head {
-  padding: 10px 0 25px 0;
+  padding: 10px 0 20px 0;
   color: white;
   font-size: 18px;
 }
@@ -59,6 +59,19 @@ footer {
 .fa-phone {
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 1300px) {
+  .footer-inner-content {
+    font-size: 0.6rem;
+  }
+  .footer-head {
+    font-size: 14px;
+  }
+  .contact-head {
+    font-size: 1.8em;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .footer-r1 {
     /* display: grid; */
@@ -128,7 +141,7 @@ footer {
   justify-content: space-around;
 }
 .footer-bottom-head {
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 .footer-inner a {
   text-decoration: none;

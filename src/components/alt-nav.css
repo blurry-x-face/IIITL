@@ -17,7 +17,7 @@
 }
 .alt-dropbtn {
   width: 100%;
-  background:rgb(236, 236, 236);
+  background: rgb(236, 236, 236);
   /* background: rgb(117, 133, 146); */
   border: none;
   color: black;
@@ -27,6 +27,7 @@
 .alt-navbar button {
   text-align: justify;
   font-size: 17px;
+  padding-left: 25px;
 }
 .alt-dropbtn:focus {
   outline: transparent;
@@ -36,6 +37,9 @@
   font-weight: bolder;
   padding: 10px 0;
   font-size: 20px;
+}
+.alt-dropdown-content-c {
+  padding-left: 25px;
 }
 .alt-dropdown-content-c a {
   padding: 5px;
@@ -48,6 +52,9 @@
   color: white;
   padding: 10px;
 } */
+.alt-dropbtn i {
+  margin-left: 5px;
+}
 @media only screen and (max-width: 777px) {
   .alt-navbar {
     /* display: block; */

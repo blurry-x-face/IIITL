@@ -1,6 +1,9 @@
 import React from "react";
 import "./alt-nav.css";
 import { Link } from "react-router-dom";
+import RTI from "../assets/downloads/RTI - PDF.pdf";
+import timeTable from "../assets/downloads/Time_Table.pdf";
+import pdfFee from "../assets/blogs/fee-structure.pdf";
 
 class AltNav extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true, prevSelect: "" };
@@ -53,15 +56,9 @@ class AltNav extends React.Component {
               >
                 At a Glance
               </Link>
-              <Link
-                to="coming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Background
-              </Link>
               <a
-                href="https://iiitcouncil.in"
+                href="https://iiitcouncil.com/"
+                target="blank"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -115,13 +112,13 @@ class AltNav extends React.Component {
               >
                 Officer & Staff
               </Link>
-              <Link
+              {/* <Link
                 to="/coming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Academic Affairs
-              </Link>
+              </Link> */}
               <Link
                 to="/faculty"
                 onClick={() => this.closeNav()}
@@ -155,13 +152,15 @@ class AltNav extends React.Component {
               >
                 Finance & Accounts
               </Link>
-              <Link
+              <a
+                href="https://rtionline.gov.in/"
+                target="blank"
                 to="/coming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 RTI
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -178,13 +177,14 @@ class AltNav extends React.Component {
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Department of IT
               </div>
-              <Link
-                to="/coming-soon"
+              <a
+                href="https://it-iiitl.netlify.com/"
+                target="blank"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Information Technology
-              </Link>
+              </a>
             </div>
             <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
@@ -389,13 +389,6 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                DOSA Office Website
-              </Link>
-              <Link
-                to="/coming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
                 Students' Website
               </Link>
               <Link
@@ -422,14 +415,14 @@ class AltNav extends React.Component {
                 Academic Programmes
               </div>
               <Link
-                to="/coming-soon"
+                to="/btech-it"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 B.Tech in IT
               </Link>
               <Link
-                to="/coming-soon"
+                to="/btech-cs"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -455,14 +448,7 @@ class AltNav extends React.Component {
                 Useful Links
               </div>
               <Link
-                to="/coming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Officer & Staff
-              </Link>
-              <Link
-                to="/coming-soon"
+                to="/calender"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -482,6 +468,30 @@ class AltNav extends React.Component {
               >
                 Course Structure
               </Link>
+              <a
+                href={timeTable}
+                target="blank"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Time Table
+              </a>
+              <a
+                href={pdfFee}
+                target="blank"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Fee Structure
+              </a>
+              {/* <Link
+                href={timeTable}
+                target="blank"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                RTI
+              </Link> */}
             </div>
 
             <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
@@ -549,20 +559,13 @@ class AltNav extends React.Component {
               >
                 E-Resources
               </Link>
-              <Link
+              {/* <Link
                 to="/coming-soon"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 Catalogue Search
-              </Link>
-              <Link
-                to="/coming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Institutional Digital Repository (IDR)
-              </Link>
+              </Link> */}
             </div>
             <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
@@ -663,9 +666,9 @@ class AltNav extends React.Component {
         </div>
         <button className="alt-dropbtn">
           <Link
-            to="/coming-soon"
-            target="blank"
+            to="/recruitment"
             className="alt-nav-link"
+            onClick={() => this.closeNav()}
             style={{ color: "black" }}
           >
             Recruitment

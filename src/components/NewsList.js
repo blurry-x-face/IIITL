@@ -2,6 +2,7 @@ import React from "react";
 import "./NewsList.css";
 import { blogs } from "./Data";
 import ScrollToTopOnMount from "./ScrollToTop";
+import { Link } from "react-router-dom";
 
 class NewsList extends React.Component {
   Item = props => {
@@ -10,13 +11,13 @@ class NewsList extends React.Component {
         <div className="list-center-res">
           <img src={props.data.img} alt="img" />
         </div>
-        <a href="google.com">
+        <Link to={props.data.link}>
           <div className="list-blog-post">
             <h1 className="list-blog-post-head">{props.data.head}</h1>
 
             <p className="list-blog-post-p">{props.data.para}</p>
           </div>
-        </a>
+        </Link>
       </div>
     );
   };

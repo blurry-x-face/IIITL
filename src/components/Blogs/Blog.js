@@ -1,9 +1,11 @@
 import React from "react";
 import "./Blog.css";
+import ScrollToTopOnMount from "../ScrollToTop";
 
 const Blog = props => {
   return (
     <div className="new-blog-global padding-res">
+      <ScrollToTopOnMount />
       <div className="new-blog-inner">
         <img src={props.data.img} alt="img" />
         <div className="new-blog-post">

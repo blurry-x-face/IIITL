@@ -49,6 +49,7 @@ import BKC from "./components/Faculty/BKC";
 import Blog1 from "./components/Blogs/Blog1";
 import Blog2 from "./components/Blogs/Blog2";
 import Blog3 from "./components/Blogs/Blog3";
+import Recruitment from "./components/Recruitment";
 
 class App extends Component {
   render() {
@@ -112,6 +113,7 @@ class App extends Component {
         <Route path="/events" exact component={EventList} />
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
+        <Route path="/recruitment" exact component={Recruitment} />
         <Route path="/announcements" exact component={AnnouncementsList} />
         <Route path="/announcements/1" exact component={Announcements1} />
         <Route path="/announcements/2" exact component={Announcements2} />

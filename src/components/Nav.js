@@ -126,7 +126,11 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     Finance & Accounts
                   </NavLink>
-                  <a href={RTI} target="blank" className="af-1">
+                  <a
+                    href="https://rtionline.gov.in/"
+                    target="blank"
+                    className="af-1"
+                  >
                     RTI
                   </a>
                 </div>
@@ -412,7 +416,7 @@ class Nav extends React.Component {
               </div>
             </div>
             <NavLink
-              to="/coming-soon"
+              to="/recruitment"
               // target="blank"
               style={{ border: "none" }}
               className="nav-NavLink nav-res"
@@ -450,20 +454,24 @@ class Nav extends React.Component {
           <div className="nav-icons">
             <a
               target="blank"
+              href="https://www.facebook.com/iiitlucknow/"
+              className="nav-res"
+            >
+              <i className="fab fa-facebook" />
+            </a>
+            <a
+              target="blank"
               href="https://www.linkedin.com/school/iiitl/"
               className="nav-res"
             >
               <i className="fab fa-linkedin" />
             </a>
-            <a href="mailto:contact@iiitl.ac.in" className="nav-res">
-              <i className="fas fa-envelope" />
-            </a>
             <a
+              href="https://twitter.com/iiitlucknow"
               target="blank"
-              href="https://www.facebook.com/iiitlucknow/"
               className="nav-res"
             >
-              <i className="fab fa-facebook" />
+              <i className="fab fa-twitter" />
             </a>
           </div>
         </div>
