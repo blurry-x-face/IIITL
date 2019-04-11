@@ -1,7 +1,7 @@
 import React from "react";
 import "./alt-nav.css";
 import { Link } from "react-router-dom";
-import RTI from "../assets/downloads/RTI - PDF.pdf";
+// import RTI from "../assets/downloads/RTI - PDF.pdf";
 import timeTable from "../assets/downloads/Time_Table.pdf";
 import pdfFee from "../assets/blogs/fee-structure.pdf";
 
