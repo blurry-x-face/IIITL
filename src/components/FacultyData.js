@@ -1,7 +1,7 @@
 const facultyCardData = [
   {
     name: "Dr. Ashutosh Mishra",
-    position: "Associate Professor",
+    position: "",
     qualification: "Ph. D. (Old Dominion University, Norfolk)",
     researchArea: "Bioelectrics, Biomechanics, Machine Learning",
     contact: "Email: am@iiitl.ac.in",
@@ -12,7 +12,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Abhishek Pandey",
-    position: "Guest Faculty",
+    position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea: "Computer Networks, Wireless N/W  and Sensor Networks",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
@@ -23,7 +23,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Mary Samuel",
-    position: "Assistant Professor",
+    position: "",
     qualification: "Ph.D from Mahatma Gandhi University, Kerala",
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
@@ -34,7 +34,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Soumendu Chakraborty",
-    position: "Assistant Professor",
+    position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
@@ -46,7 +46,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Vishal Krishna Singh",
-    position: "Assistant Professor",
+    position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Wireless Sensor Networks, In-network Inference, Data Mining Database Management, Data Analytics, Internet of Things",
@@ -58,7 +58,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Shikha Gautam",
-    position: "Guest Faculty",
+    position: "",
     qualification: "Ph.D. (CS), University of Lucknow, Lucknow",
     researchArea:
       "Software Engineering, Software Quality, and Software Reliability/Usability",
@@ -68,7 +68,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Niharika Anand",
-    position: "Assistant Professor",
+    position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
@@ -79,7 +79,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Deepanjan Roy",
-    position: "Guest Faculty",
+    position: "",
     qualification: "Ph. D. from IIT Indore",
     researchArea:
       "Electronic Design Automation, High-Level Synthesis, Hardware Security, CAD-VLSI",
@@ -89,7 +89,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Brijesh Kumar Chaurasia",
-    position: "Assistant Professor",
+    position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
       "Network Security, Vehicular Ad hoc Networks, Sensor Ad hoc Networks, Trust Management in Wireless Ad-hoc Networks, Internet of  Vehicles, Cloud Computing etc.",
@@ -100,7 +100,7 @@ const facultyCardData = [
   },
   {
     name: "Mr. Sushil Tiwari",
-    position: "Guest Faculty",
+    position: "",
     qualification: "PH. D. from IIITDM, Jabalpur",
     researchArea:
       "Wireless Indoor Localization, Machine Learning, Ad-hoc Network",

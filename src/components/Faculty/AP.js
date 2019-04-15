@@ -87,9 +87,9 @@ class AP extends React.Component {
               <div className="faculty-above-nav-head-name">
                 Dr. Abhishek Pandey
               </div>
-              <div className="faculty-above-nav-head-position">
+              {/* <div className="faculty-above-nav-head-position">
                 Guest Faculty
-              </div>
+              </div> */}
               <div className="faculty-above-nav-head-dept faculty-above-nav-item">
                 Department of Information Technology
               </div>

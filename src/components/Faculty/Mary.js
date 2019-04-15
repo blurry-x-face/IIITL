@@ -104,9 +104,9 @@ class MS extends React.Component {
           <div className="faculty-above-nav-inner">
             <div className="above-nav-section-1">
               <div className="faculty-above-nav-head-name">Dr. Mary Samuel</div>
-              <div className="faculty-above-nav-head-position">
+              {/* <div className="faculty-above-nav-head-position">
                 ASSISTANT PROFESSOR
-              </div>
+              </div> */}
               <div className="faculty-above-nav-head-dept faculty-above-nav-item">
                 Department of Information Technology
               </div>

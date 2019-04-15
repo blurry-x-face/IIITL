@@ -45,7 +45,7 @@ class Template extends React.Component {
         <div className="faculty-above-nav">
           <div className="faculty-above-nav-inner">
             <div className="faculty-above-nav-head-name">Dr. Shikha Gautam</div>
-            <div className="faculty-above-nav-head-position">Guest Faculty</div>
+            {/* <div className="faculty-above-nav-head-position">Guest Faculty</div> */}
             <div className="faculty-above-nav-head-dept faculty-above-nav-item">
               Department of Information Technology
             </div>
