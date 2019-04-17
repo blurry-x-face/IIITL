@@ -1,6 +1,7 @@
 import pdfLogo from "../../assets/blogs/Letter_circulation_18022019.pdf";
 import pdfFee from "../../assets/blogs/fee-structure.pdf";
 import ApplicationForm from "../../assets/blogs/Format_Application_IIITL.docx";
+import tenderPDF from "../../assets/downloads/Tender.pdf";
 
 const AnnouncementsData = {
   announcement1: {
@@ -36,9 +37,21 @@ const AnnouncementsData = {
       "IIIT Lucknow is Recruiting Faculty, you can find Advertisement and Application form below",
     linkPara: "Application Form->",
     link: ApplicationForm
+  },
+  announcement6: {
+    head: "Tender Notice",
+    para: "Hiring of residential premises for Director,IIIT-L",
+    linkPara: "PDF->",
+    link: tenderPDF
   }
 };
 const AnnouncementsListData = [
+  {
+    head: "Tender Notice",
+    para: "Hiring of residential premises for Director,IIIT-L",
+    linkPara: "PDF->",
+    link: "/announcements/6"
+  },
   {
     head: "Logo Design Contest for IIIT-Lucknow",
     para:

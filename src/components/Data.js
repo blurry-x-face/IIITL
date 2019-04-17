@@ -102,6 +102,14 @@ const courseStructure = {
     "Lab/Paper Credit",
     "Prerequisites"
   ],
+  tableEHead: [
+    "Semester",
+    "Code",
+    "Title",
+    "Theory Credit",
+    "Lab/Paper Credit",
+    "Prerequisites"
+  ],
   sem1: {
     code: [
       "EEDC132C",
@@ -248,12 +256,32 @@ const courseStructure = {
     pre: ["IPRJ530C, IPRJ630C, IPRJ730C"]
   },
   electives: {
-    code: ["IOPT630E", "IMCL630E"],
-    title: ["Major Project"],
+    code: [
+      "IOPT630E",
+      "IMCL630E",
+      "IWSN630E",
+      "IASS630C",
+      "IAGA630C",
+      "IIRS730E",
+      "ICIS730E",
+      "IEMB730E",
+      "IECO730E"
+    ],
+    title: [
+      "Optimization Techniques",
+      "Machine Learning - Tools And Techniques",
+      "Wireless Sensor Networks",
+      "Architecture of Software Systems",
+      "Advanced Graphics and Animation",
+      "Information Retrieval Systems",
+      "Cryptography and Information Security",
+      "Modeling, Design and Analysis of Embedded System",
+      "Data Compression"
+    ],
     type: ["P"],
-    theory: [0],
-    lab: [20],
-    pre: ["IPRJ530C, IPRJ630C, IPRJ730C"]
+    theory: [3, 3, 3, 3, 3, 3, 3, 3, 3],
+    lab: [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    pre: ["-", "-", "-", "-", "-", "-", "-", "-", "-"]
   }
 };
 

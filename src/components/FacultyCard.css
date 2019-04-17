@@ -160,14 +160,14 @@
 }
 
 #ashutoshMishra {
-  background: url("https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg");
+  background: url("../assets/facultyData/anonymous.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 #marySamuel {
   background: url("../assets/facultyData/mary.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -214,7 +214,7 @@
 }
 #sushilTiwari {
   background: url("../assets/facultyData/Sushil.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }

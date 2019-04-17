@@ -50,6 +50,8 @@ import Blog1 from "./components/Blogs/Blog1";
 import Blog2 from "./components/Blogs/Blog2";
 import Blog3 from "./components/Blogs/Blog3";
 import Recruitment from "./components/Recruitment";
+import Director from "./components/Faculty/Dir";
+import Announcements6 from "./components/Announcements/Announcement6";
 
 class App extends Component {
   render() {
@@ -63,7 +65,8 @@ class App extends Component {
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ? (
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ? (
           ""
         ) : (
           <AboveNav />
@@ -76,7 +79,8 @@ class App extends Component {
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ? (
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ? (
           ""
         ) : (
           <Nav />
@@ -89,6 +93,7 @@ class App extends Component {
         <Route path="/faculty/niharika" exact component={Niharika} />
         <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
+        {/* <Route path="/faculty/dir" exact component={Director} /> */}
         <Route path="/faculty/BKC" exact component={BKC} />
         <Route path="/coming-soon" exact component={CommingSoon} />
         <Route path="/blogs/1" exact component={Blog1} />
@@ -120,6 +125,7 @@ class App extends Component {
         <Route path="/announcements/3" exact component={Announcements3} />
         <Route path="/announcements/4" exact component={Announcements4} />
         <Route path="/announcements/5" exact component={Announcements5} />
+        <Route path="/announcements/6" exact component={Announcements6} />
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
         {window.location.pathname === "/faculty/vks" ||
@@ -130,7 +136,8 @@ class App extends Component {
         window.location.pathname === "/faculty/AP" ||
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ? (
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ? (
           ""
         ) : (
           <Footer />

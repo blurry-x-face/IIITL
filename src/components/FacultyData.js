@@ -111,7 +111,7 @@ const facultyCardData = [
   },
   {
     name: "Dr. Arun Mohan Sherry  ",
-    position: "Director",
+    position: "Director,IIITL",
     qualification:
       "M.Sc. (Gold Medalist), M.Tech. (Computer Science -IIT Kharagpur), Ph.D.",
     researchArea: "Higher Education and Research, CGI, eLearning Industry",

@@ -51,6 +51,14 @@ class Course extends React.Component {
       </thead>
     );
   };
+  ElectiveTableHead = () => {
+    let tEHead = courseStructure.tableEHead.map(content => <th>{content}</th>);
+    return (
+      <thead>
+        <tr>{tEHead}</tr>
+      </thead>
+    );
+  };
 
   Table = props => {
     return (
@@ -60,7 +68,32 @@ class Course extends React.Component {
       </table>
     );
   };
+  TableElective = props => {
+    return (
+      <table className="course-table">
+        <this.ElectiveTableHead />
+        <this.TBody j={props.j} sem={props.sem} />
+      </table>
+    );
+  };
   Sem = props => {
+    return (
+      <div className="course-sem">
+        <div className="sem-head center ">
+          <div
+            className="sem-head-inner"
+            onClick={() => this.doSomething(`${props.sem.name}`)}
+          >
+            {props.head}
+          </div>
+        </div>
+        <div className="sem-table center" id={props.sem.name}>
+          <this.Table j={props.j} sem={props.sem} />
+        </div>
+      </div>
+    );
+  };
+  Elective = props => {
     return (
       <div className="course-sem">
         <div className="sem-head center ">
@@ -94,7 +127,31 @@ class Course extends React.Component {
         <this.Sem j={7} sem={courseStructure.sem6} head={"Semester-6"} />
         <this.Sem j={7} sem={courseStructure.sem7} head={"Semester-7"} />
         <this.Sem j={2} sem={courseStructure.sem8} head={"Semester-8"} />
-        <this.Sem j={7} sem={courseStructure.sem1} head={"Electives"} />
+        <this.Elective
+          j={9}
+          sem={courseStructure.electives}
+          head={"Electives"}
+        />
+        <p className="course-structure-info">
+          <h2>Note:</h2>
+          <ul>
+            <li>
+              Prerequisites for electives would be decided by the faculty
+              members offering the course.
+            </li>
+            <li>
+              Elective baskets may be created as per requirement of the time
+              table/specialization.
+            </li>
+            <li>
+              Pools of electives may be common for sixth and eighth semesters.
+            </li>
+            <li>
+              More electives may be offered based on the availability of
+              faculty.
+            </li>
+          </ul>
+        </p>
       </div>
     );
   }

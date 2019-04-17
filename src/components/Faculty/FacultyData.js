@@ -555,5 +555,116 @@ const bKC = {
     }
   ]
 };
+const dir = {
+  interests: [""],
+  awards: [
+    {
+      head: "Anand Swarup Bhatnagar Gold Medal",
+      list: [
+        "Presented by Chancellor of the University for securing highest marks in Post Graduation Examination"
+      ]
+    },
+    {
+      head: "Indian Achievers Award",
+      list: ["For Education Excellence,by Indian Achievers Forum."]
+    },
+    {
+      head: "Indian Icon Award",
+      list: [
+        "For outstanding accomplishments and excellence in the field of Education."
+      ]
+    },
+    {
+      head: "Maulana Azad Puraskar",
+      list: [
+        "On the occasion of National Education Day at India Habitat Centre, New Delhi by Dr.Bhishama Narain Singh, former Governor."
+      ]
+    },
+    {
+      head: "Rabindranath Tagore Samman",
+      list: ["For contribution in the field of Technical Education."]
+    }
+  ],
+  journalData: [
+    {
+      head: '"Bring in Change to Become Globally Relevant"',
+      list: ["descriptionThe Economic Times"]
+    },
+    {
+      head: '"Educating India"',
+      list: ["The Times of India"]
+    },
+    {
+      head: '"In Search of Capitalizing on Diverse Workforce"',
+      list: ["Business Standard"]
+    },
+    {
+      head: '"Miles Ahead"',
+      list: ["India Today"]
+    },
+    {
+      head:
+        '"Optimization of Function by using a New MATLAB based Genetic Algorithm Procedure"',
+      list: ["International Journal of Computer Applications"]
+    },
+    {
+      head: "An Empirical Study of e-Governance System Integration in India",
+      list: [
+        "International Conference, ‘Learning Organization in a Learning World’ Bangkok- Thailand."
+      ]
+    },
+    {
+      head:
+        "Challenges of Technology Infrastructure Availability in E- Governance Program Implementations: A Cloud based Solution.",
+      list: ["IOSR Journal of Computer Engineering"]
+    },
+    {
+      head: "Critical Success Factor in Offshoring ERP Implementation",
+      list: ["Business Systems Research Journal"]
+    },
+    {
+      head: "Leveraging Technology Options in Financial Inclusion in India",
+      list: [
+        "International Journal of Asian Business and Information Management"
+      ]
+    },
+    {
+      head:
+        "Role of Technology Options for Financial Inclusion: Case Study in India.",
+      list: ["IGI Global Publications"]
+    },
+    {
+      head:
+        "Transcending the Digital Divide: Paving Itinerary for Conducive Digital Economy",
+      list: [
+        "International Conference on E-Business” National University of Singapore."
+      ]
+    },
+    {
+      head: "“Innovate and Educate”",
+      list: ["descriptionTimes of India"]
+    },
+    {
+      head: "“Leadership in Education”",
+      list: ["Business World"]
+    },
+    {
+      head: "“Strengthening the new age Knowledge Economy”",
+      list: ["The Economic Times"]
+    }
+  ],
+  education: [
+    "M.Sc. (Gold Medalist)",
+    "Ph.D.",
+    "M.Tech. (Computer Science -IIT Kharagpur)"
+  ],
+  courses: [""],
+  contact: ["director@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ]
+};
 
-export { bKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };
+export { dir, bKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };
