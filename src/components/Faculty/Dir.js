@@ -52,6 +52,7 @@ class Director extends React.Component {
     });
     return (
       <div className="faculty-body" id={props.eleId}>
+      <div className='faculty-section-head'>Publications: </div>
         {list}
       </div>
     );
