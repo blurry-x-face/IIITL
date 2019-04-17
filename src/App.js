@@ -93,7 +93,7 @@ class App extends Component {
         <Route path="/faculty/niharika" exact component={Niharika} />
         <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
-        {/* <Route path="/faculty/dir" exact component={Director} /> */}
+        <Route path="/faculty/dir" exact component={Director} />
         <Route path="/faculty/BKC" exact component={BKC} />
         <Route path="/coming-soon" exact component={CommingSoon} />
         <Route path="/blogs/1" exact component={Blog1} />

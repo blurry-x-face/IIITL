@@ -216,6 +216,31 @@
 .faculty-image-hid {
   display: none;
 }
+.faculty-journals-sub-head {
+  font-size: 22px;
+  color: #005699;
+}
+.faculty-award-para {
+  padding: 10px;
+}
+.faculty-experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+.faculty-journals-dir {
+  margin: 20px;
+}
+.faculty-journals-head-dir {
+  font-size: 22px;
+  color: #005699;
+}
+.faculty-journals-dir li {
+  padding: 2px;
+}
+.faculty-journals-dir ul {
+  list-style-type: none;
+  margin: 0px;
+}
 @media only screen and (max-width: 1920px) {
   .faculty-alt-nav-inner {
     display: none;

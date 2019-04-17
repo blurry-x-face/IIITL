@@ -36,14 +36,13 @@ class Director extends React.Component {
   };
 
   IndividualPublicationsList = props => {
+    //   let list=props.data.list.map()
     return (
-      <div className="faculty-journals">
-        <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-          {props.data.head}
-        </div>
-        <div className="faculty-journal-list">
-          <this.Journals journals={props.data.list} />
-        </div>
+      <div className="faculty-journals-dir">
+        <div className="faculty-journals-head-dir">{props.data.head}</div>
+        <ul className="faculty-journal-list-dir">
+          <li>{props.data.list}</li>
+        </ul>
       </div>
     );
   };
@@ -57,16 +56,6 @@ class Director extends React.Component {
       </div>
     );
   };
-
-  Awards = props => {
-    return (
-      <div className="faculty-award-inner">
-        <div className="faculty-award-head">{props.award.head}</div>
-        <div className="faculty-award-detail">{props.award.detail}</div>
-      </div>
-    );
-  };
-
   Interests = props => {
     let li = props.interests.map(interest => {
       return <li>{interest}</li>;
@@ -75,12 +64,6 @@ class Director extends React.Component {
   };
   Journals = props => {
     let li = props.journals.map(journal => {
-      return <li>{journal}</li>;
-    });
-    return <ul>{li} </ul>;
-  };
-  Confrence = props => {
-    let li = props.conferences.map(journal => {
       return <li>{journal}</li>;
     });
     return <ul>{li} </ul>;
@@ -97,21 +80,38 @@ class Director extends React.Component {
     });
     return <div>{li} </div>;
   };
+  Experience = props => {
+    let list = props.data.list.map((value, index) => {
+      return <li key={index}>{value}</li>;
+    });
+    return (
+      <p className="faculty-experience">
+        <div className="faculty-journals-sub-head">{props.data.head}</div>
+        <ul>{list}</ul>
+      </p>
+    );
+  };
+  ExperienceList = props => {
+    let list = props.data.map((value, index) => {
+      return <this.Experience data={value} key={index} />;
+    });
+    return (
+      <div className="faculty-body" id={props.eleId}>
+        {list}
+      </div>
+    );
+  };
   Awards1 = props => {
     return (
-      <div className="faculty-journals">
-        <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-          {props.data.head}
-        </div>
-        <div className="faculty-journal-list">
-          <this.Journals journals={props.data.list} />
-        </div>
-      </div>
+      <p className="faculty-journals">
+        <div className="faculty-journals-sub-head">{props.data.head}</div>
+        <div className="faculty-award-para">{props.data.list}</div>
+      </p>
     );
   };
   AwardsList = props => {
     let awardList = props.data.map((value, index) => {
-      return <this.Awards1 data={props.data[value]} key={index} />;
+      return <this.Awards1 data={value} key={index} />;
     });
     return <div>{awardList}</div>;
   };
@@ -269,27 +269,26 @@ class Director extends React.Component {
           <div className="faculty-image-hid">
             <img src={profile} alt="VKS" />
           </div>
-          {/* <div className="faculty-interest">
+          <div className="faculty-interest">
             <div className="faculty-interest-section-1">
               <div className="faculty-interest-head faculty-section-head">
-                Research Interests:
+                Latest Achievements:
               </div>
               <div className="faculty-interest-list">
-                <this.Interests interests={bKC.interests} />
+                <this.AwardsList data={dir.awards} />
               </div>
             </div>
             <div className="faculty-interest-section-2">
               <div className="faculty-photo" />
             </div>
-          </div> */}
-          <this.AwardsList data={dir.awards} />
+          </div>
         </div>
         <this.Publications
-          data={bKC.publications}
+          data={dir.journalData}
           eleId={"faculty-body-journals"}
         />
-        <this.Publications
-          data={bKC.experience}
+        <this.ExperienceList
+          data={dir.experience}
           eleId="faculty-body-experience"
         />
         <div className="faculty-body" id="faculty-body-education">
@@ -298,17 +297,17 @@ class Director extends React.Component {
               Education
             </div>
             <div className="faculty-education-list">
-              <this.Education conferences={bKC.education} />
+              <this.Education conferences={dir.education} />
             </div>
           </div>
         </div>
         <div className="faculty-body" id="faculty-body-courses">
           <div className="faculty-courses">
-            <div className="faculty-courses-head faculty-section-head">
+            {/* <div className="faculty-courses-head faculty-section-head">
               Teaching:
-            </div>
+            </div> */}
             <div className="faculty-education-list faculty-courses-list">
-              <this.Education conferences={bKC.courses} />
+              {/* <this.Education conferences={bKC.courses} /> */}
             </div>
           </div>
         </div>
@@ -319,7 +318,7 @@ class Director extends React.Component {
             </div>
             <div className="faculty-education-list faculty-courses-list">
               <this.Contact conferences={bKC.address} />
-              <this.Contact conferences={bKC.contact} />
+              <this.Contact conferences={dir.contact} />
             </div>
           </div>
         </div>

@@ -588,7 +588,7 @@ const dir = {
   journalData: [
     {
       head: '"Bring in Change to Become Globally Relevant"',
-      list: ["descriptionThe Economic Times"]
+      list: ["The Economic Times"]
     },
     {
       head: '"Educating India"',
@@ -657,6 +657,69 @@ const dir = {
     "M.Sc. (Gold Medalist)",
     "Ph.D.",
     "M.Tech. (Computer Science -IIT Kharagpur)"
+  ],
+  experience: [
+    {
+      head: "Director",
+      list: [
+        "Indian Institute of Information Technology",
+        "Dates Employed: Feb 2019 – Present",
+        "Employment Duration3 mos",
+        "Location: Lucknow"
+      ]
+    },
+    {
+      head: "Chief Academic Officer (CAO)",
+      list: [
+        "SVKM's Narsee Monjee Institute of Management Studies (NMIMS)",
+        "Dates Employed: 2018 – Feb 2019",
+        "Employment Duration: 1 yr",
+        "Location: Mumbai Area, India"
+      ]
+    },
+    {
+      head: "Dean and Head of Academics",
+      list: [
+        "HCL TalentCare",
+        "Dates Employed: 2015 – 2017",
+        "Employment Duration: 2 yrs"
+      ]
+    },
+    {
+      head: "Chief Academic Officer (CAO)",
+      list: [
+        "India Education Services Pvt Ltd (A Joint Venture of HT Media and Apollo Global-USA)",
+        "Dates Employed: 2013 – 2014",
+        "Employment Duration: 1 yr",
+        "Location: New Delhi Area, India"
+      ]
+    },
+    {
+      head: "Institute of Management Technology, Ghaziabad",
+      list: [
+        "Director(IMT-CDL) & Chairman(Joint Admission Committee) IMT Ghaziabad, Nagpur,Hyderabad & Dubai",
+        "Dates Employed: 2006 – May 2013",
+        "Employment Duration: 7 yrs"
+      ]
+    },
+    {
+      head: "Institute of Management Technology, Ghaziabad",
+      list: [
+        "Professor(Information System), Chairman(Admissions), Chairman(Research), Chairman(Student Affairs)",
+        "Dates Employed: 2000 – 2006",
+        "Employment Duration: 6 yrs"
+      ]
+    },
+    {
+      head: "Head Department of Computer Application",
+      list: [
+        "University Of Allahabad; Post Graduate College Rishikesh (Dehradun)",
+        "Dates Employed: Jan 1995 – Dec 2000",
+        "Employment Duration: 6 yrs",
+        "Location: Allahabad Area, India;",
+        "Dehradun Area, India"
+      ]
+    }
   ],
   courses: [""],
   contact: ["director@iiitl.ac.in"],
