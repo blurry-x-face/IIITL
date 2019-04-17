@@ -117,7 +117,7 @@ const facultyCardData = [
     researchArea: "Higher Education and Research, CGI, eLearning Industry",
     contact: "Email: director@iiitl.ac.in",
     id: "arunSherry",
-    link: "/coming-soon",
+    link: "/faculty/dir",
     post: "",
     post2: ""
   }
