@@ -50,7 +50,7 @@ html {
 }
 .gallery .photos {
   position: relative;
-  height: 60vmin;
+  height: 65vmin;
 }
 .gallery .block {
   height: 100%;
@@ -94,6 +94,24 @@ html {
 
 .block-3 {
   background: url(../assets/3.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block-6 {
+  background: url(../assets/gallery/img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block-5 {
+  background: url(../assets/gallery/img4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block-4 {
+  background: url(../assets/gallery/img5.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

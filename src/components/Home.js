@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Latest from "./Latest";
 import News from "./News";
 import ScrollToTopOnMount from "./ScrollToTop";
+import tenderPDF from "../assets/downloads/Tender.pdf";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -34,6 +35,20 @@ class Home extends React.Component {
             <i
               class="fas fa-circle"
               style={{ fontSize: "0.7em", marginBottom: 3, color: "black" }}
+            />
+            <a target="blank" href={tenderPDF}>
+              Tender Notice
+            </a>
+          </span>
+          <span style={{ cursor: "pointer" }}>
+            <i
+              class="fas fa-circle"
+              style={{
+                marginLeft: "200px",
+                fontSize: "0.7em",
+                // marginBottom: 3,
+                // color: "black"
+              }}
             />
             <Link to="/announcements/1">
               Logo Design Contest for IIIT-Lucknow

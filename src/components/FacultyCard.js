@@ -84,6 +84,8 @@ class FacultyCard extends React.Component {
     return (
       <div className="faculty-global padding-res">
         <ScrollToTopOnMount />
+        <this.Card data={facultyCardData[10]} alt={false} />
+        <this.Card data={facultyCardData[0]} alt={true} />
         <this.Card data={facultyCardData[1]} alt={false} />
         <this.Card data={facultyCardData[8]} alt={true} />
         <this.CustomLinkCard data={facultyCardData[7]} alt={false} />
@@ -98,4 +100,4 @@ class FacultyCard extends React.Component {
   }
 }
 export default FacultyCard;
-//this is not a neccesarru chage this change may not affect rest of the pages and it  
+//this is not a neccesarru chage this change may not affect rest of the pages and it

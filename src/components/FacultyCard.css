@@ -218,6 +218,13 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+#arunSherry {
+  background: url("../assets/dr-arun-sherry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* src/assets/dr-arun-sherry.jpg */
 @media (min-width: 640px) {
   .blog-card {
     flex-direction: row;

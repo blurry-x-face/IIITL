@@ -60,6 +60,9 @@ class Carousel extends React.Component {
           <div className="block block-1 active" />
           <div className="block block-2" />
           <div className="block block-3" />
+          <div className="block block-4" />
+          <div className="block block-5" />
+          <div className="block block-6" />
         </div>
         <div className="buttons">
           <div onClick={() => this.change(1)} className="prev" href="#home">

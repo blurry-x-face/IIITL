@@ -223,6 +223,37 @@ const courseStructure = {
     theory: [3, 3, 3, 3, 3, 0],
     lab: [2, 2, 2, 0, 0, 5],
     pre: ["ITOC330C, IITG132C", "IITC132C", "IDBM432C", "-", "-", "-"]
+  },
+  sem7: {
+    code: ["ISIM732C", "MORB720C", "", "", "", "IPRJ705P"],
+    title: [
+      "System Modelling and Simulation",
+      "Organizational Behaviour",
+      "Elective - 3",
+      "Elective - 4",
+      "Elective - 5",
+      "Mini Project"
+    ],
+    type: ["C", "C", "E", "E", "E", "P"],
+    theory: [3, 3, 3, 3, 3, 0],
+    lab: [2, 0, 0, 0, 0, 5],
+    pre: ["SPAS230C", "-", "-", "-", "-", "-"]
+  },
+  sem8: {
+    code: ["IPRJ820P"],
+    title: ["Major Project"],
+    type: ["P"],
+    theory: [0],
+    lab: [20],
+    pre: ["IPRJ530C, IPRJ630C, IPRJ730C"]
+  },
+  electives: {
+    code: ["IOPT630E", "IMCL630E"],
+    title: ["Major Project"],
+    type: ["P"],
+    theory: [0],
+    lab: [20],
+    pre: ["IPRJ530C, IPRJ630C, IPRJ730C"]
   }
 };
 

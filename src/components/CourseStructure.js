@@ -92,8 +92,8 @@ class Course extends React.Component {
         <this.Sem j={5} sem={courseStructure.sem4} head={"Semester-4"} />
         <this.Sem j={6} sem={courseStructure.sem5} head={"Semester-5"} />
         <this.Sem j={7} sem={courseStructure.sem6} head={"Semester-6"} />
-        <this.Sem j={7} sem={courseStructure.sem1} head={"Semester-7"} />
-        <this.Sem j={7} sem={courseStructure.sem1} head={"Semester-8"} />
+        <this.Sem j={7} sem={courseStructure.sem7} head={"Semester-7"} />
+        <this.Sem j={2} sem={courseStructure.sem8} head={"Semester-8"} />
         <this.Sem j={7} sem={courseStructure.sem1} head={"Electives"} />
       </div>
     );

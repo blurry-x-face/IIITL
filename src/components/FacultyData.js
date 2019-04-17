@@ -108,6 +108,18 @@ const facultyCardData = [
     id: "sushilTiwari",
     link: "/faculty/ST",
     post: ""
+  },
+  {
+    name: "Dr. Arun Mohan Sherry  ",
+    position: "Director",
+    qualification:
+      "M.Sc. (Gold Medalist), M.Tech. (Computer Science -IIT Kharagpur), Ph.D.",
+    researchArea: "Higher Education and Research, CGI, eLearning Industry",
+    contact: "Email: director@iiitl.ac.in",
+    id: "arunSherry",
+    link: "/coming-soon",
+    post: "",
+    post2: ""
   }
 ];
 export default facultyCardData;

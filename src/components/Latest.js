@@ -1,6 +1,7 @@
 import React from "react";
 import "./Latest.css";
 import { Link } from "react-router-dom";
+  import tenderPDF from "../assets/downloads/Tender.pdf";
 // import ScrollToTopOnMount from "./ScrollToTop";
 
 class Latest extends React.Component {
@@ -11,7 +12,7 @@ class Latest extends React.Component {
 
   change(c) {
     // console.log(this.state);
-    //  
+    //
     if (c) {
       if (this.state.first + 3 < 5) {
         this.setState(
@@ -111,6 +112,15 @@ class Latest extends React.Component {
             >
               <i className="fas fa-angle-left" />
             </div> */}
+            <a target="blank" href={tenderPDF}>
+              <div className="box-6 hidden1 active1">
+                <p className="latest-blog-date">April, 2019</p>{" "}
+                <p className="latest-blog-head">Tender Notice</p>{" "}
+                <p className="latest-blog-content">
+                  Hiring of residential premises for Director,IIIT-L
+                </p>
+              </div>
+            </a>
             <Link to="/announcements/1">
               <div className="box-1 hidden1 active1">
                 {" "}
@@ -152,13 +162,13 @@ class Latest extends React.Component {
                 </p>
               </div>
             </Link> */}
-            <Link to="/announcements/5">
+            {/* <Link to="/announcements/5">
               <div className="box-5 hid-res hidden1 active1">
                 <p className="latest-blog-date">Jan, 2018</p>{" "}
                 <p className="latest-blog-head">Recruitment of Faculty</p>{" "}
                 <p className="latest-blog-content" />
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="latest-more">
