@@ -1,0 +1,42 @@
+.admissions-section-global {
+  margin-bottom: 100px;
+}
+.admissions-it-global {
+  font-family: "Playfair Display", serif;
+}
+.btech-it-p {
+  font-size: 20px;
+  text-align: justify;
+}
+.admissions-it-seat-table {
+  overflow: scroll;
+}
+.admissions-section-global table,
+.admissions-section-global th,
+.admissions-section-global td {
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.admissions-useful-links {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.admissions-useful-links h1 {
+  font-weight: normal;
+}
+.admissions-useful-links li {
+  padding: 10px;
+}
+.admissions-useful-links a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #005699;
+}
+.admissions-useful-links a::after {
+  margin-left: 7px;
+  content: "->";
+}

@@ -143,11 +143,6 @@
 }
 .faculty-photo {
   background: url("https://iiitl.ac.in/sites/default/files/inline-images/vks_0.png");
-  /* width: 30vw; */
-  /* background-size: fill; */
-  /* height: 13vw; */
-  /* background-repeat: no-repeat; */
-  /* margin-right: -80px; */
 }
 .faculty-interest-list {
   font-size: 18px;
@@ -240,6 +235,15 @@
 .faculty-journals-dir ul {
   list-style-type: none;
   margin: 0px;
+}
+.faculty-dir-after::after {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #008080;
+  content: "";
+  margin-top: 0.5vw;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 1920px) {
   .faculty-alt-nav-inner {

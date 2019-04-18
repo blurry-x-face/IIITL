@@ -415,14 +415,43 @@ class Nav extends React.Component {
                 </div>
               </div>
             </div>
-            <NavLink
-              to="/recruitment"
-              // target="blank"
-              style={{ border: "none" }}
-              className="nav-NavLink nav-res"
-            >
-              Recruitment
-            </NavLink>
+            <div className="dropdown nav-res">
+              <button className="dropbtn">
+                Admissions
+                <i className="fa fa-caret-down" />
+              </button>
+              <div className="dropdown-content">
+                <div className="dropdown-content-c-1 dropdown-content-c">
+                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                    Undergraduate Programs
+                  </div>
+                  <NavLink to="/admissions/IT" className="af-1">
+                    B.Tech in IT
+                  </NavLink>
+                  <NavLink to="/admissions/CSE" className="af-1">
+                    B.Tech in CSE
+                  </NavLink>
+                </div>
+                <div className="dropdown-content-c-1 dropdown-content-c">
+                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                    Postgraduate Programs
+                  </div>
+                  <NavLink to="/coming-soon" className="af-1">
+                    M. Tech. in CSE
+                  </NavLink>
+                </div>
+
+                <div className="dropdown-content-c-2 dropdown-content-c">
+                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                    Research
+                  </div>
+                  <NavLink to="/coming-soon" className="af-1">
+                    Ph.D. in IT
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+
             <a
               href="https://placements.iiitl.ac.in/"
               target="blank"

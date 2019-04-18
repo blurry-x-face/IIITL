@@ -87,7 +87,7 @@ class Director extends React.Component {
     });
     return (
       <p className="faculty-experience">
-        <div className="faculty-journals-sub-head">{props.data.head}</div>
+        <div className="faculty-journals-sub-head faculty-dir-after">{props.data.head}</div>
         <ul>{list}</ul>
       </p>
     );

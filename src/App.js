@@ -52,6 +52,8 @@ import Blog3 from "./components/Blogs/Blog3";
 import Recruitment from "./components/Recruitment";
 import Director from "./components/Faculty/Dir";
 import Announcements6 from "./components/Announcements/Announcement6";
+import AdmissionIT from "./components/Admissions/IT/AdmissionIT";
+import AdmissionCSE from "./components/Admissions/IT/AdmissionCSE";
 
 class App extends Component {
   render() {
@@ -119,6 +121,8 @@ class App extends Component {
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
         <Route path="/recruitment" exact component={Recruitment} />
+        <Route path="/admissions/IT" exact component={AdmissionIT} />
+        <Route path="/admissions/CSE" exact component={AdmissionCSE} />
         <Route path="/announcements" exact component={AnnouncementsList} />
         <Route path="/announcements/1" exact component={Announcements1} />
         <Route path="/announcements/2" exact component={Announcements2} />
@@ -156,7 +160,6 @@ function SideRendering(props) {
         <div className="division-global">
           <SideCard head={props.data.head} Ins={props.data.Ins} />
           {props.data.other}
-          {/* <div /> */}
         </div>
       )}
     />
@@ -248,16 +251,5 @@ const data = {
     }
   }
 };
-
-// const blogs = [
-//   {
-//     head: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
-//     para: "IIIT Lucknow welcomes Founding Director Dr. Arun Mohan Sherry",
-//     img: { blogImage1 }
-//   }
-// ];
-// const BlogsG = props => {
-//   return;
-// };
 
 export default App;
