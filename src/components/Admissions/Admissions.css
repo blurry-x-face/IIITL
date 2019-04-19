@@ -15,18 +15,20 @@
 .admissions-section-global th,
 .admissions-section-global td {
   border: 1px solid rgba(0, 0, 0, 0.342);
+  text-align: center;
   padding: 10px;
   border-collapse: collapse;
 }
 
 .admissions-useful-links {
-  margin-top: 50px;
-  display: flex;
+  margin-top: 100px;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 .admissions-useful-links h1 {
   font-weight: normal;
+  margin-bottom: 40px;
 }
 .admissions-useful-links li {
   padding: 10px;

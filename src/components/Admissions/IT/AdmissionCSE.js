@@ -27,8 +27,8 @@ class AdmissionCSE extends React.Component {
             (Reservation in Admission) Act, 2006.
           </p>
         </div>
-        <div className="admissions-it-seat">
-          <h1 className="btech-global-head"> Seat Matrix </h1>
+        <div className="admissions-it-seat admissions-useful-links">
+          <h1 className="admissions-sub-head"> Seat Matrix </h1>
         </div>
         <div className="admissions-it-seat-table">
           <table style={{ width: "100%" }}>
@@ -72,7 +72,7 @@ class AdmissionCSE extends React.Component {
           <h1>Useful Links</h1>
           <ul>
             <li className="admissions-course-structure">
-              <Link to="/calender">Course Structure</Link>
+              <Link to="/coming-soon">Course Structure</Link>
             </li>
             <li>
               <a href={pdfFee} target="blank">

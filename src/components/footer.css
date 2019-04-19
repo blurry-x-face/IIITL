@@ -73,6 +73,16 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  .footer-inner-content {
+    font-size: 1rem;
+  }
+  .footer-head {
+    font-size: 18px;
+  }
+  .contact-head {
+    margin-bottom: 10px;
+    font-size: 2.1em;
+  }
   .footer-r1 {
     /* display: grid; */
     /* grid-template-columns: 0fr 0fr 1fr 1fr 1fr 1.2fr; */
