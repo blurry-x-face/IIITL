@@ -5,6 +5,7 @@ import AltNav from "./Alt-nav";
 // import RTI from "../assets/downloads/RTI - PDF.pdf";
 import timeTable from "../assets/downloads/Time_Table.pdf";
 import pdfFee from "../assets/blogs/fee-structure.pdf";
+import newGIF from "../assets/new.gif";
 
 // import Sidebar from "./Sidebar";
 class Nav extends React.Component {
@@ -416,9 +417,10 @@ class Nav extends React.Component {
               </div>
             </div>
             <div className="dropdown nav-res">
-              <button className="dropbtn">
+              <button className="dropbtn flex-center">
                 Admissions
-                <i className="fa fa-caret-down" />
+                {/* <i className="fa fa-caret-down" /> */}
+                <img src={newGIF} alt="new" id="new-gif" />
               </button>
               <div className="dropdown-content">
                 <div className="dropdown-content-c-1 dropdown-content-c">
