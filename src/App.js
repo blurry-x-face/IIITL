@@ -61,32 +61,32 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        {window.location.hash === "#/faculty/vks" ||
-        window.location.hash === "#/faculty/shikha" ||
-        window.location.hash === "#/faculty/niharika" ||
-        window.location.hash === "#/faculty/somendu" ||
-        window.location.hash === "#/faculty/ST" ||
-        window.location.hash === "#/faculty/AP" ||
-        window.location.hash === "#/faculty/SG" ||
-        window.location.hash === "#/faculty/MS" ||
-        window.location.hash === "#/faculty/BKC" ||
-        window.location.hash === "#/faculty/dir" ||
-        window.location.hash === "#/faculty/AM" ? (
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <AboveNav />
         )}
-        {window.location.hash === "#/faculty/vks" ||
-        window.location.hash === "#/faculty/shikha" ||
-        window.location.hash === "#/faculty/niharika" ||
-        window.location.hash === "#/faculty/somendu" ||
-        window.location.hash === "#/faculty/ST" ||
-        window.location.hash === "#/faculty/AP" ||
-        window.location.hash === "#/faculty/SG" ||
-        window.location.hash === "#/faculty/MS" ||
-        window.location.hash === "#/faculty/BKC" ||
-        window.location.hash === "#/faculty/dir" ||
-        window.location.hash === "#/faculty/AM" ? (
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <Nav />
@@ -138,17 +138,17 @@ class App extends Component {
         <Route path="/announcements/6" exact component={Announcements6} />
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
-        {window.location.hash === "#/faculty/vks" ||
-        window.location.hash === "#/faculty/shikha" ||
-        window.location.hash === "#/faculty/niharika" ||
-        window.location.hash === "#/faculty/somendu" ||
-        window.location.hash === "#/faculty/ST" ||
-        window.location.hash === "#/faculty/AP" ||
-        window.location.hash === "#/faculty/SG" ||
-        window.location.hash === "#/faculty/MS" ||
-        window.location.hash === "#/faculty/BKC" ||
-        window.location.hash === "#/faculty/dir" ||
-        window.location.hash === "#/faculty/AM" ? (
+        {window.location.pathname === "/faculty/vks" ||
+        window.location.pathname === "/faculty/shikha" ||
+        window.location.pathname === "/faculty/niharika" ||
+        window.location.pathname === "/faculty/somendu" ||
+        window.location.pathname === "/faculty/ST" ||
+        window.location.pathname === "/faculty/AP" ||
+        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/BKC" ||
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <Footer />
