@@ -37,13 +37,13 @@ const senate = [
 ];
 const forms = [
   ["Indent Form", form1],
-  ["Children Education FOrm", form2],
+  ["Children Education Form", form2],
   ["Employee Medical Form", form3],
   ["I-Card form", form4],
   ["Leave Application Form", form5],
   ["Student Leave Form", form6],
   ["Student Medical Form", form7],
-  ["Travelling Allowance Clain Form", form8]
+  ["Travelling Allowance Claim Form", form8]
 ];
 class Downloads extends React.Component {
   List = props => {
