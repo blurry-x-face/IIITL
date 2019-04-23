@@ -1,7 +1,7 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import { aP, aM } from "./FacultyData";
+import {  aM } from "./FacultyData";
 import profile from "../../assets/facultyData/anonymous.jpg";
 
 class AM extends React.Component {

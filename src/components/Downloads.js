@@ -14,7 +14,7 @@ import Statues from "../assets/downloads/StatutesOfIIITLucknow.pdf";
 import ScrollToTopOnMount from "./ScrollToTop";
 
 import form1 from '../assets/downloads/bigIndentForm.pdf';
-import form2 from '../assets/downloads/childrenEducationForm.pdf';
+import form2 from '../assets/downloads/childrenEducationform.pdf';
 import form3 from '../assets/downloads/employeeMedical.pdf';
 import form4 from '../assets/downloads/icardForm.pdf';
 import form5 from '../assets/downloads/leaveApplicationForm.pdf';

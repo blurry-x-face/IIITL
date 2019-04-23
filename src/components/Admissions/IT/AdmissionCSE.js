@@ -69,6 +69,27 @@ class AdmissionCSE extends React.Component {
             </tr>
           </table>
         </div>
+        <div className="admissions-it-seat admissions-useful-links">
+          <h1 className="admissions-sub-head"> Seat Matrix(DASA) </h1>
+        </div>
+        <div className="admissions-it-seat-table">
+          <table style={{ width: "100%" }}>
+            <tr>
+              <th>Instcd</th>
+              <th>Brcd</th>
+              <th>Tciwg</th>
+              <th>Tgen</th>
+              <th>Tseat</th>
+            </tr>
+            <tr>
+              <td>ILK</td>
+              <td>COS</td>
+              <td>3</td>
+              <td>8</td>
+              <td>11</td>
+            </tr>
+          </table>
+        </div>
         <div className="admissions-useful-links">
           <h1>Useful Links</h1>
           <ul>

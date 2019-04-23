@@ -100,20 +100,20 @@ class Nav extends React.Component {
                   <NavLink to="/directorate" className="af-1">
                     Directorate
                   </NavLink>
+                  <NavLink to="/coming-soon" className="af-1">
+                    Registrar's Office
+                  </NavLink>{" "}
+                  <NavLink to="/faculty" className="af-1">
+                    Faculty
+                  </NavLink>
                   <NavLink to="/staff" className="af-1">
                     Officer & Staff
                   </NavLink>
                   <NavLink to="/coming-soon" className="af-1">
                     Academic Affairs
                   </NavLink>
-                  <NavLink to="/faculty" className="af-1">
-                    Faculty
-                  </NavLink>
                   <NavLink to="/coming-soon" className="af-1">
                     Student Affairs
-                  </NavLink>
-                  <NavLink to="/coming-soon" className="af-1">
-                    Registrar's Office
                   </NavLink>
                   <NavLink to="/downloads" className="af-1">
                     Downloads

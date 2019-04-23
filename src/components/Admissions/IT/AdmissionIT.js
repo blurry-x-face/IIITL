@@ -86,13 +86,6 @@ class AdmissionIT extends React.Component {
               <td>7</td>
               <td>11</td>
             </tr>
-            <tr>
-              <td>ILK</td>
-              <td>COS</td>
-              <td>3</td>
-              <td>8</td>
-              <td>11</td>
-            </tr>
           </table>
         </div>
         
