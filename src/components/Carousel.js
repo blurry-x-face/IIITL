@@ -33,7 +33,7 @@ class Carousel extends React.Component {
     // for (var i = 0; i < 200; i++) {
     let l = 0;
     l = setInterval(() => {
-      if (window.location.pathname === "/") {
+      if (window.location.hash === "#/") {
         var slide = document.querySelectorAll(".block");
         var j = this.state.slideNo;
         slide[j].classList.remove("active");
