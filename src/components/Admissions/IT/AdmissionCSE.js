@@ -1,7 +1,8 @@
 import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
-import pdfFee from "../../../assets/downloads/Fee Structure B.Tech.pdf";
+import feeBtech from "../../../assets/blogs/fee_btech.pdf";
+import feeDasa from '../../../assets/blogs/fee_dasa.pdf';
 import Link from "react-router-dom/Link";
 
 class AdmissionCSE extends React.Component {
@@ -75,8 +76,13 @@ class AdmissionCSE extends React.Component {
               <Link to="/coming-soon">Course Structure</Link>
             </li>
             <li>
-              <a href={pdfFee} target="blank">
+              <a href={feeBtech} target="blank">
                 Fee Structure
+              </a>
+            </li>
+            <li>
+              <a href={feeDasa} target="blank">
+                Fee Structure for DASA Students
               </a>
             </li>
           </ul>

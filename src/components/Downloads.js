@@ -10,11 +10,17 @@ import BOG7 from "../assets/downloads/BOG-7.pdf";
 import Senate1 from "../assets/downloads/Senate-1.pdf";
 import Senate2 from "../assets/downloads/Senate-2.pdf";
 import Ordinance from "../assets/downloads/Ordinance.pdf";
-import form1 from "../assets/downloads/student_leave.pdf";
-import form2 from "../assets/downloads/Ident.pdf";
-import form3 from "../assets/downloads/INDENT_FORM.pdf";
 import Statues from "../assets/downloads/StatutesOfIIITLucknow.pdf";
 import ScrollToTopOnMount from "./ScrollToTop";
+
+import form1 from '../assets/downloads/bigIndentForm.pdf';
+import form2 from '../assets/downloads/childrenEducationForm.pdf';
+import form3 from '../assets/downloads/employeeMedical.pdf';
+import form4 from '../assets/downloads/icardForm.pdf';
+import form5 from '../assets/downloads/leaveApplicationForm.pdf';
+import form6 from '../assets/downloads/studentLeaveForm.pdf';
+import form7 from '../assets/downloads/studentMedicalForm.pdf';
+import form8 from '../assets/downloads/TAForm.pdf';
 
 const BoGMeeting = [
   ["Minutes of First BOG Meeting", BOG1],
@@ -30,9 +36,14 @@ const senate = [
   ["Minutes of Second SENATE Meeting", Senate2]
 ];
 const forms = [
-  ["Student Leave Application Form", form1],
-  ["Material Indent Form 1", form2],
-  ["Material Indent Form 2", form3]
+  ["Indent Form", form1],
+  ["Children Education FOrm", form2],
+  ["Employee Medical Form", form3],
+  ["I-Card form", form4],
+  ["Leave Application Form", form5],
+  ["Student Leave Form", form6],
+  ["Student Medical Form", form7],
+  ["Travelling Allowance Clain Form", form8]
 ];
 class Downloads extends React.Component {
   List = props => {
