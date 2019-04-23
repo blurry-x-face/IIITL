@@ -436,7 +436,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Postgraduate Programs
                   </div>
-                  <NavLink to="/coming-soon" className="af-1">
+                  <NavLink to="/admissions/MTECH" className="af-1">
                     M. Tech. in CSE
                   </NavLink>
                 </div>

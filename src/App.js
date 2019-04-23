@@ -54,6 +54,8 @@ import Director from "./components/Faculty/Dir";
 import Announcements6 from "./components/Announcements/Announcement6";
 import AdmissionIT from "./components/Admissions/IT/AdmissionIT";
 import AdmissionCSE from "./components/Admissions/IT/AdmissionCSE";
+import AM from "./components/Faculty/AM";
+import AdmissionMtech from './components/Admissions/IT/AdmissionMtech';
 
 class App extends Component {
   render() {
@@ -68,7 +70,8 @@ class App extends Component {
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
         window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ? (
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <AboveNav />
@@ -82,7 +85,8 @@ class App extends Component {
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
         window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ? (
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <Nav />
@@ -92,6 +96,7 @@ class App extends Component {
         <Route path="/faculty/AP" exact component={AP} />
         <Route path="/faculty/SG" exact component={SG} />
         <Route path="/faculty/MS" exact component={MS} />
+        <Route path="/faculty/AM" exact component={AM} />
         <Route path="/faculty/niharika" exact component={Niharika} />
         <Route path="/faculty/somendu" exact component={Somendu} />
         <Route path="/faculty/shikha" exact component={Shikha} />
@@ -123,6 +128,7 @@ class App extends Component {
         <Route path="/recruitment" exact component={Recruitment} />
         <Route path="/admissions/IT" exact component={AdmissionIT} />
         <Route path="/admissions/CSE" exact component={AdmissionCSE} />
+        <Route path="/admissions/MTECH" exact component={AdmissionMtech} />
         <Route path="/announcements" exact component={AnnouncementsList} />
         <Route path="/announcements/1" exact component={Announcements1} />
         <Route path="/announcements/2" exact component={Announcements2} />
@@ -141,7 +147,8 @@ class App extends Component {
         window.location.pathname === "/faculty/SG" ||
         window.location.pathname === "/faculty/MS" ||
         window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ? (
+        window.location.pathname === "/faculty/dir" ||
+        window.location.pathname === "/faculty/AM" ? (
           ""
         ) : (
           <Footer />

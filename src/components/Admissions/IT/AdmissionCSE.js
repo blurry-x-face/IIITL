@@ -1,7 +1,7 @@
 import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
-import pdfFee from "../../../assets/blogs/fee-structure.pdf";
+import pdfFee from "../../../assets/downloads/Fee Structure B.Tech.pdf";
 import Link from "react-router-dom/Link";
 
 class AdmissionCSE extends React.Component {

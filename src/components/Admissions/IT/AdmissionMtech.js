@@ -1,17 +1,16 @@
 import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
-import pdfFee from "../../../assets/downloads/Fee Structure B.Tech.pdf";
-import pdfDASA from "../../../assets/downloads/Fee Structure B.Tech DASA.pdf";
+import pdfFee from "../../../assets/downloads/Fee Structure M.Tech.pdf";
 import Link from "react-router-dom/Link";
 
-class AdmissionIT extends React.Component {
+class AdmissionMtech extends React.Component {
   render() {
     return (
       <div className="btech-global admissions-section-global admissions-it-global padding-res">
         <ScrollToTopOnMount />
         <div className="admission-it-global-div">
-          <h1 className="btech-global-head"> B.Tech. in IT</h1>
+          <h1 className="btech-global-head">M.Tech. (Computer Science)</h1>
           <p className="btech-it-p">
             Admissions to the four year B.Tech. Program in IT branch of the
             Institute is made through the examination conducted by CBSE under
@@ -50,66 +49,32 @@ class AdmissionIT extends React.Component {
               <th>State / All India</th>
             </tr>
             <tr>
-              <td>315</td>
+              <td>310</td>
               <td>Indian Institute of Information Technology, Lucknow</td>
               <td>4116</td>
-              <td>Information Technology (4 Years, Bachelor of Technology)</td>
-              <td>31</td>
-              <td>2</td>
-              <td>9</td>
-              <td>0</td>
+              <td>M.Tech. (Computer Science)</td>
+              <td>14</td>
+              <td>1</td>
               <td>5</td>
               <td>0</td>
-              <td>16</td>
-              <td>1</td>
-              <td>75</td>
+              <td>2</td>
+              <td>0</td>
+              <td>8</td>
+              <td>0</td>
+              <td>30</td>
               <td>All India</td>
             </tr>
           </table>
         </div>
-        <div className="admissions-it-seat admissions-useful-links">
-          <h1 className="admissions-sub-head"> Seat Matrix(DASA) </h1>
-        </div>
-        <div className="admissions-it-seat-table">
-          <table style={{ width: "100%" }}>
-            <tr>
-              <th>Instcd</th>
-              <th>Brcd</th>
-              <th>Tciwg</th>
-              <th>Tgen</th>
-              <th>Tseat</th>
-            </tr>
-            <tr>
-              <td>ILK</td>
-              <td>ITY</td>
-              <td>4</td>
-              <td>7</td>
-              <td>11</td>
-            </tr>
-            <tr>
-              <td>ILK</td>
-              <td>COS</td>
-              <td>3</td>
-              <td>8</td>
-              <td>11</td>
-            </tr>
-          </table>
-        </div>
-        
         <div className="admissions-useful-links ">
           <h1 className="admissions-sub-head">Useful Links</h1>
           <ul>
             <li className="admissions-course-structure">
-              <Link to="/course-structure">Course Structure</Link>
+              <Link to="/coming-soon">Course Structure</Link>
             </li>
             <li>
               <a href={pdfFee} target="blank">
                 Fee Structure
-              </a>
-            </li>
-            <li>
-              <a href={pdfDASA} target="blank">
-                Fee Structure(DASA)
               </a>
             </li>
           </ul>
@@ -119,4 +84,4 @@ class AdmissionIT extends React.Component {
   }
 }
 
-export default AdmissionIT;
+export default AdmissionMtech;

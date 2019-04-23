@@ -68,7 +68,16 @@ const vks = {
     "Lucknow, India."
   ]
 };
-
+const aM = {
+  interests: ["Bioelectrics", "Biomechanics", "Machine Learning"],
+  education: ["Ph.D. (Old Dominion University, Norfolk)"],
+  contact: ["am@iiitl.ac.in"],
+  address: [
+    "Department of Information Technology,",
+    "Indian Institute of Information Technology,",
+    "Lucknow, India."
+  ]
+};
 const mary = {
   interests: ["Fractal Geometry"],
   education: [
@@ -730,4 +739,4 @@ const dir = {
   ]
 };
 
-export { dir, bKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };
+export { aM, dir, bKC, aP, somendu, vks, mary, shikha, niharika, sushilTiwari };
