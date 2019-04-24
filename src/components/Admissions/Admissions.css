@@ -42,3 +42,19 @@
   margin-left: 7px;
   content: "->";
 }
+.admissions-mtech{
+  font-family: "Playfair Display", serif;
+}
+
+.ext-links{
+  color:#005699 !important;
+  text-decoration: none !important;
+}
+.admissions-course-structure a{
+  font-size: 16px;
+}
+.admissions-course-structure a::after{
+  margin-left: 7px;
+  font-size:16px !important;
+  content: "";
+}
