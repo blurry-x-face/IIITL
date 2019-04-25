@@ -2,6 +2,7 @@ import pdfLogo from "../../assets/blogs/Letter_circulation_18022019.pdf";
 import pdfFee from "../../assets/blogs/fee-structure.pdf";
 import ApplicationForm from "../../assets/blogs/Format_Application_IIITL.docx";
 import tenderPDF from "../../assets/downloads/Tender.pdf";
+import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
 
 const AnnouncementsData = {
   announcement1: {
@@ -43,9 +44,23 @@ const AnnouncementsData = {
     para: "Hiring of residential premises for Director,IIIT-L",
     linkPara: "PDF->",
     link: tenderPDF
+  },
+  announcement7: {
+    head: "Extension of Tender",
+    para:
+      "Extension of Tender for hiring of premises for Director IIIT Lucknow",
+    linkPara: "PDF->",
+    link: tendorExtension
   }
 };
 const AnnouncementsListData = [
+  {
+    head: "Extension of Tender",
+    para:
+      "Extension of Tender for hiring of premises for Director IIIT Lucknow",
+    linkPara: "Tendor->",
+    link: "/announcements/7"
+  },
   {
     head: "Tender Notice",
     para: "Hiring of residential premises for Director,IIIT-L",

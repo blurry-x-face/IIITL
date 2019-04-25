@@ -6,7 +6,7 @@ const facultyCardData = [
     researchArea: "Bioelectrics, Biomechanics, Machine Learning",
     contact: "Email: am@iiitl.ac.in",
     id: "ashutoshMishra",
-    link: "https://profile-iiitl.netlify.com/Dr-Ashutosh-Mishra",
+    link: "/coming-soon",
     post: "",
     post2: ""
   },
@@ -17,7 +17,7 @@ const facultyCardData = [
     researchArea: "Computer Networks, Wireless N/W  and Sensor Networks",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
     id: "abhishekPandey",
-    link: "https://profile-iiitl.netlify.com/Dr-Abhishek-Pandey",
+    link: "/faculty/AP",
     post: "",
     post2: ""
   },
@@ -28,7 +28,7 @@ const facultyCardData = [
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
     id: "marySamuel",
-    link: "https://profile-iiitl.netlify.com/Dr-Mary-Samuels",
+    link: "/faculty/MS",
     post: "Faculty In-charge Student Activities",
     post2: ""
   },
@@ -40,7 +40,7 @@ const facultyCardData = [
       "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
-    link: "https://profile-iiitl.netlify.com/Dr-Soumendu-Chakraborty",
+    link: "/faculty/somendu",
     post: "Faculty In-charge Technical Committee",
     post2: ""
   },
@@ -52,7 +52,7 @@ const facultyCardData = [
       "Wireless Sensor Networks, In-network Inference, Data Mining Database Management, Data Analytics, Internet of Things",
     contact: "Email: vks@iiitl.ac.in",
     id: "vks",
-    link: "https://profile-iiitl.netlify.com/Dr-Vishal-Krishna-Singh",
+    link: "/faculty/vks",
     post: "Faculty In-charge Training and Placements",
     post2: "Faculty In-charge Reasearch and Development"
   },
@@ -64,7 +64,7 @@ const facultyCardData = [
       "Software Engineering, Software Quality, and Software Reliability/Usability",
     contact: "Email: shikhagautam@iiitl.ac.in",
     id: "shikhaGautam",
-    link: "https://profile-iiitl.netlify.com/Dr-Shikha-Gautam"
+    link: "/faculty/SG"
   },
   {
     name: "Dr. Niharika Anand",
@@ -74,7 +74,7 @@ const facultyCardData = [
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
     contact: "Email: niharika@iiitl.ac.in",
     id: "niharikaAnand",
-    link: "https://profile-iiitl.netlify.com/Dr-Niharikha-Anand",
+    link: "/faculty/niharika",
     post: "Faculty Incharge Library"
   },
   {
@@ -95,7 +95,7 @@ const facultyCardData = [
       "Network Security, Vehicular Ad hoc Networks, Sensor Ad hoc Networks, Trust Management in Wireless Ad-hoc Networks, Internet of  Vehicles, Cloud Computing etc.",
     contact: "Email: brijesh@iiitl.ac.in",
     id: "brijeshChaurasia",
-    link: "https://profile-iiitl.netlify.com/Dr-Brijesh-Kumar-Chaurasia",
+    link: "/faculty/BKC",
     post: "Interim Head"
   },
   {
@@ -106,7 +106,7 @@ const facultyCardData = [
       "Wireless Indoor Localization, Machine Learning, Ad-hoc Network",
     contact: "stiwari@iiitl.ac.in",
     id: "sushilTiwari",
-    link: "https://profile-iiitl.netlify.com/Mr-Sushil-Tiwari",
+    link: "/faculty/ST",
     post: ""
   },
   {
@@ -117,7 +117,7 @@ const facultyCardData = [
     researchArea: "Higher Education and Research, CGI, eLearning Industry",
     contact: "Email: director@iiitl.ac.in",
     id: "arunSherry",
-    link: "https://profile-iiitl.netlify.com/Dr-Arun-Mohan-Sherry",
+    link: "/faculty/dir",
     post: "",
     post2: ""
   }

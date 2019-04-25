@@ -8,6 +8,7 @@ import Latest from "./Latest";
 import News from "./News";
 import ScrollToTopOnMount from "./ScrollToTop";
 import tenderPDF from "../assets/downloads/Tender.pdf";
+import tendorExtension from "../assets/downloads/Tender_Extension.pdf";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -36,6 +37,20 @@ class Home extends React.Component {
               class="fas fa-circle"
               style={{ fontSize: "0.7em", marginBottom: 3, color: "black" }}
             />
+            <a target="blank" href={tendorExtension}>
+              Extension of Tender
+            </a>
+          </span>
+          <span style={{ cursor: "pointer" }}>
+            <i
+              class="fas fa-circle"
+              style={{
+                marginLeft: "200px",
+                fontSize: "0.7em",
+                marginBottom: 3,
+                color: "black"
+              }}
+            />
             <a target="blank" href={tenderPDF}>
               Tender Notice
             </a>
@@ -45,9 +60,7 @@ class Home extends React.Component {
               class="fas fa-circle"
               style={{
                 marginLeft: "200px",
-                fontSize: "0.7em",
-                // marginBottom: 3,
-                // color: "black"
+                fontSize: "0.7em"
               }}
             />
             <Link to="/announcements/1">
@@ -61,23 +74,11 @@ class Home extends React.Component {
             />
             <Link to="/announcements/2">Updated Fee Structure, 2019</Link>
           </span>
-          <span style={{ marginLeft: "200px", cursor: "pointer" }}>
-            <i
-              class="fas fa-circle"
-              style={{ fontSize: "0.7em", color: "black" }}
-            />
-            <Link to="/announcements/3">
-              Postponement of Selection Process on 14th October 2018 for IIIT
-            </Link>
-            Lucknow
-          </span>
         </marquee>
         <Carousel />
-        {/* <Card /> */}
         <Latest />
         <Sudhar />
         <News />
-        {/* <Map /> */}
       </div>
     );
   }

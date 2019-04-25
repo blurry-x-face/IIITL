@@ -1,101 +1,10 @@
 import React from "react";
 import "./Latest.css";
 import { Link } from "react-router-dom";
-  import tenderPDF from "../assets/downloads/Tender.pdf";
-// import ScrollToTopOnMount from "./ScrollToTop";
+import tenderPDF from "../assets/downloads/Tender.pdf";
+import tendorExtension from "../assets/downloads/Tender_Extension.pdf";
 
 class Latest extends React.Component {
-  state = {
-    isShowing: [1, 1, 1, 1, 0, 0],
-    first: 0
-  };
-
-  change(c) {
-    // console.log(this.state);
-    //
-    if (c) {
-      if (this.state.first + 3 < 5) {
-        this.setState(
-          cs => {
-            var temp = cs.isShowing.map((ele, i) => {
-              if (i === cs.first) {
-                return 0;
-              }
-              return ele;
-            });
-            return { isShowing: temp, first: cs.first + 1 };
-          },
-          () => {
-            this.setState(
-              cs => {
-                var temp1 = cs.isShowing;
-                temp1[cs.first + 3] = 1;
-                return { isShowing: temp1, first: cs.first };
-              },
-              () => {
-                var slide = document.querySelectorAll(".hidden1");
-                for (var k = 0; k < this.state.isShowing.length; k++) {
-                  //   console.log(this.state);
-                  if (this.state.isShowing[k] === 1) {
-                    slide[k].classList.add("active1");
-                  } else {
-                    slide[k].classList.remove("active1");
-                  }
-                }
-              }
-            );
-          }
-        );
-      } else {
-        this.setState({ isShowing: [1, 1, 1, 1, 0, 0], first: 0 }, () => {
-          var slide = document.querySelectorAll(".hidden1");
-          for (var k = 0; k < this.state.isShowing.length; k++) {
-            //   console.log(this.state);
-            if (this.state.isShowing[k] === 1) {
-              slide[k].classList.add("active1");
-            } else {
-              slide[k].classList.remove("active1");
-            }
-          }
-        });
-      }
-    } else {
-      if (this.state.isShowing[0] === 1) {
-        this.setState({ isShowing: [1, 1, 1, 1, 0, 0], first: 0 }, () => {
-          var slide = document.querySelectorAll(".hidden1");
-          for (var k = 0; k < this.state.isShowing.length; k++) {
-            //   console.log(this.state);
-            if (this.state.isShowing[k] === 1) {
-              slide[k].classList.add("active1");
-            } else {
-              slide[k].classList.remove("active1");
-            }
-          }
-        });
-      } else {
-        this.setState(
-          cs => {
-            var temp1 = cs.isShowing;
-            temp1[cs.first + 3] = 0;
-            temp1[cs.first - 1] = 1;
-            return { isShowing: temp1, first: cs.first - 1 };
-          },
-          () => {
-            var slide = document.querySelectorAll(".hidden1");
-            for (var k = 0; k < this.state.isShowing.length; k++) {
-              //   console.log(this.state);
-              if (this.state.isShowing[k] === 1) {
-                slide[k].classList.add("active1");
-              } else {
-                slide[k].classList.remove("active1");
-              }
-            }
-          }
-        );
-      }
-    }
-    // console.log(this.state);
-  }
   render() {
     return (
       <div className="latest-global">
@@ -104,14 +13,16 @@ class Latest extends React.Component {
         </div>
         <div className="blog-container-global">
           <div className="blog-container-contents">
-            {/* <div
-              onClick={() => this.change(0)}
-              className="latest-prev"
-              style={{ cursor: "pointer" }}
-              href="#home"
-            >
-              <i className="fas fa-angle-left" />
-            </div> */}
+            <a target="blank" href={tendorExtension}>
+              <div className="box-7 hidden1 active1">
+                <p className="latest-blog-date">April, 2019</p>
+                <p className="latest-blog-head">Extension of Tender</p>{" "}
+                <p className="latest-blog-content">
+                  Extension of Tender for hiring of premises for Director IIIT
+                  Lucknow
+                </p>
+              </div>
+            </a>
             <a target="blank" href={tenderPDF}>
               <div className="box-6 hidden1 active1">
                 <p className="latest-blog-date">April, 2019</p>{" "}
@@ -139,7 +50,7 @@ class Latest extends React.Component {
                 <p className="latest-blog-content" />
               </div>
             </Link>
-            <Link to="/announcements/3">
+            {/* <Link to="/announcements/3">
               <div className="box-3 hidden1 active1">
                 <p className="latest-blog-date">July, 2019</p>{" "}
                 <p className="latest-blog-head">Updated Fee Structure</p>{" "}
@@ -147,7 +58,7 @@ class Latest extends React.Component {
                   Fee Structure for IIIT Lucknow has been updated.
                 </p>
               </div>
-            </Link>
+            </Link> */}
             {/* <Link to="/announcements/4">
               <div className="box-4 hidden1 active1">
                 <p className="latest-blog-date">October 14, 2018</p>{" "}
