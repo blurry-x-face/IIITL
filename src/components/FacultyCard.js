@@ -84,17 +84,17 @@ class FacultyCard extends React.Component {
     return (
       <div className="faculty-global padding-res">
         <ScrollToTopOnMount />
-        <this.Card data={facultyCardData[10]} alt={false} />
-        <this.Card data={facultyCardData[1]} alt={true} />
-        <this.Card data={facultyCardData[0]} alt={false} />
-        <this.Card data={facultyCardData[8]} alt={true} />
+        <this.CustomLinkCard data={facultyCardData[10]} alt={false} />
+        <this.CustomLinkCard data={facultyCardData[1]} alt={true} />
+        <this.CustomLinkCard data={facultyCardData[0]} alt={false} />
+        <this.CustomLinkCard data={facultyCardData[8]} alt={true} />
         <this.CustomLinkCard data={facultyCardData[7]} alt={false} />
-        <this.Card data={facultyCardData[2]} alt={true} />
-        <this.Card data={facultyCardData[6]} alt={false} />
-        <this.Card data={facultyCardData[5]} alt={true} />
-        <this.Card data={facultyCardData[3]} alt={false} />
-        <this.Card data={facultyCardData[9]} alt={true} />
-        <this.Card data={facultyCardData[4]} alt={false} />
+        <this.CustomLinkCard data={facultyCardData[2]} alt={true} />
+        <this.CustomLinkCard data={facultyCardData[6]} alt={false} />
+        <this.CustomLinkCard data={facultyCardData[5]} alt={true} />
+        <this.CustomLinkCard data={facultyCardData[3]} alt={false} />
+        <this.CustomLinkCard data={facultyCardData[9]} alt={true} />
+        <this.CustomLinkCard data={facultyCardData[4]} alt={false} />
       </div>
     );
   }

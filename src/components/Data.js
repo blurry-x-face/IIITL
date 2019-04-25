@@ -38,18 +38,18 @@ const InsAdmin = {
   anchor: {
     name: [
       "Directorate",
+      "Registrar's Office",
+      "Faculty",
       "Office & Staff",
       "Academic Affairs",
-      "Faculty",
       "Student",
-      "Registrar's Office",
       "Downloads"
     ],
     links: [
       "/directorate",
-      "/staff",
       "/coming-soon",
       "/faculty",
+      "/staff",
       "/coming-soon",
       "/coming-soon",
       "/downloads"

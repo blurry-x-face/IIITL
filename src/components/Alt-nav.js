@@ -664,16 +664,61 @@ class AltNav extends React.Component {
             </div>
           </div>
         </div>
-        <button className="alt-dropbtn">
-          <Link
-            to="/recruitment"
-            className="alt-nav-link"
-            onClick={() => this.closeNav()}
-            style={{ color: "black" }}
+        <div className="alt-dropdown">
+          <button
+            className="alt-dropbtn"
+            onClick={() => this.openNav("alt-dropdown-content-6")}
           >
-            Recruitment
-          </Link>
-        </button>
+            Admissions
+            <i className="fa fa-caret-down" />
+          </button>
+          <div className="alt-dropdown-content" id="alt-dropdown-content-6">
+            <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
+              <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
+                Undergraduate Programs
+              </div>
+              <Link
+                to="admissions/IT"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                B.Tech in IT
+              </Link>
+              <Link
+                to="admissions/CSE"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                B.Tech in CSE
+              </Link>
+            </div>
+            <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
+              <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
+                Postgraduate Programs
+              </div>
+              <Link
+                to="admissions/MTECH"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                M. Tech. in CSE
+              </Link>
+            </div>
+
+            <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
+              <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
+                Research
+              </div>
+              <Link
+                to="/coming-soon"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Ph.D. in IT
+              </Link>
+            </div>
+          </div>
+        </div>
         <button className="alt-dropbtn">
           <a
             href="https://placements.iiitl.ac.in/"

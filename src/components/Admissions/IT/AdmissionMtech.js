@@ -80,13 +80,13 @@ class AdmissionMtech extends React.Component {
         <div className="admissions-useful-links ">
           <h1 className="admissions-sub-head">Contact Persons</h1>
           <ul>
-            <li className="admissions-course-structure">
+            <li className="admissions-anchor-structure">
               Mr. Vivekanand Sinha <br/>
               Assistant Registrar (AFA)<br/>
               Mob.: 9415395066<br/>
               E-mail: <a style={{color: '#005699', textDecoration:"none"}} href="mailto:ar.afa@iiitl.ac.in">ar.afa@iiitl.ac.in</a>
             </li>
-            <li className="admissions-course-structure">
+            <li className="admissions-anchor-structure">
               Mr. Shivam Dubey<br/>
               Mob.: 9335158900<br/>
               E-mail: <a href="mailto:shivam@iiitl.ac.in">shivam@iiitl.ac.in</a>
