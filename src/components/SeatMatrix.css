@@ -63,7 +63,7 @@ select:focus {
   /* display: none; */
   height: 0.01px !important;
   z-index: 10;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
   overflow: hidden;
 }
 .nahi-hoga {
