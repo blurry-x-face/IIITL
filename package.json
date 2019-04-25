@@ -2,6 +2,7 @@
   "name": "iiit-l",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://iiitl.ac.in/",
   "dependencies": {
     "google-map-react": "^1.1.2",
     "rc-banner-anim": "^2.2.2",

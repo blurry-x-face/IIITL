@@ -12,10 +12,12 @@ class SeatMatrix extends React.Component {
       return;
     }
     let toShow = document.getElementById(x);
-    toShow.style.display = "table";
+    // toShow.style.height = "auto";
+    toShow.classList.add("nahi-hoga");
     if (!this.state.isFirst) {
       let prevEle = document.getElementById(this.state.prev);
-      prevEle.style.display = "none";
+      // prevEle.style.height = "0px";
+      prevEle.classList.remove("nahi-hoga");
     }
     this.setState({ isFirst: false });
     this.setState({ prev: x });
@@ -36,26 +38,28 @@ class SeatMatrix extends React.Component {
       );
     });
     return (
-      <table className="seat-main-table seat-hid-table-1" id={props.id}>
-        <tbody>
-          <tr>
-            <td>
-              <strong>Branch</strong>
-            </td>
-            <td>
-              <strong>Seats</strong>
-            </td>
-          </tr>
-          {/* <tr>
+      <div className="seat-main-table seat-hid-table-1" id={props.id}>
+        <table className="seat-main-table">
+          <tbody>
+            <tr>
+              <td>
+                <strong>Branch</strong>
+              </td>
+              <td>
+                <strong>Seats</strong>
+              </td>
+            </tr>
+            {/* <tr>
             <td colSpan="2">
               <strong className="center ">
                 <em>4-Year B.E./B.Tech. Course</em>
               </strong>
             </td>
           </tr> */}
-          {x}
-        </tbody>
-      </table>
+            {x}
+          </tbody>
+        </table>
+      </div>
     );
   };
 

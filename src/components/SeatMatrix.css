@@ -58,9 +58,19 @@ select:focus {
   color: #333 !important;
 }
 .seat-hid-table-1 {
-  padding-bottom: 100px;
+  /* padding-bottom: 100px;
+  padding-top: 50px; */
+  /* display: none; */
+  height: 0.01px !important;
+  z-index: 10;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.nahi-hoga {
+  height: auto;
+  width: 100%;
+  padding-bottom: 300px;
   padding-top: 50px;
-  display: none;
 }
 .table-hid {
   /* display: none; */
@@ -68,4 +78,7 @@ select:focus {
   /* opacity: 0; */
   transition: all ease-in-out 0.3s;
   overflow: hidden;
+}
+.table-below {
+  padding: 13px;
 }
