@@ -76,7 +76,7 @@ const staff = [
         class: "data1 staff-column"
       },
       data3: {
-        name: "Mr. Arunesh Singh",
+        name: "Mr. Deepak Shukla",
         post: "Junior Technician",
         email: "Email:deepak@iiitl.ac.in",
         mobile: "Contact:0532-2922809",
