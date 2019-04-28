@@ -37,7 +37,7 @@ const facultyCardData = [
     position: "",
     qualification: "Ph. D. from IIIT Allahabad",
     researchArea:
-      "Visible light communications, massive MIMO, non-orthogonal multiple access, learning over reproducing kernel Hilbert space, blind equalization.",
+      "Image processing, Computer Vision, Pattern recognition, Steganography, Machine Learning.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
     link: "/faculty/somendu",
@@ -78,7 +78,7 @@ const facultyCardData = [
     post: "Faculty Incharge Library"
   },
   {
-    name: "Dr. Deepanjan Roy",
+    name: "Dr. Dipanjan Roy",
     position: "",
     qualification: "Ph. D. from IIT Indore",
     researchArea:

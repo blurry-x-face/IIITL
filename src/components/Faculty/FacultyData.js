@@ -248,7 +248,13 @@ const niharika = {
   ]
 };
 const somendu = {
-  interests: [""],
+  interests: [
+    "Image processing",
+    "Computer Vision",
+    "Pattern recognition",
+    "Steganography",
+    "Machine Learning"
+  ],
   awards: [
     {
       detail:
@@ -545,21 +551,17 @@ const bKC = {
     "Lucknow, India."
   ],
   courses: [
-    "Network Security",
-    "Vehicular Ad hoc Networks",
-    "Sensor Ad hoc Networks",
-    "Trust Management in Wireless Ad-hoc Networks",
-    "Internet of  Vehicles",
-    "Cloud Computing"
+    "Cryptography and network security",
+    "Computer Networks",
+    "Wireless Adhoc Networks",
+    "Optimization Techniques",
+    "Object Oriented Programming with C++/Java"
   ],
   awards: [
     {
       head: "Awards & Achievements:",
       list: [
-        "Best Paper Award for “Pseudonym Based Mechanism for Sustaining Privacy in VANETs,” In the First IEEE International conference on Computational Intelligence, Communication Systems and Networks (CICSYN-2009), Indore, India, pp. 420 – 425, 2009",
-        "Best research publication award by ITM University Gwalior, 2013.",
-        "Best department award by ITM University Gwalior, 2013.",
-        "Best department award by ITM University Gwalior, 2014."
+        "Best Paper Award for “Pseudonym Based Mechanism for Sustaining Privacy in VANETs,” In the First IEEE International conference on Computational Intelligence, Communication Systems and Networks (CICSYN-2009), Indore, India, pp. 420 – 425, 2009"
       ]
     }
   ]

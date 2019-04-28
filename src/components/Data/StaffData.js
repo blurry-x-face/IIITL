@@ -38,7 +38,7 @@ const staff = [
           class: "data5 staff-column"
         },
         data6: {
-          name: "Mr. Shivam Dube",
+          name: "Mr. Shivam Dubey",
           post: "Junior Assistant",
           email: "Email: shivam@iiitl.ac.in",
           mobile: "",
@@ -63,7 +63,7 @@ const staff = [
     Technical: {
       data1: {
         name: "Mr. Vijay Kumar Singh",
-        post: "Jr. Technical Superintendentr",
+        post: "Jr. Technical Superintendent",
         email: "Email:vijaysingh@iiitl.ac.in",
         mobile: "Contact:0532-2922809",
         class: "data1 staff-column"

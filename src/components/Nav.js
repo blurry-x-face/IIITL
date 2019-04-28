@@ -256,16 +256,6 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     Notice Board
                   </NavLink>
-                  {/* <div className="dropdown-content-c-1-head dropdown-content-head">
-                    Quick Links
-                  </div>
-                  <NavLink to="/coming-soon" className="af-1">
-                    Student Portal Login
-                  </NavLink>
-
-                  <NavLink to="/coming-soon" className="af-1">
-                    Sports/Gymkhana
-                  </NavLink> */}
                 </div>
               </div>
             </div>
