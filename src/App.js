@@ -56,6 +56,7 @@ import AM from "./components/Faculty/AM";
 import AdmissionMtech from "./components/Admissions/IT/AdmissionMtech";
 import Announcements7 from "./components/Announcements/Announcements7";
 import CCMT from "./components/CCMT19";
+import Announcements8 from './components/Announcements/Announcements8';
 
 class App extends Component {
   render() {
@@ -138,6 +139,7 @@ class App extends Component {
         <Route path="/announcements/5" exact component={Announcements5} />
         <Route path="/announcements/6" exact component={Announcements6} />
         <Route path="/announcements/7" exact component={Announcements7} />
+        <Route path="/announcements/8" exact component={Announcements8} />
         {/* <Route path="/CCMT19" exact component={CCMT} /> */}
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}

@@ -3,6 +3,7 @@ import "./Latest.css";
 import { Link } from "react-router-dom";
 import tenderPDF from "../assets/downloads/Tender.pdf";
 import tendorExtension from "../assets/downloads/Tender_Extension.pdf";
+import tendorVehicle from "../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 
 class Latest extends React.Component {
   render() {
@@ -13,6 +14,18 @@ class Latest extends React.Component {
         </div>
         <div className="blog-container-global">
           <div className="blog-container-contents">
+            <a target="blank" href={tendorVehicle}>
+              <div className="box-7 hidden1 active1">
+                <p className="latest-blog-date">May 1, 2019</p>
+                <p className="latest-blog-head">
+                  Tender Notice for Hiring of Different types of vehicles
+                </p>{" "}
+                <p className="latest-blog-content">
+                  Tender Notice for Hiring of Different types of vehicles for
+                  IIIT Lucknow
+                </p>
+              </div>
+            </a>
             <a target="blank" href={tendorExtension}>
               <div className="box-7 hidden1 active1">
                 <p className="latest-blog-date">April, 2019</p>
@@ -43,13 +56,13 @@ class Latest extends React.Component {
                 </p>
               </div>
             </Link>
-            <Link to="/announcements/2">
+            {/* <Link to="/announcements/2">
               <div className="box-2 hidden1 active1">
                 <p className="latest-blog-date">January, 2019</p>{" "}
                 <p className="latest-blog-head">Updated Academic Calendar</p>{" "}
                 <p className="latest-blog-content" />
               </div>
-            </Link>
+            </Link> */}
             {/* <Link to="/announcements/3">
               <div className="box-3 hidden1 active1">
                 <p className="latest-blog-date">July, 2019</p>{" "}

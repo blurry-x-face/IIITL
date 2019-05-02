@@ -3,6 +3,7 @@ import pdfFee from "../../assets/blogs/fee-structure.pdf";
 import ApplicationForm from "../../assets/blogs/Format_Application_IIITL.docx";
 import tenderPDF from "../../assets/downloads/Tender.pdf";
 import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
+import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 
 const AnnouncementsData = {
   announcement1: {
@@ -46,23 +47,37 @@ const AnnouncementsData = {
     link: tenderPDF
   },
   announcement7: {
-    head: "Extension of Tender",
+    head: "Extension of Tender for Director's Premises",
     para:
       "Extension of Tender for hiring of premises for Director IIIT Lucknow",
     linkPara: "PDF->",
     link: tendorExtension
+  },
+  announcement8: {
+    head: "Tender Notice for Hiring of Different types of vehicles",
+    para:
+      "FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW",
+    linkPara: "PDF->",
+    link: tendorVehicle
   }
 };
 const AnnouncementsListData = [
   {
-    head: "Extension of Tender",
+    head: "Tender Notice for Hiring of Different types of vehicles",
+    para:
+      "FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW",
+    linkPara: "Tendor->",
+    link: "/announcements/8"
+  },
+  {
+    head: "Extension of Tender for Director's Premises",
     para:
       "Extension of Tender for hiring of premises for Director IIIT Lucknow",
     linkPara: "Tendor->",
     link: "/announcements/7"
   },
   {
-    head: "Tender Notice",
+    head: "Tender Notice for Director's Premises",
     para: "Hiring of residential premises for Director,IIIT-L",
     linkPara: "PDF->",
     link: "/announcements/6"

@@ -9,6 +9,7 @@ import News from "./News";
 import ScrollToTopOnMount from "./ScrollToTop";
 import tenderPDF from "../assets/downloads/Tender.pdf";
 import tendorExtension from "../assets/downloads/Tender_Extension.pdf";
+import tendorVehicle from "../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -37,8 +38,22 @@ class Home extends React.Component {
               class="fas fa-circle"
               style={{ fontSize: "0.7em", marginBottom: 3, color: "black" }}
             />
+            <a target="blank" href={tendorVehicle}>
+              Tender Notice for Hiring of Different types of vehicles
+            </a>
+          </span>
+          <span style={{ cursor: "pointer" }}>
+            <i
+              class="fas fa-circle"
+              style={{
+                marginLeft: "200px",
+                fontSize: "0.7em",
+                marginBottom: 3,
+                color: "black"
+              }}
+            />
             <a target="blank" href={tendorExtension}>
-              Extension of Tender
+              Extension of Tender for Director's Premises
             </a>
           </span>
           <span style={{ cursor: "pointer" }}>
@@ -52,7 +67,7 @@ class Home extends React.Component {
               }}
             />
             <a target="blank" href={tenderPDF}>
-              Tender Notice
+              Tender Notice for Director's Premises
             </a>
           </span>
           <span style={{ cursor: "pointer" }}>
