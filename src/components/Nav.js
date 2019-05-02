@@ -439,7 +439,26 @@ class Nav extends React.Component {
                 </div>
               </div>
             </div>
-
+            <div className="dropdown nav-res">
+              <button className="dropbtn flex-center">
+                Tenders
+                {/* <i className="fa fa-caret-down" /> */}
+                <img src={newGIF} alt="new" id="new-gif" />
+              </button>
+              <div className="dropdown-content">
+                <div className="dropdown-content-c-1 dropdown-content-c">
+                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                    Tenders
+                  </div>
+                  <NavLink to="/admissions/IT" className="af-1">
+                    Latest Tenders
+                  </NavLink>
+                  <NavLink to="/admissions/CSE" className="af-1">
+                    Expired Tenders
+                  </NavLink>
+                </div>
+              </div>
+            </div>
             <a
               href="https://placements.iiitl.ac.in/"
               target="blank"
