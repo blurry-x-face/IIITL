@@ -34,11 +34,6 @@ import Niharika from "./components/Faculty/Niharika";
 import Somendu from "./components/Faculty/Somendu";
 import ST from "./components/Faculty/ST";
 import PictureGallery from "./components/PictureGallery";
-import Announcements1 from "./components/Announcements/Announcements1";
-import Announcements2 from "./components/Announcements/Announcement2";
-import Announcements3 from "./components/Announcements/Announcement3";
-import Announcements4 from "./components/Announcements/Announcements4";
-import Announcements5 from "./components/Announcements/Announcements5";
 import AnnouncementsList from "./components/Announcements/MoreAnnouncements";
 import AP from "./components/Faculty/AP";
 import SG from "./components/Faculty/SG";
@@ -49,14 +44,13 @@ import Blog2 from "./components/Blogs/Blog2";
 import Blog3 from "./components/Blogs/Blog3";
 import Recruitment from "./components/Recruitment";
 import Director from "./components/Faculty/Dir";
-import Announcements6 from "./components/Announcements/Announcement6";
 import AdmissionIT from "./components/Admissions/IT/AdmissionIT";
 import AdmissionCSE from "./components/Admissions/IT/AdmissionCSE";
 import AM from "./components/Faculty/AM";
 import AdmissionMtech from "./components/Admissions/IT/AdmissionMtech";
-import Announcements7 from "./components/Announcements/Announcements7";
 import CCMT from "./components/CCMT19";
-import Announcements8 from './components/Announcements/Announcements8';
+import AnnouncementsAuto from "./components/Announcements/AnnouncementsAuto";
+import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 
 class App extends Component {
   render() {
@@ -132,14 +126,23 @@ class App extends Component {
         <Route path="/admissions/CSE" exact component={AdmissionCSE} />
         <Route path="/admissions/MTECH" exact component={AdmissionMtech} />
         <Route path="/announcements" exact component={AnnouncementsList} />
-        <Route path="/announcements/1" exact component={Announcements1} />
+        {/* <Route path="/announcements/1" exact component={Announcements1} />
         <Route path="/announcements/2" exact component={Announcements2} />
         <Route path="/announcements/3" exact component={Announcements3} />
         <Route path="/announcements/4" exact component={Announcements4} />
         <Route path="/announcements/5" exact component={Announcements5} />
         <Route path="/announcements/6" exact component={Announcements6} />
         <Route path="/announcements/7" exact component={Announcements7} />
-        <Route path="/announcements/8" exact component={Announcements8} />
+        <Route path="/announcements/8" exact component={Announcements8} /> */}
+        {AnnouncementsData.map((v, i) => {
+          return (
+            <Route
+              path={`/announcements/${i + 1}`}
+              exact
+              component={AnnouncementsAuto}
+            />
+          );
+        })}
         {/* <Route path="/CCMT19" exact component={CCMT} /> */}
         {/* <Route path="/calender" exact component={AcademicShedule} /> */}
         {/* <Route component={NoMatch} /> */}
