@@ -434,7 +434,7 @@ const bKC = {
     {
       head: "Publications in International Journals:",
       list: [
-        "Brijesh Kumar Chaurasia et al. , “MPMAC: Clustering based MAC protocol for VANETs,” Wireless Personal Communications, Springer, ISSN No: 0929-6212, SCI, Impact Factor:1.2, 2019. [Accepted]",
+        "Brijesh Kumar Chaurasia et al. , “MPMAC: Clustering based MAC protocol for VANETs,” Wireless Personal Communications, Springer, ISSN No: 0929-6212, Vol. 106, No. 2, pp. 1-28, 2019, SCI, Impact Factor:1.2.",
         "Brijesh Kumar Chaurasia et al., “Trust Computation in VANET Cloud,” In the International Journal of Trans. on Computational Science, Springer-Verlag Berlin Heidelberg, 2019. [In Press]",
         "Brijesh Kumar Chaurasia et al. , “Trust Computation using TOEFV,” International Journal of Trust Management in Computing and Communications, Inderscience, Vol. 4, No.1, pp. 36-51,ISSN No: 2048-8386, 2017. ",
         "Brijesh Kumar Chaurasia et al., “Energy Efficient Key Distribution and Management Scheme in Wireless Sensor Networks,” Wireless Personal Communications, Springer, Vol. 23, No. 146,  pp 1-12, ISSN No: 0929-6212, SCI, Impact Factor:1.2, 2017.",
