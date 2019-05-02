@@ -1,0 +1,17 @@
+.padding-res {
+  font-family: "Playfair Display", serif;
+}
+.ccmt-head {
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.ccmt-sub-sec ul {
+  font-weight: normal;
+  font-size: 30px;
+}
+.ccmt-sub-sec li {
+  font-size: 20px;
+}

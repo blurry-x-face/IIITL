@@ -33,6 +33,13 @@ const Ins = {
     ]
   }
 };
+const cCMT = {
+  head: "CCMT-2019",
+  anchor: {
+    name: ["Info for Freshers", "Message from Director"],
+    links: ["/About", "/directorate"]
+  }
+};
 const InsAdmin = {
   head: "Administration",
   anchor: {
@@ -426,5 +433,6 @@ export {
   InsAdmin,
   seatData,
   article,
-  courseStructure
+  courseStructure,
+  cCMT
 };
