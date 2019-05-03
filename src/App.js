@@ -51,6 +51,7 @@ import AdmissionMtech from "./components/Admissions/IT/AdmissionMtech";
 import CCMT from "./components/CCMT19";
 import AnnouncementsAuto from "./components/Announcements/AnnouncementsAuto";
 import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
+import Tender from './components/Announcements/Tenders';
 
 class App extends Component {
   render() {
@@ -125,15 +126,8 @@ class App extends Component {
         <Route path="/admissions/IT" exact component={AdmissionIT} />
         <Route path="/admissions/CSE" exact component={AdmissionCSE} />
         <Route path="/admissions/MTECH" exact component={AdmissionMtech} />
+        <Route path="/tenders" exact component={Tender} />
         <Route path="/announcements" exact component={AnnouncementsList} />
-        {/* <Route path="/announcements/1" exact component={Announcements1} />
-        <Route path="/announcements/2" exact component={Announcements2} />
-        <Route path="/announcements/3" exact component={Announcements3} />
-        <Route path="/announcements/4" exact component={Announcements4} />
-        <Route path="/announcements/5" exact component={Announcements5} />
-        <Route path="/announcements/6" exact component={Announcements6} />
-        <Route path="/announcements/7" exact component={Announcements7} />
-        <Route path="/announcements/8" exact component={Announcements8} /> */}
         {AnnouncementsData.map((v, i) => {
           return (
             <Route

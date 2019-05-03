@@ -27,3 +27,52 @@
 .announcements-inner p {
   font-size: 18px;
 }
+.tender-inner {
+  margin-top: 60px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 180px;
+  transition: all ease 0.4s;
+}
+.tender-inner a {
+  text-decoration: none;
+  color: rgb(1, 68, 46);
+  font-size: 20px;
+}
+.tender-inner h1 {
+  margin: 0px;
+  font-weight: normal;
+  padding: 15px;
+  margin-bottom: 45px;
+  font-size: 30px;
+  transition: all ease 0.4s;
+  color: #005699;
+  cursor: pointer;
+}
+.tender-inner li {
+  padding: 10px;
+}
+.tender-switch {
+  display: flex;
+  justify-content: space-around;
+}
+.border-left {
+  border-left: rgba(0, 0, 0, 0.445) solid 1px;
+}
+.border-right {
+  border-right: rgba(0, 0, 0, 0.445) solid 1px;
+}
+.border-bottom {
+  border-bottom: rgba(0, 0, 0, 0.445) solid 1px;
+  color: rgb(167, 36, 58) !important;
+}
+#tender-expired-id {
+  height: 0px;
+  width: 0px;
+  opacity: 0;
+  transition: all ease 0.6s;
+  overflow: hidden;
+}
+#tender-latest-id {
+  transition: all ease 0.6s;
+  overflow: hidden;
+}

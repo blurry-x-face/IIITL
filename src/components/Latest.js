@@ -16,7 +16,7 @@ class Latest extends React.Component {
         <Link to={`/announcements/${i + AnnouncementsData.length - 3}`}>
           <div className="box-1 hidden1 active1">
             {" "}
-            <p className="latest-blog-date">March 2, 2019</p>{" "}
+            <p className="latest-blog-date">{v.date}</p>{" "}
             <p className="latest-blog-head">{v.head}</p>{" "}
             <p className="latest-blog-content">{v.p}</p>
           </div>

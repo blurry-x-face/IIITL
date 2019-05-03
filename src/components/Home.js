@@ -1,15 +1,9 @@
 import React from "react";
 import Carousel from "./Carousel";
-// import Card from "./Card";
 import Sudhar from "./ImageGrid";
-// import Sudhar from "./Sudhar";
-import { Link } from "react-router-dom";
 import Latest from "./Latest";
 import News from "./News";
 import ScrollToTopOnMount from "./ScrollToTop";
-import tenderPDF from "../assets/downloads/Tender.pdf";
-import tendorExtension from "../assets/downloads/Tender_Extension.pdf";
-import tendorVehicle from "../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 import { AnnouncementsData } from "./Announcements/AnnouncemetsData";
 
 class Home extends React.Component {
@@ -32,7 +26,7 @@ class Home extends React.Component {
               color: "black"
             }}
           />
-          <a key={i} target="blank" href={tendorExtension}>
+          <a key={i} target="blank" href={v.link}>
             {v.marquee}
           </a>
         </span>

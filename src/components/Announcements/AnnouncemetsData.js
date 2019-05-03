@@ -42,7 +42,8 @@ const AnnouncementsData = [
     link: pdfLogo,
     p:
       "The Contest is open to all IIITL Students, Employees and all stake holders of IIITL.",
-    marquee: "Logo Design Contest"
+    marquee: "Logo Design Contest",
+    date: "March 2, 2019"
   },
   {
     head: "Tender Notice",
@@ -50,7 +51,8 @@ const AnnouncementsData = [
     linkPara: "PDF->",
     link: tenderPDF,
     p: "Hiring of residential premises for Director,IIIT-L",
-    marquee: "Tender Notice for Director's Premises"
+    marquee: "Tender Notice for Director's Premises",
+    date: "April, 2019"
   },
   {
     head: "Extension of Tender for Director's Premises",
@@ -59,7 +61,8 @@ const AnnouncementsData = [
     linkPara: "PDF->",
     link: tendorExtension,
     p: "Extension of Tender for hiring of premises for Director IIIT Lucknow",
-    marquee: "Extention of Tender for Director's Premises"
+    marquee: "Extention of Tender for Director's Premises",
+    date: "April, 2019"
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
@@ -69,8 +72,32 @@ const AnnouncementsData = [
     link: tendorVehicle,
     p:
       "Tender Notice for Hiring of Different types of vehicles for IIIT Lucknow",
-    marquee: "Tender Notice for Hiring of Different types of vehicles"
+    marquee: "Tender Notice for Hiring of Different types of vehicles",
+    date: "May 2, 2019"
   }
 ];
 
-export { AnnouncementsData };
+const tenders = [
+  {
+    head: "Tender Notice for Director's Premises",
+    link: tenderPDF,
+    isExpired: false
+  },
+  {
+    head: "Extension of Tender for Director's Premises",
+    link: tendorExtension,
+    isExpired: false
+  },
+  {
+    head: "Tender Notice for Hiring of Different types of vehicles",
+    link: tendorVehicle,
+    isExpired: false
+  },
+  {
+    head: "No Data available yet!",
+    link: "/coming-soon",
+    isExpired: true
+  }
+];
+
+export { AnnouncementsData, tenders };

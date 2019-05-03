@@ -720,6 +720,16 @@ class AltNav extends React.Component {
           </div>
         </div>
         <button className="alt-dropbtn">
+          <Link
+            to="/tenders"
+            onClick={() => this.closeNav()}
+            className="alt-nav-link"
+            style={{ color: "black" }}
+          >
+            Tenders
+          </Link>
+        </button>
+        <button className="alt-dropbtn">
           <a
             href="https://placements.iiitl.ac.in/"
             target="blank"
