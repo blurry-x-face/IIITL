@@ -127,7 +127,7 @@ class AdmissionIT extends React.Component {
               <tr>
                 <td>2.</td>
                 <td>Last date of submitting applications</td>
-                <td>15th May 2019</td>
+                <td>15th June 2019</td>
               </tr>
               <tr>
                 <td>3.</td>
