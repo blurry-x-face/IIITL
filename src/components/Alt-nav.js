@@ -430,7 +430,7 @@ class AltNav extends React.Component {
                 M.Tech in CSE
               </Link>
               <Link
-                to="/admissions/Phd"
+                to="/admissions-Phd"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
