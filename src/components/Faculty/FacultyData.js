@@ -6,23 +6,25 @@ const vks = {
     "Data Analytics",
     "Internet of Things"
   ],
-  awards: {
-    award1:{
-      detail:"Vishal Krishna Singh, Vivek Kumar Singh, and Manish Kumar. &quot;Network Health Monitoring of WSNs Using Node Loss Rate Calculations.&quot; (2019) accepted for publication in Wireless Personal Communications (SCI) (Impact Factor- 0.951), Springer Publications.",
+  awards: [
+    {
+      detail:
+        'Vishal Krishna Singh, Vivek Kumar Singh, and Manish Kumar. "Network Health Monitoring of WSNs Using Node Loss Rate Calculations." (2019) accepted for publication in Wireless Personal Communications (SCI) (Impact Factor- 0.951), Springer Publications.',
       head: ""
     },
-    award2: {
+    {
       detail:
         "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
       head: ""
     },
-    award3: {
+    {
       detail:
         "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449. Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers.",
       head: ""
     }
-  },
+  ],
   journalData: [
+    'Vishal Krishna Singh, Vivek Kumar Singh, and Manish Kumar. "Network Health Monitoring of WSNs Using Node Loss Rate Calculations." (2019) accepted for publication in Wireless Personal Communications (SCI) (Impact Factor- 0.951), Springer Publications.',
     'Vishal Krishna Singh, Manish Kumar, and Shekhar Verma. "Node Scheduling and Compressed Sampling for Event Reporting in WSNs." In IEEE Transactions on Network Science and Engineering (2018), Doi: 10.1109/TNSE.2018.2799845.',
     "Vishal Krishna Singh, Manish Kumar, 2016. Hierarchical Compressed Sensing for Cluster Based Wireless Sensor Networks. International Journal of Advanced Computer Science Applications, 1(7), pp.58-67.",
     'Vishal Krishna Singh, Manish Kumar and Shekhar Verma, "Accurate Detection of Important Events in WSNs," (2018) in IEEE Systems Journal (SCI) (Impact Factor-3.854), vol. PP, no. 99, pp. 1-10. Doi: 10.1109/JSYST.2017.2783353.',
@@ -30,24 +32,22 @@ const vks = {
     'Vishal Krishna Singh, Gajendra Sharma, and Manish Kumar. "Compressed Sensing Based Acoustic Event Detection in Protected Area Networks with Wireless Multimedia Sensors." Multimedia Tools and Applications (SCI) (Impact Factor- 1.530) 76, no. 18 (2017): 18531-18555.',
     "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI:https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
     "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http://dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications.",
-    "Vishal Krishna Singh, Vivek Kumar Singh and Manish Kumar. ‘In-Network Data Processing Based on Compressed Sensing in WSN: A Survey’ (2017). Wireless Personal Communications 96, no. 2 (2017): 2087-2124. (SCI) (Impact Factor- 0.951), Springer Publications.",
     "Vishal Krishna Singh, Rahul Verma, and Manish Kumar. ‘Voronoi Neighbour Based Energy Efficient Event Detection in Wireless Sensor Networks.’ AEU-International Journal of Electronics and Communications 82 (2017): 358-367. (SCI) (Impact Factor- 1.147), Elsevier Publications.",
     "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
     "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449.Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers."
   ],
   conference: [
-   "Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar. &quot;Sparse data recovery using optimized orthogonal matching pursuit for WSNs.&quot; Procedia Computer Science 109(2017): 210-216. 8th International Conference on Ambient Systems, Networks and Technologies, ANT-2017.",
-   "Vishal Krishna Singh, Saurabh Verma, Manish Kumar. &quot;Privacy Preserving In-networkAggregation in Wireless Sensor Networks.&quot; Procedia Computer Science 94 (2016):216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada",
-   "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI: https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
-   "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http: //dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications."
+    'Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar. "Sparse data recovery using optimized orthogonal matching pursuit for WSNs." Procedia Computer Science 109(2017): 210-216. 8th International Conference on Ambient Systems, Networks and Technologies, ANT-2017.',
+    'Vishal Krishna Singh, Saurabh Verma, Manish Kumar. "Privacy Preserving In-networkAggregation in Wireless Sensor Networks." Procedia Computer Science 94 (2016):216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada',
+    "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI: https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
+    "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http: //dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications."
   ],
   education: [
     "Doctorate of Philosophy in Information Technology (Ph.D) Thesis Title: In-network Inference in Wireless Sensor Networks. Institute: Indian Institute of Information Technology, Jhalwa, Allahabad.",
     "Master of Technology in Computer Technology and Applications (M. Tech.) Thesis Title: Segmentation of Low Quality Fingerprint Images by Optimizing a Filtering Technique Institute: National Institute of Technical Teachers Training and Research, Bhopal, Madhya Pradesh.",
     "Bachelor of Technology in Information Technology (B. Tech.) Institute: Hindustan Institute of Technology, Gr. Noida. Uttar Pradesh."
   ],
-  research: [
-  ],
+  research: [],
   member: [
     "UP Section Conference on Electrical, Computer and Electronics (UPCON) 2015. Indian Institute of Information Technology, Allahabad.",
     "Computational Intelligence Workshop (CIW) 2014. Indian Institute of Information Technology, Allahabad.",

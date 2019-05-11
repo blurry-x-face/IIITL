@@ -36,10 +36,16 @@ class Template extends React.Component {
   };
 
   Awards = props => {
+    let list = props.data.map((v, i) => {
+      return (
+        <li key={i}>
+          <p>{v.detail}</p>
+        </li>
+      );
+    });
     return (
       <div className="faculty-award-inner">
-        <div className="faculty-award-head">{props.award.head}</div>
-        <div className="faculty-award-detail">{props.award.detail}</div>
+        <ul className="faculty-award-detail">{list}</ul>
       </div>
     );
   };
@@ -245,8 +251,7 @@ class Template extends React.Component {
             <div className="faculty-awards-head faculty-section-head">
               Latest Achievements
             </div>
-            <this.Awards award={vks.awards.award1} />
-            <this.Awards award={vks.awards.award2} />
+            <this.Awards data={vks.awards} />
           </div>
           {/* <div className="faculty-journals">
             <div className="faculty-journals-head faculty-section-head faculty-journals-head">
@@ -280,6 +285,14 @@ class Template extends React.Component {
             </div>
             <div className="faculty-journal-list">
               <this.Journals journals={vks.journalData} />
+            </div>
+          </div>
+          <div className="faculty-journals">
+            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+              Conferences
+            </div>
+            <div className="faculty-journal-list">
+              <this.Journals journals={vks.conference} />
             </div>
           </div>
         </div>
