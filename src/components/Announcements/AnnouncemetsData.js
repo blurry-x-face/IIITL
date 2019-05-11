@@ -74,6 +74,17 @@ const AnnouncementsData = [
       "Tender Notice for Hiring of Different types of vehicles for IIIT Lucknow",
     marquee: "Tender Notice for Hiring of Different types of vehicles",
     date: "May 2, 2019"
+  },
+  {
+    head: "Call for PhD Admissions, 2019",
+    para:
+      "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    linkPara: "Click here to find more.",
+    link: "/admissions/Phd",
+    p:
+      "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    marquee: "Call for PhD Admissions, 2019",
+    date: "May 12, 2019"
   }
 ];
 

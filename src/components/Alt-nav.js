@@ -358,22 +358,16 @@ class AltNav extends React.Component {
             </div>
             <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
-                Office, Students' Affairs
+                Student Clubs
               </div>
-              <Link
-                to="/coming-soon"
+              <a
+                href="https://axios.iiitl.ac.in/"
                 onClick={() => this.closeNav()}
                 className="af-1"
+                target="_blank"
               >
-                People
-              </Link>
-              <Link
-                to="/coming-soon"
-                onClick={() => this.closeNav()}
-                className="af-1"
-              >
-                Notice Board
-              </Link>
+                Technical Club
+              </a>
               <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
                 Quick Links
               </div>
@@ -436,7 +430,7 @@ class AltNav extends React.Component {
                 M.Tech in CSE
               </Link>
               <Link
-                to="/coming-soon"
+                to="/admissions/Phd"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -710,7 +704,7 @@ class AltNav extends React.Component {
                 Research
               </div>
               <Link
-                to="/coming-soon"
+                to="/admissions/Phd"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >

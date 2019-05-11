@@ -46,6 +46,7 @@ import Recruitment from "./components/Recruitment";
 import Director from "./components/Faculty/Dir";
 import AdmissionIT from "./components/Admissions/IT/AdmissionIT";
 import AdmissionCSE from "./components/Admissions/IT/AdmissionCSE";
+import AdmissionsPhd from "./components/Admissions/IT/AdmissionsPhd";
 import AM from "./components/Faculty/AM";
 import AdmissionMtech from "./components/Admissions/IT/AdmissionMtech";
 import CCMT from "./components/CCMT19";
@@ -123,9 +124,10 @@ class App extends Component {
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
         <Route path="/recruitment" exact component={Recruitment} />
-        <Route path="/admissions-IT" exact component={AdmissionIT} />
-        <Route path="/admissions-CSE" exact component={AdmissionCSE} />
-        <Route path="/admissions-MTECH" exact component={AdmissionMtech} />
+        <Route path="/admissions/IT" exact component={AdmissionIT} />
+        <Route path="/admissions/CSE" exact component={AdmissionCSE} />
+        <Route path="/admissions/Phd" exact component={AdmissionsPhd} />
+        <Route path="/admissions/MTECH" exact component={AdmissionMtech} />
         <Route path="/tenders" exact component={Tender} />
         <Route path="/announcements" exact component={AnnouncementsList} />
         {AnnouncementsData.map((v, i) => {

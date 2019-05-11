@@ -248,14 +248,11 @@ class Nav extends React.Component {
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
-                    Office, Students' Affairs
+                    Student Clubs
                   </div>
-                  <NavLink to="/coming-soon" className="af-1">
-                    People
-                  </NavLink>
-                  <NavLink to="/coming-soon" className="af-1">
-                    Notice Board
-                  </NavLink>
+                  <a href="https://axios.iiitl.ac.in/" className="af-1" target="_blank">
+                    Technical Club
+                  </a>
                 </div>
               </div>
             </div>
@@ -279,7 +276,7 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     M.Tech in CSE
                   </NavLink>
-                  <NavLink to="/coming-soon" className="af-1">
+                  <NavLink to="/admissions/Phd" className="af-1">
                     PhD
                   </NavLink>
                 </div>
@@ -433,8 +430,8 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Research
                   </div>
-                  <NavLink to="/coming-soon" className="af-1">
-                    Ph.D. in IT
+                  <NavLink to="/admissions/Phd" className="af-1">
+                    Ph.D. in IT <img id="new-gif" src={newGIF} />
                   </NavLink>
                 </div>
               </div>

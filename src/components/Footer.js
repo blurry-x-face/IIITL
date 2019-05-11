@@ -48,12 +48,13 @@ class Footer extends React.Component {
           <div className="footer-column about-site">
             <div className="about-site-inner footer-inner">
               <div className="footer-head about-site-head">About this site</div>
-              <Link
-                to="/coming-soon"
+              <a
+                href="https://axios.iiitl.ac.in/wings/webDevelopment/"
                 className="about-site-content footer-inner-content"
+                target="_blank"
               >
                 Team
-              </Link>
+              </a>
               <a
                 href="https://reactjs.org/"
                 target="blank"
