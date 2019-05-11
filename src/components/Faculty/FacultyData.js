@@ -7,12 +7,16 @@ const vks = {
     "Internet of Things"
   ],
   awards: {
-    award1: {
+    award1:{
+      detail:"Vishal Krishna Singh, Vivek Kumar Singh, and Manish Kumar. &quot;Network Health Monitoring of WSNs Using Node Loss Rate Calculations.&quot; (2019) accepted for publication in Wireless Personal Communications (SCI) (Impact Factor- 0.951), Springer Publications.",
+      head: ""
+    },
+    award2: {
       detail:
         "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
       head: ""
     },
-    award2: {
+    award3: {
       detail:
         "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449. Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers.",
       head: ""
@@ -27,13 +31,15 @@ const vks = {
     "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI:https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
     "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http://dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications.",
     "Vishal Krishna Singh, Vivek Kumar Singh and Manish Kumar. ‘In-Network Data Processing Based on Compressed Sensing in WSN: A Survey’ (2017). Wireless Personal Communications 96, no. 2 (2017): 2087-2124. (SCI) (Impact Factor- 0.951), Springer Publications.",
-    "Vishal Krishna Singh, Rahul Verma, and Manish Kumar. ‘Voronoi Neighbour Based Energy Efficient Event Detection in Wireless Sensor Networks.’ AEU-International Journal of Electronics and Communications 82 (2017): 358-367. (SCI) (Impact Factor- 1.147), Elsevier Publications."
+    "Vishal Krishna Singh, Rahul Verma, and Manish Kumar. ‘Voronoi Neighbour Based Energy Efficient Event Detection in Wireless Sensor Networks.’ AEU-International Journal of Electronics and Communications 82 (2017): 358-367. (SCI) (Impact Factor- 1.147), Elsevier Publications.",
+    "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
+    "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449.Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers."
   ],
   conference: [
-    'Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar. "Sparse data recovery using optimized orthogonal matching pursuit for WSNs." Procedia Computer Science 109 (2017):210-216. 8th International Conference on Ambient Systems, Networks and Technologies,ANT-2017.',
-    'Vishal Krishna Singh, Saurabh Verma, Manish Kumar. "Privacy Preserving In-network Aggregation in Wireless Sensor Networks." Procedia Computer Science 94 (2016): 216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada',
-    'Vishal Krishna Singh, Ajit Singh, Manish Kumar. "Data Aggregation Based Link Loss Inference in Wireless Sensor Networks." In Electrical Computer and Electronics (UPCON), 2015 IEEE UP Section Conference on, pp. 1-5. IEEE, 2015.',
-    'Vishal Krishna Singh, K. James Mathai, Shailendra Singh, "Fingerprint Segmentation:Optimization of a Filtering Technique with Gabor Filter. In Communication Systems and Network Technologies (CSNT), 2014 Fourth International Conference on (pp.823-827). IEEE.'
+   "Vishal Krishna Singh, Ankur Kumar Rai, and Manish Kumar. &quot;Sparse data recovery using optimized orthogonal matching pursuit for WSNs.&quot; Procedia Computer Science 109(2017): 210-216. 8th International Conference on Ambient Systems, Networks and Technologies, ANT-2017.",
+   "Vishal Krishna Singh, Saurabh Verma, Manish Kumar. &quot;Privacy Preserving In-networkAggregation in Wireless Sensor Networks.&quot; Procedia Computer Science 94 (2016):216-223. 11th International Conference on Future Networks and Communications (FNC-2016), 2016, in Montreal, Quebec, Canada",
+   "Vishal Krishna Singh and Manish Kumar. ‘A Compressed Sensing Approach to Resolve the Energy Hole Problem in Large Scale WSNs’ (2017). DOI: https://doi.org/10.1007/s11277-017-5047-9. Wireless Personal Communications, (SCI) (Impact Factor- 0.951), Springer Publications.",
+   "Vishal Krishna Singh, Rahul Verma and Manish Kumar. ‘Energy Efficient Event Detection Using Probabilistic Inference in Wireless Sensor Networks’ (2017). DOI: http: //dx.doi.org/10.1080/03772063.2017 .1329637. IETE Journal of Research. (SCI) (Impact Factor- 0.909), Taylor and Francis Publications."
   ],
   education: [
     "Doctorate of Philosophy in Information Technology (Ph.D) Thesis Title: In-network Inference in Wireless Sensor Networks. Institute: Indian Institute of Information Technology, Jhalwa, Allahabad.",
@@ -41,8 +47,6 @@ const vks = {
     "Bachelor of Technology in Information Technology (B. Tech.) Institute: Hindustan Institute of Technology, Gr. Noida. Uttar Pradesh."
   ],
   research: [
-    "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
-    "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449.Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers."
   ],
   member: [
     "UP Section Conference on Electrical, Computer and Electronics (UPCON) 2015. Indian Institute of Information Technology, Allahabad.",
