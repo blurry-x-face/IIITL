@@ -413,10 +413,10 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Undergraduate Programs
                   </div>
-                  <NavLink to="/admissions/IT" className="af-1">
+                  <NavLink to="/admissions-IT" className="af-1">
                     B.Tech in IT
                   </NavLink>
-                  <NavLink to="/admissions/CSE" className="af-1">
+                  <NavLink to="/admissions-CSE" className="af-1">
                     B.Tech in CSE
                   </NavLink>
                 </div>
@@ -424,7 +424,7 @@ class Nav extends React.Component {
                   <div className="dropdown-content-c-1-head dropdown-content-head">
                     Postgraduate Programs
                   </div>
-                  <NavLink to="/admissions/MTECH" className="af-1">
+                  <NavLink to="/admissions-MTECH" className="af-1">
                     M. Tech. in CSE
                   </NavLink>
                 </div>

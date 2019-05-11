@@ -678,14 +678,14 @@ class AltNav extends React.Component {
                 Undergraduate Programs
               </div>
               <Link
-                to="admissions/IT"
+                to="admissions-IT"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
                 B.Tech in IT
               </Link>
               <Link
-                to="admissions/CSE"
+                to="admissions-CSE"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -697,7 +697,7 @@ class AltNav extends React.Component {
                 Postgraduate Programs
               </div>
               <Link
-                to="admissions/MTECH"
+                to="admissions-MTECH"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >

@@ -123,9 +123,9 @@ class App extends Component {
         <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
         <Route path="/recruitment" exact component={Recruitment} />
-        <Route path="/admissions/IT" exact component={AdmissionIT} />
-        <Route path="/admissions/CSE" exact component={AdmissionCSE} />
-        <Route path="/admissions/MTECH" exact component={AdmissionMtech} />
+        <Route path="/admissions-IT" exact component={AdmissionIT} />
+        <Route path="/admissions-CSE" exact component={AdmissionCSE} />
+        <Route path="/admissions-MTECH" exact component={AdmissionMtech} />
         <Route path="/tenders" exact component={Tender} />
         <Route path="/announcements" exact component={AnnouncementsList} />
         {AnnouncementsData.map((v, i) => {
