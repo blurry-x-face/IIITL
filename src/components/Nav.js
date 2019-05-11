@@ -280,7 +280,7 @@ class Nav extends React.Component {
                   <NavLink to="/coming-soon" className="af-1">
                     M.Tech in CSE
                   </NavLink>
-                  <NavLink to="/admissions/Phd" className="af-1">
+                  <NavLink to="/admissions-Phd" className="af-1">
                     PhD
                   </NavLink>
                 </div>
