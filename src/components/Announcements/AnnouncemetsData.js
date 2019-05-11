@@ -79,8 +79,8 @@ const AnnouncementsData = [
     head: "Call for PhD Admissions, 2019",
     para:
       "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
-    linkPara: "Click here to find more.",
-    link: "/admissions/Phd",
+    linkPara: "Click here to find more  ->",
+    link: "/admissions-Phd",
     p:
       "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
     marquee: "Call for PhD Admissions, 2019",
