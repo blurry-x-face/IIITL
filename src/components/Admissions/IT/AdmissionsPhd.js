@@ -5,6 +5,7 @@ import PhdInformation from "../../../assets/downloads/PhD_Information_Brochure.p
 import NocCertificate from "../../../assets/downloads/PHD_NO_OBJECTION_CERTIFICATE.pdf";
 import Advertisement from "../../../assets/downloads/PhD_Advertisement.pdf";
 import SponsorshipLetter from "../../../assets/downloads/PHD_SPONSORSHIP_LETTER.pdf";
+import ApplicationForm from "../../../assets/downloads/PhD_Application_Form.pdf";
 import Link from "react-router-dom/Link";
 
 class AdmissionIT extends React.Component {
@@ -227,32 +228,56 @@ class AdmissionIT extends React.Component {
         <p className="btech-it-p">
           <ol type="I">
             <li style={{ marginBottom: "15px" }}>
-              Click here to download the Application Form.
+              Click here to download the{" "}
+              <a
+                href={ApplicationForm}
+                style={{ color: "#005f99" }}
+                target="_blank"
+              >
+                Application Form
+              </a>
+              .
             </li>
             <li style={{ marginBottom: "15px" }}>
               Click here to download the{" "}
-              <a href={PhdInformation} style={{ color: "#005f99" }}>
+              <a
+                href={PhdInformation}
+                style={{ color: "#005f99" }}
+                target="_blank"
+              >
                 Information Brochure.
               </a>
             </li>
             <li style={{ marginBottom: "15px" }}>
               Click here to download the{" "}
-              <a href={SponsorshipLetter} style={{ color: "#005f99" }}>
+              <a
+                href={SponsorshipLetter}
+                style={{ color: "#005f99" }}
+                target="_blank"
+              >
                 Sponsorship Letter
               </a>{" "}
               for candidates applying for Ph.D under sponsored category.
             </li>
             <li style={{ marginBottom: "15px" }}>
               Click here to download the{" "}
-              <a href={NocCertificate} style={{ color: "#005f99" }}>
+              <a
+                href={NocCertificate}
+                style={{ color: "#005f99" }}
+                target="_blank"
+              >
                 No objection certificate
               </a>{" "}
-              for candidates applying under sponsored/ working professional/
+              for candidates applying under sponsored/working professional/
               deputation.
             </li>
             <li style={{ marginBottom: "15px" }}>
               Click here to download the{" "}
-              <a href={Advertisement} style={{ color: "#005f99" }}>
+              <a
+                href={Advertisement}
+                style={{ color: "#005f99" }}
+                target="_blank"
+              >
                 Advertisement
               </a>{" "}
               for Admissions in PhD, 2019
