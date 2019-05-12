@@ -68,12 +68,12 @@ class AdmissionIT extends React.Component {
                 <ul>
                   <li style={{ marginBottom: "15px", marginTop: "15px" }}>
                     <strong>
-                      General Category: Rupees 1000 only, per application form.
+                      General Category & OBC: Rupees 1000 only, per application form.
                     </strong>
                   </li>
                   <li style={{ marginBottom: "15px" }}>
                     <strong>
-                      OBC/SC/ST/PWD: Rupees 500 only, per application form
+                      SC/ST/PWD: Rupees 500 only, per application form
                     </strong>
                   </li>
                 </ul>
