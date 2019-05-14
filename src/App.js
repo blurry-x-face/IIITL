@@ -6,7 +6,7 @@ import { Ins, academicLinks, InsAdmin, cCMT } from "./components/Data";
 
 import AboveNav from "./components/Above-nav";
 import "./components/Nav";
-import Nav from "./components/Nav";
+import Nav from "./components/NavBar";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import BoG from "./components/BoardGovernors";
@@ -45,7 +45,7 @@ import Blog3 from "./components/Blogs/Blog3";
 import Recruitment from "./components/Recruitment";
 import Director from "./components/Faculty/Dir";
 import AdmissionIT from "./components/Admissions/IT/AdmissionIT";
-import AdmissionCSE from "./components/Admissions/IT/AdmissionCSE";
+import AdmissionCS from "./components/Admissions/IT/AdmissionCSE";
 import AdmissionsPhd from "./components/Admissions/IT/AdmissionsPhd";
 import AM from "./components/Faculty/AM";
 import AdmissionMtech from "./components/Admissions/IT/AdmissionMtech";
@@ -53,6 +53,7 @@ import CCMT from "./components/CCMT19";
 import AnnouncementsAuto from "./components/Announcements/AnnouncementsAuto";
 import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 import Tender from "./components/Announcements/Tenders";
+import FinanceCommitte from "./components/FinanceCommitte";
 
 class App extends Component {
   render() {
@@ -110,6 +111,7 @@ class App extends Component {
         <SideRendering data={data.bog.data} />
         <SideRendering data={data.dir.data} />
         <SideRendering data={data.senate.data} />
+        <SideRendering data={data.finance.data} />
         <SideRendering data={data.seatMatrix.data} />
         <SideRendering data={data.courseStructure.data} />
         <SideRendering data={data.calender.data} />
@@ -125,7 +127,7 @@ class App extends Component {
         <Route path="/" exact component={Home} />
         <Route path="/recruitment" exact component={Recruitment} />
         <Route path="/admissions-IT" exact component={AdmissionIT} />
-        <Route path="/admissions-CSE" exact component={AdmissionCSE} />
+        <Route path="/admissions-CS" exact component={AdmissionCS} />
         <Route path="/admissions-Phd" exact component={AdmissionsPhd} />
         <Route path="/admissions-MTECH" exact component={AdmissionMtech} />
         <Route path="/tenders" exact component={Tender} />
@@ -267,6 +269,14 @@ const data = {
       Ins: cCMT,
       other: <CCMT />,
       head: ""
+    }
+  },
+  finance: {
+    data: {
+      path: "/finance-committee",
+      Ins: Ins,
+      other: <FinanceCommitte />,
+      head: InsAdmin.head
     }
   }
 };

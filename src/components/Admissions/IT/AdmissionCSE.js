@@ -2,24 +2,20 @@ import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
-import feeDasa from '../../../assets/blogs/fee_dasa.pdf';
+import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
 import Link from "react-router-dom/Link";
 
-class AdmissionCSE extends React.Component {
+class AdmissionCS extends React.Component {
   render() {
     return (
       <div className="btech-global admissions-section-global admissions-it-global padding-res">
         <ScrollToTopOnMount />
         <div className="admission-it-global-div">
-          <h1 className="btech-global-head"> B.Tech. in CSE</h1>
+          <h1 className="btech-global-head"> B.Tech. in CS</h1>
           <p className="btech-it-p">
-            Admissions to the four year B.Tech. Program in CSE branch of the
-            Institute is made through the examination conducted by CBSE under
-            the name and style of JEE (Main). Based upon the merit in the
-            written examination, Central Counseling Board of JEE (Main) invites
-            candidates for counseling at selected centers and seats for various
-            participating institutions are allotted, based upon individual
-            merit.
+            Admissions to the four year B.Tech. Program in IT branch of the
+            Institute is made through Central Seat Allocation Board 2019
+            (CSAB-2019)/JoSAA. Based upon the merit in JEE (Mains).
           </p>
           <p className="btech-it-p">
             The Institute is open to all races, creeds and classes including
@@ -53,9 +49,7 @@ class AdmissionCSE extends React.Component {
               <td>315</td>
               <td>Indian Institute of Information Technology, Lucknow</td>
               <td>4116</td>
-              <td>
-                Computer Science & Engineering (4 Years, Bachelor of Technology)
-              </td>
+              <td>Computer Science (4 Years, Bachelor of Technology)</td>
               <td>31</td>
               <td>2</td>
               <td>9</td>
@@ -113,4 +107,4 @@ class AdmissionCSE extends React.Component {
   }
 }
 
-export default AdmissionCSE;
+export default AdmissionCS;

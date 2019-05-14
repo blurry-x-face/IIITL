@@ -25,7 +25,7 @@ class SeatMatrix extends React.Component {
   componentDidMount() {
     this.Show();
     document.title =
-      "BTech In CSE  | Indian Institute of Information Technology, Lucknow";
+      "BTech In CS  | Indian Institute of Information Technology, Lucknow";
   }
   Row = props => {
     let x = props.data.map((value, index) => {
@@ -95,11 +95,11 @@ class SeatMatrix extends React.Component {
               <td>11</td>
             </tr>
             <tr>
-              <td>Computer Science & Engineering - Gender Nuetral</td>
+              <td>Computer Science - Gender Nuetral</td>
               <td>64</td>
             </tr>
             <tr>
-              <td>Computer Science & Engineering - Female Only</td>
+              <td>Computer Science - Female Only</td>
               <td>11</td>
             </tr>
             <tr>

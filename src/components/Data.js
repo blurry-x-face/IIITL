@@ -1,6 +1,8 @@
 import BlogImage1 from "../assets/dr-arun-sherry.jpg";
 import BlogImage2 from "../assets/bpost2.jpeg";
 import BlogImage3 from "../assets/expert.jpg";
+import timeTable from "../assets/downloads/Time_Table.pdf";
+import pdfFee from "../assets/blogs/fee-structure.pdf";
 
 const academicLinks = {
   head: "Useful Links",
@@ -27,7 +29,7 @@ const Ins = {
     links: [
       "/About",
       "/board-governors",
-      "/coming-soon",
+      "/finance-committee",
       "/senate",
       "/contactus"
     ]
@@ -66,37 +68,37 @@ const InsAdmin = {
 const seatData = {
   general: [
     ["Information Technology", 31],
-    ["Computer Science & Engineering", 31],
+    ["Computer Science", 31],
     ["Computer Science (M.Tech.)", 11]
   ],
   OBCNC: [
     ["Information Technology", 16],
-    ["Computer Science & Engineering", 16],
+    ["Computer Science", 16],
     ["Computer Science (M.Tech.)", 8]
   ],
   SC: [
     ["Information Technology", 9],
-    ["Computer Science & Engineering", 9],
+    ["Computer Science", 9],
     ["Computer Science (M.Tech.)", 5]
   ],
   ST: [
     ["Information Technology", 5],
-    ["Computer Science & Engineering", 5],
+    ["Computer Science", 5],
     ["Computer Science (M.Tech.)", 2]
   ],
   GeneralPWD: [
     ["Information Technology", 2],
-    ["Computer Science & Engineering", 2],
+    ["Computer Science", 2],
     ["Computer Science (M.Tech.)", 1]
   ],
   OBCNCPWD: [
     ["Information Technology", 1],
-    ["Computer Science & Engineering", 1],
+    ["Computer Science", 1],
     ["Computer Science (M.Tech.)", 0]
   ],
   NULL: [
     ["Information Technology", 0],
-    ["Computer Science & Engineering", 0],
+    ["Computer Science", 0],
     ["Computer Science (M.Tech.)", 0]
   ]
 };
@@ -425,6 +427,244 @@ const article = [
     date: "March 28, 2019"
   }
 ];
+const NavData = {
+  NavButtons: [
+    {
+      head: "Institute",
+      isGif: false,
+      drop: [
+        {
+          head: "Institute",
+          links: [
+            { head: "At a Glance", link: "/About" },
+            {
+              head: "IIIT Council",
+              link: "https://iiitcouncil.com/",
+              isAnchor: true
+            },
+            { head: "Board of Governors", link: "/board-governors" },
+            { head: "Finance Committee", link: "/finance-committee" },
+            { head: "Senate", link: "/Senate" },
+            { head: "Reach Us", link: "contactus" }
+          ]
+        },
+        {
+          head: "Administration",
+          links: [
+            { head: "Directorate", link: "/directorate" },
+            { head: "Registrar's Office", link: "/coming-soon" },
+            { head: "Faculty", link: "/faculty" },
+            { head: "Office & Staff", link: "staff" },
+            { head: "Academic Affairs", link: "/coming-soon" },
+            { head: "Student", link: "/coming-soon" },
+            { head: "Downloads", link: "/downloads" }
+          ]
+        },
+        {
+          head: "Other Units",
+          links: [
+            { head: "Finance & Accounts", link: "/coming-soon" },
+            { head: "RTI", link: "https://rtionline.gov.in/", isAnchor: true }
+          ]
+        }
+      ]
+    },
+    {
+      head: "Departments",
+      isGif: false,
+      drop: [
+        {
+          head: "Department of IT",
+          links: [{ head: "Information Technology", link: "/coming-soon" }]
+        },
+        {
+          head: "Department of CS",
+          links: [{ head: "Computer Science", link: "/coming-soon" }]
+        }
+      ]
+    },
+    {
+      head: "Students",
+      isGif: false,
+      drop: [
+        {
+          head: "Student Counselling",
+          links: [
+            { head: "About Counselling", link: "/coming-soon" },
+            { head: "Common Concerns", link: "/coming-soon" },
+            { head: "Services", link: "/coming-soon" },
+            { head: "FAQ", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Regulations",
+          links: [
+            { head: "Anti-Ragging Committee", link: "/coming-soon" },
+            { head: "Anti-Sexual Harassment Policy", link: "/coming-soon" },
+            { head: "Office Orders", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Hostel",
+          links: [
+            { head: "Student's Hostel", link: "/coming-soon" },
+            { head: "Hostel Rules", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Mess",
+          links: [
+            { head: "Overview", link: "/coming-soon" },
+            { head: "Mess Menu", link: "/coming-soon" },
+            { head: "Mess Committee", link: "/coming-soon" },
+            { head: "Mess Committee Duties", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "People",
+          links: [
+            { head: "Dean & Staff", link: "/coming-soon" },
+            { head: "Wardens", link: "/coming-soon" },
+            { head: "Counsellor", link: "/coming-soon" },
+            { head: "Sports Staff", link: "/coming-soon" },
+            { head: "Hostel Caretaker", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Student Clubs",
+          links: [
+            {
+              head: "Technical Club",
+              link: "https://axios.iiitl.ac.in",
+              isAnchor: true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      head: "Academics",
+      isGif: false,
+      drop: [
+        {
+          head: "Academic Programmes",
+          links: [
+            { head: "B.Tech in IT", link: "/btech-it" },
+            { head: "B.Tech in CS", link: "/btech-cs" },
+            { head: "M.Tech in CS", link: "/admissions-MTECH" },
+            { head: "PhD", link: "admissions-Phd" }
+          ]
+        },
+        {
+          head: "Useful Links",
+          links: [
+            { head: "Academic Schedule", link: "/calender" },
+            { head: "Seat Matrix", link: "/seat-matrix" },
+            { head: "Course Structure", link: "/course-structure" },
+            { head: "Time Table", link: timeTable, isAnchor: true },
+            { head: "Fee Structure", link: pdfFee, isAnchor: true },
+            { head: "List of Students", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Regulations",
+          links: [{ head: "Office Orders", link: "/coming-soon" }]
+        },
+        {
+          head: "Facility",
+          links: [{ head: "Lecture Hall Complex", link: "/coming-soon" }]
+        }
+      ]
+    },
+    {
+      head: "Facilities",
+      isGif: false,
+      drop: [
+        {
+          head: "Central Library",
+          links: [
+            { head: "About", link: "/coming-soon" },
+            { head: "People", link: "/coming-soon" },
+            { head: "E-Resources", link: "/coming-soon" }
+          ]
+        },
+        {
+          head: "Computer Centre",
+          links: [
+            {
+              head: "People",
+              link: "/coming-soon"
+            },
+            {
+              head: "Services",
+              link: "/coming-soon"
+            },
+            {
+              head: "CC Lab",
+              link: "/coming-soon"
+            },
+            {
+              head: "FAQ",
+              link: "/coming-soon"
+            },
+            {
+              head: "Download",
+              link: "/coming-soon"
+            },
+            {
+              head: "Notice Board",
+              link: "/coming-soon"
+            }
+          ]
+        },
+        {
+          head: "Other Facilities",
+          links: [
+            { head: "Visitors' Hostel", link: "/coming-soon" },
+            { head: "Transportation", link: "/coming-soon" },
+            { head: "Security", link: "/coming-soon" },
+            { head: "Health Centre", link: "/coming-soon" },
+            { head: "Department Research Facility", link: "/coming-soon" },
+            { head: "Lecture Hall Complex", link: "/coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      head: "Admissions",
+      isGif: true,
+      drop: [
+        {
+          head: "Undergraduate Programs",
+          links: [
+            { head: "B.Tech in IT", link: "/admissions-IT" },
+            { head: "B.Tech in CS", link: "admissions-CS" }
+          ]
+        },
+        {
+          head: "Postgraduate Programs",
+          links: [{ head: "M. Tech. in CS", link: "admissions-MTECH" }]
+        },
+        {
+          head: "Research",
+          links: [{ head: "PhD", link: "/admissions-Phd" }]
+        }
+      ]
+    },
+    {
+      isAnchor: true,
+      isGIF: true,
+      head: "Tenders",
+      link: "tenders"
+    },
+    {
+      isGIF: false,
+      isAnchor: true,
+      head: "Placements",
+      link: "https://placements.iiitl.ac.in/#/"
+    }
+  ]
+};
 export {
   calender,
   academicLinks,
@@ -434,5 +674,6 @@ export {
   seatData,
   article,
   courseStructure,
-  cCMT
+  cCMT,
+  NavData
 };

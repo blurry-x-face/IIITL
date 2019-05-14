@@ -51,7 +51,7 @@ class Footer extends React.Component {
               <a
                 href="https://axios.iiitl.ac.in/wings/webDevelopment/"
                 className="about-site-content footer-inner-content"
-                target="_blank"
+                target="blank"
               >
                 Team
               </a>

@@ -15,12 +15,8 @@ class BTech extends React.Component {
           <h1 className="btech-global-head"> B.Tech. in IT</h1>
           <p className="btech-p">
             Admissions to the four year B.Tech. Program in IT branch of the
-            Institute is made through the examination conducted by CBSE under
-            the name and style of JEE (Main). Based upon the merit in the
-            written examination, Central Counseling Board of JEE (Main) invites
-            candidates for counseling at selected centers and seats for various
-            participating institutions are allotted, based upon individual
-            merit.
+            Institute is made through Central Seat Allocation Board 2019
+            (CSAB-2019)/JoSAA. Based upon the merit in JEE (Mains).
           </p>
           <p className="btech-p">
             The Institute is open to all races, creeds and classes including

@@ -2,7 +2,7 @@ import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
-import feeDasa from '../../../assets/blogs/fee_dasa.pdf';
+import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
 import Link from "react-router-dom/Link";
 
 class AdmissionIT extends React.Component {
@@ -14,12 +14,8 @@ class AdmissionIT extends React.Component {
           <h1 className="btech-global-head"> B.Tech. in IT</h1>
           <p className="btech-it-p">
             Admissions to the four year B.Tech. Program in IT branch of the
-            Institute is made through the examination conducted by CBSE under
-            the name and style of JEE (Main). Based upon the merit in the
-            written examination, Central Counseling Board of JEE (Main) invites
-            candidates for counseling at selected centers and seats for various
-            participating institutions are allotted, based upon individual
-            merit.
+            Institute is made through Central Seat Allocation Board 2019
+            (CSAB-2019)/JoSAA. Based upon the merit in JEE (Mains).
           </p>
           <p className="btech-it-p">
             The Institute is open to all races, creeds and classes including
@@ -88,7 +84,7 @@ class AdmissionIT extends React.Component {
             </tr>
           </table>
         </div>
-        
+
         <div className="admissions-useful-links ">
           <h1 className="admissions-sub-head">Useful Links</h1>
           <ul>

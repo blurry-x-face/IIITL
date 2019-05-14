@@ -72,7 +72,7 @@ class AltNav extends React.Component {
                 Board of Governors
               </Link>
               <Link
-                to="/coming-soon"
+                to="/finance-committee"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
@@ -188,7 +188,7 @@ class AltNav extends React.Component {
             </div>
             <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
               <div className="alt-dropdown-content-c-2-head alt-dropdown-content-head">
-                Department of CSE
+                Department of CS
               </div>
               <Link
                 to="/coming-soon"
@@ -364,7 +364,7 @@ class AltNav extends React.Component {
                 href="https://axios.iiitl.ac.in/"
                 onClick={() => this.closeNav()}
                 className="af-1"
-                target="_blank"
+                target="blank"
               >
                 Technical Club
               </a>
@@ -427,7 +427,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                M.Tech in CSE
+                M.Tech in CS
               </Link>
               <Link
                 to="/admissions/Phd"
@@ -679,11 +679,11 @@ class AltNav extends React.Component {
                 B.Tech in IT
               </Link>
               <Link
-                to="admissions-CSE"
+                to="admissions-CS"
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                B.Tech in CSE
+                B.Tech in CS
               </Link>
             </div>
             <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
@@ -695,7 +695,7 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                M. Tech. in CSE
+                M. Tech. in CS
               </Link>
             </div>
 

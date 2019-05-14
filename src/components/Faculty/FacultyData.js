@@ -144,7 +144,7 @@ const shikha = {
     "Shikha Gautam, “Comparison of Java Programming Testing Tools,” International Journal of Engineering Technologies and Management Research, Vol. 5, Issue 2, pp.66-76, Feb 2018.",
     "Brijendra Singh and Shikha Gautam, “Impact of Software Evolution on Software Process,” National Conference on Recent Advances in Information and Communication Technologies (RAICT-2017), pp. 106-111, March 2017.",
     "Brijendra Singh and Shikha Gautam, “The Impact of Software Development Process on Software Quality: A Review,” IEEE 8th International Conference on Computational Intelligence and Communication Networks (CICN-2016), pp. 666-672, Dec 2016.",
-    "Brijendra Singh and Shikha Gautam, “Situational Factors Affecting the Software Process: A Systematic Literature Review,” International Conference on Advanced Computing and Software Engineering (ICACSE-16), pp. 229-237, Oct 2016.",
+    "Brijendra Singh and Shikha Gautam, “Situational Factors Affecting the Software Process: A Systematic Literature Review,” International Conference on Advanced Computing and Software Engineering (ICACS-16), pp. 229-237, Oct 2016.",
     "Brijendra Singh and Shikha Gautam, “Hybrid Spiral Model to Improve Software Quality Using Knowledge Management,” International Journal of Performability Engineering (IJPE), Vol. 12, No. 4, pp. 341-352, July 2016.",
     "Shikha Gautam and Abhay Tripathi, “A Novel Load Balancing Algorithms in Grid Computing,” Int. J. Computer Technology & Applications, Vol. 5, No. 1, pp. 81-86,Jan-Feb 2014.",
     "Shikha Gautam and Anand Prakash Dube, “Analysis of a Dynamic Load Balancing Model in Grid Environment,” Computing Trendz, Vol. III, No. 2, pp. 76-85, July2013.",
@@ -300,7 +300,7 @@ const somendu = {
   ],
   education: [
     "Ph.D. (Information Technology) From Indian Institute of Information Technology, Allahabad, in 2018 with 9.50 CPI",
-    "M.Tech. (CSE) with Honors from Institute of Engineering and Technology, GLA University, Mathura, in 2013 with 8.64 CPI",
+    "M.Tech. (CS) with Honors from Institute of Engineering and Technology, GLA University, Mathura, in 2013 with 8.64 CPI",
     "B.E. (Information Technology) from University Institute of Technology, The University of Burdwan, Burdwan in 2005 with 72.6 TCPA"
   ],
   member: ["Member IEEE "],
@@ -358,9 +358,9 @@ const sushilTiwari = {
     "Ad-hoc Network"
   ],
   education: [
-    "B.E. (Computer Science & Engineering) from Technocrats Institute of Technology, Bhopal",
+    "B.E. (Computer Science) from Technocrats Institute of Technology, Bhopal",
     "M.E. (Software System) from Birla Institute of Technology, Pilani",
-    "PhD (Computer Science & Engineering) from IIITDM, Jabalpur"
+    "PhD (Computer Science) from IIITDM, Jabalpur"
   ],
   conference: [
     "S. Tiwari, V. K. Jain, & Hiron-Bilateration based location Estimation Technique for Indoor WLAN,&  Proc. of IEEE 31 Int. Conf. on Information Networking, Danang, Vietnam pp.13-17, 2017. (Published)",
@@ -413,7 +413,7 @@ const bKC = {
     },
     {
       head: "Post Graduate Thesis Supervision:",
-      list: ["More than 15 M Tech. (CSE/IT) students are supervised."]
+      list: ["More than 15 M Tech. (CS/IT) students are supervised."]
     },
     {
       head: "Funded Seminar / Conference:",
@@ -528,8 +528,8 @@ const bKC = {
       head: "Administrative Experience:",
       list: [
         "Dean Academics, ITM University Gwalior, Nov. 2015‐ Nov. 2018.",
-        "Head, Department of Computer Science & Engineering, ITM University Gwalior, April, 2012- Nov. 2015.",
-        "Assistant Head, Dept. of Computer Science & Engineering, Institute of Technology & Management, Gwalior,  June, 2007 -  Jan., 2008."
+        "Head, Department of Computer Science, ITM University Gwalior, April, 2012- Nov. 2015.",
+        "Assistant Head, Dept. of Computer Science, Institute of Technology & Management, Gwalior,  June, 2007 -  Jan., 2008."
       ]
     },
     {

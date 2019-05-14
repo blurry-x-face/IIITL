@@ -211,7 +211,7 @@ class AdmissionIT extends React.Component {
                 <br />
                 <Link
                   to="/faculty/vks"
-                  target="_blank"
+                  target="blank"
                   style={{ color: "#005f99" }}
                 >
                   Dr. Vishal Krishna Singh
@@ -232,7 +232,7 @@ class AdmissionIT extends React.Component {
               <a
                 href={ApplicationForm}
                 style={{ color: "#005f99" }}
-                target="_blank"
+                target="blank"
               >
                 Application Form
               </a>
@@ -243,7 +243,7 @@ class AdmissionIT extends React.Component {
               <a
                 href={PhdInformation}
                 style={{ color: "#005f99" }}
-                target="_blank"
+                target="blank"
               >
                 Information Brochure.
               </a>
@@ -253,7 +253,7 @@ class AdmissionIT extends React.Component {
               <a
                 href={SponsorshipLetter}
                 style={{ color: "#005f99" }}
-                target="_blank"
+                target="blank"
               >
                 Sponsorship Letter
               </a>{" "}
@@ -264,7 +264,7 @@ class AdmissionIT extends React.Component {
               <a
                 href={NocCertificate}
                 style={{ color: "#005f99" }}
-                target="_blank"
+                target="blank"
               >
                 No objection certificate
               </a>{" "}
@@ -276,7 +276,7 @@ class AdmissionIT extends React.Component {
               <a
                 href={Advertisement}
                 style={{ color: "#005f99" }}
-                target="_blank"
+                target="blank"
               >
                 Advertisement
               </a>{" "}

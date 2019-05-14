@@ -1,0 +1,28 @@
+.finance-committee-global {
+  text-align: center;
+  margin: 36px 20px 120px 20px;
+  font-family: "Playfair Display", serif;
+}
+.finance-committee-global h1 {
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.finance-table {
+  overflow: scroll;
+}
+.finance-table table {
+  font-size: 18px;
+  border: solid 1px black;
+}
+.finance-table td,
+.finance-table tr {
+  border: solid 1px black;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .finance-table table {
+    font-size: 17px;
+  }
+}

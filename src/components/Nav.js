@@ -84,7 +84,7 @@ class Nav extends React.Component {
                   <NavLink to="/board-governors" className="af-1">
                     Board of Governors
                   </NavLink>
-                  <NavLink to="/coming-soon" className="af-1">
+                  <NavLink to="/finance-committee" className="af-1">
                     Finance Committee
                   </NavLink>
                   <NavLink to="/Senate" className="af-1">
@@ -153,10 +153,10 @@ class Nav extends React.Component {
                 </div>
                 <div className="dropdown-content-c-2 dropdown-content-c">
                   <div className="dropdown-content-c-2-head dropdown-content-head">
-                    Department of CSE
+                    Department of CS
                   </div>
                   <NavLink to="/coming-soon" className="af-1">
-                    Computer Science Engineering
+                    Computer Science
                   </NavLink>
                 </div>
               </div>
@@ -253,7 +253,7 @@ class Nav extends React.Component {
                   <a
                     href="https://axios.iiitl.ac.in/"
                     className="af-1"
-                    target="_blank"
+                    target="blank"
                   >
                     Technical Club
                   </a>
@@ -274,11 +274,11 @@ class Nav extends React.Component {
                     B.Tech in IT
                   </NavLink>
                   <NavLink to="/btech-cs" className="af-1">
-                    B.Tech in CSE
+                    B.Tech in CS
                   </NavLink>
 
-                  <NavLink to="/coming-soon" className="af-1">
-                    M.Tech in CSE
+                  <NavLink to="/admissions-MTECH" className="af-1">
+                    M.Tech in CS
                   </NavLink>
                   <NavLink to="/admissions-Phd" className="af-1">
                     PhD
@@ -417,8 +417,8 @@ class Nav extends React.Component {
                   <NavLink to="/admissions-IT" className="af-1">
                     B.Tech in IT
                   </NavLink>
-                  <NavLink to="/admissions-CSE" className="af-1">
-                    B.Tech in CSE
+                  <NavLink to="/admissions-CS" className="af-1">
+                    B.Tech in CS
                   </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
@@ -426,7 +426,7 @@ class Nav extends React.Component {
                     Postgraduate Programs
                   </div>
                   <NavLink to="/admissions-MTECH" className="af-1">
-                    M. Tech. in CSE
+                    M. Tech. in CS
                   </NavLink>
                 </div>
 
