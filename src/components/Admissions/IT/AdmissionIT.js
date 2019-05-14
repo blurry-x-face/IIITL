@@ -14,8 +14,31 @@ class AdmissionIT extends React.Component {
           <h1 className="btech-global-head"> B.Tech. in IT</h1>
           <p className="btech-it-p">
             Admissions to the four year B.Tech. Program in IT branch of the
-            Institute is made through Central Seat Allocation Board 2019
-            (CSAB-2019)/JoSAA. Based upon the merit in JEE (Mains).
+            Institute is made through Central Seat Allocation Board 2019 &nbsp;
+            <a
+              style={{ color: "#005f99", textDecoration: "none" }}
+              href="https://csab.nic.in/cms/Public/Home.aspx"
+              target="blank"
+            >
+              (CSAB-2019)
+            </a>
+            /
+            <a
+              style={{ color: "#005f99", textDecoration: "none" }}
+              href="https://josaa.nic.in/webinfocms/public/view.aspx?page=46"
+              target="blank"
+            >
+              JoSAA
+            </a>
+            . Based upon the merit in{" "}
+            <a
+              style={{ color: "#005f99", textDecoration: "none" }}
+              href="https://jeemain.nic.in/webinfo/Public/Home.aspx"
+              target="blank"
+            >
+              JEE (Mains)
+            </a>
+            .
           </p>
           <p className="btech-it-p">
             The Institute is open to all races, creeds and classes including

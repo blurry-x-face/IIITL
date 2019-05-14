@@ -3,6 +3,7 @@ import BlogImage2 from "../assets/bpost2.jpeg";
 import BlogImage3 from "../assets/expert.jpg";
 import timeTable from "../assets/downloads/Time_Table.pdf";
 import pdfFee from "../assets/blogs/fee-structure.pdf";
+import RTI from "../assets/downloads/RTI - PDF.pdf";
 
 const academicLinks = {
   head: "Useful Links",
@@ -464,7 +465,7 @@ const NavData = {
           head: "Other Units",
           links: [
             { head: "Finance & Accounts", link: "/coming-soon" },
-            { head: "RTI", link: "https://rtionline.gov.in/", isAnchor: true }
+            { head: "RTI", link: RTI, isAnchor: true }
           ]
         }
       ]
