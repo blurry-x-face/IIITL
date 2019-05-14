@@ -68,12 +68,12 @@ class AdmissionIT extends React.Component {
                 <ul>
                   <li style={{ marginBottom: "15px", marginTop: "15px" }}>
                     <strong>
-                      General Category: Rupees 1000 only, per application form.
+                      General Category & OBC: Rupees 1000 only, per application form.
                     </strong>
                   </li>
                   <li style={{ marginBottom: "15px" }}>
                     <strong>
-                      OBC/SC/ST/PWD: Rupees 500 only, per application form
+                      SC/ST/PWD: Rupees 500 only, per application form
                     </strong>
                   </li>
                 </ul>
@@ -127,7 +127,7 @@ class AdmissionIT extends React.Component {
               <tr>
                 <td>2.</td>
                 <td>Last date of submitting applications</td>
-                <td>15th May 2019</td>
+                <td>15th June 2019</td>
               </tr>
               <tr>
                 <td>3.</td>
