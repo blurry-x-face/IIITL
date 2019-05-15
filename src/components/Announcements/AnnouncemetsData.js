@@ -81,10 +81,18 @@ const AnnouncementsData = [
       "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
     linkPara: "Click here to find more  ->",
     link: "/admissions-Phd",
-    p:
-      "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    p: "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
     marquee: "Call for PhD Admissions, 2019",
     date: "May 12, 2019"
+  },
+  {
+    head: "CCMT 2019",
+    para: "",
+    linkPara: "Click here to find more  ->",
+    link: "/admissions-MTECH",
+    p: "",
+    marquee: "CCMT 2019",
+    date: "May 15, 2019"
   }
 ];
 
@@ -92,7 +100,7 @@ const tenders = [
   {
     head: "Tender Notice for Director's Premises",
     link: tenderPDF,
-    isExpired: false
+    isExpired: true
   },
   {
     head: "Extension of Tender for Director's Premises",
@@ -103,11 +111,6 @@ const tenders = [
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
     isExpired: false
-  },
-  {
-    head: "No Data available yet!",
-    link: "/coming-soon",
-    isExpired: true
   }
 ];
 

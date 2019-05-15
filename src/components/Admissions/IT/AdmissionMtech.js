@@ -3,6 +3,7 @@ import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import pdfFee from "../../../assets/downloads/Fee Structure M.Tech.pdf";
 import Link from "react-router-dom/Link";
+import fresherPDF from "../../../assets/announcementsData/CCMT2019.pdf";
 
 class AdmissionMtech extends React.Component {
   render() {
@@ -23,7 +24,10 @@ class AdmissionMtech extends React.Component {
             based on GATE (Graduate Aptitude Test in Engineering) score.
             Admission begins in May and gets completed by July. Session for 1st
             semester begins in August. For exact dates, notifications need to be
-            followed.
+            followed.&nbsp;
+            <a className="ext-links" href={fresherPDF} target="blank">
+              <u>Information for Freshers</u>
+            </a>
           </p>
           <div className="admissions-it-seat admissions-useful-links">
             <h1 className="admissions-sub-head"> Specialization </h1>

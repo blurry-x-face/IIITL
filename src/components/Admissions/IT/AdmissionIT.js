@@ -55,7 +55,6 @@ class AdmissionIT extends React.Component {
             <tr>
               <th>Institute Code</th>
               <th>Institute</th>
-              <th>Program Code</th>
               <th>Program</th>
               <th>Open</th>
               <th>Open-PwD</th>
@@ -71,7 +70,6 @@ class AdmissionIT extends React.Component {
             <tr>
               <td>315</td>
               <td>Indian Institute of Information Technology, Lucknow</td>
-              <td>4116</td>
               <td>Information Technology (4 Years, Bachelor of Technology)</td>
               <td>31</td>
               <td>2</td>
