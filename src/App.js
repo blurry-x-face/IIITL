@@ -16,7 +16,8 @@ import Cord from "./components/CordCommittee";
 import SideCard from "./components/SideCard";
 import Dir from "./components/DirectorMessage";
 import Seat from "./components/SeatMatrix";
-import Course from "./components/CourseStructure";
+import Course from "./components/CourseStructureAll";
+import CourseIT from "./components/CourseStructureIT";
 import FacultyCard from "./components/FacultyCard";
 import FacultyTemplate from "./components/FacultyTemplate";
 import Staff from "./components/Staff";
@@ -114,6 +115,7 @@ class App extends Component {
         <SideRendering data={data.finance.data} />
         <SideRendering data={data.seatMatrix.data} />
         <SideRendering data={data.courseStructure.data} />
+        <SideRendering data={data.courseStructureIT.data} />
         <SideRendering data={data.calender.data} />
         <SideRendering data={data.downloads.data} />
         <SideRendering data={data.ccmt.data} />
@@ -236,6 +238,14 @@ const data = {
       path: "/course-structure",
       Ins: academicLinks,
       other: <Course />,
+      head: academicLinks.head
+    }
+  },
+  courseStructureIT: {
+    data: {
+      path: "/course-structure-it",
+      Ins: academicLinks,
+      other: <CourseIT />,
       head: academicLinks.head
     }
   },

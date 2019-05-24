@@ -3,8 +3,8 @@ import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
 import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
-import Link from "react-router-dom/Link";
-
+// import Link from "react-router-dom/Link";
+import CourseStructure from "../../../assets/blogs/B.TECH.IIITL.23.05.19-converted-1.pdf";
 class AdmissionCS extends React.Component {
   render() {
     return (
@@ -49,11 +49,14 @@ class AdmissionCS extends React.Component {
         </div>
         <div className="admissions-it-seat admissions-useful-links">
           <h1 className="admissions-sub-head"> Seat Matrix(2019-20) </h1>
-          <h2 className="admissions-sub-head"> Indian Institute of Information Technology, Lucknow </h2>
+          <h2 className="admissions-sub-head">
+            {" "}
+            Indian Institute of Information Technology, Lucknow{" "}
+          </h2>
         </div>
         <div className="admissions-it-seat-table">
           <table style={{ width: "100%" }}>
-          <tr>
+            <tr>
               <th>Institute Code</th>
               <th>Program Code</th>
               <th>Program Name</th>
@@ -71,7 +74,6 @@ class AdmissionCS extends React.Component {
               <th>OBC-NCL-PwD</th>
               <th>Total (includes Female Supernumerary)</th>
               <th>Female Supernumerary</th>
-              
             </tr>
             <tr>
               <td>315</td>
@@ -91,18 +93,16 @@ class AdmissionCS extends React.Component {
               <td>01</td>
               <td>64</td>
               <td>00</td>
-              </tr>
-
+            </tr>
           </table>
         </div>
-
 
         <div className="admissions-it-seat admissions-useful-links">
           <h1 className="admissions-sub-head"> Seat Matrix(2019-20) </h1>
         </div>
         <div className="admissions-it-seat-table">
           <table style={{ width: "100%" }}>
-          <tr>
+            <tr>
               <th>Institute Code</th>
               <th>Program Code</th>
               <th>Program Name</th>
@@ -119,9 +119,8 @@ class AdmissionCS extends React.Component {
               <th>OBC-NCL</th>
               <th>OBC-NCL-PwD</th>
               <th>Total (includes Female Supernumerary)</th>
-              
+
               <th>Female Supernumerary</th>
-              
             </tr>
             <tr>
               <td>315</td>
@@ -141,8 +140,7 @@ class AdmissionCS extends React.Component {
               <td>00</td>
               <td>13</td>
               <td>02</td>
-              </tr>
-
+            </tr>
           </table>
         </div>
         <div className="admissions-it-seat admissions-useful-links">
@@ -170,7 +168,9 @@ class AdmissionCS extends React.Component {
           <h1>Useful Links</h1>
           <ul>
             <li className="admissions-course-structure">
-              <Link to="/coming-soon">Course Structure</Link>
+              <a href={CourseStructure} target="blank">
+                Course Structure
+              </a>
             </li>
             <li>
               <a href={feeBtech} target="blank">
