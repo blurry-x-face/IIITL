@@ -75,6 +75,7 @@ class AdmissionMtech extends React.Component {
                 <td>30</td>
                 <td>All India</td>
               </tr>
+              
             </tbody>
           </table>
         </div>

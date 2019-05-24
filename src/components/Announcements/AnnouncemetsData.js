@@ -105,7 +105,7 @@ const tenders = [
   {
     head: "Extension of Tender for Director's Premises",
     link: tendorExtension,
-    isExpired: false
+    isExpired: true
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",

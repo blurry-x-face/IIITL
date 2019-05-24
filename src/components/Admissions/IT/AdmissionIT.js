@@ -48,42 +48,113 @@ class AdmissionIT extends React.Component {
           </p>
         </div>
         <div className="admissions-it-seat admissions-useful-links">
-          <h1 className="admissions-sub-head"> Seat Matrix </h1>
+          <h1 className="admissions-sub-head"> Seat Matrix (2019-20) </h1>
+          <h2 className="admissions-sub-head"> Indian Institute of Information Technology, Lucknow</h2>
         </div>
         <div className="admissions-it-seat-table">
           <table style={{ width: "100%" }}>
             <tr>
               <th>Institute Code</th>
-              <th>Institute</th>
-              <th>Program</th>
+              <th>Program Code</th>
+              <th>Program Name</th>
+              <th>All India Seats</th>
+              <th>Seat Pool</th>
               <th>Open</th>
               <th>Open-PwD</th>
+              <th>EWS</th>
+              <th>EWS-PwD</th>
               <th>SC</th>
               <th>SC-PwD</th>
               <th>ST</th>
               <th>ST-PwD</th>
               <th>OBC-NCL</th>
               <th>OBC-NCL-PwD</th>
-              <th>Total Seats</th>
-              <th>State / All India</th>
+              <th>Total (includes Female Supernumerary)</th>
+              
+              <th>Female Supernumerary</th>
+              
             </tr>
             <tr>
               <td>315</td>
-              <td>Indian Institute of Information Technology, Lucknow</td>
-              <td>Information Technology (4 Years, Bachelor of Technology)</td>
-              <td>31</td>
-              <td>2</td>
-              <td>9</td>
-              <td>0</td>
-              <td>5</td>
-              <td>0</td>
+              <td>4146</td>
+              <td>B.Tech in Information Technology</td>
+              <td>AIR</td>
+              <td>Gender-Neutral</td>
+              <td>25</td>
+              <td>01</td>
+              <td>06</td>
+              <td>01</td>
+              <td>09</td>
+              <td>00</td>
+              <td>04</td>
+              <td>01</td>
               <td>16</td>
-              <td>1</td>
-              <td>75</td>
-              <td>All India</td>
-            </tr>
-          </table>
+              <td>01</td>
+              <td>64</td>
+              
+              <td>00</td>
+              </tr>
+
+           </table>
+           
+
         </div>
+
+        <div className="admissions-it-seat admissions-useful-links">
+          <h1 className="admissions-sub-head"> Seat Matrix (2019-20) </h1>
+        </div>
+        <div className="admissions-it-seat-table">
+          <table style={{ width: "100%" }}>
+            <tr>
+              <th>Institute Code</th>
+              <th>Program Code</th>
+              <th>Program Name</th>
+              <th>All India Seats</th>
+              <th>Seat Pool</th>
+              <th>Open</th>
+              <th>Open-PwD</th>
+              <th>EWS</th>
+              <th>EWS-PwD</th>
+              <th>SC</th>
+              <th>SC-PwD</th>
+              <th>ST</th>
+              <th>ST-PwD</th>
+              <th>OBC-NCL</th>
+              <th>OBC-NCL-PwD</th>
+              <th>Total (includes Female Supernumerary)</th>
+              
+              <th>Female Supernumerary</th>
+              
+            </tr>
+            <tr>
+              <td>315</td>
+              <td>4146</td>
+              <td>B.Tech in Information Technology</td>
+              <td>AIR</td>
+              <td>Female-only(including Supernumerary)</td>
+              <td>05</td>
+              <td>00</td>
+              <td>01</td>
+              <td>00</td>
+              <td>02</td>
+              <td>00</td>
+              <td>01</td>
+              <td>00</td>
+              <td>04</td>
+              <td>00</td>
+              <td>13</td>
+             
+              <td>02</td>
+              </tr>
+
+           </table>
+           
+
+        </div>
+
+       
+
+
         <div className="admissions-it-seat admissions-useful-links">
           <h1 className="admissions-sub-head"> Seat Matrix(DASA) </h1>
         </div>
@@ -104,7 +175,7 @@ class AdmissionIT extends React.Component {
               <td>11</td>
             </tr>
           </table>
-        </div>
+        </div>  
 
         <div className="admissions-useful-links ">
           <h1 className="admissions-sub-head">Useful Links</h1>
