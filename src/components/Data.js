@@ -148,8 +148,8 @@ const courseStructure = {
   sem2: {
     code: [
       "IDMA230C",
-      "EDES232C",
       "IDST232C",
+      "EDES232C",
       "SPAS230C",
       "ICOA230C",
       "MPOM230C"
