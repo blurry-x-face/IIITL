@@ -566,7 +566,7 @@ const NavData = {
             { head: "Course Structure", link: "/course-structure" },
             { head: "Time Table", link: timeTable, isAnchor: true },
             { head: "Fee Structure", link: pdfFee, isAnchor: true },
-            { head: "Scholarship", link: Scholar, isAnchor: true },
+            { head: "Scholarship", link: "/scholarship", isAnchor: false },
             { head: "List of Students", link: "/coming-soon" }
           ]
         },

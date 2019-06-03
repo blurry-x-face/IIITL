@@ -53,6 +53,7 @@ import AnnouncementsAuto from "./components/Announcements/AnnouncementsAuto";
 import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 import Tender from "./components/Announcements/Tenders";
 import FinanceCommitte from "./components/FinanceCommitte";
+import Scholarships from "./components/Scholarships";
 
 class App extends Component {
   render() {
@@ -303,6 +304,7 @@ const routePath = [
   { path: "/admissions-Phd", component: AdmissionsPhd },
   { path: "/admissions-MTECH", component: AdmissionMtech },
   { path: "/tenders", component: Tender },
-  { path: "/announcements", component: AnnouncementsList }
+  { path: "/announcements", component: AnnouncementsList },
+  { path: "/scholarship", component: Scholarships }
 ];
 export default App;

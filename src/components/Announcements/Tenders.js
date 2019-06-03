@@ -77,6 +77,17 @@ class Tender extends React.Component {
                         <a href={v.link} target="blank">
                           {v.head}
                         </a>
+                        <p
+                          style={{
+                            display: "flex",
+                            justifyContent: "flex-end",
+                            margin: "10px 0",
+                            color: "rgba(0,0,0,0.65)",
+                            fontSize: "16px"
+                          }}
+                        >
+                          {v.date}
+                        </p>
                       </li>
                     ) : (
                       ""
@@ -94,6 +105,17 @@ class Tender extends React.Component {
                         <a href={v.link} target="blank">
                           {v.head}
                         </a>
+                        <p
+                          style={{
+                            display: "flex",
+                            justifyContent: "flex-end",
+                            margin: "10px 0",
+                            color: "rgba(0,0,0,0.65)",
+                            fontSize: "16px"
+                          }}
+                        >
+                          {v.date}
+                        </p>
                       </li>
                     ) : (
                       ""

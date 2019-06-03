@@ -100,7 +100,8 @@ const AnnouncementsData = [
       "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
     linkPara: "PDF->",
     link: tendorExtension1,
-    p: "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
+    p:
+      "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
     marquee: "Extention of Tender for hiring of Different type of Vehicles",
     date: "April, 2019"
   }
@@ -110,22 +111,26 @@ const tenders = [
   {
     head: "Tender Notice for Director's Premises",
     link: tenderPDF,
-    isExpired: true
+    isExpired: true,
+    date: "10/04/2019"
   },
   {
     head: "Extension of Tender for Director's Premises",
     link: tendorExtension,
-    isExpired: true
+    isExpired: true,
+    date: "09/05/2019"
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
-    isExpired: false
+    isExpired: false,
+    date: "02/05/19"
   },
   {
     head: "Extension of Tender for hiring of Different type of Vehicles",
     link: tendorExtension1,
-    isExpired: false
+    isExpired: false,
+    date: "24/05/2019"
   }
 ];
 
