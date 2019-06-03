@@ -12,14 +12,12 @@ import Footer from "./components/Footer";
 import BoG from "./components/BoardGovernors";
 import About from "./components/About";
 import Senate from "./components/Senate";
-import Cord from "./components/CordCommittee";
 import SideCard from "./components/SideCard";
 import Dir from "./components/DirectorMessage";
 import Seat from "./components/SeatMatrix";
 import Course from "./components/CourseStructureAll";
 import CourseIT from "./components/CourseStructureIT";
 import FacultyCard from "./components/FacultyCard";
-import FacultyTemplate from "./components/FacultyTemplate";
 import Staff from "./components/Staff";
 import CommingSoon from "./components/CommingSoon";
 import VKS from "./components/Faculty/VKS";
@@ -90,24 +88,17 @@ class App extends Component {
         ) : (
           <Nav />
         )}
-        <Route path="/faculty/vks" exact component={VKS} />
-        <Route path="/faculty/ST" exact component={ST} />
-        <Route path="/faculty/AP" exact component={AP} />
-        <Route path="/faculty/SG" exact component={SG} />
-        <Route path="/faculty/MS" exact component={MS} />
-        <Route path="/faculty/AM" exact component={AM} />
-        <Route path="/faculty/niharika" exact component={Niharika} />
-        <Route path="/faculty/somendu" exact component={Somendu} />
-        <Route path="/faculty/shikha" exact component={Shikha} />
-        <Route path="/faculty/dir" exact component={Director} />
-        <Route path="/faculty/BKC" exact component={BKC} />
-        <Route path="/coming-soon" exact component={CommingSoon} />
+        {routePath.map((v, i) => (
+          <Route path={v.path} exact component={v.component} key={i} />
+        ))}
+        {/* {sideRenderData.map((v, i) => {
+          return <SideRendering data={v.data} key={i} />;
+        })} */}
         <Route path="/blogs/1" exact component={Blog1} />
         <Route path="/blogs/2" exact component={Blog2} />
         <Route path="/blogs/3" exact component={Blog3} />
         <SideRendering data={data.staff.data} />
         <SideRendering data={data.faculty.data} />
-        <SideRendering data={data.cord.data} />
         <SideRendering data={data.about.data} />
         <SideRendering data={data.bog.data} />
         <SideRendering data={data.dir.data} />
@@ -119,21 +110,7 @@ class App extends Component {
         <SideRendering data={data.calender.data} />
         <SideRendering data={data.downloads.data} />
         <SideRendering data={data.ccmt.data} />
-        <Route path="/template" exact component={FacultyTemplate} />
-        <Route path="/contactus" exact component={ContactUs} />
-        <Route path="/btech-it" exact component={BTech} />
-        <Route path="/btech-cs" exact component={BTechCS} />
-        <Route path="/news" exact component={NewsList} />
-        <Route path="/events" exact component={EventList} />
-        <Route path="/gallery" exact component={PictureGallery} />
         <Route path="/" exact component={Home} />
-        <Route path="/recruitment" exact component={Recruitment} />
-        <Route path="/admissions-IT" exact component={AdmissionIT} />
-        <Route path="/admissions-CS" exact component={AdmissionCS} />
-        <Route path="/admissions-Phd" exact component={AdmissionsPhd} />
-        <Route path="/admissions-MTECH" exact component={AdmissionMtech} />
-        <Route path="/tenders" exact component={Tender} />
-        <Route path="/announcements" exact component={AnnouncementsList} />
         {AnnouncementsData.map((v, i) => {
           return (
             <Route
@@ -167,16 +144,19 @@ class App extends Component {
 }
 
 function SideRendering(props) {
+  console.log(props);
   return (
     <Route
       exact={true}
       path={props.data.path}
-      component={() => (
-        <div className="division-global">
-          <SideCard head={props.data.head} Ins={props.data.Ins} />
-          {props.data.other}
-        </div>
-      )}
+      component={() => {
+        return (
+          <div className="division-global">
+            <SideCard head={props.data.head} Ins={props.data.Ins} />
+            {props.data.other}
+          </div>
+        );
+      }}
     />
   );
 }
@@ -188,14 +168,6 @@ const data = {
       Ins: InsAdmin,
       other: <FacultyCard />,
       head: "Administration"
-    }
-  },
-  cord: {
-    data: {
-      path: "/co-ordination-committee",
-      Ins: Ins,
-      other: <Cord />,
-      head: "Institution"
     }
   },
   about: {
@@ -291,4 +263,46 @@ const data = {
   }
 };
 
+/* const sideRenderData = [
+  { data: data.staff.data },
+  { data: data.finance.data },
+  { data: data.ccmt.data },
+  { data: data.calender.data },
+  { data: data.courseStructure.data },
+  { data: data.courseStructureIT.data },
+  { data: data.about },
+  { data: data.bog.data },
+  { data: data.dir.data },
+  { data: data.seatMatrix.data },
+  { data: data.senate.data },
+  { data: data.downloads.data },
+  { data: data.faculty.data }
+]; */
+const routePath = [
+  { path: "/faculty/vks", component: VKS },
+  { path: "/faculty/ST", component: ST },
+  { path: "/faculty/AP", component: AP },
+  { path: "/faculty/SG", component: SG },
+  { path: "/faculty/MS", component: MS },
+  { path: "/faculty/AM", component: AM },
+  { path: "/faculty/niharika", component: Niharika },
+  { path: "/faculty/somendu", component: Somendu },
+  { path: "/faculty/shikha", component: Shikha },
+  { path: "/faculty/dir", component: Director },
+  { path: "/faculty/BKC", component: BKC },
+  { path: "/coming-soon", component: CommingSoon },
+  { path: "/contactus", component: ContactUs },
+  { path: "/btech-it", component: BTech },
+  { path: "/btch-cs", component: BTechCS },
+  { path: "/news", component: NewsList },
+  { path: "/events", component: EventList },
+  { path: "/gallery", component: PictureGallery },
+  { path: "/recruitment", component: Recruitment },
+  { path: "/admissions-IT", component: AdmissionIT },
+  { path: "/admissions-CS", component: AdmissionCS },
+  { path: "/admissions-Phd", component: AdmissionsPhd },
+  { path: "/admissions-MTECH", component: AdmissionMtech },
+  { path: "/tenders", component: Tender },
+  { path: "/announcements", component: AnnouncementsList }
+];
 export default App;

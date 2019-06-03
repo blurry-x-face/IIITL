@@ -27,7 +27,7 @@
   height: 200px;
   margin: 5px;
   display: block;
-  overflow: hidden;
+  overflow-y: scroll;
   transition: all 0.3s;
 }
 .latest-more {
