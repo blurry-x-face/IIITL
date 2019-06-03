@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://iiitl.ac.in/",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "contentful": "^7.6.0",
     "google-map-react": "^1.1.2",
     "rc-banner-anim": "^2.2.2",
     "rc-queue-anim": "^1.6.12",
@@ -11,6 +13,7 @@
     "react": "^16.8.4",
     "react-count": "^0.2.4",
     "react-dom": "^16.8.4",
+    "react-markdown": "^4.0.8",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"

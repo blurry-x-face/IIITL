@@ -2,10 +2,112 @@ import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { vks } from "./FacultyData";
-import profile from "../../assets/VKS Photograph.jpg";
+import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import ReactMarkdown from "react-markdown";
+
+const contentful = require("contentful");
 
 class Template extends React.Component {
-  state = { isOpen: false, prev: "", isFirst: true };
+  state = {
+    isOpen: false,
+    prev: "",
+    isFirst: true,
+    data: { interest: [""] },
+    teaching: { courses: [""] },
+    achievements: [""],
+    education: [""],
+    journals: [""],
+    conferences: [""],
+    profileURL: "",
+    contact: ""
+  };
+  componentDidMount() {
+    document.title =
+      "Vishal Krishna Singh  | Indian Institute of Information Technology, Lucknow";
+    // console.log("Start!!!!!! \n");
+    const client = contentful.createClient({
+      space: "e6ot1k2ihxg2",
+      accessToken: "Rl9tOsAWSxgmXKkIMHW307RPW6xTbGBAw0b02UrR0jg"
+    });
+    client
+      .getEntries({ content_type: "reasearchInterests" })
+      .then(r => {
+        this.setState({ data: r.items[0].fields });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "courses" })
+      .then(r => {
+        this.setState({ teaching: r.items[0].fields });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "latestAchievements" })
+      .then(r => {
+        let achievements = r.items.map(v =>
+          documentToReactComponents(v.fields.achievement)
+        );
+        this.setState({ achievements });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "education" })
+      .then(r => {
+        let education = r.items.map(v => v.fields.qualification);
+        this.setState({ education });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "conferences" })
+      .then(r => {
+        let conferences = r.items.map(v =>
+          documentToReactComponents(v.fields.conference)
+        );
+        this.setState({ conferences });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "journals" })
+      .then(r => {
+        let journals = r.items.map(v =>
+          documentToReactComponents(v.fields.journal)
+        );
+        this.setState({ journals });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "profilePhoto" })
+      .then(r => {
+        let profileURL = r.items[0].fields.profileImage.fields.file.url;
+        this.setState({ profileURL });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+    client
+      .getEntries({ content_type: "contact" })
+      .then(r => {
+        let contact = documentToReactComponents(
+          r.items[0].fields.contactDetail
+        );
+        this.setState({ contact });
+      })
+      .catch(rj => {
+        console.log("NOT DONE!", rj);
+      });
+  }
   openNav = () => {
     if (!this.state.isOpen) {
       document.getElementById("faculty-alt-nav").style.display = "flex";
@@ -34,341 +136,284 @@ class Template extends React.Component {
     this.setState({ isFirst: false });
     this.setState({ prev: id });
   };
-
-  Awards = props => {
-    let list = props.data.map((v, i) => {
-      return (
-        <li key={i}>
-          <p>{v.detail}</p>
-        </li>
-      );
-    });
-    return (
-      <div className="faculty-award-inner">
-        <ul className="faculty-award-detail">{list}</ul>
-      </div>
-    );
+  List = props => {
+    let li = props.data.map((v, i) => <li key={i}>{v}</li>);
+    return <ul>{li}</ul>;
+  };
+  MarkDownList = props => {
+    let li = props.data.map(v => (
+      <li>
+        <ReactMarkdown source={v} />
+      </li>
+    ));
+    return <ul>{li}</ul>;
   };
 
-  Interests = props => {
-    let li = props.interests.map(interest => {
-      return <li>{interest}</li>;
-    });
-    return <ul>{li} </ul>;
-  };
-  Journals = props => {
-    let li = props.journals.map(journal => {
-      return <li>{journal}</li>;
-    });
-    return <ul>{li} </ul>;
-  };
-  Confrence = props => {
-    let li = props.conferences.map(journal => {
-      return <li>{journal}</li>;
-    });
-    return <ul>{li} </ul>;
-  };
-  Education = props => {
-    let li = props.conferences.map(journal => {
-      return <li>{journal}</li>;
-    });
-    return <ul>{li} </ul>;
-  };
-  Contact = props => {
-    let li = props.conferences.map(journal => {
-      return <p className="faculty-contact-p">{journal}</p>;
-    });
-    return <div>{li} </div>;
-  };
-  componentDidMount() {
-    document.title =
-      "Vishal Krishna Singh  | Indian Institute of Information Technology, Lucknow";
-  }
   render() {
     return (
-      <div className="faculty-template-global padding-res">
-        <div className="faculty-above-nav">
-          <div className="faculty-above-nav-inner">
-            <div className="above-nav-section-1">
-              <div className="faculty-above-nav-head-name">
-                Dr. Vishal Krishna Singh
-              </div>
-              {/* <div className="faculty-above-nav-head-position">
+      <>
+        {this.state.data.interest[0] === "" ? (
+          <div className="" />
+        ) : (
+          <div className="faculty-template-global padding-res">
+            <div className="faculty-above-nav">
+              <div className="faculty-above-nav-inner">
+                <div className="above-nav-section-1">
+                  <div className="faculty-above-nav-head-name">
+                    Dr. Vishal Krishna Singh
+                  </div>
+                  {/* <div className="faculty-above-nav-head-position">
                 ASSISTANT PROFESSOR
               </div> */}
-              <div className="faculty-above-nav-head-dept faculty-above-nav-item">
-                Department of Information Technology
-              </div>
-              <div className="faculty-above-nav-head-institute faculty-above-nav-item">
-                Indian Institute of Information Technology, Lucknow,UP,India
+                  <div className="faculty-above-nav-head-dept faculty-above-nav-item">
+                    Department of Information Technology
+                  </div>
+                  <div className="faculty-above-nav-head-institute faculty-above-nav-item">
+                    Indian Institute of Information Technology, Lucknow,UP,India
+                  </div>
+                </div>
+                <div className="above-nav-section-2">
+                  <img src={this.state.profileURL} alt="VKS" />
+                </div>
               </div>
             </div>
-            <div className="above-nav-section-2">
-              <img src={profile} alt="VKS" />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-nav">
-          <div className="faculty-nav-inner">
-            <Link
-              onClick={() => {
-                this.open("faculty-body-home", "#home");
-              }}
-              to="#home"
-              className="faculty-nav-item"
-            >
-              Home
-            </Link>
-            <Link
-              to="#education"
-              onClick={() => {
-                this.open("faculty-body-education", "#education");
-              }}
-              className="faculty-nav-item"
-            >
-              Education
-            </Link>
-            <Link
-              className="faculty-nav-item"
-              onClick={() => {
-                this.open("faculty-body-journals", "#journals");
-              }}
-              to="#journals"
-            >
-              Publications
-            </Link>
-            <Link
-              className="faculty-nav-item"
-              onClick={() => {
-                this.open("faculty-body-experience", "#experience");
-              }}
-              to="#experience"
-            >
-              Experience
-            </Link>
-            <Link
-              to="#courses"
-              onClick={() => {
-                this.open("faculty-body-courses", "#courses");
-              }}
-              className="faculty-nav-item"
-            >
-              Course
-            </Link>
+            <div className="faculty-nav">
+              <div className="faculty-nav-inner">
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-home", "#home");
+                  }}
+                  to="#home"
+                  className="faculty-nav-item"
+                >
+                  Home
+                </Link>
+                <Link
+                  to="#education"
+                  onClick={() => {
+                    this.open("faculty-body-education", "#education");
+                  }}
+                  className="faculty-nav-item"
+                >
+                  Education
+                </Link>
+                <Link
+                  className="faculty-nav-item"
+                  onClick={() => {
+                    this.open("faculty-body-journals", "#journals");
+                  }}
+                  to="#journals"
+                >
+                  Publications
+                </Link>
+                <Link
+                  className="faculty-nav-item"
+                  onClick={() => {
+                    this.open("faculty-body-experience", "#experience");
+                  }}
+                  to="#experience"
+                >
+                  Experience
+                </Link>
+                <Link
+                  to="#courses"
+                  onClick={() => {
+                    this.open("faculty-body-courses", "#courses");
+                  }}
+                  className="faculty-nav-item"
+                >
+                  Course
+                </Link>
 
-            <Link
-              onClick={() => {
-                this.open("faculty-body-contact", "#contact");
-              }}
-              to="#contact"
-              className="faculty-nav-item"
-            >
-              Contact
-            </Link>
-          </div>
-          <div className="faculty-hamburger">
-            <i className="fas fa-bars" onClick={() => this.openNav()} />
-          </div>
-          <div className="faculty-alt-nav-inner" id="faculty-alt-nav">
-            <Link
-              to="#home"
-              onClick={() => {
-                this.open("faculty-body-home", "#home");
-              }}
-              className="faculty-alt-nav-item"
-            >
-              Home
-            </Link>
-            <Link
-              onClick={() => {
-                this.open("faculty-body-education", "#education");
-              }}
-              to="#education"
-              className="faculty-alt-nav-item"
-            >
-              Education
-            </Link>
-            {/* <Link to="#home" className="faculty-nav-item">
-              Awards
-            </Link> */}
-            <Link
-              onClick={() => {
-                this.open("faculty-body-journals", "#journals");
-              }}
-              to="#journals"
-              className="faculty-alt-nav-item"
-            >
-              Publications
-            </Link>
-            <Link
-              onClick={() => {
-                this.open("faculty-body-experience", "#experience");
-              }}
-              to="#Experience"
-              className="faculty-alt-nav-item"
-            >
-              Experience
-            </Link>
-            <Link
-              onClick={() => {
-                this.open("faculty-body-courses", "#courses");
-              }}
-              to="#courses"
-              className="faculty-alt-nav-item"
-            >
-              Course
-            </Link>
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-contact", "#contact");
+                  }}
+                  to="#contact"
+                  className="faculty-nav-item"
+                >
+                  Contact
+                </Link>
+              </div>
+              <div className="faculty-hamburger">
+                <i className="fas fa-bars" onClick={() => this.openNav()} />
+              </div>
+              <div className="faculty-alt-nav-inner" id="faculty-alt-nav">
+                <Link
+                  to="#home"
+                  onClick={() => {
+                    this.open("faculty-body-home", "#home");
+                  }}
+                  className="faculty-alt-nav-item"
+                >
+                  Home
+                </Link>
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-education", "#education");
+                  }}
+                  to="#education"
+                  className="faculty-alt-nav-item"
+                >
+                  Education
+                </Link>
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-journals", "#journals");
+                  }}
+                  to="#journals"
+                  className="faculty-alt-nav-item"
+                >
+                  Publications
+                </Link>
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-experience", "#experience");
+                  }}
+                  to="#Experience"
+                  className="faculty-alt-nav-item"
+                >
+                  Experience
+                </Link>
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-courses", "#courses");
+                  }}
+                  to="#courses"
+                  className="faculty-alt-nav-item"
+                >
+                  Course
+                </Link>
 
-            <Link
-              onClick={() => {
-                this.open("faculty-body-contact", "#contact");
-              }}
-              to="#contact"
-              className="faculty-alt-nav-item"
-            >
-              Contact
-            </Link>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-home">
-          <div className="faculty-image-hid">
-            <img src={profile} alt="VKS" />
-          </div>
-          <div className="faculty-interest">
-            <div className="faculty-interest-section-1">
-              <div className="faculty-interest-head faculty-section-head">
-                Research Interests:
-              </div>
-              <div className="faculty-interest-list">
-                <this.Interests interests={vks.interests} />
+                <Link
+                  onClick={() => {
+                    this.open("faculty-body-contact", "#contact");
+                  }}
+                  to="#contact"
+                  className="faculty-alt-nav-item"
+                >
+                  Contact
+                </Link>
               </div>
             </div>
-            <div className="faculty-interest-section-2">
-              <div className="faculty-photo" />
+            <div className="faculty-body" id="faculty-body-home">
+              <div className="faculty-image-hid">
+                <img src={this.state.profileURL} alt="VKS" />
+              </div>
+              <div className="faculty-interest">
+                <div className="faculty-interest-section-1">
+                  <div className="faculty-interest-head faculty-section-head">
+                    Research Interests:
+                  </div>
+                  <div className="faculty-interest-list">
+                    <this.List data={this.state.data.interest} />
+                  </div>
+                </div>
+                <div className="faculty-interest-section-2">
+                  <div className="faculty-photo" />
+                </div>
+              </div>
+              <div className="faculty-awards-global">
+                <div className="faculty-awards-head faculty-section-head">
+                  Latest Achievements
+                </div>
+                <this.List data={this.state.achievements} />
+              </div>
+            </div>
+            <div className="faculty-body" id="faculty-body-journals">
+              <div className="faculty-journals">
+                <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+                  Research Publications
+                </div>
+              </div>
+              <div className="faculty-journals">
+                <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+                  Journals
+                </div>
+                <div className="faculty-journal-list">
+                  <this.List data={this.state.journals} />
+                </div>
+              </div>
+              <div className="faculty-journals">
+                <div className="faculty-journals-head faculty-section-head faculty-journals-head">
+                  Conferences
+                </div>
+                <div className="faculty-journal-list">
+                  <this.List data={this.state.conferences} />
+                </div>
+              </div>
+            </div>
+            <div className="faculty-body" id="faculty-body-education">
+              <div className="faculty-education">
+                <div className="faculty-education-head faculty-section-head">
+                  Education
+                </div>
+                <div className="faculty-education-list">
+                  <this.MarkDownList data={this.state.education} />
+                </div>
+              </div>
+            </div>
+            <div className="faculty-body" id="faculty-body-courses">
+              <div className="faculty-courses">
+                <div className="faculty-courses-head faculty-section-head">
+                  Teaching:
+                </div>
+                <div className="faculty-education-list faculty-courses-list">
+                  <this.List data={this.state.teaching.courses} />
+                </div>
+              </div>
+            </div>
+            <div className="faculty-body" id="faculty-body-contact">
+              <div className="faculty-courses">
+                <div className="faculty-courses-head faculty-section-head">
+                  Contact
+                </div>
+                <div className="faculty-education-list faculty-courses-list">
+                  {/*               <this.Contact conferences={vks.address} />
+              <this.Contact conferences={vks.contact} /> */}
+                  {/* <this.List data={this.state.contacts} /> */}
+                  {this.state.contact}
+                </div>
+              </div>
+            </div>
+            <div className="faculty-body" id="faculty-body-experience">
+              <div className="faculty-experience">
+                <div className="faculty-experience-head faculty-section-head">
+                  Proffessional Activities:
+                </div>
+                <div
+                  className="faculty-experience-head faculty-section-head"
+                  style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
+                >
+                  Technical Committee Member:
+                </div>
+                <div className="faculty-education-list faculty-experience-list">
+                  <this.List data={vks.member} />
+                </div>
+                <div
+                  className="faculty-experience-head faculty-section-head"
+                  style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
+                >
+                  Reviewer for:
+                </div>
+                <div className="faculty-education-list faculty-experience-list">
+                  <this.List data={vks.reviewer} />
+                </div>
+              </div>
+            </div>
+            <div className="faculty-footer">
+              <div className="faculty-footer-copy">
+                <i className="far fa-copyright" />
+                2019 IIIT Lucknow|
+              </div>
+              <div className="faculty-footer-department">Department of IT|</div>
+              <div className="faculty-footer-department">
+                Last Updated: March 2019
+              </div>
             </div>
           </div>
-          <div className="faculty-awards-global">
-            <div className="faculty-awards-head faculty-section-head">
-              Latest Achievements
-            </div>
-            <this.Awards data={vks.awards} />
-          </div>
-          {/* <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Publications
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={vks.journalData} />
-            </div>
-          </div>
-          <div className="faculty-conferences">
-            <div className="faculty-conference-head faculty-section-head">
-              Conference
-            </div>
-            <div className="faculty-conference-list">
-              <this.Confrence conferences={vks.conference} />
-            </div>
-          </div> */}
-        </div>
-        <div className="faculty-body" id="faculty-body-journals">
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Research Publications
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={vks.research} />
-            </div>
-          </div>
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Journals
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={vks.journalData} />
-            </div>
-          </div>
-          <div className="faculty-journals">
-            <div className="faculty-journals-head faculty-section-head faculty-journals-head">
-              Conferences
-            </div>
-            <div className="faculty-journal-list">
-              <this.Journals journals={vks.conference} />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-education">
-          <div className="faculty-education">
-            <div className="faculty-education-head faculty-section-head">
-              Education
-            </div>
-            <div className="faculty-education-list">
-              <this.Education conferences={vks.education} />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-courses">
-          <div className="faculty-courses">
-            <div className="faculty-courses-head faculty-section-head">
-              Teaching:
-            </div>
-            <div className="faculty-education-list faculty-courses-list">
-              <this.Education conferences={vks.courses} />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-contact">
-          <div className="faculty-courses">
-            <div className="faculty-courses-head faculty-section-head">
-              Contact
-            </div>
-            <div className="faculty-education-list faculty-courses-list">
-              <this.Contact conferences={vks.address} />
-              <this.Contact conferences={vks.contact} />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-body" id="faculty-body-experience">
-          <div className="faculty-experience">
-            <div className="faculty-experience-head faculty-section-head">
-              Proffessional Activities:
-            </div>
-            <div
-              className="faculty-experience-head faculty-section-head"
-              style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
-            >
-              Technical Committee Member:
-            </div>
-            <div className="faculty-education-list faculty-experience-list">
-              <this.Education conferences={vks.member} />
-            </div>
-            <div
-              className="faculty-experience-head faculty-section-head"
-              style={{ marginTop: 40, fontSize: 25, marginLeft: 10 }}
-            >
-              Reviewer for:
-            </div>
-            <div className="faculty-education-list faculty-experience-list">
-              <this.Education conferences={vks.reviewer} />
-            </div>
-          </div>
-        </div>
-        <div className="faculty-footer">
-          <div className="faculty-footer-copy">
-            <i className="far fa-copyright" />
-            2019 IIIT Lucknow|
-          </div>
-          <div className="faculty-footer-department">Department of IT|</div>
-          <div className="faculty-footer-department">
-            Last Updated: March 2019
-          </div>
-          {/* <Count
-              isViewCounter={true}
-              counterText="views"
-              firebaseHost="https://counter-button.firebaseio.com/"
-              firebaseResourceId="views-counter"
-            /> */}
-        </div>
-      </div>
+        )}
+      </>
     );
   }
 }
