@@ -4,7 +4,7 @@ import ApplicationForm from "../../assets/blogs/Format_Application_IIITL.docx";
 import tenderPDF from "../../assets/downloads/Tender.pdf";
 import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
 import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
-
+import tendorExtension1 from "../../assets/downloads/Tender_Extension1.pdf";
 const AnnouncementsData = [
   // here p is the para in the latest news section(Home page)
   {
@@ -93,6 +93,16 @@ const AnnouncementsData = [
     p: "",
     marquee: "CCMT 2019",
     date: "May 15, 2019"
+  },
+  {
+    head: "Extension of Tender for hiring of Different type of Vehicles",
+    para:
+      "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
+    linkPara: "PDF->",
+    link: tendorExtension1,
+    p: "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
+    marquee: "Extention of Tender for hiring of Different type of Vehicles",
+    date: "April, 2019"
   }
 ];
 
@@ -110,6 +120,11 @@ const tenders = [
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
+    isExpired: false
+  },
+  {
+    head: "Extension of Tender for hiring of Different type of Vehicles",
+    link: tendorExtension1,
     isExpired: false
   }
 ];

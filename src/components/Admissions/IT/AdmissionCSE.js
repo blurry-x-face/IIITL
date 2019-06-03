@@ -4,7 +4,7 @@ import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
 import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
 // import Link from "react-router-dom/Link";
-import CourseStructure from "../../../assets/blogs/B.TECH.IIITL.23.05.19-converted-1.pdf";
+import CourseStructure from "../../../assets/blogs/B.Tech_Course_Structure.pdf";
 class AdmissionCS extends React.Component {
   render() {
     return (

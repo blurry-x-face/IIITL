@@ -4,6 +4,7 @@ import BlogImage3 from "../assets/expert.jpg";
 import timeTable from "../assets/downloads/Time_Table.pdf";
 import pdfFee from "../assets/blogs/fee-structure.pdf";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
+import Scholar from "../assets/downloads/UP_PMS_Notice_Aadhar_Card.pdf";
 
 const academicLinks = {
   head: "Useful Links",
@@ -554,6 +555,7 @@ const NavData = {
             { head: "B.Tech in CS", link: "/btech-cs" },
             { head: "M.Tech in CS", link: "/admissions-MTECH" },
             { head: "PhD", link: "admissions-Phd" }
+            
           ]
         },
         {
@@ -564,6 +566,7 @@ const NavData = {
             { head: "Course Structure", link: "/course-structure" },
             { head: "Time Table", link: timeTable, isAnchor: true },
             { head: "Fee Structure", link: pdfFee, isAnchor: true },
+            { head: "Scholarship", link: Scholar, isAnchor: true },
             { head: "List of Students", link: "/coming-soon" }
           ]
         },

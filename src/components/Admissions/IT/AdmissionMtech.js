@@ -4,7 +4,7 @@ import ScrollToTopOnMount from "../../ScrollToTop";
 import pdfFee from "../../../assets/downloads/Fee Structure M.Tech.pdf";
 // import Link from "react-router-dom/Link";
 import fresherPDF from "../../../assets/announcementsData/CCMT2019.pdf";
-import CourseStructure from "../../../assets/blogs/M.TECH.CS.IIITL.23.05.19-converted-2.pdf";
+import CourseStructure from "../../../assets/blogs/M.Tech_Course_Structure.pdf";
 class AdmissionMtech extends React.Component {
   render() {
     return (
