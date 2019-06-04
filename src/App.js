@@ -121,7 +121,11 @@ class App extends Component {
             />
           );
         })}
-        {allPath().length > 0 ? "" : <Route path="/" component={Error404} />}
+        {allPath().length > 0 || window.location.pathname === "/" ? (
+          ""
+        ) : (
+          <Route path="/" component={Error404} />
+        )}
         {window.location.pathname === "/faculty/Dr-Vishal-Krishna-Singh" ||
         window.location.pathname === "/faculty/shikha" ||
         window.location.pathname === "/faculty/Dr-Niharikha-Anand" ||
