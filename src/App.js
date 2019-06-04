@@ -21,7 +21,6 @@ import FacultyCard from "./components/FacultyCard";
 import Staff from "./components/Staff";
 import CommingSoon from "./components/CommingSoon";
 import VKS from "./components/Faculty/VKS";
-import Shikha from "./components/Faculty/Shikha";
 import Downloads from "./components/Downloads";
 import ContactUs from "./components/ContacUs";
 import BTech from "./components/BTechIT";
@@ -54,37 +53,38 @@ import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 import Tender from "./components/Announcements/Tenders";
 import FinanceCommitte from "./components/FinanceCommitte";
 import Scholarships from "./components/Scholarships";
+import Error404 from "./components/404";
 
 class App extends Component {
   render() {
     return (
       <Fragment>
-        {window.location.pathname === "/faculty/vks" ||
+        {window.location.pathname === "/faculty/Dr-Vishal-Krishna-Singh" ||
         window.location.pathname === "/faculty/shikha" ||
-        window.location.pathname === "/faculty/niharika" ||
-        window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ||
-        window.location.pathname === "/faculty/AP" ||
-        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/Dr-Niharikha-Anand" ||
+        window.location.pathname === "/faculty/Dr-Soumendu-Chakraborty" ||
+        window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
+        window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
+        window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ||
-        window.location.pathname === "/faculty/AM" ? (
+        window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
+        window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
+        window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
           ""
         ) : (
           <AboveNav />
         )}
-        {window.location.pathname === "/faculty/vks" ||
+        {window.location.pathname === "/faculty/Dr-Vishal-Krishna-Singh" ||
         window.location.pathname === "/faculty/shikha" ||
-        window.location.pathname === "/faculty/niharika" ||
-        window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ||
-        window.location.pathname === "/faculty/AP" ||
-        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/Dr-Niharikha-Anand" ||
+        window.location.pathname === "/faculty/Dr-Soumendu-Chakraborty" ||
+        window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
+        window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
+        window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ||
-        window.location.pathname === "/faculty/AM" ? (
+        window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
+        window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
+        window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
           ""
         ) : (
           <Nav />
@@ -121,20 +121,18 @@ class App extends Component {
             />
           );
         })}
-        {/* <Route path="/CCMT19" exact component={CCMT} /> */}
-        {/* <Route path="/calender" exact component={AcademicShedule} /> */}
-        {/* <Route component={NoMatch} /> */}
-        {window.location.pathname === "/faculty/vks" ||
+        {allPath().length > 0 ? "" : <Route path="/" component={Error404} />}
+        {window.location.pathname === "/faculty/Dr-Vishal-Krishna-Singh" ||
         window.location.pathname === "/faculty/shikha" ||
-        window.location.pathname === "/faculty/niharika" ||
-        window.location.pathname === "/faculty/somendu" ||
-        window.location.pathname === "/faculty/ST" ||
-        window.location.pathname === "/faculty/AP" ||
-        window.location.pathname === "/faculty/SG" ||
+        window.location.pathname === "/faculty/Dr-Niharikha-Anand" ||
+        window.location.pathname === "/faculty/Dr-Soumendu-Chakraborty" ||
+        window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
+        window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
+        window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
         window.location.pathname === "/faculty/MS" ||
-        window.location.pathname === "/faculty/BKC" ||
-        window.location.pathname === "/faculty/dir" ||
-        window.location.pathname === "/faculty/AM" ? (
+        window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
+        window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
+        window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
           ""
         ) : (
           <Footer />
@@ -264,7 +262,7 @@ const data = {
   }
 };
 
-/* const sideRenderData = [
+const sideRenderData = [
   { data: data.staff.data },
   { data: data.finance.data },
   { data: data.ccmt.data },
@@ -278,19 +276,18 @@ const data = {
   { data: data.senate.data },
   { data: data.downloads.data },
   { data: data.faculty.data }
-]; */
+];
 const routePath = [
-  { path: "/faculty/vks", component: VKS },
-  { path: "/faculty/ST", component: ST },
-  { path: "/faculty/AP", component: AP },
-  { path: "/faculty/SG", component: SG },
+  { path: "/faculty/Dr-Vishal-Krishna-Singh", component: VKS },
+  { path: "/faculty/Mr-Sushil-Tiwari", component: ST },
+  { path: "/faculty/Dr-Abhishek-Pandey", component: AP },
+  { path: "/faculty/Dr-Shikha-Gautam", component: SG },
   { path: "/faculty/MS", component: MS },
-  { path: "/faculty/AM", component: AM },
-  { path: "/faculty/niharika", component: Niharika },
-  { path: "/faculty/somendu", component: Somendu },
-  { path: "/faculty/shikha", component: Shikha },
-  { path: "/faculty/dir", component: Director },
-  { path: "/faculty/BKC", component: BKC },
+  { path: "/faculty/Dr-Ashutosh-Mishra", component: AM },
+  { path: "/faculty/Dr-Niharikha-Anand", component: Niharika },
+  { path: "/faculty/Dr-Soumendu-Chakraborty", component: Somendu },
+  { path: "/faculty/Dr-Arun-Mohan-Sherry", component: Director },
+  { path: "/faculty/Dr-Brijesh-Kumar-Chaurasia", component: BKC },
   { path: "/coming-soon", component: CommingSoon },
   { path: "/contactus", component: ContactUs },
   { path: "/btech-it", component: BTech },
@@ -307,4 +304,13 @@ const routePath = [
   { path: "/announcements", component: AnnouncementsList },
   { path: "/scholarship", component: Scholarships }
 ];
+
+const allPath = () => {
+  let pathsArr = routePath.map(v => v.path);
+  let pathsArrSide = sideRenderData.map(v => v.data.path);
+  return pathsArr.concat(pathsArrSide).filter(v => {
+    return window.location.pathname === v;
+  });
+};
+
 export default App;

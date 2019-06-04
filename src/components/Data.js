@@ -4,7 +4,6 @@ import BlogImage3 from "../assets/expert.jpg";
 import timeTable from "../assets/downloads/Time_Table.pdf";
 import pdfFee from "../assets/blogs/fee-structure.pdf";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
-import Scholar from "../assets/downloads/UP_PMS_Notice_Aadhar_Card.pdf";
 
 const academicLinks = {
   head: "Useful Links",

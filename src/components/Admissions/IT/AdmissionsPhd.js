@@ -210,7 +210,7 @@ class AdmissionIT extends React.Component {
                 <br />
                 <br />
                 <Link
-                  to="/faculty/vks"
+                  to="/faculty/Dr-Vishal-Krishna-Singh"
                   target="blank"
                   style={{ color: "#005f99" }}
                 >

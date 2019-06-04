@@ -17,7 +17,7 @@ const facultyCardData = [
     researchArea: "Computer Networks, Wireless N/W  and Sensor Networks",
     contact: "Email: abhishek.pandey@iiitl.ac.in",
     id: "abhishekPandey",
-    link: "/faculty/AP",
+    link: "/faculty/Dr-Abhishek-Pandey",
     post: "",
     post2: ""
   },
@@ -40,7 +40,7 @@ const facultyCardData = [
       "Image processing, Computer Vision, Pattern recognition, Steganography, Machine Learning.",
     contact: "Email: soumendu@iiitl.ac.in",
     id: "somendu",
-    link: "/faculty/somendu",
+    link: "/faculty/Dr-Soumendu-Chakraborty",
     post: "Faculty In-charge Technical Committee",
     post2: ""
   },
@@ -52,7 +52,7 @@ const facultyCardData = [
       "Wireless Sensor Networks, In-network Inference, Data Mining Database Management, Data Analytics, Internet of Things",
     contact: "Email: vks@iiitl.ac.in",
     id: "vks",
-    link: "/faculty/vks",
+    link: "/faculty/Dr-Vishal-Krishna-Singh",
     post: "Faculty In-charge Training and Placements",
     post2: "Faculty In-charge Reasearch and Development"
   },
@@ -64,7 +64,7 @@ const facultyCardData = [
       "Software Engineering, Software Quality, and Software Reliability/Usability",
     contact: "Email: shikhagautam@iiitl.ac.in",
     id: "shikhaGautam",
-    link: "/faculty/SG"
+    link: "/faculty/Dr-Shikha-Gautam"
   },
   {
     name: "Dr. Niharika Anand",
@@ -74,7 +74,7 @@ const facultyCardData = [
       "Wireless Sensor Networks,4G and 5G technologies,Internet of Things,Security in Wireless Sensor Networks,Distributed Networks",
     contact: "Email: niharika@iiitl.ac.in",
     id: "niharikaAnand",
-    link: "/faculty/niharika",
+    link: "/faculty/Dr-Niharikha-Anand",
     post: "Faculty Incharge Library"
   },
   {
@@ -95,7 +95,7 @@ const facultyCardData = [
       "Network Security, Vehicular Ad hoc Networks, Sensor Ad hoc Networks, Trust Management in Wireless Ad-hoc Networks, Internet of  Vehicles, Cloud Computing etc.",
     contact: "Email: brijesh@iiitl.ac.in",
     id: "brijeshChaurasia",
-    link: "/faculty/BKC",
+    link: "/faculty/Dr-Brijesh-Kumar-Chaurasia",
     post: "Interim Head"
   },
   {
@@ -106,7 +106,7 @@ const facultyCardData = [
       "Wireless Indoor Localization, Machine Learning, Ad-hoc Network",
     contact: "stiwari@iiitl.ac.in",
     id: "sushilTiwari",
-    link: "/faculty/ST",
+    link: "/faculty/Mr-Sushil-Tiwari",
     post: ""
   },
   {
@@ -117,7 +117,7 @@ const facultyCardData = [
     researchArea: "Higher Education and Research, CGI, eLearning Industry",
     contact: "Email: director@iiitl.ac.in",
     id: "arunSherry",
-    link: "/faculty/dir",
+    link: "/faculty/Dr-Arun-Mohan-Sherry",
     post: "",
     post2: ""
   }
