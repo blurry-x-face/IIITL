@@ -312,9 +312,12 @@ const routePath = [
 const allPath = () => {
   let pathsArr = routePath.map(v => v.path);
   let pathsArrSide = sideRenderData.map(v => v.data.path);
-  return pathsArr.concat(pathsArrSide).filter(v => {
-    return window.location.pathname === v;
-  });
+  return pathsArr
+    .concat(AnnouncementsData.map((v, i) => `/announcements/${i + 1}`))
+    .concat(pathsArrSide)
+    .filter(v => {
+      return window.location.pathname === v;
+    });
 };
 
 export default App;
