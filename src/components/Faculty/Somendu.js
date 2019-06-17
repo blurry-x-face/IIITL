@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { somendu } from "./FacultyData";
 import image from "../../assets/facultyData/somendu.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class Somendu extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -97,6 +98,7 @@ class Somendu extends React.Component {
   componentDidMount() {
     document.title =
       "Somendu Chakraborty  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

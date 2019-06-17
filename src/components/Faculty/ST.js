@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { sushilTiwari } from "./FacultyData";
 import image from "../../assets/facultyData/Sushil.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class ST extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -97,6 +98,7 @@ class ST extends React.Component {
   componentDidMount() {
     document.title =
       "Sushil Kumar Tiwari  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

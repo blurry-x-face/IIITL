@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { mary } from "./FacultyData";
 import profile from "../../assets/facultyData/mary.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class MS extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -96,6 +97,7 @@ class MS extends React.Component {
   componentDidMount() {
     document.title =
       "Mary Samuel  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

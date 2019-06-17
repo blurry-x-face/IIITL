@@ -1,8 +1,9 @@
 import React from "react";
 import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
-import {  aM } from "./FacultyData";
+import { aM } from "./FacultyData";
 import profile from "../../assets/facultyData/anonymous.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class AM extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -77,6 +78,7 @@ class AM extends React.Component {
   componentDidMount() {
     document.title =
       "Ashutosh Mishra  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

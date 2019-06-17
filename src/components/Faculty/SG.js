@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { shikha } from "./FacultyData";
 import profile from "../../assets/Shikha.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class SG extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -77,6 +78,7 @@ class SG extends React.Component {
   componentDidMount() {
     document.title =
       "Shikha Gautam  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

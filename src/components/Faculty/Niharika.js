@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { niharika } from "./FacultyData";
 import profile from "../../assets/facultyData/niharikha.JPG";
+import { remove_hash_from_url } from "./Utils";
 
 class Niharika extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -89,6 +90,7 @@ class Niharika extends React.Component {
   componentDidMount() {
     document.title =
       "Niharika Anand  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

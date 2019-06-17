@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { bKC } from "./FacultyData";
 import profile from "../../assets/facultyData/BKC.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class BKC extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -112,6 +113,7 @@ class BKC extends React.Component {
   componentDidMount() {
     document.title =
       "Brijesh Kumar Chaurasia  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

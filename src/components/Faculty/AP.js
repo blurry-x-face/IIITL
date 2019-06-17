@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { aP } from "./FacultyData";
 import profile from "../../assets/facultyData/AP.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class AP extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -77,6 +78,7 @@ class AP extends React.Component {
   componentDidMount() {
     document.title =
       "Abhishek Pandey  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

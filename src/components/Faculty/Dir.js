@@ -3,6 +3,7 @@ import "../FacultyTemplate.css";
 import { Link } from "react-router-dom";
 import { bKC, dir } from "./FacultyData";
 import profile from "../../assets/dr-arun-sherry.jpg";
+import { remove_hash_from_url } from "./Utils";
 
 class Director extends React.Component {
   state = { isOpen: false, prev: "", isFirst: true };
@@ -52,7 +53,7 @@ class Director extends React.Component {
     });
     return (
       <div className="faculty-body" id={props.eleId}>
-      <div className='faculty-section-head'>Publications: </div>
+        <div className="faculty-section-head">Publications: </div>
         {list}
       </div>
     );
@@ -87,7 +88,9 @@ class Director extends React.Component {
     });
     return (
       <p className="faculty-experience">
-        <div className="faculty-journals-sub-head faculty-dir-after">{props.data.head}</div>
+        <div className="faculty-journals-sub-head faculty-dir-after">
+          {props.data.head}
+        </div>
         <ul>{list}</ul>
       </p>
     );
@@ -119,6 +122,7 @@ class Director extends React.Component {
   componentDidMount() {
     document.title =
       "Dr. Arun Mohan Sherry  | Indian Institute of Information Technology, Lucknow";
+    remove_hash_from_url();
   }
   render() {
     return (

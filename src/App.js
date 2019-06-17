@@ -53,7 +53,7 @@ import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 import Tender from "./components/Announcements/Tenders";
 import FinanceCommitte from "./components/FinanceCommitte";
 import Scholarships from "./components/Scholarships";
-import Error404 from "./components/404";
+// import Error404 from "./components/404";
 
 class App extends Component {
   render() {
@@ -121,11 +121,11 @@ class App extends Component {
             />
           );
         })}
-        {allPath().length > 0 || window.location.pathname === "/" ? (
+        {/* {allPath().length > 0 || window.location.pathname === "/" ? (
           ""
         ) : (
           <Route path="/" component={Error404} />
-        )}
+        )} */}
         {window.location.pathname === "/faculty/Dr-Vishal-Krishna-Singh" ||
         window.location.pathname === "/faculty/shikha" ||
         window.location.pathname === "/faculty/Dr-Niharikha-Anand" ||

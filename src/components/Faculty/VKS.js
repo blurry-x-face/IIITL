@@ -24,7 +24,17 @@ class Template extends React.Component {
   componentDidMount() {
     document.title =
       "Vishal Krishna Singh  | Indian Institute of Information Technology, Lucknow";
-    // console.log("Start!!!!!! \n");
+
+      function remove_hash_from_url()
+      {
+          var uri = window.location.toString();
+          if (uri.indexOf("#") > 0) {
+              var clean_uri = uri.substring(0, uri.indexOf("#"));
+              window.history.replaceState({}, document.title, clean_uri);
+          }
+      }
+    remove_hash_from_url();
+
     const client = contentful.createClient({
       space: "e6ot1k2ihxg2",
       accessToken: "Rl9tOsAWSxgmXKkIMHW307RPW6xTbGBAw0b02UrR0jg"
@@ -57,10 +67,11 @@ class Template extends React.Component {
         console.log("NOT DONE!", rj);
       });
     client
-      .getEntries({ content_type: "education" })
+      .getEntries({ content_type: "education", order: "sys.createdAt" })
       .then(r => {
+        console.log(r.items);
         let education = r.items.map(v => v.fields.qualification);
-        this.setState({ education });
+        this.setState({ education: education.reverse() });
       })
       .catch(rj => {
         console.log("NOT DONE!", rj);
