@@ -66,7 +66,7 @@ class App extends Component {
         window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
         window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
         window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
-        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/Dr-Mary-Samuel" ||
         window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
         window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
         window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
@@ -81,7 +81,7 @@ class App extends Component {
         window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
         window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
         window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
-        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/Dr-Mary-Samuel" ||
         window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
         window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
         window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
@@ -133,7 +133,7 @@ class App extends Component {
         window.location.pathname === "/faculty/Mr-Sushil-Tiwari" ||
         window.location.pathname === "/faculty/Dr-Abhishek-Pandey" ||
         window.location.pathname === "/faculty/Dr-Shikha-Gautam" ||
-        window.location.pathname === "/faculty/MS" ||
+        window.location.pathname === "/faculty/Dr-Mary-Samuel" ||
         window.location.pathname === "/faculty/Dr-Brijesh-Kumar-Chaurasia" ||
         window.location.pathname === "/faculty/Dr-Arun-Mohan-Sherry" ||
         window.location.pathname === "/faculty/Dr-Ashutosh-Mishra" ? (
@@ -286,7 +286,7 @@ const routePath = [
   { path: "/faculty/Mr-Sushil-Tiwari", component: ST },
   { path: "/faculty/Dr-Abhishek-Pandey", component: AP },
   { path: "/faculty/Dr-Shikha-Gautam", component: SG },
-  { path: "/faculty/MS", component: MS },
+  { path: "/faculty/Dr-Mary-Samuel", component: MS },
   { path: "/faculty/Dr-Ashutosh-Mishra", component: AM },
   { path: "/faculty/Dr-Niharikha-Anand", component: Niharika },
   { path: "/faculty/Dr-Soumendu-Chakraborty", component: Somendu },
@@ -306,10 +306,12 @@ const routePath = [
   { path: "/admissions-MTECH", component: AdmissionMtech },
   { path: "/tenders", component: Tender },
   { path: "/announcements", component: AnnouncementsList },
-  { path: "/scholarship", component: Scholarships }
+  { path: "/scholarship", component: Scholarships },
 ];
 
-const allPath = () => {
+export default App;
+
+export const allPath = () => {
   let pathsArr = routePath.map(v => v.path);
   let pathsArrSide = sideRenderData.map(v => v.data.path);
   return pathsArr
@@ -319,5 +321,3 @@ const allPath = () => {
       return window.location.pathname === v;
     });
 };
-
-export default App;

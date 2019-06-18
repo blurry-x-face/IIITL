@@ -554,7 +554,6 @@ const NavData = {
             { head: "B.Tech in CS", link: "/btech-cs" },
             { head: "M.Tech in CS", link: "/admissions-MTECH" },
             { head: "PhD", link: "admissions-Phd" }
-            
           ]
         },
         {
@@ -657,8 +656,8 @@ const NavData = {
     {
       isAnchor: true,
       isGIF: true,
-      head: "Tenders",
-      link: "tenders"
+      head: "Career",
+      link: "recruitment"
     },
     {
       isGIF: false,

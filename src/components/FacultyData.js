@@ -28,7 +28,7 @@ const facultyCardData = [
     researchArea: "Fractal Geometry",
     contact: "Email: mary@iiitl.ac.in",
     id: "marySamuel",
-    link: "/faculty/MS",
+    link: "/faculty/Dr-Mary-Samuel",
     post: "Faculty In-charge Student Activities",
     post2: ""
   },

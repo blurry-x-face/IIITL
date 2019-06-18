@@ -1,6 +1,7 @@
 import React from "react";
 import "./Announcements.css";
 import { tenders } from "./AnnouncemetsData";
+import ScrollToTopOnMount from "../ScrollToTop";
 
 class Tender extends React.Component {
   state = { tendersListData: tenders.reverse(), isExpired: false };
@@ -43,9 +44,14 @@ class Tender extends React.Component {
       });
     }
   };
+  componentDidMount() {
+    document.title =
+      "Tenders  | Indian Institute of Information Technology, Lucknow";
+  }
   render() {
     return (
       <div className="padding-res">
+        <ScrollToTopOnMount />
         <div id="tender-switch-border" className="tender-inner border-left">
           <div className="tender-switch">
             <h1

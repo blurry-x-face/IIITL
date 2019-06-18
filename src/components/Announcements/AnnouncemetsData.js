@@ -112,25 +112,25 @@ const tenders = [
     head: "Tender Notice for Director's Premises",
     link: tenderPDF,
     isExpired: true,
-    date: "10/04/2019"
+    date: ""
   },
   {
     head: "Extension of Tender for Director's Premises",
     link: tendorExtension,
     isExpired: true,
-    date: "09/05/2019"
+    date: ""
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
     isExpired: false,
-    date: "02/05/19"
+    date: ""
   },
   {
     head: "Extension of Tender for hiring of Different type of Vehicles",
     link: tendorExtension1,
     isExpired: false,
-    date: "24/05/2019"
+    date: ""
   }
 ];
 

@@ -164,11 +164,11 @@ class Footer extends React.Component {
             <div className="portals portals-inner footer-inner">
               <div className="portals-head footer-head">Links</div>
               <Link
-                to="/downloads"
+                to="/tenders"
                 className="portals-content footer-inner-content"
               >
                 <i className="fas fa-link" />
-                Downloads
+                Tenders
               </Link>
               <Link
                 to="/calender"
