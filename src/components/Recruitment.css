@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 40px 0px 80px 0px;
 }
 .recruit-section {
   padding: 10px;
@@ -21,4 +22,10 @@
   content: "";
   margin-top: 0.5vw;
   margin-left: 3%;
+}
+.recruit-section a {
+  margin-top: 20px;
+  color: #005699;
+  font-size: 20px;
+  text-decoration: none;
 }

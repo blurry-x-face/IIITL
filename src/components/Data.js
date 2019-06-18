@@ -654,10 +654,18 @@ const NavData = {
       ]
     },
     {
-      isAnchor: true,
-      isGIF: true,
       head: "Career",
-      link: "recruitment"
+      isGif: true,
+      drop: [
+        {
+          head: "Career at IIITL",
+          links: [
+            { head: "Faculty", link: "/career/faculty" },
+            { head: "Staff", link: "/career/staff" },
+            { head: "Other", link: "/career/other" }
+          ]
+        }
+      ]
     },
     {
       isGIF: false,
