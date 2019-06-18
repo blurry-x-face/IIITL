@@ -295,7 +295,7 @@ const routePath = [
   { path: "/coming-soon", component: CommingSoon },
   { path: "/contactus", component: ContactUs },
   { path: "/btech-it", component: BTech },
-  { path: "/btch-cs", component: BTechCS },
+  { path: "/btech-cs", component: BTechCS },
   { path: "/news", component: NewsList },
   { path: "/events", component: EventList },
   { path: "/gallery", component: PictureGallery },
