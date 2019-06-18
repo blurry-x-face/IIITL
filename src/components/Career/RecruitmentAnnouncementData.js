@@ -14,7 +14,7 @@ export const StaffRecruitment = [
     head: "Staff Recruitment Notice:",
     pdf: [{ pdfPara: "Advertisement 2019", pdfLink: pdf1 }],
     registerLink: "https://apply.iiitl.ac.in"
-  }
+  },
 ];
 
 export const otherRecruitment = [];

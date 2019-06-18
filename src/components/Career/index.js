@@ -9,7 +9,6 @@ import "../Recruitment.css";
 
 class Career extends Component {
   state = {
-    url: "",
     data: []
   };
   RecruitmentNotice(props) {
@@ -53,11 +52,26 @@ class Career extends Component {
     );
   }
   componentDidMount() {
-    if (window.location.pathname === "/career/faculty") {
+    if (
+      window.location.pathname === "/career/faculty" ||
+      window.location.pathname === "/career/faculty/"
+    ) {
       this.setState({ data: facultyRecruitment });
+<<<<<<< HEAD
     } else if (window.location.pathname === "/career/Staff") {
       this.setState({ data: StaffRecruitment });
     } else if (window.location.pathname === "/career/other") {
+=======
+    } else if (
+      window.location.pathname === "/career/staff" ||
+      window.location.pathname === "/career/staff/"
+    ) {
+      this.setState({ data: staffRecruitment });
+    } else if (
+      window.location.pathname === "/career/other" ||
+      window.location.pathname === "/career/other/"
+    ) {
+>>>>>>> 118b844e270018ca4e10d89bf513d3500b269b38
       this.setState({ data: otherRecruitment });
     }
   }
