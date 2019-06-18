@@ -9,7 +9,7 @@ export const facultyRecruitment = [
     registerLink: "https://apply.iiitl.ac.in/application/authenticate/teachingjob_lit"
   }
 ];
-export const StaffRecruitment = [
+export const staffRecruitment = [
 {
     head: "Staff Recruitment Notice:",
     pdf: [{ pdfPara: "Advertisement 2019", pdfLink: pdf1 }],

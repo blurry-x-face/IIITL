@@ -713,6 +713,44 @@ class AltNav extends React.Component {
             </div>
           </div>
         </div>
+        <div className="alt-dropdown">
+          <button
+            className="alt-dropbtn"
+            onClick={() => this.openNav("alt-dropdown-content-7")}
+          >
+            Career
+            <i className="fa fa-caret-down" />
+          </button>
+          <div className="alt-dropdown-content" id="alt-dropdown-content-7">
+            <div className="alt-dropdown-content-c-1 alt-dropdown-content-c">
+              <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
+                Career at IIITL
+              </div>
+              <Link
+                to="/career/faculty"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Faculty
+              </Link>
+              <Link
+                to="/career/staff"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Staff
+              </Link>
+              <Link
+                to="/career/other"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Other
+              </Link>
+            </div>
+          </div>
+        </div>
+
         <button className="alt-dropbtn">
           <Link
             to="/tenders"
