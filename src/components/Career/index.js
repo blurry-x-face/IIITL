@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
   facultyRecruitment,
-  staffRecruitment,
+  StaffRecruitment,
   otherRecruitment
 } from "./RecruitmentAnnouncementData";
 
@@ -34,7 +34,7 @@ class Career extends Component {
                 <br />
                 <i class="fas fa-link" />
                 <a target="blank" href={v.registerLink}>
-                  Register here
+                  Apply Online:
                 </a>
               </div>
             </div>
@@ -55,8 +55,8 @@ class Career extends Component {
   componentDidMount() {
     if (window.location.pathname === "/career/faculty") {
       this.setState({ data: facultyRecruitment });
-    } else if (window.location.pathname === "/career/staff") {
-      this.setState({ data: staffRecruitment });
+    } else if (window.location.pathname === "/career/Staff") {
+      this.setState({ data: StaffRecruitment });
     } else if (window.location.pathname === "/career/other") {
       this.setState({ data: otherRecruitment });
     }

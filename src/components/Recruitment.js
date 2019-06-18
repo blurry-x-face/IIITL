@@ -11,7 +11,8 @@ class Recruitment extends React.Component {
       <div className="recruit-global">
         <div className="recruit-inner">
           <div className="recruit-section">
-            <h1>Faculty</h1>
+          <h1>Vacancies in Teaching and Non-Teaching Cadre</h1>
+            <h1>Teaching Positions</h1>
             <ul>
               <li>
                 <i>Currently there are no vacancy for this post.</i>
@@ -19,7 +20,7 @@ class Recruitment extends React.Component {
             </ul>
           </div>
           <div className="recruit-section">
-            <h1>Staff</h1>
+            <h1>Non-Teaching Positions</h1>
             <ul>
               <li>
                 <i>Currently there are no vacancy for this post.</i>
