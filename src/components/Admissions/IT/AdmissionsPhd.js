@@ -1,12 +1,13 @@
 import React from "react";
 import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
-import PhdInformation from "../../../assets/downloads/PhD_Information_Brochure.pdf";
+import PhdInformation from "../../../assets/downloads/Modified Information Brochure.pdf";
 import NocCertificate from "../../../assets/downloads/PHD_NO_OBJECTION_CERTIFICATE.pdf";
-import Advertisement from "../../../assets/downloads/PhD_Advertisement.pdf";
+import Advertisement from "../../../assets/downloads/Modified Advertisement.pdf";
 import SponsorshipLetter from "../../../assets/downloads/PHD_SPONSORSHIP_LETTER.pdf";
 import ApplicationForm from "../../../assets/downloads/PhD_Application_Form.pdf";
 import Link from "react-router-dom/Link";
+import newGIF from "../../../assets/new.gif";
 
 class AdmissionIT extends React.Component {
   render() {
@@ -68,7 +69,8 @@ class AdmissionIT extends React.Component {
                 <ul>
                   <li style={{ marginBottom: "15px", marginTop: "15px" }}>
                     <strong>
-                      General Category & OBC: Rupees 1000 only, per application form.
+                      General Category & OBC: Rupees 1000 only, per application
+                      form.
                     </strong>
                   </li>
                   <li style={{ marginBottom: "15px" }}>
@@ -110,7 +112,10 @@ class AdmissionIT extends React.Component {
             </ul>
           </p>
           <div className="admissions-it-seat admissions-useful-links">
-            <h1 className="admissions-sub-head">Important Dates</h1>
+            <h1 className="admissions-sub-head">
+              Important Dates
+              <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+            </h1>
           </div>
           <div className="admissions-it-seat-table">
             <table style={{ width: "100%" }}>
@@ -127,27 +132,47 @@ class AdmissionIT extends React.Component {
               <tr>
                 <td>2.</td>
                 <td>Last date of submitting applications</td>
-                <td>15th June 2019</td>
+                <td>
+                  <span className="strikethrough">15th June 2019</span>
+                  <br />
+                  <b>30 June 2019</b>
+                </td>
               </tr>
               <tr>
                 <td>3.</td>
                 <td>Display of list of shortlisted candidates</td>
-                <td>20th June 2019</td>
+                <td>
+                  <span className="strikethrough"> 20th June 2019</span>
+                  <br />
+                  <b>03 July 2019</b>
+                </td>
               </tr>
               <tr>
                 <td>4.</td>
                 <td>Written test and Interviews</td>
-                <td>30th June 2019</td>
+                <td>
+                  <span className="strikethrough"> 30th June 2019</span>
+                  <br />
+                  <b>14 July 2019</b>
+                </td>
               </tr>
               <tr>
                 <td>5.</td>
                 <td>Announcement of results</td>
-                <td>2nd July 2019</td>
+                <td>
+                  <span className="strikethrough"> 2nd July 2019</span>
+                  <br />
+                  <b>16 July 2019</b>
+                </td>
               </tr>
               <tr>
                 <td>6.</td>
                 <td>Reporting at IIIT- L by</td>
-                <td>15th July 2019</td>
+                <td>
+                  <span className="strikethrough"> 15th July 2019</span>
+                  <br />
+                  <b>23 July 2019</b>
+                </td>
               </tr>
             </table>
           </div>
