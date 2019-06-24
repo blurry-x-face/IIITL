@@ -5,6 +5,8 @@ import tenderPDF from "../../assets/downloads/Tender.pdf";
 import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
 import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 import tendorExtension1 from "../../assets/downloads/Tender_Extension1.pdf";
+import tendorLeased_Line from "../../assets/downloads/Leased_Line.pdf";
+
 
 const AnnouncementsData = [
   // here p is the para in the latest news section(Home page)
@@ -105,7 +107,26 @@ const AnnouncementsData = [
       "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
     marquee: "Extention of Tender for hiring of Different type of Vehicles",
     date: "April, 2019"
+  },
+ {
+    head: "Extension of Last date of PhD Application submission",
+    para:
+      "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    linkPara: "Click here to find more  ->",
+    link: "/admissions-Phd",
+    p: "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    marquee: "Extension of Last date of PhD Application submission",
+    date: "June, 2019"
+  },
+  {
+    head: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
+    linkPara: "Click here to find more  ->",
+    link: tendorLeased_Line,
+    p: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
+    marquee: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
+    date: "June, 2019"
   }
+  
 ];
 
 const tenders = [
@@ -126,17 +147,32 @@ const tenders = [
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99",
+    isExpired: true,
+  },
+  {
+    head: "Extension of Tender for hiring of Different type of Vehicles",
+    link: tendorExtension1,
+    isExpired: true,
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99"
+  },
+  {
+    head: "Extension of Last date of PhD Application submission",
+    link: "/admissions-Phd",
     isExpired: false,
     publishedDate: "11/11/99",
     expiryDate: "11/11/99"
   },
   {
-    head: "Extension of Tender for hiring of Different type of Vehicles",
-    link: tendorExtension1,
+    head: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
+    link: tendorLeased_Line,
     isExpired: false,
     publishedDate: "11/11/99",
     expiryDate: "11/11/99"
   }
+
 ];
 
 export { AnnouncementsData, tenders };
