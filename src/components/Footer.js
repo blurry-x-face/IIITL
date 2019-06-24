@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import newGIF from "../assets/new.gif";
 import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
@@ -169,6 +170,7 @@ class Footer extends React.Component {
               >
                 <i className="fas fa-link" />
                 Tenders
+                <img src={newGIF} alt="new gif" style={{ height: "20px" }} />
               </Link>
               <Link
                 to="/calender"

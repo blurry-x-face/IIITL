@@ -5,6 +5,7 @@ import tenderPDF from "../../assets/downloads/Tender.pdf";
 import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
 import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 import tendorExtension1 from "../../assets/downloads/Tender_Extension1.pdf";
+
 const AnnouncementsData = [
   // here p is the para in the latest news section(Home page)
   {
@@ -112,25 +113,29 @@ const tenders = [
     head: "Tender Notice for Director's Premises",
     link: tenderPDF,
     isExpired: true,
-    date: ""
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99"
   },
   {
     head: "Extension of Tender for Director's Premises",
     link: tendorExtension,
     isExpired: true,
-    date: ""
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99"
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
     isExpired: false,
-    date: ""
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99"
   },
   {
     head: "Extension of Tender for hiring of Different type of Vehicles",
     link: tendorExtension1,
     isExpired: false,
-    date: ""
+    publishedDate: "11/11/99",
+    expiryDate: "11/11/99"
   }
 ];
 

@@ -14,3 +14,9 @@
   color: #005f9e;
   font-size: 20px;
 }
+.tender-dates {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}

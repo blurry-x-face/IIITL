@@ -83,17 +83,30 @@ class Tender extends React.Component {
                         <a href={v.link} target="blank">
                           {v.head}
                         </a>
-                        <p
-                          style={{
-                            display: "flex",
-                            justifyContent: "flex-end",
-                            margin: "10px 0",
-                            color: "rgba(0,0,0,0.65)",
-                            fontSize: "16px"
-                          }}
-                        >
-                          {v.date}
-                        </p>
+                        <div className="tender-dates">
+                          <span
+                            style={{
+                              // display: "flex",
+                              justifyContent: "flex-end",
+                              margin: "10px 0",
+                              color: "rgba(0,0,0,0.65)",
+                              fontSize: "16px"
+                            }}
+                          >
+                            Published date: {v.publishedDate}
+                          </span>
+                          <span
+                            style={{
+                              // display: "flex",
+                              justifyContent: "flex-end",
+                              margin: "10px 0",
+                              color: "rgba(0,0,0,0.65)",
+                              fontSize: "16px"
+                            }}
+                          >
+                            Submission closing date: {v.expiryDate}
+                          </span>
+                        </div>
                       </li>
                     ) : (
                       ""
@@ -111,17 +124,18 @@ class Tender extends React.Component {
                         <a href={v.link} target="blank">
                           {v.head}
                         </a>
-                        <p
+                        <br />
+                        <span
                           style={{
                             display: "flex",
                             justifyContent: "flex-end",
-                            margin: "10px 0",
+                            margin: "10px 0 0 0",
                             color: "rgba(0,0,0,0.65)",
                             fontSize: "16px"
                           }}
                         >
-                          {v.date}
-                        </p>
+                          Expired Date: {v.expiryDate}
+                        </span>
                       </li>
                     ) : (
                       ""

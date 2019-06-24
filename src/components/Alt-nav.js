@@ -708,8 +708,20 @@ class AltNav extends React.Component {
                 onClick={() => this.closeNav()}
                 className="af-1"
               >
-                Ph.D. in IT
+                PhD
               </Link>
+            </div>
+            <div className="alt-dropdown-content-c-2 alt-dropdown-content-c">
+              <div className="alt-dropdown-content-c-1-head alt-dropdown-content-head">
+                Payment Gateway
+              </div>
+              <a
+                href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=956936"
+                onClick={() => this.closeNav()}
+                className="af-1"
+              >
+                Fee Payment
+              </a>
             </div>
           </div>
         </div>

@@ -650,6 +650,17 @@ const NavData = {
         {
           head: "Research",
           links: [{ head: "PhD", link: "/admissions-Phd" }]
+        },
+        {
+          head: "Payment Gateway",
+          links: [
+            {
+              head: "Fee Payment",
+              link:
+                "https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=956936",
+              isAnchor: true
+            }
+          ]
         }
       ]
     },
