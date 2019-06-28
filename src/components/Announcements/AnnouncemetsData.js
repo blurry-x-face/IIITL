@@ -6,6 +6,7 @@ import tendorExtension from "../../assets/downloads/Tender_Extension.pdf";
 import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT FOR RATE CONTRACT FOR HIRING OF DIFFERENT TYPE OF VEHICLES FOR IIIT LUCKNOW.pdf";
 import tendorExtension1 from "../../assets/downloads/Tender_Extension1.pdf";
 import tendorLeased_Line from "../../assets/downloads/Leased_Line.pdf";
+import visitingfaculty from "../../assets/downloads/visitingfaculty.jpg";
 
 
 const AnnouncementsData = [
@@ -88,6 +89,18 @@ const AnnouncementsData = [
     marquee: "Call for PhD Admissions, 2019",
     date: "May 12, 2019"
   },
+  
+  {
+    head: "Extension of Tender for hiring of Different type of Vehicles",
+    para:
+      "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
+    linkPara: "PDF->",
+    link: tendorExtension1,
+    p:
+     "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
+    marquee: "Extention of Tender for hiring of Different type of Vehicles",
+    date: "April, 2019"
+  },
   {
     head: "CCMT 2019",
     para: "",
@@ -96,17 +109,6 @@ const AnnouncementsData = [
     p: "",
     marquee: "CCMT 2019",
     date: "May 15, 2019"
-  },
-  {
-    head: "Extension of Tender for hiring of Different type of Vehicles",
-    para:
-      "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
-    linkPara: "PDF->",
-    link: tendorExtension1,
-    p:
-      "Extension of Tender for hiring of Different type of Vehicles IIIT Lucknow",
-    marquee: "Extention of Tender for hiring of Different type of Vehicles",
-    date: "April, 2019"
   },
  {
     head: "Extension of Last date of PhD Application submission",
@@ -125,7 +127,42 @@ const AnnouncementsData = [
     p: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     marquee: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     date: "June, 2019"
+  }, {
+    head: "Recruitment payment link is active ",
+    link: "/",
+    p: "Recruitment payment link is active",
+    marquee: "Recruitment payment link is active ",
+    date: "June, 2019"
+  },
+  
+  {
+    head: "Recruitment Notice for Teaching positions",
+    para: "",
+    linkPara: "Click here to find more  ->",
+    link: "/career/faculty",
+    p: "Recruitment Notice for Teachning positions",
+    marquee: "Recruitment Notice for Teaching positions ",
+    date: "June, 2019"
+  },
+  {
+    head: "Recruitment Notice for Non-Teaching positions",
+    para: "",
+    linkPara: "Click here to find more  ->",
+    link: "/career/staff",
+    p: "Recruitment Notice for Non-Teaching positions",
+    marquee: "Recruitment Notice for Non-Teaching positions ",
+    date: "June, 2019"
+  },
+  {
+    head: "Recruitment Notice for Adjunt/Visiting Faculty",
+    para: "",
+    linkPara: "JPG->",
+    link: visitingfaculty,
+    p: "Recruitment Notice for Adjunt/Visiting Faculty",
+    marquee: "Recruitment Notice for Adjunt/Visiting Faculty ",
+    date: "June, 2019"
   }
+   
   
 ];
 
@@ -135,20 +172,20 @@ const tenders = [
     link: tenderPDF,
     isExpired: true,
     publishedDate: "11/11/99",
-    expiryDate: "11/11/99"
+    expiryDate: "24/04/19"
   },
   {
     head: "Extension of Tender for Director's Premises",
     link: tendorExtension,
     isExpired: true,
     publishedDate: "11/11/99",
-    expiryDate: "11/11/99"
+    expiryDate: "05/06/19"
   },
   {
     head: "Tender Notice for Hiring of Different types of vehicles",
     link: tendorVehicle,
     publishedDate: "11/11/99",
-    expiryDate: "11/11/99",
+    expiryDate: "24/05/19",
     isExpired: true,
   },
   {
@@ -156,21 +193,15 @@ const tenders = [
     link: tendorExtension1,
     isExpired: true,
     publishedDate: "11/11/99",
-    expiryDate: "11/11/99"
+    expiryDate: "10/06/19"
   },
-  {
-    head: "Extension of Last date of PhD Application submission",
-    link: "/admissions-Phd",
-    isExpired: false,
-    publishedDate: "11/11/99",
-    expiryDate: "11/11/99"
-  },
+  
   {
     head: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     link: tendorLeased_Line,
     isExpired: false,
-    publishedDate: "11/11/99",
-    expiryDate: "11/11/99"
+    publishedDate: "19/06/19",
+    expiryDate: "02/07/19"
   }
 
 ];

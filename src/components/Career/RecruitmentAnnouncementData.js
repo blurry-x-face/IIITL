@@ -18,12 +18,7 @@ export const staffRecruitment = [
 ];
 
 export const otherRecruitment = [
-{
-  head: "Faculty Recruitment Notice :",
-  pdf: [{ pdfPara: "Advertisement 2019", pdfLink: pdf }],
-  registerLink: "https://apply.iiitl.ac.in/application/authenticate/teachingjob_lit"
-    
-},
+
 ];
 
 

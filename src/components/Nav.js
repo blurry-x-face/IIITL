@@ -283,6 +283,9 @@ class Nav extends React.Component {
                   <NavLink to="/admissions-Phd" className="af-1">
                     PhD
                   </NavLink>
+                  <NavLink to="/admissions-Fees" className="af-1">
+                    Fees
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
@@ -306,6 +309,9 @@ class Nav extends React.Component {
 
                   <NavLink to="/coming-soon" className="af-1">
                     List of Students
+                  </NavLink>
+                  <NavLink to="/coming-soon" className="af-1">
+                    List of Students1
                   </NavLink>
                 </div>
 
@@ -420,6 +426,9 @@ class Nav extends React.Component {
                   <NavLink to="/admissions-CS" className="af-1">
                     B.Tech in CS
                   </NavLink>
+                  <NavLink to="/admissions-Fees" className="af-1">
+                    Fees Payment
+                  </NavLink>
                 </div>
                 <div className="dropdown-content-c-1 dropdown-content-c">
                   <div className="dropdown-content-c-1-head dropdown-content-head">
@@ -438,6 +447,14 @@ class Nav extends React.Component {
                     Ph.D. in IT <img id="new-gif" src={newGIF} alt="gif" />
                   </NavLink>
                 </div>
+                <div className="dropdown-content-c-2 dropdown-content-c">
+                  <div className="dropdown-content-c-1-head dropdown-content-head">
+                    Research
+                  </div>
+                  <NavLink to="/admissions-Fees" className="af-1">
+                    Fees Payment <img id="new-gif" src={newGIF} alt="gif" />
+                  </NavLink>
+                </div>
               </div>
             </div>
             <NavLink
@@ -446,6 +463,13 @@ class Nav extends React.Component {
               style={{ marginTop: "-4px" }}
             >
               Tenders <img src={newGIF} alt="new" id="new-gif" />
+            </NavLink>
+            <NavLink
+              to="/tenders1"
+              className="nav-NavLink nav-res"
+              style={{ marginTop: "-4px" }}
+            >
+              Tenders1 <img src={newGIF} alt="new" id="new-gif" />
             </NavLink>
             <a
               href="https://placements.iiitl.ac.in/"

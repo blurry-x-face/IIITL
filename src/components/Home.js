@@ -9,7 +9,7 @@ import { AnnouncementsData } from "./Announcements/AnnouncemetsData";
 class Home extends React.Component {
   state = {
     marqueeData: AnnouncementsData.slice(
-      AnnouncementsData.length - 4,
+      AnnouncementsData.length - 7,
       AnnouncementsData.length
     ).reverse()
   };
