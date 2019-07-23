@@ -5,6 +5,7 @@ import pdfFee from "../../../assets/downloads/Fee Structure M.Tech.pdf";
 // import Link from "react-router-dom/Link";
 import fresherPDF from "../../../assets/announcementsData/CCMT2019.pdf";
 import CourseStructure from "../../../assets/blogs/M.Tech_Course_Structure.pdf";
+import refund from "../../../assets/announcementsData/withdrawal_refund_policy.pdf";
 class AdmissionMtech extends React.Component {
   render() {
     return (
@@ -89,6 +90,11 @@ class AdmissionMtech extends React.Component {
             <li>
               <a href={pdfFee} target="blank">
                 Fee Structure
+              </a>
+            </li>
+            <li>
+              <a href={refund} target="blank">
+                 Admission withdrawal and refund policy
               </a>
             </li>
           </ul>

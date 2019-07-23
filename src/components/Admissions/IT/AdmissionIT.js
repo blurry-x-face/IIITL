@@ -3,7 +3,10 @@ import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
 import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
+import fresherPDF1 from "../../../assets/announcementsData/Info_JoSSA_2019_July.pdf";
+import refund from "../../../assets/announcementsData/withdrawal_refund_policy.pdf";
 import Link from "react-router-dom/Link";
+import newGIF from "../../../assets/new.gif";
 
 class AdmissionIT extends React.Component {
   render() {
@@ -38,7 +41,12 @@ class AdmissionIT extends React.Component {
             >
               JEE (Mains)
             </a>
-            .
+            . &nbsp;
+
+            <a className="ext-links" href={fresherPDF1} target="blank">
+              <u>Information for Freshers</u>
+              <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+            </a>
           </p>
           <p className="btech-it-p">
             The Institute is open to all races, creeds and classes including
@@ -177,12 +185,17 @@ class AdmissionIT extends React.Component {
             </li>
             <li>
               <a href={feeBtech} target="blank">
-                Fee Structure
+                Fee Structure batch(2019)
               </a>
             </li>
             <li>
               <a href={feeDasa} target="blank">
                 Fee Structure for DASA students
+              </a>
+            </li>
+            <li>
+              <a href={refund} target="blank">
+                 Admission withdrawal and refund policy
               </a>
             </li>
           </ul>

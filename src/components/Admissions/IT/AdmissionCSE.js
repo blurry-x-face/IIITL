@@ -3,8 +3,11 @@ import "../Admissions.css";
 import ScrollToTopOnMount from "../../ScrollToTop";
 import feeBtech from "../../../assets/blogs/fee_btech.pdf";
 import feeDasa from "../../../assets/blogs/fee_dasa.pdf";
+import fresherPDF1 from "../../../assets/announcementsData/Info_JoSSA_2019_July.pdf";
+import refund from "../../../assets/announcementsData/withdrawal_refund_policy.pdf";
 // import Link from "react-router-dom/Link";
 import CourseStructure from "../../../assets/blogs/B.Tech_Course_Structure.pdf";
+import newGIF from "../../../assets/new.gif";
 class AdmissionCS extends React.Component {
   render() {
     return (
@@ -15,6 +18,7 @@ class AdmissionCS extends React.Component {
           <p className="btech-it-p">
             Admissions to the four year B.Tech. Program in IT branch of the
             Institute is made through Central Seat Allocation Board 2019 &nbsp;
+            
             <a
               style={{ color: "#005f99", textDecoration: "none" }}
               href="https://csab.nic.in/cms/Public/Home.aspx"
@@ -38,7 +42,13 @@ class AdmissionCS extends React.Component {
             >
               JEE (Mains)
             </a>
-            .
+            
+            .&nbsp;
+
+            <a className="ext-links" href={fresherPDF1} target="blank">
+              <u>Information for Freshers</u>
+              <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+            </a>
           </p>
           <p className="btech-it-p">
             The Institute is open to all races, creeds and classes including
@@ -180,6 +190,11 @@ class AdmissionCS extends React.Component {
             <li>
               <a href={feeDasa} target="blank">
                 Fee Structure for DASA Students
+              </a>
+            </li>
+            <li>
+              <a href={refund} target="blank">
+                 Admission withdrawal and refund policy
               </a>
             </li>
           </ul>

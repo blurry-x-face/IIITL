@@ -81,8 +81,8 @@ class Footer extends React.Component {
               </div>
               <div className="footer-inner-content contact-content">
                 <i className="fas fa-home" />
-                IIIT Allahabad, Jhalwa, Allahabad - 211015
-              </div>
+                IIIT Lucknow Chak Ganjaria, C G City, Lucknow - 226002
+               </div>
               <div className="contact-content footer-inner-content">
                 <i className="fas fa-envelope" /> contact@iiitl.ac.in
               </div>

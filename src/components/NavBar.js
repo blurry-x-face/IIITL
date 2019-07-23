@@ -125,6 +125,9 @@ const Dropdown = props => {
                         ) : (
                           <NavLink to={val.link} key={index} className="af-1">
                             {val.head}
+                            {val.isGIF ? (
+                               <img src={newGIF} alt="new" id="new-gif" />
+                               ) : null}
                           </NavLink>
                         )}
                       </>

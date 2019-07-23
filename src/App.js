@@ -53,8 +53,10 @@ import { AnnouncementsData } from "./components/Announcements/AnnouncemetsData";
 import Tender from "./components/Announcements/Tenders";
 import FinanceCommitte from "./components/FinanceCommitte";
 import Scholarships from "./components/Scholarships";
+import FeeStructure from "./components/FeeStructure";
 // import Error404 from "./components/404";
 import Career from "./components/Career/index";
+
 
 class App extends Component {
   render() {
@@ -308,6 +310,7 @@ const routePath = [
   { path: "/tenders", component: Tender },
   { path: "/announcements", component: AnnouncementsList },
   { path: "/scholarship", component: Scholarships },
+  { path: "/FeeStructure", component: FeeStructure },
   { path: "/career/faculty", component: Career },
   { path: "/career/staff", component: Career },
   { path: "/career/other", component: Career }

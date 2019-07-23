@@ -7,6 +7,15 @@ import tendorVehicle from "../../assets/announcementsData/FINAL TENDER DOCUMENT 
 import tendorExtension1 from "../../assets/downloads/Tender_Extension1.pdf";
 import tendorLeased_Line from "../../assets/downloads/Leased_Line.pdf";
 import visitingfaculty from "../../assets/downloads/visitingfaculty.jpg";
+import phdlist from "../../assets/downloads/phdlist.pdf";
+import tendorLeased_Line1 from "../../assets/downloads/Corrigendum.pdf";
+import Academic_Calander from "../../assets/downloads/Academic_Calenderjul - dec 2019_final.pdf";
+import Tender_Security from "../../assets/downloads/tender_security.pdf";
+import Freshers_Info from "../../assets/downloads/freshersinfo.pdf";
+import TenderCorrigendum_Security from "../../assets/downloads/TenderCorrigendum.pdf";
+import Phd_result1 from "../../assets/downloads/Phdresult.pdf";
+
+
 
 
 const AnnouncementsData = [
@@ -127,7 +136,9 @@ const AnnouncementsData = [
     p: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     marquee: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     date: "June, 2019"
-  }, {
+    
+  },
+  {
     head: "Recruitment payment link is active ",
     link: "/",
     p: "Recruitment payment link is active",
@@ -156,13 +167,78 @@ const AnnouncementsData = [
   {
     head: "Recruitment Notice for Adjunt/Visiting Faculty",
     para: "",
-    linkPara: "JPG->",
+    linkPara: "Please click here->",
     link: visitingfaculty,
     p: "Recruitment Notice for Adjunt/Visiting Faculty",
     marquee: "Recruitment Notice for Adjunt/Visiting Faculty ",
     date: "June, 2019"
+  },
+  {
+    head: "Shortlisted Candidates for Ph.D Interview",
+    para: "",
+    linkPara: "List of shortlisted candidates->",
+    link: phdlist,
+    p: "Shortlisted Candidates for Ph.D Interview",
+    marquee: "Shortlisted Candidates for Ph.D Interview ",
+    date: "July, 2019"
+  },
+  {
+    head: "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
+    para:
+      "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
+    linkPara: "Please click here->",
+    link: tendorLeased_Line1,
+    p:
+     "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
+    marquee: "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
+    date: "July, 2019"
+  },
+  {
+    head: "Academic Calander for July-December 2019",
+    para:
+      "Academic Calander for July-December 2019",
+    linkPara: "Please click here->",
+    link: Academic_Calander,
+    p:
+     "Academic Calander for July-December 2019",
+    marquee: "Academic Calander for July-December 2019",
+    date: "July, 2019"
+  },
+  {
+    head: "Tender Notice for Security Services at IIIT-Lucknow",
+    linkPara: "Click here to find more  ->",
+    link: Tender_Security,
+    p: "Tender Notice for Security Services at IIIT-Lucknow",
+    marquee: "Tender Notice for Security Services at IIIT-Lucknow",
+    date: "July, 2019"
+    
+  },
+  {
+    head: "List of provisionally selected Candidates in PhD ",
+    link: Phd_result1,
+    p: "List of provisionally selected Candidates in PhD",
+    marquee: "List of provisionally selected Candidates in PhD",
+    date: "July, 2019"
+    
+  },
+  {
+    head: "Corrigendum :Tender of Security Services ",
+    //linkPara: "Click here to find more  ->",
+    link: TenderCorrigendum_Security,
+    p: "Corrigendum :Tender of Security Services",
+    marquee: "Corrigendum :Tender of Security Services",
+    date: "July, 2019"
+    
+  },
+  {
+    head: "Information for Freshers",
+    //linkPara: "Click here to find more  ->",
+    link: Freshers_Info,
+    p: "Information for Freshers",
+    marquee: "Information for Freshers",
+    date: "July, 2019"
+  
   }
-   
   
 ];
 
@@ -199,10 +275,35 @@ const tenders = [
   {
     head: "Tender for procurement of 500 Mbps Internet Leased Line  Connectivity",
     link: tendorLeased_Line,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "19/06/19",
     expiryDate: "02/07/19"
+  },
+  {
+    head: "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
+    link: tendorLeased_Line1,
+    isExpired: true,
+    publishedDate: "03/07/19",
+    expiryDate: "10/07/19"
+    
+  },
+  {
+    head: "Tender Notice for Security Services at IIIT-Lucknow",
+    link: Tender_Security,
+    isExpired: false,
+    publishedDate: "06/07/19",
+    expiryDate: "26/07/19"
+    
+  },
+  {
+    head: "Corrigendum :Tender of Security Services",
+    link: TenderCorrigendum_Security,
+    isExpired: false,
+    publishedDate: "20/07/19",
+    expiryDate: "30/07/19"
+    
   }
+  
 
 ];
 

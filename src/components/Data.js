@@ -2,14 +2,17 @@ import BlogImage1 from "../assets/dr-arun-sherry.jpg";
 import BlogImage2 from "../assets/bpost2.jpeg";
 import BlogImage3 from "../assets/expert.jpg";
 import timeTable from "../assets/downloads/Time_Table.pdf";
-import pdfFee from "../assets/blogs/fee-structure.pdf";
+import Academic_Calander from "../assets/downloads/Academic_Calenderjul - dec 2019_final.pdf";
+//import pdfFee from "../assets/blogs/fee-structure.pdf";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
+import Freshers_info from "../assets/downloads/freshersinfo.pdf";
+
 
 const academicLinks = {
   head: "Useful Links",
   anchor: {
     name: [
-      "Academic Schedule",
+      "Academic Calander",
       "Seat Matrix",
       "Course Structure",
       "List of Students"
@@ -296,7 +299,7 @@ const courseStructure = {
 };
 
 const calender = [
-  ["Opening of the Elective Portal", "	26 December, 2019", "	Thursday"],
+  ["Fee Payment and Registration duration", "	26 December, 2019", "	Thursday"],
   ["Closing of Elective Portal", "04 January, 2019	", "	Saturday"],
   [
     "Announcement of the alloted Electives to students & opening of portal for ADD/DROP of courses",
@@ -559,11 +562,11 @@ const NavData = {
         {
           head: "Useful Links",
           links: [
-            { head: "Academic Schedule", link: "/calender" },
+            { head: "Academic Calander", link: Academic_Calander,isAnchor: true },
             { head: "Seat Matrix", link: "/seat-matrix" },
             { head: "Course Structure", link: "/course-structure" },
             { head: "Time Table", link: timeTable, isAnchor: true },
-            { head: "Fee Structure", link: pdfFee, isAnchor: true },
+            { head: "Fee Structure", link: "/FeeStructure", isAnchor: false },
             { head: "Scholarship", link: "/scholarship", isAnchor: false },
             { head: "List of Students", link: "/coming-soon" }
           ]
@@ -640,7 +643,8 @@ const NavData = {
           head: "Undergraduate Programs",
           links: [
             { head: "B.Tech in IT", link: "/admissions-IT" },
-            { head: "B.Tech in CS", link: "admissions-CS" }
+            { head: "B.Tech in CS", link: "admissions-CS" },
+            { head: "Information for Freshers", link: Freshers_info ,isAnchor: true}
           ]
         },
         {
@@ -649,15 +653,22 @@ const NavData = {
         },
         {
           head: "Research",
-          links: [{ head: "PhD", link: "/admissions-Phd" }]
+          //links: [{isGIF:true head: "PhD", link: "/admissions-Phd" }]
+          links: [{ head: "PhD", link: "/admissions-Phd",isGIF: true }]
         },
         {
           head: "Payment Gateway",
           links: [
             {
-              head: "Fee Payment",
+              head: "Semester Fee Payment",
               link:
                 "https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=956936",
+              isAnchor: true
+            },
+            {
+              head: "Mess Fee Payment",
+              link:
+                "https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=957084  ",
               isAnchor: true
             }
           ]

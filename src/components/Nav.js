@@ -281,7 +281,8 @@ class Nav extends React.Component {
                     M.Tech in CS
                   </NavLink>
                   <NavLink to="/admissions-Phd" className="af-1">
-                    PhD
+                   PhD
+                    
                   </NavLink>
                   <NavLink to="/admissions-Fees" className="af-1">
                     Fees
