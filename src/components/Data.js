@@ -2,10 +2,13 @@ import BlogImage1 from "../assets/dr-arun-sherry.jpg";
 import BlogImage2 from "../assets/bpost2.jpeg";
 import BlogImage3 from "../assets/expert.jpg";
 import timeTable from "../assets/downloads/Time_Table.pdf";
-import Academic_Calander from "../assets/downloads/Academic_Calenderjul - dec 2019_final.pdf";
+import Academic_Calander from "../assets/downloads/AcademicCal.pdf";
 //import pdfFee from "../assets/blogs/fee-structure.pdf";
 import RTI from "../assets/downloads/RTI - PDF.pdf";
 import Freshers_info from "../assets/downloads/freshersinfo.pdf";
+import Office_Order from "../assets/downloads/oo1.pdf";
+import Anti_Ragging from "../assets/downloads/Antiragging.pdf";
+
 
 
 const academicLinks = {
@@ -503,9 +506,9 @@ const NavData = {
         {
           head: "Regulations",
           links: [
-            { head: "Anti-Ragging Committee", link: "/coming-soon" },
+            { head: "Anti-Ragging Committee", link: Anti_Ragging ,isAnchor: true },
             { head: "Anti-Sexual Harassment Policy", link: "/coming-soon" },
-            { head: "Office Orders", link: "/coming-soon" }
+            { head: "Office Orders", link: Office_Order ,isAnchor: true }
           ]
         },
         {
@@ -563,6 +566,7 @@ const NavData = {
           head: "Useful Links",
           links: [
             { head: "Academic Calander", link: Academic_Calander,isAnchor: true },
+            
             { head: "Seat Matrix", link: "/seat-matrix" },
             { head: "Course Structure", link: "/course-structure" },
             { head: "Time Table", link: timeTable, isAnchor: true },
@@ -649,12 +653,13 @@ const NavData = {
         },
         {
           head: "Postgraduate Programs",
-          links: [{ head: "M. Tech. in CS", link: "admissions-MTECH" }]
+          links: [{ head: "M. Tech. in CS", link: "admissions-MTECH",isGIF: true }]
+         
         },
         {
           head: "Research",
           //links: [{isGIF:true head: "PhD", link: "/admissions-Phd" }]
-          links: [{ head: "PhD", link: "/admissions-Phd",isGIF: true }]
+          links: [{ head: "PhD", link: "/admissions-Phd",isGIF: false }]
         },
         {
           head: "Payment Gateway",
@@ -677,7 +682,7 @@ const NavData = {
     },
     {
       head: "Career",
-      isGif: true,
+      isGif: false,
       drop: [
         {
           head: "Career at IIITL",

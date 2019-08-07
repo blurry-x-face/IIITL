@@ -6,35 +6,35 @@ const staff = [
           name: "Dr. Amit Kumar Singh",
           post: "Deputy Registrar",
           email: "Email:dr@iiitl.ac.in",
-          mobile: "Contact:0532-2922803",
+          //mobile: "Contact:0532-2922803",
           class: "data1 staff-column"
         },
         data2: {
           name: "Mr. Abhishek Verma",
           post: "Assistant Registrar",
           email: "Email:ar.aes@iiitl.ac.in",
-          mobile: "Contact:0532-2922802",
+          //mobile: "Contact:0532-2922802",
           class: "data2 staff-column"
         },
         data3: {
           name: "Mr. Vivekanand Sinha",
           post: "Assistant Registrar",
           email: "Email:ar.afa@iiitl.ac.in",
-          mobile: "Contact:0532-2922032",
+         // mobile: "Contact:0532-2922032",
           class: "data3 staff-column"
         },
         data4: {
           name: "Mr. Divyanshu Verma",
           post: "Jr. Superintendent",
           email: "Email: dverma@iiitl.ac.in",
-          mobile: "Contact:0532-2922809",
+          //mobile: "Contact:0532-2922809",
           class: "data4 staff-column"
         },
         data5: {
           name: "Mr. Nitin Tiwari",
           post: "Jr. Superintendent",
           email: "Email:nitin@iiitl.ac.in",
-          mobile: "Contact:0532-2922809",
+          //mobile: "Contact:0532-2922809",
           class: "data5 staff-column"
         },
         data6: {
@@ -65,21 +65,21 @@ const staff = [
         name: "Mr. Vijay Kumar Singh",
         post: "Jr. Technical Superintendent",
         email: "Email:vijaysingh@iiitl.ac.in",
-        mobile: "Contact:0532-2922809",
+       // mobile: "Contact:0532-2922809",
         class: "data1 staff-column"
       },
       data2: {
         name: "Mr. Arunesh Singh",
         post: "Junior Technician",
         email: "Email:arunesh@iiitl.ac.in",
-        mobile: "Contact:0532-2922809",
+        //mobile: "Contact:0532-2922809",
         class: "data1 staff-column"
       },
       data3: {
         name: "Mr. Deepak Shukla",
         post: "Junior Technician",
         email: "Email:deepak@iiitl.ac.in",
-        mobile: "Contact:0532-2922809",
+       // mobile: "Contact:0532-2922809",
         class: "data1 staff-column"
       }
     }

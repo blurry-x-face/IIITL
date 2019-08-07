@@ -9,11 +9,17 @@ import tendorLeased_Line from "../../assets/downloads/Leased_Line.pdf";
 import visitingfaculty from "../../assets/downloads/visitingfaculty.jpg";
 import phdlist from "../../assets/downloads/phdlist.pdf";
 import tendorLeased_Line1 from "../../assets/downloads/Corrigendum.pdf";
-import Academic_Calander from "../../assets/downloads/Academic_Calenderjul - dec 2019_final.pdf";
+import Academic_Calander from "../../assets/downloads/AcademicCal.pdf";
 import Tender_Security from "../../assets/downloads/tender_security.pdf";
 import Freshers_Info from "../../assets/downloads/freshersinfo.pdf";
 import TenderCorrigendum_Security from "../../assets/downloads/TenderCorrigendum.pdf";
 import Phd_result1 from "../../assets/downloads/Phdresult.pdf";
+import Mtech_advertisement from "../../assets/downloads/MTechadvertiesment.pdf";
+import Tender_Catering from "../../assets/downloads/TenderCatering.pdf";
+import Tender_librarybooks from "../../assets/downloads/Tenderlibrarybooks.pdf";
+import Tender_housekeeping from "../../assets/downloads/Tenderhousekeeping.pdf";
+import Reporting_site from "../../assets/downloads/reportingsite.pdf";
+//import newGIF from "../../../assets/new.gif";
 
 
 
@@ -193,17 +199,7 @@ const AnnouncementsData = [
     marquee: "Extension of Tender of 500 Mbps Internet Leased Line Connectivity",
     date: "July, 2019"
   },
-  {
-    head: "Academic Calander for July-December 2019",
-    para:
-      "Academic Calander for July-December 2019",
-    linkPara: "Please click here->",
-    link: Academic_Calander,
-    p:
-     "Academic Calander for July-December 2019",
-    marquee: "Academic Calander for July-December 2019",
-    date: "July, 2019"
-  },
+  
   {
     head: "Tender Notice for Security Services at IIIT-Lucknow",
     linkPara: "Click here to find more  ->",
@@ -215,6 +211,7 @@ const AnnouncementsData = [
   },
   {
     head: "List of provisionally selected Candidates in PhD ",
+    linkPara: "Click here to find more  ->",
     link: Phd_result1,
     p: "List of provisionally selected Candidates in PhD",
     marquee: "List of provisionally selected Candidates in PhD",
@@ -222,8 +219,17 @@ const AnnouncementsData = [
     
   },
   {
+    head: "Call for Application to the M.Tech Programme.",
+    linkPara: "Click here to find more  ->",
+    link: Mtech_advertisement,
+    p: "Call for Application to the M.Tech Programme.",
+    marquee: "Call for Application to the M.Tech Programme.",
+    date: "July, 2019"
+    
+  },
+  {
     head: "Corrigendum :Tender of Security Services ",
-    //linkPara: "Click here to find more  ->",
+    linkPara: "Click here to find more  ->",
     link: TenderCorrigendum_Security,
     p: "Corrigendum :Tender of Security Services",
     marquee: "Corrigendum :Tender of Security Services",
@@ -231,14 +237,68 @@ const AnnouncementsData = [
     
   },
   {
+    head: "Tender for providing Catering Services for Hostel ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_Catering,
+    p: "Tender for providing Catering Services for Hostel",
+   // <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+    marquee: "Tender for providing Catering Services for Hostel",
+    date: "July, 2019"
+    
+  },
+  {
+    head: "Tender for Procurement of Library Books ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_librarybooks,
+    p: "Tender for Procurement of Library Books",
+   // <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+    marquee: "Tender for Procurement of Library Books",
+    date: "July, 2019"
+    
+  },
+  {
+    head: "Tender for Housekeeping services ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_housekeeping,
+    p: "Tender for Housekeeping services",
+   // <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+    marquee: "Tender for Housekeeping services",
+    date: "July, 2019"
+    
+  },
+
+  
+  {
     head: "Information for Freshers",
-    //linkPara: "Click here to find more  ->",
+    linkPara: "Click here to find more  ->",
     link: Freshers_Info,
     p: "Information for Freshers",
     marquee: "Information for Freshers",
     date: "July, 2019"
   
+  },
+  {
+    head: "Reporting site for B.Tech & M.Tech Admission",
+    linkPara: "Click here to find more  ->",
+    link: Reporting_site,
+    p: "Reporting site for B.Tech & M.Tech Admission",
+    marquee: "Reporting site for B.Tech & M.Tech Admission",
+    date: "July, 2019"
+  
+  },
+  {
+    head: "Academic Calander for July-December 2019",
+    para:
+      "Academic Calander for July-December 2019",
+    linkPara: "Please click here->",
+    link: Academic_Calander,
+    p:
+     "Academic Calander for July-December 2019",
+    marquee: "Academic Calander for July-December 2019",
+    date: "July, 2019"
   }
+  
+ 
   
 ];
 
@@ -302,6 +362,28 @@ const tenders = [
     publishedDate: "20/07/19",
     expiryDate: "30/07/19"
     
+  },
+  {
+    head: "Tender for providing Catering Services for Hostel",
+    link: Tender_Catering,
+    isExpired: false,
+    publishedDate: "23/07/19",
+    expiryDate: "13/08/19"
+    
+  },
+  {
+    head: "Tender for Procurement of Library Books",
+    link: Tender_librarybooks,
+    isExpired: false,
+    publishedDate: "27/07/19",
+    expiryDate: "16/08/19"
+  },
+  {
+    head: "Tender for Housekeeping services",
+    link: Tender_housekeeping,
+    isExpired: false,
+    publishedDate: "27/07/19",
+    expiryDate: "16/08/19"
   }
   
 

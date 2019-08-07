@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 import Scholar from "../assets/downloads/UP_PMS_Notice_Aadhar_Card.pdf";
+import Scholar1 from "../assets/downloads/Ciruclaruppms2019-20.pdf";
+import Scholar2 from "../assets/downloads/Circularuppms2016-17-18.pdf";
 
 class Scholarships extends Component {
   state = {
     scolarshipList: [
-      { anchor: Scholar, para: "Scholarships offered at IIIT LUCKNOW" }
+      { anchor: Scholar, para: "Scholarships offered at IIIT LUCKNOW" },
+      { anchor: Scholar1, para: "Circular for UP Post Matric Scholarship 2019-20" },
+      { anchor: Scholar2, para: "Circular for UP Post Matric Scholarship 2016, 2017 & 2018" }
     ]
   };
   render() {

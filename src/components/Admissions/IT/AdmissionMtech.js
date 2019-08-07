@@ -6,6 +6,13 @@ import pdfFee from "../../../assets/downloads/Fee Structure M.Tech.pdf";
 import fresherPDF from "../../../assets/announcementsData/CCMT2019.pdf";
 import CourseStructure from "../../../assets/blogs/M.Tech_Course_Structure.pdf";
 import refund from "../../../assets/announcementsData/withdrawal_refund_policy.pdf";
+import AdmissionMtech1 from "../../../assets/announcementsData/Applicationform.pdf";
+import AdmissionMtech2 from "../../../assets/announcementsData/Mtechprg.pdf";
+import Info_freshers from "../../../assets/announcementsData/CCMT_NSR.pdf";
+import newGIF from "../../../assets/new.gif";
+
+
+
 class AdmissionMtech extends React.Component {
   render() {
     return (
@@ -13,23 +20,30 @@ class AdmissionMtech extends React.Component {
         <ScrollToTopOnMount />
         <div className="admission-it-global-div">
           <h1 className="btech-global-head">M.Tech. in Computer Science</h1>
+          <img src={newGIF} style={{ height: 52,marginLeft: 25 }} alt="newGIF" />
+          <h2 className="btech-global-head">Call for Applications to the M.Tech Program</h2>          
+          
           <p className="btech-it-p">
-            Admissions to the two year M.Tech. (Computer Science) Program of the
-            Institute is made through the{" "}
-            <a
-              className="ext-links"
-              href="https://ccmt.nic.in/webinfo/Public/Home.aspx"
-            >
-              CCMT
-            </a>{" "}
-            based on GATE (Graduate Aptitude Test in Engineering) score.
-            Admission begins in May and gets completed by July. Session for 1st
-            semester begins in August. For exact dates, notifications need to be
-            followed.&nbsp;
-            <a className="ext-links" href={fresherPDF} target="blank">
-              <u>Information for Freshers</u>
+
+          <a className="ext-links" href={AdmissionMtech2} target="blank">
+          <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+              <u>Call for Applications to the M.Tech Program</u>
+              
             </a>
+                   
           </p>
+
+          <p className="btech-it-p">
+
+  <a className="ext-links" href={Info_freshers} target="blank">
+  <img src={newGIF} style={{ height: 22,marginLeft: 5 }} alt="newGIF" />
+    <u>Information for Freshers</u>
+    
+  </a>
+
+  
+</p>
+
           <div className="admissions-it-seat admissions-useful-links">
             <h1 className="admissions-sub-head"> Specialization </h1>
           </div>
@@ -82,6 +96,11 @@ class AdmissionMtech extends React.Component {
         <div className="admissions-useful-links ">
           <h1 className="admissions-sub-head">Useful Links</h1>
           <ul>
+          <li className="admissions-course-structure">
+              <a href={AdmissionMtech1} target="blank">
+                Application form of M.Tech Program
+              </a>
+            </li>
             <li className="admissions-course-structure">
               <a href={CourseStructure} target="blank">
                 Course Structure
