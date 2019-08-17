@@ -19,6 +19,9 @@ import Tender_Catering from "../../assets/downloads/TenderCatering.pdf";
 import Tender_librarybooks from "../../assets/downloads/Tenderlibrarybooks.pdf";
 import Tender_housekeeping from "../../assets/downloads/Tenderhousekeeping.pdf";
 import Reporting_site from "../../assets/downloads/reportingsite.pdf";
+import TenderCorrigendum_housekeeping from "../../assets/downloads/TenderCorrigendum_housekeeping.pdf";
+import Tender_Laptop from "../../assets/downloads/Tenderlaptop.pdf";
+import LOGO from "../../assets/downloads/logo1.pdf";
 //import newGIF from "../../../assets/new.gif";
 
 
@@ -296,7 +299,35 @@ const AnnouncementsData = [
      "Academic Calander for July-December 2019",
     marquee: "Academic Calander for July-December 2019",
     date: "July, 2019"
-  }
+  },
+  
+  {
+    head: "Corrigendum :Tender for Housekeeping Services ",
+    linkPara: "Click here to find more  ->",
+    link: TenderCorrigendum_housekeeping,
+    p: "Corrigendum :Tender for Housekeeping Services",
+    marquee: "Corrigendum :Tender for Housekeeping Services",
+    date: "August, 2019"
+    
+  },
+  {
+    head: "Tender for Supply, Installation and Support of Laptops ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_Laptop,
+    p: "Tender for Supply, Installation and Support of Laptops",
+    marquee: "Tender for Supply, Installation and Support of Laptops",
+    date: "August, 2019"
+    
+  },
+  {
+    head: "Invitation for expression of Interest for designing of Institute LOGO",
+    linkPara: "Click here to find more  ->",
+    link: LOGO,
+    p: "Invitation for expression of Interest for designing of Institute LOGO",
+    marquee: "Invitation for expression of Interest for designing of Institute LOGO",
+    date: "August, 2019"
+    
+  },
   
  
   
@@ -350,7 +381,7 @@ const tenders = [
   {
     head: "Tender Notice for Security Services at IIIT-Lucknow",
     link: Tender_Security,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "06/07/19",
     expiryDate: "26/07/19"
     
@@ -358,7 +389,7 @@ const tenders = [
   {
     head: "Corrigendum :Tender of Security Services",
     link: TenderCorrigendum_Security,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "20/07/19",
     expiryDate: "30/07/19"
     
@@ -384,6 +415,22 @@ const tenders = [
     isExpired: false,
     publishedDate: "27/07/19",
     expiryDate: "16/08/19"
+  },
+  {
+    head: "Corrigendum :Tender for Housekeeping Services",
+    link: TenderCorrigendum_housekeeping,
+    isExpired: false,
+    publishedDate: "16/08/19",
+    expiryDate: "26/08/19"
+    
+  },
+  {
+    head: "Tender for Supply, Installation and Support of Laptops",
+    link: Tender_Laptop,
+    isExpired: false,
+    publishedDate: "17/08/19",
+    expiryDate: "09/09/19"
+    
   }
   
 
