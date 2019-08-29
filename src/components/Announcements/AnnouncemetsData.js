@@ -21,6 +21,8 @@ import Tender_housekeeping from "../../assets/downloads/Tenderhousekeeping.pdf";
 import Reporting_site from "../../assets/downloads/reportingsite.pdf";
 import TenderCorrigendum_housekeeping from "../../assets/downloads/TenderCorrigendum_housekeeping.pdf";
 import Tender_Laptop from "../../assets/downloads/Tenderlaptop.pdf";
+import Tender_desktop from "../../assets/downloads/Tender_desktop.pdf";
+import Tender_InnovaCrysta from "../../assets/downloads/InnovaCrysta.pdf";
 import LOGO from "../../assets/downloads/logo1.pdf";
 //import newGIF from "../../../assets/new.gif";
 
@@ -328,6 +330,24 @@ const AnnouncementsData = [
     date: "August, 2019"
     
   },
+  {
+    head: "Tender for Supply, Installation, Commissioning and Support of Desktop PCs ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_desktop,
+    p: "Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    marquee: "Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    date: "August, 2019"
+    
+  },
+  {
+    head: "Tender for Hiring of INNOVA CRYSTA",
+    linkPara: "Click here to find more  ->",
+    link: Tender_InnovaCrysta,
+    p: "Tender for Hiring of INNOVA CRYSTA",
+    marquee: "Tender for Hiring of INNOVA CRYSTA",
+    date: "August, 2019"
+    
+  },
   
  
   
@@ -430,6 +450,22 @@ const tenders = [
     isExpired: false,
     publishedDate: "17/08/19",
     expiryDate: "09/09/19"
+    
+  },
+  {
+    head: "Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    link: Tender_desktop,
+    isExpired: false,
+    publishedDate: "19/08/19",
+    expiryDate: "09/09/19"
+    
+  },
+  {
+    head: "Tender for Hiring of INNOVA CRYSTA",
+    link: Tender_InnovaCrysta,
+    isExpired: false,
+    publishedDate: "29/08/19",
+    expiryDate: "19/09/19"
     
   }
   
