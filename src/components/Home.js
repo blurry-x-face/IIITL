@@ -5,6 +5,8 @@ import Latest from "./Latest";
 import News from "./News";
 import ScrollToTopOnMount from "./ScrollToTop";
 import { AnnouncementsData } from "./Announcements/AnnouncemetsData";
+import newGIF from "../assets/new.gif";
+
 
 class Home extends React.Component {
   state = {
@@ -17,15 +19,16 @@ class Home extends React.Component {
     let list = props.data.map((v, i) => {
       return (
         <span style={{ cursor: "pointer" }}>
-          <i
-            class="fas fa-circle"
-            style={{
-              marginLeft: i === 0 ? "0px" : "200px",
-              fontSize: "0.7em",
-              marginBottom: 3,
-              color: "black"
-            }}
-          />
+          {v.isGif ? <img src={newGIF} alt="new" id="new-gif" /> :
+            <i
+              class="fas fa-circle"
+              style={{
+                marginLeft: i === 0 ? "0px" : "200px",
+                fontSize: "0.7em",
+                marginBottom: 3,
+                color: "black"
+              }}
+            />}
           <a key={i} target="blank" href={v.link}>
             {v.marquee}
           </a>

@@ -21,6 +21,9 @@ import form5 from '../assets/downloads/leaveApplicationForm.pdf';
 import form6 from '../assets/downloads/studentLeaveForm.pdf';
 import form7 from '../assets/downloads/studentMedicalForm.pdf';
 import form8 from '../assets/downloads/TAForm.pdf';
+import form9 from '../assets/downloads/StudentNoDues.pdf';
+import form10 from '../assets/downloads/INDENT_FORM.pdf';
+
 
 const BoGMeeting = [
   ["Minutes of First BOG Meeting", BOG1],
@@ -36,14 +39,16 @@ const senate = [
   ["Minutes of Second SENATE Meeting", Senate2]
 ];
 const forms = [
-  ["Indent Form", form1],
+  ["Indent Form 1", form1],
+  ["Indent Form 2", form10],
   ["Children Education Form", form2],
   ["Employee Medical Form", form3],
   ["I-Card form", form4],
   ["Leave Application Form", form5],
   ["Student Leave Form", form6],
   ["Student Medical Form", form7],
-  ["Travelling Allowance Claim Form", form8]
+  ["Travelling Allowance Claim Form", form8],
+  ["Student No Dues Form", form9]
 ];
 class Downloads extends React.Component {
   List = props => {

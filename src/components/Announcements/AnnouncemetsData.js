@@ -24,8 +24,12 @@ import Tender_Laptop from "../../assets/downloads/Tenderlaptop.pdf";
 import Tender_desktop from "../../assets/downloads/Tender_desktop.pdf";
 import Tender_InnovaCrysta from "../../assets/downloads/InnovaCrysta.pdf";
 import LOGO from "../../assets/downloads/logo1.pdf";
+import Desktop_Corrigendum from "../../assets/downloads/DesktopCorrigendum.pdf";
+import Laptop_Corrigendum from "../../assets/downloads/LaptopCorrigendum.pdf";
+import Laptop_Notice from "../../assets/downloads/LaptopNotice.pdf";
+import Desktop_Notice from "../../assets/downloads/DesktopRe-Corrigendum.pdf";
+import Tender_Day_Night_Canteen from "../../assets/downloads/Day_Night_Canteen.pdf";
 //import newGIF from "../../../assets/new.gif";
-
 
 
 
@@ -348,6 +352,66 @@ const AnnouncementsData = [
     date: "August, 2019"
     
   },
+  {
+    head: "Corrigendum :Tender for Supply, Installation, Commissioning and Support of Desktop PCs ",
+    linkPara: "Click here to find more  ->",
+    link: Desktop_Corrigendum,
+    p: "Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    marquee: "Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    date: "September, 2019"
+    
+  },
+  {
+    head: "Corrigendum :Tender for Supply, Installation and Support of Laptops ",
+    linkPara: "Click here to find more  ->",
+    link: Laptop_Corrigendum,
+    p: "Corrigendum against Tender for Supply, Installation and Support of Laptops",
+    marquee: "Corrigendum against Tender for Supply, Installation and Support of Laptops",
+    date: "August, 2019"
+    
+  },
+  {
+    head: "Notice against Tender for Supply, Installation and support of Laptop at IIIT Lucknow ",
+    linkPara: "Click here to find more  ->",
+    link: Laptop_Notice,
+    p: "Notice against Tender for Supply, Installation and support of Laptop at IIIT Lucknow",
+    marquee: "Notice against Tender for Supply, Installation and support of Laptop at IIIT Lucknow",
+    date: "September, 2019"
+    
+  },
+  {
+    head: "Re-Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    linkPara: "Click here to find more  ->",
+    link: Desktop_Notice,
+    p: "Re-Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PCs at IIIT Lucknow",
+    marquee: "Re-Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PCs at IIIT Lucknow",
+    date: "September, 2019"
+    
+  },
+  {
+    head: "Tender for Day-Night Canteen at IIIT Lucknow ",
+    linkPara: "Click here to find more  ->",
+    link: Tender_Day_Night_Canteen,
+    p: "Tender for Day-Night Canteen at IIIT Lucknow",
+    marquee: "Tender for Day-Night Canteen at IIIT Lucknow",
+    date: "Oct, 2019"
+    
+  },
+  {
+    head: "Call for PhD Admissions, 2020",
+    para:
+      "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    linkPara: "Click here to find more  ->",
+    link: "/admissions-Phd",
+    p: "IIIT Lucknow invites applications for admission to the Ph.D. Programme",
+    marquee: "Call for PhD Admissions, 2020",
+    date: "Oct 11, 2020",
+    isGif: true
+  },
+  
+  
+  
+  
   
  
   
@@ -417,7 +481,7 @@ const tenders = [
   {
     head: "Tender for providing Catering Services for Hostel",
     link: Tender_Catering,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "23/07/19",
     expiryDate: "13/08/19"
     
@@ -425,21 +489,21 @@ const tenders = [
   {
     head: "Tender for Procurement of Library Books",
     link: Tender_librarybooks,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "27/07/19",
     expiryDate: "16/08/19"
   },
   {
     head: "Tender for Housekeeping services",
     link: Tender_housekeeping,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "27/07/19",
     expiryDate: "16/08/19"
   },
   {
     head: "Corrigendum :Tender for Housekeeping Services",
     link: TenderCorrigendum_housekeeping,
-    isExpired: false,
+    isExpired: true,
     publishedDate: "16/08/19",
     expiryDate: "26/08/19"
     
@@ -466,6 +530,46 @@ const tenders = [
     isExpired: false,
     publishedDate: "29/08/19",
     expiryDate: "19/09/19"
+    
+  },
+  {
+    head: "Corrigendum :Tender for Supply, Installation, Commissioning and Support of Desktop PCs",
+    link: Desktop_Corrigendum,
+    isExpired: false,
+    publishedDate: "06/08/19",
+    expiryDate: "16/09/19"
+    
+  },
+  {
+    head: "Corrigendum :Tender for Supply, Installation and Support of Laptops",
+    link: Laptop_Corrigendum,
+    isExpired: false,
+    publishedDate: "06/08/19",
+    expiryDate: "16/09/19"
+    
+  },
+  {
+    head: "Notice against Tender for Supply, Installation and support of Laptop at IIIT Lucknow",
+    link: Laptop_Notice,
+    isExpired: false,
+    publishedDate: "16/08/19",
+    expiryDate: "16/09/19"
+    
+  },
+  {
+    head: "Re-Corrigendum against Tender for Supply, Installation, Commissioning and Support of Desktop PC",
+    link: Desktop_Notice,
+    isExpired: false,
+    publishedDate: "16/08/19",
+    expiryDate: "24/09/19"
+    
+  },
+  {
+    head: "Tender for Day-Night Canteen at IIIT Lucknow",
+    link: Tender_Day_Night_Canteen,
+    isExpired: false,
+    publishedDate: "18/10/19",
+    expiryDate: "08/11/19"
     
   }
   

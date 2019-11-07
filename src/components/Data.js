@@ -659,7 +659,7 @@ const NavData = {
         {
           head: "Research",
           //links: [{isGIF:true head: "PhD", link: "/admissions-Phd" }]
-          links: [{ head: "PhD", link: "/admissions-Phd",isGIF: false }]
+          links: [{ head: "PhD", link: "/admissions-Phd",isGIF: true }]
         },
         {
           head: "Payment Gateway",

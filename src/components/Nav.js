@@ -437,6 +437,7 @@ class Nav extends React.Component {
                   </div>
                   <NavLink to="/admissions-MTECH" className="af-1">
                     M. Tech. in CS
+                    
                   </NavLink>
                 </div>
 
